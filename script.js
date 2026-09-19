@@ -62,6 +62,7 @@ const NAV_TREE = [
         { label: "Synonyms, Antonyms, Confused Words", topicId: "eng_vocab" },
         { label: "One-Word + Spelling", topicId: "eng_ows" },
         { label: "Idioms & Phrases", topicId: "eng_idioms" },
+        { label: "Parajumbles", topicId: "eng_jumble" },
       ]},
       { label: "Exam Skills", header: true, children: [
         { label: "Mixed Error Detection", topicId: "eng_error" },
@@ -73,7 +74,7 @@ const NAV_TREE = [
   ]},
 ];
 
-const FLAT_ORDER = ["fr_overview","fr_art14","fr_art15","fr_art16","fr_art17","fr_art18","fr_cases_hub","polity_dpsp","polity_exec","polity_judi","polity_emerg","polity_amend","eng_hub","eng_sva","eng_tenses","eng_articles","eng_prepositions","eng_pronouns","eng_modifiers","eng_voice","eng_narration","eng_vocab","eng_ows","eng_idioms","eng_error","eng_improve","eng_cloze_rc","eng_mock"];
+const FLAT_ORDER = ["fr_overview","fr_art14","fr_art15","fr_art16","fr_art17","fr_art18","fr_cases_hub","polity_dpsp","polity_exec","polity_judi","polity_emerg","polity_amend","eng_hub","eng_sva","eng_tenses","eng_articles","eng_prepositions","eng_pronouns","eng_modifiers","eng_voice","eng_narration","eng_vocab","eng_ows","eng_idioms","eng_jumble","eng_error","eng_improve","eng_cloze_rc","eng_mock"];
 
 /* ---------- STATE ---------- */
 const store = {
@@ -93,6 +94,80 @@ if (typeof englishData !== "undefined" && typeof studyData !== "undefined") {
     if (i >= 0) studyData[i] = t; else studyData.push(t);
   });
 }
+
+/* ---------- CGL-ENGLISH LESSONS + PASSAGES + PYQ MERGE (from cgl-english repo) ----------
+   Data files ship verbatim (lessons-a/b.js, passages.js, pyq.js); ALL merge logic lives here
+   so english.js / bank sources stay untouched. */
+function lessonStepHTML(st) {
+  const h = st.h ? `<b>${st.h}</b>` : "";
+  const letters = ["A", "B", "C", "D"];
+  const revealQ = (q, title) => `<div class="qcard" style="margin:12px 0"><p class="qtext">${title} — ${q.q || st.stem || ""}</p>`
+    + `<div class="opts" style="pointer-events:none">${(q.options || st.options || []).map((o, i) => `<div class="opt"><span class="key">${letters[i] || ""}</span><span>${o}</span></div>`).join("")}</div>`
+    + `<details><summary><b>Reveal answer + why</b></summary><div class="explain show">${q.why || st.why || `✔ <b>${letters[q.answer] || ""} — ${((q.options || st.options || [])[q.answer]) || ""}</b><br>${q.explanation || ""}`}${q.rule ? `<br><b>Rule:</b> ${q.rule}` : ""}${q.elim ? `<br><b>Elimination:</b> ${q.elim}` : ""}${q.trap ? `<br><b>Trap:</b> ${q.trap}` : ""}</div></details></div>`;
+  switch (st.k) {
+    case "coach": return `<div class="box blue">🎓 ${h}<br>${st.html || ""}</div>`;
+    case "rule": return `<div class="box green">📏 ${h}<br>${st.html || ""}</div>`;
+    case "table": return `<div class="steps">📊 ${h}${st.html || ""}</div>`;
+    case "trap": return `<div class="box red">🪤 ${h}<br>${st.html || ""}</div>`;
+    case "forget": return `<div class="box amber">🧠 ${h}<br>${st.html || ""}</div>`;
+    case "card": return `<div class="takeaway">🗂️ ${h}<br>${st.html || ""}</div>`;
+    case "try": return revealQ(st.q || {}, "✏️ " + h);
+    case "pick": return revealQ({ answer: st.answer, explanation: "", options: st.options }, "🎯 " + h);
+    default: return st.html ? `<div class="box">${h}<br>${st.html}</div>` : "";
+  }
+}
+function guidedLessonHTML(L) {
+  if (!L) return "";
+  return `<h3>🎓 Guided lesson${L.title ? " — " + L.title : ""}</h3>`
+    + (L.sub ? `<p class="meta">${L.sub}</p>` : "")
+    + (L.hook ? `<div class="box blue">${L.hook}</div>` : "")
+    + (L.steps || []).map(lessonStepHTML).join("")
+    + (L.revision ? `<div class="takeaway">⏱️ <b>2-min:</b> ${L.revision.min2 || ""}<br>⚡ <b>Last-min:</b> ${L.revision.lastmin || ""}</div>` : "");
+}
+(function mergeEnglishExtras() {
+  if (typeof studyData === "undefined") return;
+  const byId = {};
+  studyData.forEach(t => { byId[t.id] = t; });
+  const lessons = Object.assign({}, (typeof LESSONS_A !== "undefined" ? LESSONS_A : {}), (typeof LESSONS_B !== "undefined" ? LESSONS_B : {}));
+  Object.keys(lessons).forEach(id => {
+    if (byId[id] && !byId[id]._lessonsMerged) {
+      byId[id].content += guidedLessonHTML(lessons[id]);
+      byId[id]._lessonsMerged = true;
+    }
+  });
+  if (typeof PYQ !== "undefined") {
+    PYQ.forEach(q => {
+      if (byId[q.topic]) {
+        const pool = byId[q.topic].questions = byId[q.topic].questions || [];
+        if (!pool.some(x => x.q === q.q)) pool.push(Object.assign({}, q, { _set: "PYQ" }));
+      }
+    });
+  }
+  if (typeof PASSAGES !== "undefined" && byId.eng_cloze_rc && !byId.eng_cloze_rc._passagesMerged) {
+    const letters = ["A", "B", "C", "D"];
+    byId.eng_cloze_rc.content += `<h3>📖 Cloze practice passages</h3>` + PASSAGES.map(p =>
+      `<div class="case"><b class="t">${p.title}</b><br><span class="mini">${p.note || ""}</span><p>${p.text || ""}</p>`
+      + (p.blanks || []).map((b, i) => `<details><summary><b>Blank ${i + 1}:</b> ${b.q || ""}</summary><div class="explain show">✔ <b>${letters[b.answer] || ""} — ${(b.options || [])[b.answer] || ""}</b><br>${b.explanation || ""}${b.rule ? `<br><b>Rule:</b> ${b.rule}` : ""}${b.elim ? `<br><b>Elimination:</b> ${b.elim}` : ""}</div></details>`).join("") + `</div>`
+    ).join("");
+    byId.eng_cloze_rc._passagesMerged = true;
+    const pool = byId.eng_cloze_rc.questions = byId.eng_cloze_rc.questions || [];
+    PASSAGES.forEach(p => (p.blanks || []).forEach(b => {
+      if (!pool.some(x => x.q === b.q)) pool.push(Object.assign({}, b, { _set: "Cloze" }));
+    }));
+  }
+  if (!byId.eng_jumble) {
+    const jpyq = (typeof PYQ !== "undefined" ? PYQ : []).filter(q => q.topic === "eng_jumble").map(q => Object.assign({}, q, { _set: "PYQ" }));
+    studyData.push({
+      id: "eng_jumble",
+      crumbs: ["SSC CGL", "English", "Vocabulary"],
+      kicker: "SSC CGL English • Parajumbles",
+      title: "Parajumbles (Jumbled Sentences)",
+      meta: `guided lesson + ${jpyq.length} PYQ • ~15 min`,
+      content: `<p><b>Parajumbles:</b> arrange jumbled sentences into a coherent paragraph. SSC tests <b>connectors, pronouns, chronology and mandatory pairs</b> — not vocabulary.</p>` + guidedLessonHTML(lessons.eng_jumble),
+      questions: jpyq,
+    });
+  }
+})();
 
 /* ---------- SIDEBAR (nested tree) ---------- */
 function isLockedTopic(t) {

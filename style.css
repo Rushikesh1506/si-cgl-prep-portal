@@ -122,6 +122,12 @@ table.rev tr:nth-child(even) td{background:#f8fafc}
 .topic-link .qcount{margin-left:auto;font-size:.7rem;background:#f1f5f9;border-radius:99px;padding:1px 8px;color:var(--muted);flex-shrink:0}
 .topic-link.active .qcount{background:#fff;color:var(--navy)}
 
+.notes details{border:1px solid var(--line);border-radius:10px;padding:9px 13px;margin:9px 0;background:#f8fafc;font-size:.9rem}
+.notes summary{cursor:pointer;font-weight:700;color:var(--blue)}
+.notes table.lt{width:100%;border-collapse:collapse;margin:10px 0;font-size:.87rem}
+.notes table.lt th,.notes table.lt td{border:1px solid var(--line);padding:8px 10px;text-align:left}
+.notes table.lt th{background:var(--navy);color:#fff}
+
 /* Collapsible sidebar groups */
 .nav-group{border-top:1px dashed var(--line);margin-top:6px}
 .nav-group:first-child{border-top:0;margin-top:0}
