@@ -1,0 +1,152 @@
+[
+ {
+  "q": "An order restricting pamphlets is defended as a welfare measure. What is the first question to be asked?",
+  "options": [
+   "Whether the order is traceable to a law capable of imposing a restriction",
+   "Whether the welfare objective is one recognised by the Directive Principles",
+   "Whether the person affected has exhausted the departmental remedy available",
+   "Whether the order has been approved by the district magistrate concerned"
+  ],
+  "answer": 0,
+  "expl": "A restriction must first be by law; only then does the ground fall for examination.",
+  "why": "The remaining options are steps that may matter later or not at all, and none is the threshold question.",
+  "round": "X",
+  "trapcat": "G",
+  "trapnote": "Sequence matters: law first, listed ground second, reasonableness third."
+ },
+ {
+  "q": "A note states that a constitutional amendment is ordinary law and therefore void if it abridges a fundamental right. What kind of error is this?",
+  "options": [
+   "An inversion: amendments were brought within the bar in 1971",
+   "An omission: amendments are within the bar only if they damage the basic structure",
+   "An anachronism: the bar was abolished altogether by a later amendment",
+   "A half-truth: amendments were expressly taken outside the bar in 1971"
+  ],
+  "answer": 3,
+  "expl": "The 1971 amendment excluded constitutional amendments from the bar.",
+  "why": "The third option mixes the two doctrines, applying the basic structure test through the wrong provision.",
+  "round": "X",
+  "trapcat": "J",
+  "trapnote": "Two separate checks exist. The bar was switched off; the basic structure limit was switched on."
+ },
+ {
+  "q": "A press restriction and a welfare-labelled order restricting a meeting are challenged together. Which statement is correct?",
+  "options": [
+   "The press restriction is tested; the welfare order is immune as policy",
+   "Both are immune, welfare being fundamental in the governance of the country",
+   "Both are tested against the listed grounds, the welfare label adding nothing",
+   "The welfare order is tested; the press restriction is immune as free expression"
+  ],
+  "answer": 2,
+  "expl": "Every restriction faces the same test; labelling does not alter the analysis.",
+  "why": "The second and fourth options each immunise one limb, which is how selective reasoning is usually tested.",
+  "round": "X",
+  "trapcat": "G",
+  "trapnote": "The same test applies to every restriction. Labels do not create exemptions."
+ },
+ {
+  "q": "Migrant children are out of school, cannot move freely for want of documents, and are told no remedy exists. Which chain is correct?",
+  "options": [
+   "All three limbs are directives, enforceable only through legislation for the purpose",
+   "Schooling is a right, movement is a citizens' freedom, and the writ remedy remains available",
+   "Schooling is a directive, movement is a right, and no writ lies for either limb",
+   "All three limbs are rights, each enforceable only in the Supreme Court"
+  ],
+  "answer": 1,
+  "expl": "The limbs fall into different categories and the remedy is not extinguished by the difficulty.",
+  "why": "The wrong options each flatten three distinct categories into one, which is the recurring error in synthesis items.",
+  "round": "X",
+  "trapcat": "H",
+  "trapnote": "Multi-limb chains rarely share one category. Classify each limb before tracing the chain."
+ },
+ {
+  "q": "A set of statements on the definition of the State is accurate but adds that the strength of the lower House is a component of that definition. Which statement is correct?",
+  "options": [
+   "The added statement is defective: House strength is a structural provision",
+   "The added statement is accurate: the House is an organ of the State",
+   "The added statement is defective: House strength belongs to the Directive Principles",
+   "The added statement is accurate for the purposes of writ jurisdiction alone"
+  ],
+  "answer": 0,
+  "expl": "Composition of the House is a structural matter unconnected with the definition.",
+  "why": "The second option exploits the overlap in ordinary language between the State as an entity and its organs.",
+  "round": "X",
+  "trapcat": "J",
+  "trapnote": "A true-sounding overlap in ordinary language is the usual disguise for a planted item."
+ },
+ {
+  "q": "The November 2022 ruling is cited to fix the strength of the lower House. Which statement is correct?",
+  "options": [
+   "The citation succeeds: the ruling set the outer limit of House strength",
+   "The citation fails: House strength was fixed by the same ruling in 2024",
+   "The citation succeeds subject to the completion of the next delimitation",
+   "The citation fails: the ruling concerned reservation, not House composition"
+  ],
+  "answer": 3,
+  "expl": "The ruling concerned the economic reservation and the ceiling doctrine alone.",
+  "why": "The fourth option adds the delimitation condition from an unrelated amendment, a frequent cross-contamination.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "Check the subject-matter of a ruling before accepting any proposition drawn from it."
+ },
+ {
+  "q": "The 2024 ruling is cited to describe all university land as a community resource. Which statement is correct?",
+  "options": [
+   "The citation succeeds: all institutional land was so classified by the ruling",
+   "The citation fails: the ruling concerned only agricultural holdings",
+   "The citation fails: the ruling requires a test to be satisfied in each case",
+   "The citation succeeds where the institution receives any government aid"
+  ],
+  "answer": 2,
+  "expl": "The ruling imposed a test rather than a blanket classification.",
+  "why": "The third option narrows the ruling incorrectly, which is the opposite error to the citation being tested.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "A ruling that imposes a test cannot be used for a blanket classification in either direction."
+ },
+ {
+  "q": "The 2023 reservation amendment is cited to claim immediate additional seats in the upper House. Which statement is correct?",
+  "options": [
+   "The citation fails once: the amendment covers that House but awaits a census",
+   "The citation fails twice: the amendment excludes that House and awaits a census",
+   "The citation succeeds: the amendment is operative from the date of assent",
+   "The citation fails once: the amendment is operative but excludes that House"
+  ],
+  "answer": 1,
+  "expl": "The amendment covers directly elected Houses only and operates after a census and delimitation.",
+  "why": "Two options identify one defect and miss the other, so partial knowledge produces a near miss rather than an error.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "Two independent limbs here: which Houses are covered, and when the amendment operates."
+ },
+ {
+  "q": "The criminal statutes in force from July 2024 are cited to dispense with production before a magistrate. Which statement is correct?",
+  "options": [
+   "The citation fails: production is retained and is in any event a constitutional guarantee",
+   "The citation succeeds: the new statutes replaced production with a reporting requirement",
+   "The citation fails: production was retained only for offences punishable with death",
+   "The citation succeeds where the arrest is made outside the local jurisdiction"
+  ],
+  "answer": 0,
+  "expl": "Production was retained, and the guarantee exists independently of the statute.",
+  "why": "The fourth option ties the safeguard to the jurisdiction-free registration provision, which concerns a different subject.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "A constitutional guarantee does not depend on a statute restating it."
+ },
+ {
+  "q": "The 2022 creation of twenty-six districts is cited as a basis for determining citizenship locally. Which statement is correct?",
+  "options": [
+   "The citation succeeds: district authorities determine status within their areas",
+   "The citation fails: status is determined by the State government alone",
+   "The citation succeeds where the person has resided in the district for five years",
+   "The citation fails: reorganisation is administrative and status rests elsewhere"
+  ],
+  "answer": 3,
+  "expl": "Reorganisation alters administration; citizenship rests on the Constitution and the statute.",
+  "why": "The third option reaches the right conclusion by naming the wrong authority, which is a separate error.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "A correct conclusion with a wrong authority named is still a wrong option."
+ }
+]

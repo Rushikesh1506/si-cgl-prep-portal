@@ -1,0 +1,16 @@
+# Render alternative: Background Worker running the live listener.
+# If you prefer Render over the free Actions 10-min replies, use this.
+# Render Dashboard -> New -> Background Worker -> repo -> Starter (paid; free tier sleeps).
+# Env vars: BOT_TOKEN, CHAT_ID. Free tier sleeps when idle, so Actions reply.yml is the recommended free path.
+services:
+  - type: worker
+    name: ap-si-telegram-poll
+    runtime: python
+    buildCommand: pip install --disable-pip-version-check -r requirements.txt || true
+    startCommand: python bot.py --poll
+    rootDir: ap_si_telegram
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: CHAT_ID
+        sync: false

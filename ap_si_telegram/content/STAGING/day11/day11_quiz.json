@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Consider the prohibition of forced labour: 1-It binds private persons. 2-It protects citizens only. 3-Payment below the statutory minimum wage has been held to amount to forced labour. Which is/are correct?",
+  "options": [
+   "1 and 3 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 0,
+  "expl": "It protects all persons, not citizens alone.",
+  "why": "The wage holding is what makes the provision operationally significant: the trigger is wages and debt, not physical restraint.",
+  "round": "F",
+  "trapcat": "E",
+  "trapnote": "Two limbs: it binds private hands, and it protects every person. Only the second is often missed."
+ },
+ {
+  "q": "On compulsory service imposed by the State, which statement is correct?",
+  "options": [
+   "Impermissible in all circumstances, the prohibition on forced labour being absolute",
+   "Permissible only during a Proclamation of Emergency approved by both Houses of Parliament",
+   "Permissible for public purposes, without discrimination on grounds only of caste or class",
+   "Permissible for public purposes, discrimination on any ground being immaterial"
+  ],
+  "answer": 2,
+  "expl": "The exception is express and carries its own non-discrimination condition.",
+  "why": "The word only in the constitutional text matters: discrimination must not rest on those grounds alone.",
+  "round": "F",
+  "trapcat": "D",
+  "trapnote": "An express exception with an express condition. Neither limb may be dropped."
+ },
+ {
+  "q": "On child labour: 1-The constitutional provision covers factories, mines and hazardous work. 2-The 2016 statute bars all employment below fourteen, with narrow exceptions. 3-The Constitution bars all employment below fourteen. Correct?",
+  "options": [
+   "2 and 3 only",
+   "1 and 3 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "answer": 2,
+  "expl": "The constitutional provision is narrower than the statute.",
+  "why": "Reading which instrument the question asks about is the whole skill here: the statute goes further than the Constitution.",
+  "round": "F",
+  "trapcat": "I",
+  "trapnote": "The statute is wider than the Constitution. Identify which instrument the statement describes."
+ },
+ {
+  "q": "On the freedom of religion, which statement is correct?",
+  "options": [
+   "It extends to citizens only and is subject to public order, morality and health",
+   "It extends to all persons and is subject to public order, morality and health",
+   "It extends to all persons and is subject to public order alone",
+   "It extends to all persons and admits of no restriction whatever"
+  ],
+  "answer": 1,
+  "expl": "All persons, subject to public order, morality, health and other Part III provisions.",
+  "why": "The rights-holder and the restriction grounds are tested together, and each wrong option varies one of them.",
+  "round": "F",
+  "trapcat": "I",
+  "trapnote": "All persons, and four heads of limitation including other provisions of Part III."
+ },
+ {
+  "q": "On State power over religious institutions: 1-It may regulate associated secular activity. 2-It may provide for social welfare and reform. 3-It may throw open Hindu institutions of a public character. Correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 3,
+  "expl": "All three powers are expressly saved.",
+  "why": "The explanation to the provision extends the reference to Hindus to include Sikhs, Jains and Buddhists.",
+  "round": "F",
+  "trapcat": "D",
+  "trapnote": "Three express saving powers. The reference to Hindus is extended by an explanation."
+ },
+ {
+  "q": "On the prohibition of taxes for the promotion of religion, which statement is correct?",
+  "options": [
+   "Both a tax and a fee for services are barred where religion is concerned",
+   "A tax is permitted where the legislature records a secular purpose for it",
+   "A tax appropriated for a particular religion is barred; a fee for services rendered is not",
+   "A fee for services is barred, though a tax is permitted where it is levied on all persons equally"
+  ],
+  "answer": 2,
+  "expl": "The distinction is between a compulsory exaction for promotion and a payment for services rendered.",
+  "why": "The fourth option reverses the distinction entirely, which is the cleanest form of the error.",
+  "round": "C",
+  "trapcat": "G",
+  "trapnote": "Tax for promotion is barred. Fee for a service rendered is not. The distinction is the provision."
+ },
+ {
+  "q": "On religious instruction: 1-Wholly prohibited where the institution is maintained entirely from State funds. 2-Permitted with consent where the institution is aided. 3-Permitted without consent in a trust-established, State-administered institution. Correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 3,
+  "expl": "All three situations are accurately described.",
+  "why": "Most material reduces this provision to two situations; there are four, and the trust-established one is the exception to the exception.",
+  "round": "C",
+  "trapcat": "D",
+  "trapnote": "Four situations, not two. Only the trust-established institution dispenses with consent."
+ },
+ {
+  "q": "On the right of minorities to administer educational institutions, which statement is correct?",
+  "options": [
+   "Administration by a minority is sufficient, establishment being immaterial",
+   "The minority must both establish and administer the institution for the right to arise",
+   "Establishment by a minority is sufficient, administration being immaterial",
+   "The right arises wherever a majority of students belong to the minority"
+  ],
+  "answer": 1,
+  "expl": "Both limbs are required.",
+  "why": "An institution merely administered by a minority, but founded by another, does not qualify.",
+  "round": "C",
+  "trapcat": "I",
+  "trapnote": "Both limbs are required. Neither establishment nor administration alone is enough."
+ },
+ {
+  "q": "Consider the unit for determining whether a community is a minority for educational purposes: 1-The unit is the State. 2-The unit is the country as a whole. 3-A community may be a minority in one State and not in another. Which is/are correct?",
+  "options": [
+   "1 and 3 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 0,
+  "expl": "The State is the unit, which is why status can vary between States.",
+  "why": "Reorganisation of States on linguistic lines is the reason the State was adopted as the unit.",
+  "round": "C",
+  "trapcat": "F",
+  "trapnote": "The State is the unit. The consequence is that status varies from State to State."
+ },
+ {
+  "q": "On the protection against denial of admission in a State-aided institution, which statement is correct?",
+  "options": [
+   "It protects members of religious and linguistic minorities alone against such denial",
+   "It protects any person, citizen or otherwise, against such denial",
+   "It protects any citizen against denial on grounds only of religion, caste or language",
+   "It protects any citizen against denial on any ground whatever"
+  ],
+  "answer": 2,
+  "expl": "The protection is for any citizen, on the grounds specified.",
+  "why": "Despite its placement among minority provisions, the protection is not confined to minorities.",
+  "round": "C",
+  "trapcat": "I",
+  "trapnote": "Placement among minority provisions does not confine the protection to minorities."
+ },
+ {
+  "q": "On the power to prescribe punishment for offences under the rights chapter: 1-It vests in Parliament. 2-It vests in a State legislature for State subjects. 3-It explains why the enforcement statutes are central. Correct?",
+  "options": [
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 1,
+  "expl": "The power vests exclusively in Parliament.",
+  "why": "The exclusivity overrides the ordinary distribution of legislative powers for this limited purpose.",
+  "round": "C",
+  "trapcat": "B",
+  "trapnote": "A specific exclusive power defeats the general distribution for this purpose."
+ },
+ {
+  "q": "On restrictions applicable to members of the armed forces and forces charged with maintaining public order, which statement is correct?",
+  "options": [
+   "A State legislature may do so for the forces it maintains within the State",
+   "Parliament may by law restrict or abrogate the application of the rights to them",
+   "The restriction may be imposed by executive order of the appropriate government",
+   "No restriction is permissible, the rights being available to all citizens"
+  ],
+  "answer": 1,
+  "expl": "The power is exclusive to Parliament and is exercised by law.",
+  "why": "This is the provision of most direct personal relevance to a police candidate.",
+  "round": "T",
+  "trapcat": "B",
+  "trapnote": "Parliament alone, and by law. No State legislature and no executive order will do."
+ },
+ {
+  "q": "Consider the remedy for enforcement of Fundamental Rights before the Supreme Court: 1-It is itself a Fundamental Right. 2-It may be suspended as the Constitution provides. 3-Two articles may never be suspended. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 3,
+  "expl": "All three are accurate.",
+  "why": "The remedy is itself a right, which is why its suspension requires express constitutional authority.",
+  "round": "T",
+  "trapcat": "G",
+  "trapnote": "The remedy is a right, it is suspendable by authority, and two articles remain beyond reach."
+ },
+ {
+  "q": "On the dispute concerning entry to a hill shrine, which statement reflects the position?",
+  "options": [
+   "A 2018 decision permitted entry, and the matter is finally settled",
+   "A 2018 decision refused entry, and a reference remains pending",
+   "A 2018 decision permitted entry, and a larger-bench reference remains pending",
+   "The matter has never been decided by the Supreme Court in any proceeding"
+  ],
+  "answer": 2,
+  "expl": "The 2018 decision stands, but larger questions were referred in 2019 and remain undecided.",
+  "why": "Treating the matter as settled is the commonest error in current material on this topic.",
+  "round": "T",
+  "trapcat": "L",
+  "trapnote": "Decided in 2018, referred in 2019, still pending. Do not present it as settled."
+ },
+ {
+  "q": "Consider a religious denomination: 1-It may manage its own affairs in matters of religion. 2-It may own and acquire property. 3-It administers its property free from any law. Which is/are correct?",
+  "options": [
+   "2 and 3 only",
+   "1 and 3 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "answer": 2,
+  "expl": "Administration of property is subject to law.",
+  "why": "The distinction between managing religious affairs and administering property is the operative one.",
+  "round": "T",
+  "trapcat": "G",
+  "trapnote": "Religious affairs are protected; property administration is subject to law."
+ },
+ {
+  "q": "On the right to conserve a distinct language, script or culture, which statement is correct?",
+  "options": [
+   "It is available to religious and linguistic minorities alone and to no other section",
+   "It is available to any section of citizens with a distinct language, script or culture",
+   "It is available to any person residing in the territory of India",
+   "It is available only where the State has recognised the language concerned"
+  ],
+  "answer": 1,
+  "expl": "Any section of citizens may claim it, not minorities alone.",
+  "why": "The marginal heading refers to minorities, which is what makes the second option persuasive.",
+  "round": "T",
+  "trapcat": "I",
+  "trapnote": "A marginal heading is not the provision. The text speaks of any section of citizens."
+ },
+ {
+  "q": "On compulsory acquisition of a minority institution's property: 1-The amount must not restrict or abrogate the right. 2-The provision was inserted by amendment. 3-It applies to all private institutions equally. Correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 0,
+  "expl": "The provision is specific to minority educational institutions.",
+  "why": "The third statement generalises a specific protection, which is the standard construction in this area.",
+  "round": "T",
+  "trapcat": "D",
+  "trapnote": "A protection written for one category does not extend to all private institutions."
+ },
+ {
+  "q": "On martial law and the rights chapter, which statement is correct?",
+  "options": [
+   "Martial law automatically suspends the rights chapter in the area concerned",
+   "Martial law requires a proclamation by the President under the Emergency provisions",
+   "Parliament may indemnify acts done in connection with the maintenance of martial law",
+   "Indemnity may be granted by the State government for acts within its territory"
+  ],
+  "answer": 2,
+  "expl": "Indemnity requires a law of Parliament.",
+  "why": "Martial law is not one of the three Emergencies and is dealt with in a separate provision.",
+  "round": "T",
+  "trapcat": "I",
+  "trapnote": "Martial law is separate from the three Emergencies and carries its own indemnity provision."
+ },
+ {
+  "q": "Consider: 1-Trafficking in human beings is prohibited by the rights chapter. 2-The prohibition is enforced through central legislation. 3-A State legislature may prescribe punishment for it. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 0,
+  "expl": "Punishment for such offences may be prescribed by Parliament alone.",
+  "why": "The exclusivity of the power is what makes the enforcement statutes central legislation.",
+  "round": "T",
+  "trapcat": "B",
+  "trapnote": "The prohibition is constitutional; the punishment is central. The two follow from each other."
+ },
+ {
+  "q": "On the employment of adolescents between fourteen and eighteen, which statement is correct?",
+  "options": [
+   "The Constitution bars their employment in any occupation whatever",
+   "The 2016 statutory amendment bars their employment in hazardous occupations",
+   "No restriction applies to that age group under either instrument",
+   "The Constitution bars their employment in factories and mines alone"
+  ],
+  "answer": 1,
+  "expl": "The category of adolescents was created by the 2016 statutory amendment.",
+  "why": "The category does not appear in the Constitution at all, which is what the wrong options obscure.",
+  "round": "T",
+  "trapcat": "C",
+  "trapnote": "The adolescent category is statutory. The Constitution speaks only of children below fourteen."
+ }
+]

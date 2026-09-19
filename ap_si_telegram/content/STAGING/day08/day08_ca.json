@@ -1,0 +1,152 @@
+[
+ {
+  "q": "A note states that the Supreme Court's writ jurisdiction extends to all legal rights while a High Court's is confined to fundamental rights. What is the error?",
+  "options": [
+   "The two jurisdictions have been reversed in the statement",
+   "The statement understates both jurisdictions equally",
+   "The statement is accurate as to the Supreme Court but not the High Court",
+   "The statement is accurate as to the High Court but not the Supreme Court"
+  ],
+  "answer": 0,
+  "expl": "The wider jurisdiction belongs to the High Court and the narrower to the Supreme Court.",
+  "why": "Straight reversal is the commonest error in this pairing and is easy to miss because both halves sound orthodox.",
+  "round": "X",
+  "trapcat": "J",
+  "trapnote": "Check the direction of a comparison. Reversal preserves the vocabulary and inverts the meaning."
+ },
+ {
+  "q": "A note correctly states the tenure of the Comptroller and Auditor General and adds that a minister may remove him. Which statement is correct?",
+  "options": [
+   "Both limbs are right: tenure is six years and removal is at ministerial discretion",
+   "The tenure is wrong and the removal is right: the term is five years",
+   "Both limbs are wrong: the term is five years and removal is by the President at pleasure",
+   "The tenure is right and the removal is wrong: removal mirrors that of a Supreme Court judge"
+  ],
+  "answer": 3,
+  "expl": "A true first limb is paired with a false second limb.",
+  "why": "Half-truth construction: the accurate limb lends credibility to the inaccurate one.",
+  "round": "X",
+  "trapcat": "J",
+  "trapnote": "A correct first half is often there to carry an incorrect second half past you."
+ },
+ {
+  "q": "Consider the criminal statutes in force from July 2024 in relation to writ remedies: 1-Habeas corpus continues to be available. 2-The statutes abolished the writ for custody matters. 3-Remand orders remain examinable. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 2,
+  "expl": "Constitutional remedies cannot be abolished by an ordinary statute.",
+  "why": "The second statement is structurally impossible, which is the point the set tests.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "An ordinary statute cannot abolish a constitutional remedy. The proposition fails on structure alone."
+ },
+ {
+  "q": "The November 2022 ruling is cited as having altered the rules on custody and remand. Which statement is correct?",
+  "options": [
+   "The citation succeeds: the ruling shortened the permissible period of remand",
+   "The citation fails: that ruling concerned reservation and the ceiling doctrine",
+   "The citation fails: the ruling concerned the appointment of judges instead",
+   "The citation succeeds where the accused belongs to a reserved category"
+  ],
+  "answer": 1,
+  "expl": "The ruling concerned the economic reservation and had no bearing on custody.",
+  "why": "The third option misdescribes the subject in a different direction, testing precision rather than recall.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "Establish the subject-matter of a cited ruling before assessing what it can support."
+ },
+ {
+  "q": "The 2024 nine-judge ruling is cited in a dispute about audit of a public undertaking. Which statement is correct?",
+  "options": [
+   "The citation is misplaced: audit scrutiny is a separate constitutional mechanism",
+   "The citation is apt: the ruling defined the scope of audit over public resources",
+   "The citation is misplaced: the ruling abolished audit of public undertakings",
+   "The citation is apt where the undertaking holds privately owned assets"
+  ],
+  "answer": 0,
+  "expl": "The ruling concerned a Directive Principle; audit rests on entirely separate provisions.",
+  "why": "The fourth option builds a bridge between the two subjects that does not exist in either.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "Two mechanisms can share a subject-matter without being connected in law."
+ },
+ {
+  "q": "It is claimed that the 2023 reservation amendment is already operative and requires one-third of judicial posts to be reserved. Which statement is correct?",
+  "options": [
+   "The claim fails once: the amendment concerns judicial posts but is not yet operative",
+   "The claim succeeds: the amendment operated from the date of assent",
+   "The claim fails once: the amendment is operative but concerns legislative seats",
+   "The claim fails twice: the amendment concerns legislative seats and is not yet operative"
+  ],
+  "answer": 3,
+  "expl": "The amendment concerns seats in legislatures and awaits a census and delimitation.",
+  "why": "Two options identify one defect only, so partial knowledge produces a near miss.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "Two independent defects. The complete option names both."
+ },
+ {
+  "q": "Following the creation of twenty-six districts in Andhra Pradesh, which statement about judicial and audit arrangements is correct?",
+  "options": [
+   "Each new district requires a separate bench of the High Court to be constituted",
+   "Each new district requires a separate audit authority to be appointed",
+   "More district units fall within the same High Court and the same audit framework",
+   "The High Court's territorial jurisdiction is redrawn by the reorganisation itself"
+  ],
+  "answer": 2,
+  "expl": "Reorganisation multiplies units without altering the constitutional architecture above them.",
+  "why": "The second and third options assume that administrative multiplication requires institutional multiplication.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "Administrative units multiply; constitutional institutions above them do not follow automatically."
+ },
+ {
+  "q": "Consider the collegium today: 1-It consists of the Chief Justice and four senior-most judges for Supreme Court appointments. 2-It was displaced by a commission in 2015. 3-It rests on judicial interpretation of the word consultation. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 1,
+  "expl": "The commission never became operational; the collegium continues.",
+  "why": "The second statement describes an attempt rather than an accomplished change, which is the distinction tested.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "An attempted replacement that was struck down did not displace anything."
+ },
+ {
+  "q": "A claim is made that the advisory opinion of November 2025 binds all High Courts as a precedent. Which statement is correct?",
+  "options": [
+   "The claim fails: an advisory opinion is not binding, though it carries great weight",
+   "The claim succeeds: all opinions of the Supreme Court bind subordinate courts",
+   "The claim fails: the opinion binds the President but not the courts",
+   "The claim succeeds where the opinion is delivered by a Constitution Bench"
+  ],
+  "answer": 0,
+  "expl": "An advisory opinion is advisory; it does not operate as a binding declaration of law.",
+  "why": "The fourth option ties bindingness to bench strength, which governs precedent for judgments and not opinions.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "Bench strength governs the weight of judgments. An advisory opinion is not a judgment."
+ },
+ {
+  "q": "A teacher sends a postcard about a bonded child to the Court. Which statement is correct?",
+  "options": [
+   "It must be rejected, only an aggrieved person being entitled to move the Court",
+   "It may be treated as a petition only if the child's guardian endorses it",
+   "It may be treated as a petition only in a High Court and not the Supreme Court",
+   "It may be treated as a petition, the child being unable to approach the Court"
+  ],
+  "answer": 3,
+  "expl": "Standing is relaxed and a letter may be treated as a petition where the person cannot come themselves.",
+  "why": "The third and fourth options add conditions that would defeat the very purpose of the relaxation.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "Any condition that the person concerned must act defeats a relaxation designed for those who cannot."
+ }
+]

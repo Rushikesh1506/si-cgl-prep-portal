@@ -1,0 +1,152 @@
+[
+ {
+  "q": "A presiding officer treats a group of one-third of a party's members as protected by a split. Which statement is correct?",
+  "options": [
+   "The split defence was deleted in 2003 and the members are liable to disqualification",
+   "The split defence continues and the members are protected from disqualification",
+   "The split defence continues but requires the prior approval of the Election Commission",
+   "The split defence was deleted in 1985 when the Schedule was first inserted"
+  ],
+  "answer": 0,
+  "expl": "Only a merger now operates as a defence; the split defence was removed in 2003.",
+  "why": "The fourth option gives the right conclusion with a wrong date, which recognition alone will not catch.",
+  "round": "A",
+  "trapcat": "C",
+  "trapnote": "Merger survives, split does not. The deletion came in 2003, not at the outset."
+ },
+ {
+  "q": "Consider the 2022 decision on the economic reservation: 1-It upheld the amendment. 2-It held the ceiling not to be part of the basic structure. 3-It held that economic criteria alone cannot support reservation. Which is/are correct?",
+  "options": [
+   "2 and 3 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 1,
+  "expl": "It held that economic criteria alone may support reservation.",
+  "why": "The third statement inverts a central holding, which is why it reads plausibly to a candidate recalling the controversy.",
+  "round": "A",
+  "trapcat": "F",
+  "trapnote": "The decision permitted economic criteria alone and released that quota from the ceiling."
+ },
+ {
+  "q": "A law is placed in the Ninth Schedule in 1980 and is challenged in 2020. Which statement is correct?",
+  "options": [
+   "It may not be challenged, the Schedule affording absolute protection to laws within it",
+   "It may be challenged only on grounds of legislative competence",
+   "It may be challenged for damaging the basic structure, having been inserted after April 1973",
+   "It may be challenged for damaging the basic structure, the cut-off being the year 1951"
+  ],
+  "answer": 2,
+  "expl": "Laws inserted after the 1973 decision are open to basic-structure challenge.",
+  "why": "The fourth option gives the right principle with the wrong cut-off, which is a single-word variation.",
+  "round": "A",
+  "trapcat": "C",
+  "trapnote": "The cut-off is April 1973, the date of the decision that established the doctrine."
+ },
+ {
+  "q": "Consider a Bill amending the article that contains the amending power itself. Which statement is correct?",
+  "options": [
+   "It requires a special majority alone, the article being outside the federal list",
+   "It requires a special majority and ratification by not less than half the State legislatures",
+   "It requires a simple majority, the article being procedural in character",
+   "It cannot be amended at all, being the source of the amending power"
+  ],
+  "answer": 1,
+  "expl": "The amending article is itself among the provisions requiring ratification.",
+  "why": "The fourth option states a proposition that was argued and rejected, which is why it retains an air of plausibility.",
+  "round": "A",
+  "trapcat": "G",
+  "trapnote": "The amending article is expressly among the entrenched provisions requiring ratification."
+ },
+ {
+  "q": "Consider the sequence: 1-A 1967 decision barred amendment of fundamental rights. 2-A 1971 amendment reversed it. 3-A 1973 decision restored the 1967 position. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 0,
+  "expl": "The 1973 decision overruled the 1967 one and substituted a different limit.",
+  "why": "The third statement is a plausible simplification and is the planted defect in the sequence.",
+  "round": "A",
+  "trapcat": "F",
+  "trapnote": "The 1973 decision did not restore the earlier bar. It imposed a different and narrower limit."
+ },
+ {
+  "q": "A State legislature passes a resolution for creation of a Legislative Council and Parliament does not act. Which statement is correct?",
+  "options": [
+   "The Council comes into existence on the expiry of six months from the resolution",
+   "The Council comes into existence once the Governor notifies the resolution",
+   "No Council comes into existence; a fresh resolution must be passed every year",
+   "No Council comes into existence; the resolution is a precondition and not the operative act"
+  ],
+  "answer": 3,
+  "expl": "Parliament's law is the operative act in both creation and abolition.",
+  "why": "The fourth option reaches the right conclusion by inventing a procedural requirement that does not exist.",
+  "round": "A",
+  "trapcat": "B",
+  "trapnote": "The Assembly proposes; Parliament disposes. Nothing happens until Parliament legislates."
+ },
+ {
+  "q": "Consider: 1-The 2018 amendment inserted a provision on the identification of backward classes. 2-A 2021 decision read it as removing the States' power. 3-A 2021 amendment restored that power. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 3,
+  "expl": "All three are accurate and form a single cause-and-effect chain.",
+  "why": "Two amendments three years apart on the same subject usually have a judicial decision between them.",
+  "round": "A",
+  "trapcat": "F",
+  "trapnote": "Amendment, decision, corrective amendment. Look for the decision whenever two amendments cluster."
+ },
+ {
+  "q": "On the maximum strength of the lower House, which statement is correct?",
+  "options": [
+   "552, comprising not more than 530 from States and 22 from Union Territories",
+   "550, comprising not more than 530 from States and 20 from Union Territories",
+   "545, comprising not more than 525 from States and 20 from Union Territories",
+   "550, comprising not more than 520 from States and 30 from Union Territories"
+  ],
+  "answer": 1,
+  "expl": "530 plus 20 gives the present ceiling of 550.",
+  "why": "Each wrong option alters one component, so the candidate must know the breakdown rather than the total.",
+  "round": "T",
+  "trapcat": "C",
+  "trapnote": "Learn the components. A total can be checked against them; a remembered total cannot."
+ },
+ {
+  "q": "Consider a constitutional amendment that abolishes judicial review of legislative action. Which statement is correct?",
+  "options": [
+   "It is liable to be struck down, judicial review being part of the basic structure",
+   "It is valid, Parliament's amending power extending to any provision",
+   "It is valid if ratified by not less than half the State legislatures",
+   "It is liable to be struck down only if it also affects fundamental rights"
+  ],
+  "answer": 0,
+  "expl": "Judicial review is a recognised basic feature and cannot be removed by amendment.",
+  "why": "The third option assumes that compliance with procedure cures a substantive defect, which it does not.",
+  "round": "T",
+  "trapcat": "G",
+  "trapnote": "Procedural compliance does not cure a basic-structure violation. The two checks are independent."
+ },
+ {
+  "q": "A candidate is told that the 2023 reservation amendment, the 2019 economic reservation and the 2020 seat extension are all currently operative. Which statement is correct?",
+  "options": [
+   "All three are operative, the 2023 amendment having received assent",
+   "Only the 2019 amendment is operative, the other two awaiting further steps",
+   "Two of the three are operative; the 2020 amendment awaits a delimitation",
+   "Two of the three are operative; the 2023 amendment awaits a census and delimitation"
+  ],
+  "answer": 3,
+  "expl": "The 2019 and 2020 amendments operate; the 2023 amendment does not yet.",
+  "why": "The fourth option identifies the right number of operative amendments and the wrong one as pending.",
+  "round": "T",
+  "trapcat": "L",
+  "trapnote": "Counting correctly is not enough. Identify which specific amendment is still pending."
+ }
+]

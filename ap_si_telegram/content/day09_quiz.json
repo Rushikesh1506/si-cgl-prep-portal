@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Consider the rural local government amendment: 1-It was passed in 1992. 2-It came into force in 1993. 3-It transferred twenty-nine subjects to panchayats. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 0,
+  "expl": "The Schedule is a list of subjects a State legislature may devolve; nothing was transferred by the amendment.",
+  "why": "The operative words empower a State to endow panchayats with such powers as may be necessary, which is a choice and not a transfer.",
+  "round": "F",
+  "trapcat": "G",
+  "trapnote": "The amendment created structures. Devolution of subjects remained a State policy choice."
+ },
+ {
+  "q": "On reservation for women in panchayats, which statement is correct?",
+  "options": [
+   "Not less than one-half of seats and of chairperson offices is reserved",
+   "Not less than one-third of seats, chairperson offices being outside the reservation",
+   "Not less than one-third of seats and of chairperson offices is reserved",
+   "Not less than one-third of seats, the reservation applying only at village level"
+  ],
+  "answer": 2,
+  "expl": "The floor covers both seats and offices of chairperson at every level.",
+  "why": "Andhra Pradesh provides one-half by State law, which is above the constitutional floor and not a substitute for it.",
+  "round": "F",
+  "trapcat": "D",
+  "trapnote": "The floor is one-third and covers chairperson offices too. States may go higher by their own law."
+ },
+ {
+  "q": "A State with a population of fifteen lakhs proposes a two-tier structure. Which statement is correct?",
+  "options": [
+   "Impermissible: three tiers are mandatory in every State without exception",
+   "Permissible: a State not exceeding twenty lakhs may omit the district level",
+   "Permissible: any State may omit a tier with the approval of the Governor",
+   "Permissible: a State not exceeding twenty lakhs may omit the intermediate level"
+  ],
+  "answer": 3,
+  "expl": "The exemption is confined to the intermediate level and to States within the population limit.",
+  "why": "The third option changes which tier may be omitted, which is the finer of the two available variations.",
+  "round": "F",
+  "trapcat": "C",
+  "trapnote": "The omission is of the intermediate tier only, and only below the population threshold."
+ },
+ {
+  "q": "Consider the two Schedules relating to local government: 1-The rural Schedule lists twenty-nine subjects. 2-The urban Schedule lists eighteen functions. 3-Both Schedules bind the State legislature to devolve them. Which is/are correct?",
+  "options": [
+   "2 and 3 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 1,
+  "expl": "Neither Schedule is binding; both are lists of what may be devolved.",
+  "why": "Twenty-nine and eighteen are the figures, and the non-binding character is the substantive point.",
+  "round": "F",
+  "trapcat": "G",
+  "trapnote": "Two figures and one principle: the Schedules enumerate, the State legislature decides."
+ },
+ {
+  "q": "Which body conducts elections to panchayats and municipalities?",
+  "options": [
+   "The State Election Commission, under a distinct constitutional provision",
+   "The Election Commission of India, which supervises all elections in the country",
+   "The State Election Commission, under a law made by Parliament",
+   "The district collector, acting under the directions of the State government"
+  ],
+  "answer": 0,
+  "expl": "A separate State Election Commission is constituted under its own provision.",
+  "why": "The second option is the commonest institutional confusion in the whole topic.",
+  "round": "F",
+  "trapcat": "B",
+  "trapnote": "Two commissions, two provisions. Local polls never go to the national commission."
+ },
+ {
+  "q": "Consider the exclusion of certain areas from the rural local government Part: 1-Fifth Schedule Scheduled Areas are excluded. 2-Certain north-eastern States are excluded. 3-The exclusion abolished the Sixth Schedule arrangements. Which is/are correct?",
+  "options": [
+   "2 and 3 only",
+   "1 and 3 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "answer": 2,
+  "expl": "The exclusion protects existing arrangements rather than abolishing them.",
+  "why": "The exclusion was protective: traditional systems of self-governance would have been displaced by a uniform structure.",
+  "round": "C",
+  "trapcat": "D",
+  "trapnote": "The exclusion protects. It does not abolish anything, and it was later bridged by a separate law."
+ },
+ {
+  "q": "On the law extending the rural local government provisions to Scheduled Areas, which statement is correct?",
+  "options": [
+   "It was enacted by Parliament in 1992 and makes the Gram Panchayat the primary authority",
+   "It was enacted by each State in 1996 and makes the Gram Sabha the primary authority",
+   "It was enacted by Parliament in 1996 and makes the district council the primary authority",
+   "It was enacted by Parliament in 1996 and makes the Gram Sabha the primary authority"
+  ],
+  "answer": 3,
+  "expl": "Parliament enacted it in 1996 and the assembly of all voters is the primary authority.",
+  "why": "The shift of primacy from the elected panchayat to the assembly of all voters is the defining feature of the scheme.",
+  "round": "C",
+  "trapcat": "E",
+  "trapnote": "Parliament, 1996, and the assembly of all voters rather than the elected body."
+ },
+ {
+  "q": "Consider the powers of the Gram Sabha in a Scheduled Area: 1-Consultation before acquisition of land. 2-Ownership of minor forest produce. 3-Trial of offences committed within the village. Which is/are correct?",
+  "options": [
+   "2 and 3 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 1,
+  "expl": "The scheme confers governance and resource powers, not criminal jurisdiction.",
+  "why": "Criminal trial remains with the ordinary courts; the scheme does not create a parallel judicial system.",
+  "round": "C",
+  "trapcat": "D",
+  "trapnote": "Governance and resources, not adjudication. No parallel criminal jurisdiction is created."
+ },
+ {
+  "q": "Consider the three categories of urban local body: 1-A transitional area has a Nagar Panchayat. 2-A smaller urban area has a Municipal Council. 3-A larger urban area has a Municipal Corporation. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 3,
+  "expl": "All three pairings are accurate.",
+  "why": "The classification is made by the Governor having regard to population, density, revenue and other factors.",
+  "round": "C",
+  "trapcat": "F",
+  "trapnote": "Three categories by size. The Governor classifies, having regard to prescribed factors."
+ },
+ {
+  "q": "On the District Planning Committee, which statement is correct?",
+  "options": [
+   "Not less than two-thirds of its members are elected from among elected local representatives",
+   "All its members are nominated by the State government from among officials",
+   "Not less than four-fifths of its members are elected from among elected local representatives",
+   "Not less than four-fifths of its members are nominated by the district collector"
+  ],
+  "answer": 2,
+  "expl": "At least four-fifths are elected by and from the elected members of the district panchayat and municipalities.",
+  "why": "The proportion is the tested figure and the elective character is the substantive point.",
+  "round": "C",
+  "trapcat": "C",
+  "trapnote": "Four-fifths elected. The Committee is a body of elected representatives, not officials."
+ },
+ {
+  "q": "An election to a panchayat is challenged on grounds of irregularity. Which statement is correct?",
+  "options": [
+   "It may be questioned by writ petition in the High Court at the instance of a candidate",
+   "It may be questioned before the Election Commission of India on appeal",
+   "It may be questioned by writ only where the State Election Commission declines to act",
+   "It may be questioned only by an election petition presented as State law provides"
+  ],
+  "answer": 3,
+  "expl": "Courts are barred from entertaining a challenge otherwise than by election petition.",
+  "why": "The bar mirrors the corresponding provision for parliamentary and Assembly elections.",
+  "round": "C",
+  "trapcat": "H",
+  "trapnote": "Election petition only. The bar on court interference is express and mirrors the higher-level rule."
+ },
+ {
+  "q": "Consider the Andhra Pradesh structure: 1-The intermediate tier is the Mandal Parishad. 2-Territorial members at mandal and district level are directly elected. 3-The Mandal Parishad President is directly elected. Which is/are correct?",
+  "options": [
+   "2 and 3 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 1,
+  "expl": "Territorial members are directly elected; the President and Chairperson are elected from among them.",
+  "why": "Direct election at the territorial level and indirect election of the presiding offices is the pattern.",
+  "round": "C",
+  "trapcat": "L",
+  "trapnote": "Territorial members directly, presiding officers indirectly. Sarpanch is directly elected."
+ },
+ {
+  "q": "On the term of a panchayat and the consequences of dissolution, which statement is correct?",
+  "options": [
+   "Five years, with fresh elections completed within six months of dissolution",
+   "Five years, with fresh elections completed within one year of dissolution",
+   "Six years, with fresh elections completed within six months of dissolution",
+   "Five years, the body so constituted serving a full further term of five years"
+  ],
+  "answer": 0,
+  "expl": "Five years, and elections within six months of a dissolution.",
+  "why": "A body constituted on dissolution serves only the remainder of the term, which the fourth option denies.",
+  "round": "T",
+  "trapcat": "C",
+  "trapnote": "Two figures and one consequence: five years, six months, and only the remainder of the term."
+ },
+ {
+  "q": "Consider the State Finance Commission: 1-It is constituted every five years. 2-It reviews the financial position of local bodies. 3-Its recommendations bind the State government. Which is/are correct?",
+  "options": [
+   "2 and 3 only",
+   "1 and 3 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "answer": 2,
+  "expl": "Its recommendations are advisory; the State decides with reasons.",
+  "why": "The advisory character is shared with the Union Finance Commission and is frequently misstated.",
+  "round": "T",
+  "trapcat": "D",
+  "trapnote": "Finance Commission recommendations, Union or State, are advisory and not binding."
+ },
+ {
+  "q": "On the minimum age to contest a panchayat election, which statement is correct?",
+  "options": [
+   "Eighteen years, prescribed by the Constitution itself",
+   "Twenty-five years, prescribed by the State legislature",
+   "Twenty-one years, prescribed by the State legislature",
+   "Twenty-one years, prescribed by the Constitution itself"
+  ],
+  "answer": 3,
+  "expl": "Twenty-one years is prescribed by the Constitution.",
+  "why": "The voting age is eighteen and the contesting age twenty-one, which is the pair being tested.",
+  "round": "T",
+  "trapcat": "C",
+  "trapnote": "Vote at eighteen, contest at twenty-one. Both figures are constitutional."
+ },
+ {
+  "q": "Consider the Metropolitan Planning Committee: 1-It is constituted for areas with a population of ten lakhs or more. 2-It consolidates plans prepared by municipalities and panchayats. 3-It is constituted by the Election Commission of India. Which is/are correct?",
+  "options": [
+   "2 and 3 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 1,
+  "expl": "It is constituted under State law; the national commission has no role.",
+  "why": "The third statement inserts the wrong institution, which is the recurring error in this topic.",
+  "round": "T",
+  "trapcat": "B",
+  "trapnote": "Planning bodies are constituted under State law. No election commission is involved."
+ },
+ {
+  "q": "Which statement about reservation for backward classes in panchayats is correct?",
+  "options": [
+   "It is left to the discretion of the State legislature",
+   "It is mandatory in the same manner as for Scheduled Castes and Tribes",
+   "It is mandatory but only at the intermediate and district levels",
+   "It is prohibited, the Constitution providing for two categories only"
+  ],
+  "answer": 0,
+  "expl": "Reservation for backward classes is an enabling provision left to the State.",
+  "why": "Scheduled Caste and Tribe reservation is mandatory and proportionate; backward-class reservation is not.",
+  "round": "T",
+  "trapcat": "D",
+  "trapnote": "Two categories are mandatory and proportionate; the third is left to the State's discretion."
+ },
+ {
+  "q": "Consider Andhra Pradesh: 1-It has twenty-six districts since April 2022. 2-Its conformity legislation for panchayats dates from 1994. 3-It has no Scheduled Areas within its territory. Which is/are correct?",
+  "options": [
+   "2 and 3 only",
+   "1 and 3 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "answer": 2,
+  "expl": "The State has Scheduled Areas in several districts.",
+  "why": "The presence of Scheduled Areas is what makes the 1996 extension law operative field law in the State.",
+  "round": "T",
+  "trapcat": "L",
+  "trapnote": "Scheduled Areas exist in the State, which is why the 1996 law matters operationally."
+ },
+ {
+  "q": "On Wards Committees in municipalities, which statement is correct?",
+  "options": [
+   "They are compulsory in every municipality irrespective of population",
+   "They are compulsory where the population is ten lakhs or more",
+   "They are optional and constituted at the discretion of the State government",
+   "They are compulsory where the population is three lakhs or more"
+  ],
+  "answer": 3,
+  "expl": "The threshold is three lakhs.",
+  "why": "Ten lakhs is the threshold for a different body, which is why the third option is plausible.",
+  "round": "T",
+  "trapcat": "C",
+  "trapnote": "Three lakhs for wards committees, ten lakhs for the metropolitan planning body."
+ },
+ {
+  "q": "Consider the two commissions relating to local bodies: 1-One conducts elections. 2-One reviews finances. 3-Both are constituted by the Governor. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 3,
+  "expl": "All three are accurate; both bodies are constituted by the Governor.",
+  "why": "Separating the two functions between two bodies prevents the mixing of electoral and financial control.",
+  "round": "T",
+  "trapcat": "F",
+  "trapnote": "Two bodies, two functions, one appointing authority. The separation of functions is deliberate."
+ }
+]

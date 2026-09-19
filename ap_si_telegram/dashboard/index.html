@@ -1,0 +1,18 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AP SI - Daily Score (Parents View)</title>
+<style>body{font-family:system-ui;margin:0;background:#0f172a;color:#e2e8f0}header{padding:16px;background:#1e293b}h1{margin:0;font-size:20px}.card{background:#1e293b;margin:12px;padding:14px;border-radius:12px}.big{font-size:34px;font-weight:800}.good{color:#4ade80}.bad{color:#f87171}.bar{height:10px;background:#334155;border-radius:6px;overflow:hidden}.bar>div{height:100%;background:#4ade80}small{color:#94a3b8}table{width:100%;border-collapse:collapse}td,th{padding:8px;border-bottom:1px solid #334155;text-align:left}</style>
+</head><body>
+<header><h1>AP SI Civil - GS Rescue 76 to 145</h1><small>Target 275/400 for OC General | Auto-updated daily</small></header>
+<div class="card"><div>Today streak</div><div class="big" id="streak">- / 30 days</div><div class="bar"><div id="pbar" style="width:0%"></div></div><small>Green = attempted both 9AM + 6PM. Parents: ask only this number.</small></div>
+<div class="card"><h3>Daily scores</h3><table id="t"><tr><th>Date</th><th>Slot</th><th>Score</th></tr></table></div>
+<div class="card"><h3>Weekly Sunday (cumulative)</h3><div id="w">W1: 50Q new | W2: 35 old + 45 new = 80Q | W3+: 25+25+50 = 100Q cap | Monthly: 100Q mock</div></div>
+<div class="card"><small>Rules: answer reveals instantly on tap (quiz mode). Zero is honest, fake is banned. Maths 120 safe - only GS tracked here.</small></div>
+<script>
+fetch('../scores.json').then(r=>r.json()).then(d=>{
+ let h='', done=new Set();
+ d.scores.forEach(s=>{h+=`<tr><td>${s.date}</td><td>${s.slot}</td><td>${s.scored}/${s.total}</td></tr>`;done.add(s.date)});
+ document.getElementById('t').innerHTML+=h;
+ let n=done.size; document.getElementById('streak').textContent=n+' / 30 days';
+ document.getElementById('pbar').style.width=Math.min(100,n/30*100)+'%';
+}).catch(()=>{document.getElementById('t').innerHTML+='<tr><td colspan=3>Push scores.json to see data</td></tr>'});
+</script></body></html>

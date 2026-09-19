@@ -1,0 +1,720 @@
+{
+ "days": [
+  {
+   "day": 1,
+   "topic": "Articles 14-18 Equality",
+   "lesson": "Art 14 'any PERSON' (citizen+foreigner+company); Arts 15/16 CITIZENS only. Two limbs: equality before law (Dicey) + equal protection (US). Bans class legislation; allows reasonable classification = intelligible differentia AND rational nexus (both compulsory). Royappa 1974 + Maneka 1978: arbitrariness ALONE violates 14; Shayara Bano 2017 extends manifest arbitrariness to LAWS. Art 15 = 5 grounds RRCSP. CORRECTION: 15(2) has TWO limbs - 15(2)(a) shops/hotels/restaurants/entertainment has NO State-funds condition and binds PRIVATE parties (horizontal); only 15(2)(b) wells/tanks/ghats/roads needs State funds or public dedication. 15(3) women/children; 15(4) SEBC (1st Amdt); 15(5) private unaided EXCEPT minority (93rd); 15(6) EWS (103rd). Art 16 = 7 grounds (+descent, residence); 16(3) residence condition by PARLIAMENT alone; 16(4)/4A/4B/6. Indra Sawhney 1992: 16(4) is real-equality method NOT exception, 50% ceiling, creamy layer out. UPDATE: Janhit Abhiyan 2022 - 50% ceiling is NOT basic structure and EWS 10% sits OUTSIDE it. Art 17 absolute, horizontal, no exception (PCR Act 1955, SC/ST PoA 1989). Art 18 bans State titles except military/academic; Balaji Raghavan 1996: Bharat Ratna/Padma are AWARDS not titles, no prefix/suffix use. Exceptions to 14: 31C (39(b)-(c) only after Minerva 1980; UPDATE Property Owners Assn 2024 - unamended 31C survives, 39(b) narrowed), 33 forces, 105/194 privileges, 359 emergency, 361 immunity. NOTE: judiciary is 'State' only in ADMIN/rule-making role - judicial orders are not challengeable as FR violations (Mirajkar 1967, Antulay 1988). AP: Art 371D governs AP local-cadre recruitment.",
+   "shortcuts": "14-PERSON 15-CITIZEN 16-CITIZEN 17-ABSOLUTE 18-NOTITLE. 15=RRCSP(5). 16=+Descent+Residence(7). 15(2)(a) NO funds condition - private shops bound. Horizontal FRs = 15(2),17,23,24. ID+RN both needed. Royappa-Maneka-Shayara = arbitrariness chain. 50% ceiling binds 16(4) NOT EWS. 16(3)=Parliament; 371D=President's Order. Exceptions: 31C-33-105/194-359-361.",
+   "blueprint": "Step1 person or citizen? Foreigner/company -> only 14 survives. Step2 count grounds: descent/residence -> Art 16 never 15. Step3 'State funds' near shops/hotels -> FALSE. Step4 'reservation is an exception' -> FALSE (Sawhney). Step5 'never exceeds 50%' -> FALSE post-Janhit. Step6 absolute words (always/never/all) -> suspect, except 17.",
+   "quiz": [
+    {
+     "q": "Consider Art 15(2): 1-Shops and hotels are covered only if maintained out of State funds. 2-It binds private persons. 3-It covers wells and tanks dedicated to public use. 4-Its grounds equal Art 16(2) in number. Which are correct?",
+     "options": [
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 4 only",
+      "2, 3 and 4 only"
+     ],
+     "answer": 0,
+     "expl": "Funds condition attaches ONLY to 15(2)(b). Shops/hotels under 15(2)(a) have none and bind private parties. 15 has 5 grounds, 16(2) has 7."
+    },
+    {
+     "q": "A private hotel in Vijayawada refuses service openly on caste grounds. Most accurate position?",
+     "options": [
+      "Art 14 violated by arbitrary classification",
+      "Art 15(2)(a) violated; also penal under SC/ST PoA Act",
+      "No FR involved; Art 15 binds only the State",
+      "Only Art 17, as refusal of service is always untouchability"
+     ],
+     "answer": 1,
+     "expl": "15(2)(a) names hotels, needs no State funding, binds private parties. Art 14 binds only the State. 'Always' in option 3 is an absolute-word trap."
+    },
+    {
+     "q": "A: A combined 60% reservation for BC, SC/ST and EWS is automatically unconstitutional. R: Indra Sawhney fixed a 50% ceiling.",
+     "options": [
+      "Both true, R explains A",
+      "Both true, R does not explain A",
+      "A true, R false",
+      "A false, R true"
+     ],
+     "answer": 3,
+     "expl": "R true. A false: Janhit Abhiyan 2022 held the 50% ceiling is not basic structure and EWS sits OUTSIDE it. The killer word is 'automatically'."
+    },
+    {
+     "q": "Order chronologically: 1-Creamy layer laid down 2-Promotion quota restored by amendment 3-Arbitrariness held antithesis of equality 4-EWS upheld as not violating basic structure.",
+     "options": [
+      "1-3-2-4",
+      "3-2-1-4",
+      "3-1-2-4",
+      "3-1-4-2"
+     ],
+     "answer": 2,
+     "expl": "Royappa 1974, Indra Sawhney 1992, 77th/85th Amendments 1995-2001, Janhit Abhiyan 2022. Option 3 reverses cause and effect."
+    },
+    {
+     "q": "S1: A residence requirement for a State post may be prescribed by the State legislature. S2: Art 371D operates through a Presidential Order. Correct?",
+     "options": [
+      "S1 only",
+      "S2 only",
+      "Both",
+      "Neither"
+     ],
+     "answer": 1,
+     "expl": "16(3) puts residence in PARLIAMENT's hands alone. 371D works by Presidential Order (AP Order 1975). Different actors - the standard AP trap."
+    },
+    {
+     "q": "Which is NOT an exception to Art 14?",
+     "options": [
+      "Art 361 immunity of President and Governor",
+      "Art 31C shield for Art 39(b)-(c) laws",
+      "Art 32 right to constitutional remedies",
+      "Art 33 power over the armed forces"
+     ],
+     "answer": 2,
+     "expl": "32 is a remedy that ENFORCES Art 14, not an exception to it. 361, 31C, 33, 105/194 and 359 are the genuine carve-outs."
+    },
+    {
+     "q": "S1: Under Art 18 a citizen needs the President's consent to accept a foreign title. S2: Bharat Ratna may be used as a prefix to a name. Correct?",
+     "options": [
+      "S1 only",
+      "S2 only",
+      "Both",
+      "Neither"
+     ],
+     "answer": 3,
+     "expl": "Both false. 18(2) bars a CITIZEN outright; consent applies to a non-citizen holding office of profit. Balaji Raghavan 1996: awards are not titles and take no prefix."
+    },
+    {
+     "q": "A rule fixing minimum age 21 for SI recruitment is challenged under Art 14. The correct test is:",
+     "options": [
+      "Art 14 forbids all classification",
+      "Intelligible differentia alone suffices",
+      "Rational nexus alone suffices",
+      "Both differentia and nexus to the law's object"
+     ],
+     "answer": 3,
+     "expl": "Two-limb test, cumulative. Age is a real differentia; nexus is maturity and fitness for the post. Art 14 bans class legislation, not classification."
+    },
+    {
+     "q": "S1: Art 31C today shields laws giving effect to all Directive Principles. S2: Property Owners Assn 2024 narrowed Art 39(b). Correct?",
+     "options": [
+      "S1 only",
+      "S2 only",
+      "Both",
+      "Neither"
+     ],
+     "answer": 1,
+     "expl": "Minerva Mills 1980 cut the 42nd Amendment's wide shield to 39(b)-(c). The 2024 nine-judge bench held not every private resource is a material resource of the community."
+    },
+    {
+     "q": "S1: Art 14 covers companies in appropriate cases. S2: Judicial orders of a court can be challenged as violating Fundamental Rights. Correct?",
+     "options": [
+      "S1 only",
+      "S2 only",
+      "Both",
+      "Neither"
+     ],
+     "answer": 0,
+     "expl": "S1 true - 'any person' includes juristic persons. S2 false: the judiciary is State only in its administrative role (Mirajkar 1967, Antulay 1988)."
+    }
+   ]
+  },
+  {
+   "day": 2,
+   "topic": "Articles 19-22 Freedom and Liberty",
+   "lesson": "Art 19(1) six freedoms, CITIZENS only: speech(a), assembly unarmed(b), association(c), movement(d), residence(e), profession(g). 19(1)(f) property DELETED by 44th 1978 -> now Art 300A, a constitutional but NOT fundamental right, so Art 32 does not lie for it directly. 19(2) EIGHT heads: sovereignty/integrity, security of State, friendly relations, public order, decency/morality, contempt, defamation, incitement. 'Law and order' and 'national interest' are NOT heads. Three circles: law and order > public order > security of State. Arts 20/21/22 protect EVERY PERSON. Art 20: (1) no ex post facto CRIMINAL law - civil and tax may be retrospective; (2) double jeopardy needs prosecution AND punishment before a court - departmental proceeding alongside is allowed; (3) self-incrimination covers testimonial compulsion only - fingerprints, handwriting, blood and DNA are OUTSIDE (Kathi Kalu Oghad). Art 21: Gopalan 1950 -> Maneka 1978 fair/just/reasonable -> Puttaswamy 2017 privacy; D.K. Basu 1997 arrest guidelines, now in BNSS. 21A education 6-14 (86th). Art 22 TWO TRACKS: punitive 22(1)-(2) grounds + counsel + magistrate in 24 hrs (journey excluded); preventive 22(4)-(7) no counsel, no magistrate, Advisory Board. CORRECTION: the 44th Amendment's 2-month Board rule with a SITTING HC judge was NEVER brought into force - the operative period is still THREE MONTHS with a person QUALIFIED to be an HC judge.",
+   "shortcuts": "19 = 6 freedoms, 1 gone (property -> 300A). 19(2) = 8 heads; 'law and order' is NOT one. Circles: law&order > public order > security of State. 20(3) covers the MOUTH not the BODY. 20(1) criminal only. 22 = 24 hours, journey excluded. Preventive Board = 3 MONTHS (the 2-month rule was never notified). Chain: Gopalan < Maneka < Puttaswamy; ADM Jabalpur overruled 2017.",
+   "blueprint": "Foreigner in the stem -> kill every Art 19 option. Numbers in a 22(2) stem -> SUBTRACT journey, then compare to 24. '2 months' near preventive detention -> FALSE. 'Law and order' as a 19(2) ground -> FALSE. Handwriting/fingerprint/DNA under 20(3) -> FALSE. Retrospective TAX law -> valid.",
+   "quiz": [
+    {
+     "q": "Consider Art 20: 1-It protects citizens only. 2-A departmental inquiry plus a criminal trial is not double jeopardy. 3-Compelling specimen handwriting violates 20(3). 4-A tax law may operate retrospectively. Which are correct?",
+     "options": [
+      "1 and 4 only",
+      "1, 2 and 3 only",
+      "2, 3 and 4 only",
+      "2 and 4 only"
+     ],
+     "answer": 3,
+     "expl": "Art 20 says 'no person' - foreigners included. Kathi Kalu Oghad: handwriting, prints and DNA are not testimonial compulsion. 20(1) restrains criminal law only."
+    },
+    {
+     "q": "S1: In preventive detention the case must go to the Advisory Board within two months, chaired by a sitting High Court judge. S2: The 44th Amendment 1978 made provision to that effect. Correct?",
+     "options": [
+      "S1 only",
+      "S2 only",
+      "Both",
+      "Neither"
+     ],
+     "answer": 1,
+     "expl": "S2 true; S1 false as law in force. That provision of the 44th was NEVER notified. Operative rule is 3 months, chair QUALIFIED to be an HC judge."
+    },
+    {
+     "q": "Arrest at 8 pm Monday, 300 km from the magistrate; produced 11 am Wednesday; journey took 11 hours. Art 22(2)?",
+     "options": [
+      "Violated - even after excluding journey it exceeds 24 hours",
+      "Art 22(2) does not apply to a cognisable offence",
+      "Not violated - journey time is excluded",
+      "Not violated - 48 hours is the limit"
+     ],
+     "answer": 0,
+     "expl": "39 hours elapsed minus 11 hours journey = 28 hours, still over 24. The trap rewards candidates who recall the exclusion but skip the arithmetic."
+    },
+    {
+     "q": "Match: A-Art 19(1)(f) B-Art 300A C-Art 21A D-Art 21 with 1-privacy read in 2-omitted by 44th 3-constitutional not fundamental 4-inserted by 86th.",
+     "options": [
+      "A2 B3 C4 D1",
+      "A4 B3 C2 D1",
+      "A2 B3 C1 D4",
+      "A3 B2 C1 D4"
+     ],
+     "answer": 0,
+     "expl": "44th deleted 19(1)(f); 300A is the successor and not an FR; 86th inserted 21A; Puttaswamy 2017 read privacy into Art 21."
+    },
+    {
+     "q": "A blanket indefinite ban on all processions in a town, with no review mechanism, is best challenged as:",
+     "options": [
+      "Valid - law and order is a ground under 19(2)",
+      "Invalid - assembly cannot be restricted at all",
+      "Invalid - the restriction is not reasonable and fails fair procedure",
+      "Valid - public order is a listed ground under 19(3)"
+     ],
+     "answer": 2,
+     "expl": "Public order IS a ground, but the restriction must still be REASONABLE. Blanket plus indefinite plus no review fails that test and Maneka's fair-procedure standard."
+    },
+    {
+     "q": "Which is NOT a ground of restriction under Art 19(2)?",
+     "options": [
+      "Contempt of court",
+      "Incitement to an offence",
+      "Friendly relations with foreign States",
+      "Maintenance of law and order"
+     ],
+     "answer": 3,
+     "expl": "The eight heads do not include 'law and order'. Public order is the head; law and order is a wider concept that will not save a restriction."
+    },
+    {
+     "q": "A: A foreign national cannot claim the freedom to practise a profession in India as a Fundamental Right. R: The six freedoms are available to every person within the territory of India.",
+     "options": [
+      "Both true, R explains A",
+      "Both true, R does not explain A",
+      "A true, R false",
+      "A false, R true"
+     ],
+     "answer": 2,
+     "expl": "A is true: the six freedoms are citizens-only. R is false: they are not available to every person.",
+     "why": "The Assertion is correct and the Reason states the opposite of the rule that makes it correct. A candidate who knows only that the conclusion is right will take the first option.",
+     "trapnote": "Assertion-Reason: a true Assertion can sit beside a false Reason. Test each statement on its own before testing the link."
+    },
+    {
+     "q": "Order chronologically: 1-Maneka Gandhi 2-ADM Jabalpur 3-Puttaswamy 4-44th Amendment.",
+     "options": [
+      "2-1-4-3",
+      "4-2-1-3",
+      "1-2-4-3",
+      "2-4-1-3"
+     ],
+     "answer": 0,
+     "expl": "ADM Jabalpur 1976, Maneka April 1978, 44th Amendment enacted 1978 (after Maneka), Puttaswamy 2017 which expressly overruled ADM Jabalpur."
+    },
+    {
+     "q": "S1: Enemy aliens can claim the protections of Art 22(1) and 22(2). S2: A preventive detenu has a right to a lawyer before the Advisory Board. Correct?",
+     "options": [
+      "S1 only",
+      "S2 only",
+      "Both",
+      "Neither"
+     ],
+     "answer": 3,
+     "expl": "Both false. 22(3) excludes enemy aliens and preventive detenus from 22(1)-(2), and 22(4)(b) denies legal representation before the Board."
+    },
+    {
+     "q": "S1: 'Public order' is wider than 'security of the State'. S2: 'Law and order' is wider than 'public order'. Correct?",
+     "options": [
+      "S1 only",
+      "S2 only",
+      "Both",
+      "Neither"
+     ],
+     "answer": 2,
+     "expl": "Both true - the three concentric circles. Law and order is widest, public order sits inside it, security of the State is innermost."
+    }
+   ]
+  },
+  {
+   "day": 3,
+   "topic": "DPSP 36-51 and Fundamental Duties 51A",
+   "lesson": "Part IV Arts 36-51, non-justiciable (Art 37), borrowed from IRELAND. Art 37 also says they are fundamental in governance and it is the State's DUTY to apply them in law-making. FR vs DPSP in four rounds: Champakam 1951 (FRs prevail) -> 1st Amendment inserts 15(4); Golaknath 1967 -> 24th Amendment; Kesavananda 1973 basic structure -> 42nd widens 31C to ALL DPSP; Minerva Mills 1980 cuts it back to 39(b)-(c) and holds the FR-DPSP BALANCE is itself basic structure. UPDATE: Property Owners Assn 2024 (9 judges) - unamended 31C survives, 39(b) narrowed. SOCIALIST: 38, 39 (six limbs), 39A legal aid (42nd), 41, 42, 43, 43A (42nd), 43B cooperatives (97th). GANDHIAN: 40 panchayats, 43 cottage industry, 46 SC/ST/weaker sections, 47 nutrition/health/prohibition, 48 agriculture/cow. LIBERAL: 44 UCC, 45 care below 6, 48A environment (42nd), 49 monuments, 50 separation of judiciary from executive, 51 international peace. 86th Amendment 2002 touched THREE Parts at once: 21A (Part III), Art 45 reworded (Part IV), 51A(k) (Part IVA). Duties: 42nd gave TEN on Swaran Singh Committee's advice; the 86th added the ELEVENTH, 51A(k). Not enforceable by writ but enforced through statutes and used as an interpretive aid (Verma Committee 1999). MECHANISM: a DPSP becomes enforceable only when read INTO Art 21 - 39A+21 legal aid, 47+21 health, 48A+21 clean environment. Art 50 is the root of the Judicial vs Executive Magistrate split an SI works with daily.",
+   "shortcuts": "37 = no writ, but not irrelevant. Ireland. Buckets: SOC 38-39-39A-41-42-43-43A-43B; GAN 40-43-46-47-48; LIB 44-45-48A-49-50-51. 31C = 39(b) and 39(c) ONLY - never 'all DPSP'. 86th = 21A + 45 reworded + 51A(k), three Parts at once. Duties 10 by 42nd + 1 by 86th = 11. DPSP alone is dead; DPSP + Art 21 is alive.",
+   "blueprint": "'All DPSP laws are shielded' -> FALSE, always 39(b)-(c). 'DPSP enforceable by writ' -> FALSE (Art 37). A&R where R is a DPSP and A claims enforceability -> answer B, because the missing link is Art 21. Number in the stem -> place it in a bucket S/G/L. Age 6-14 -> 21A + 51A(k); below 6 -> Art 45.",
+   "quiz": [
+    {
+     "q": "Consider: 1-DPSP cannot be enforced by writ. 2-A law giving effect to ANY Directive Principle is immune from Art 14 and 19 challenge. 3-Courts use DPSP to expand Art 21. 4-The 42nd Amendment added Arts 39A, 43A and 48A. Which are correct?",
+     "options": [
+      "1 and 2 only",
+      "2, 3 and 4 only",
+      "1, 3 and 4 only",
+      "1, 2, 3 and 4"
+     ],
+     "answer": 2,
+     "expl": "Statement 2 restates the 42nd Amendment's wide 31C, which Minerva Mills 1980 STRUCK DOWN. The shield is always just 39(b) and 39(c). The killer word is 'any'."
+    },
+    {
+     "q": "A: Free legal aid to an indigent accused is an enforceable right. R: Art 39A directs the State to provide free legal aid.",
+     "options": [
+      "Both true, R explains A",
+      "Both true, R does not explain A",
+      "A true, R false",
+      "A false, R true"
+     ],
+     "answer": 1,
+     "expl": "Both true, but R cannot explain A: Art 39A is non-justiciable under Art 37. Enforceability came from reading 39A INTO Art 21 (Hussainara Khatoon, Khatri)."
+    },
+    {
+     "q": "Match: A-Art 43B B-Art 48A C-Art 50 D-Art 44 with 1-separation of judiciary from executive 2-cooperative societies 3-uniform civil code 4-environment.",
+     "options": [
+      "A2 B4 C1 D3",
+      "A3 B4 C1 D2",
+      "A2 B1 C4 D3",
+      "A4 B2 C3 D1"
+     ],
+     "answer": 0,
+     "expl": "43B cooperatives (97th, Socialist bucket); 48A environment (42nd, Liberal); 50 separation; 44 UCC. 43B and 48A come from different amendments."
+    },
+    {
+     "q": "The 86th Amendment 2002 did which of the following?",
+     "options": [
+      "Inserted Art 15(5) and excepted minority educational institutions from it",
+      "Inserted Art 21A, reworded Art 45 and added Art 51A(k)",
+      "Added Art 51A with ten duties and widened the Art 31C shield",
+      "Inserted Art 43B and extended Art 19(1)(c) to cooperative societies"
+     ],
+     "answer": 1,
+     "expl": "One amendment touching Part III, Part IV and Part IVA together. 15(5) is the 93rd; the Tenth Schedule is the 52nd."
+    },
+    {
+     "q": "S1: Fundamental Duties are enforceable by writ. S2: Art 51A(k) casts a duty on a parent regarding a child aged 6-14. Correct?",
+     "options": [
+      "S1 only",
+      "S2 only",
+      "Both",
+      "Neither"
+     ],
+     "answer": 1,
+     "expl": "Duties are not directly justiciable; they are enforced through statutes and used to interpret. 51A(k) came from the 86th, not the 42nd."
+    },
+    {
+     "q": "A liquor prohibition law is challenged under Art 19(1)(g). Which best states the position?",
+     "options": [
+      "Void - Art 37 makes Directive Principles irrelevant to a Part III challenge",
+      "Valid - Art 47 being a Directive Principle overrides Part III entirely",
+      "Valid - Art 47 supports it and Art 19(6) permits reasonable restriction",
+      "Void - trade in liquor is a Fundamental Right admitting no restriction"
+     ],
+     "answer": 2,
+     "expl": "Art 47 does not override Part III, but courts use DPSP to judge the reasonableness of a 19(6) restriction. Harmonious construction, not supremacy."
+    },
+    {
+     "q": "Which grouping is correctly matched to the Gandhian bucket?",
+     "options": [
+      "44, 45, 48A, 50",
+      "39A, 43A, 43B",
+      "38, 39, 41, 42",
+      "40, 43, 46, 47, 48"
+     ],
+     "answer": 3,
+     "expl": "Gandhian = panchayats, cottage industry, weaker sections, health and prohibition, agriculture and cattle. The others are Socialist or Liberal."
+    },
+    {
+     "q": "A: The balance between Fundamental Rights and Directive Principles is part of the basic structure. R: Minerva Mills 1980 struck down the widened Art 31C.",
+     "options": [
+      "Both true, R explains A",
+      "Both true, R does not explain A",
+      "A true, R false",
+      "A false, R true"
+     ],
+     "answer": 0,
+     "expl": "Causal and exact. Minerva held the 42nd Amendment's all-DPSP shield destroyed the FR-DPSP balance, which is itself a basic feature."
+    },
+    {
+     "q": "Art 50 is the constitutional root of which practical arrangement?",
+     "options": [
+      "The collegium recommending judges for appointment to the higher courts",
+      "The Advisory Board reviewing cases of preventive detention",
+      "The State Election Commission conducting panchayat and municipal polls",
+      "Judicial Magistrates and Executive Magistrates functioning separately"
+     ],
+     "answer": 3,
+     "expl": "Separation of judiciary from executive. Remand goes to the Judicial Magistrate; preventive and public-order orders come from the Executive Magistrate."
+    },
+    {
+     "q": "S1: Directive Principles were borrowed from Ireland. S2: Art 37 declares them fundamental in the governance of the country. Correct?",
+     "options": [
+      "S1 only",
+      "S2 only",
+      "Both",
+      "Neither"
+     ],
+     "answer": 2,
+     "expl": "Both true. Art 37 does two things at once: it denies enforceability AND declares them fundamental in governance - which is why courts use them to interpret."
+    }
+   ]
+  },
+  {
+   "day": 4,
+   "topic": "Preamble, Citizenship 5-11, Arts 12-13",
+   "lesson": "Preamble: source of authority is 'We, the People'. Sovereign Socialist Secular Democratic Republic; SOCIALIST, SECULAR and INTEGRITY were added by the 42nd 1976 - the ONLY amendment to the Preamble so far. Justice (social/economic/political, Russian Revolution); Liberty (thought, expression, belief, faith, worship, French Revolution); Equality (status and opportunity); Fraternity (dignity of the individual + unity and integrity of the Nation). DATE: 26 November 1949 - the date of ADOPTION, and the date printed IN the Preamble. Commencement was 26 January 1950 and that date is NOT in the Preamble. Berubari 1960: Preamble NOT part. Kesavananda 1973: Preamble IS part, amendable but not so as to destroy basic structure. CITIZENSHIP: Art 5 domicile at commencement + born in India / either parent born in India / ordinarily resident 5 years. Art 6 migrated FROM Pakistan TO India (19 July 1948 cut-off). Art 7 migrated TO Pakistan after 1 March 1947 and RETURNED under a PERMIT for resettlement - overrides 5 and 6. Art 8 person of Indian origin residing OUTSIDE India, by registration with a mission. Art 9 voluntary foreign citizenship ENDS Indian citizenship, so OCI is NOT dual citizenship. Art 10 continuance. Art 11 Parliament's power (Citizenship Act 1955; CAA 2019 - cut-off 31 Dec 2014, six communities, three countries, Sixth Schedule and ILP areas excluded, rules 11 Mar 2024). Art 12 State = Government and Parliament of India, Government and Legislature of each State, all local and other authorities. Zee Telefilms 2005: BCCI is NOT State under Art 12 BUT IS amenable to Art 226 for public functions - both halves matter. Art 13: 13(1) pre-Constitution laws void to the extent of inconsistency (eclipse, severability); 13(2) no law abridging FRs; 13(3) 'law' includes ordinance, order, bye-law, rule, custom and usage; 13(4) inserted by the 24th - an Art 368 amendment is NOT 'law' for Art 13, reversing Golaknath; but Kesavananda moved the check to basic structure.",
+   "shortcuts": "Preamble amended ONCE (42nd). ADOPTED November 1949 - that is the date in the text; COMMENCED January 1950. Berubari NO -> Kesavananda YES. Art 6 one-way IN; Art 7 out-and-back with a PERMIT. Art 9 kills dual citizenship. Art 12 governs Art 32; Art 226 does not need Art 12. 13(4) + 24th = amendments escape Art 13, but not basic structure.",
+   "blueprint": "'Permit' in a citizenship stem -> Art 7, always. Direction of travel decides 6 vs 7. 'Preamble amended more than once' -> FALSE. 'Date in the Preamble is commencement' -> FALSE. 'Not State, so no writ' -> check whether the writ is under 226; if so the answer is wrong.",
+   "quiz": [
+    {
+     "q": "Consider the Preamble: 1-Berubari held it not part of the Constitution. 2-It has been amended more than once. 3-'Socialist', 'Secular' and 'Integrity' came from the 42nd. 4-The date in it is the date of commencement. Which are correct?",
+     "options": [
+      "1, 2 and 3 only",
+      "1, 3 and 4 only",
+      "1 and 3 only",
+      "2, 3 and 4 only"
+     ],
+     "answer": 2,
+     "expl": "Amended exactly once (42nd). The date in the Preamble is 26 Nov 1949, the date of ADOPTION; commencement was 26 Jan 1950 and is not in the text."
+    },
+    {
+     "q": "A person ordinarily resident in India migrated to Pakistan in September 1947 and returned in 1949 under a permit for resettlement. Which Article determines his citizenship at commencement?",
+     "options": [
+      "Art 6",
+      "Art 7",
+      "Art 8",
+      "Art 5"
+     ],
+     "answer": 1,
+     "expl": "Art 7 covers migration to Pakistan after 1 March 1947 followed by return under a PERMIT, and it overrides Arts 5 and 6. Art 6 is one-way into India."
+    },
+    {
+     "q": "S1: The BCCI is not amenable to the writ jurisdiction of a High Court. S2: Zee Telefilms held the BCCI is not 'State' under Art 12. Correct?",
+     "options": [
+      "S1 only",
+      "S2 only",
+      "Both",
+      "Neither"
+     ],
+     "answer": 1,
+     "expl": "S2 true, S1 false. The same judgment held the BCCI IS amenable to Art 226 for its public functions. Art 226 runs against any person or authority."
+    },
+    {
+     "q": "A: A constitutional amendment abridging a Fundamental Right is void under Art 13. R: The 24th Amendment declared that an Art 368 amendment is not 'law' for Art 13.",
+     "options": [
+      "Both true, R explains A",
+      "Both true, R does not explain A",
+      "A true, R false",
+      "A false, R true"
+     ],
+     "answer": 3,
+     "expl": "A false after the 24th and Art 13(4); R true. Such an amendment is still void if it damages the BASIC STRUCTURE - the check shifted, it did not vanish."
+    },
+    {
+     "q": "Which is NOT included in 'law' under Art 13(3)?",
+     "options": [
+      "A notification issued by the executive",
+      "A constitutional amendment under Art 368",
+      "A bye-law made by a municipality",
+      "Custom and usage having the force of law"
+     ],
+     "answer": 1,
+     "expl": "13(4), inserted by the 24th Amendment, expressly takes Art 368 amendments out of 'law'. Custom, bye-laws and notifications are all inside."
+    },
+    {
+     "q": "S1: India has single citizenship. S2: An Overseas Citizen of India holds dual citizenship. Correct?",
+     "options": [
+      "S1 only",
+      "S2 only",
+      "Both",
+      "Neither"
+     ],
+     "answer": 0,
+     "expl": "Art 9 ends Indian citizenship on voluntary acquisition of foreign citizenship. OCI is a registered status with limited rights, not a second citizenship."
+    },
+    {
+     "q": "Match: A-Art 6 B-Art 7 C-Art 8 D-Art 9 with 1-registration by a mission abroad 2-migration from Pakistan to India 3-loss on acquiring foreign citizenship 4-return under a resettlement permit.",
+     "options": [
+      "A2 B4 C3 D1",
+      "A2 B4 C1 D3",
+      "A2 B1 C4 D3",
+      "A4 B2 C1 D3"
+     ],
+     "answer": 1,
+     "expl": "6 in, 7 out-and-back with permit, 8 registration from abroad, 9 loss. Direction of travel is the whole discriminator between 6 and 7."
+    },
+    {
+     "q": "Liberty in the Preamble covers:",
+     "options": [
+      "Speech, assembly, association and movement throughout India",
+      "Thought, expression, belief, faith and worship",
+      "Status, opportunity and the dignity of the individual",
+      "Justice in its social, economic and political dimensions"
+     ],
+     "answer": 1,
+     "expl": "Five-fold liberty. Status and opportunity belong to EQUALITY, not liberty - a common swap between two adjacent Preamble objectives."
+    },
+    {
+     "q": "S1: The CAA 2019 flows from Art 11. S2: Its cut-off date is 31 December 2014. Correct?",
+     "options": [
+      "S1 only",
+      "S2 only",
+      "Both",
+      "Neither"
+     ],
+     "answer": 2,
+     "expl": "Both true. Art 11 gives Parliament plenary power over citizenship; the CAA covers six communities from three countries with a 31 Dec 2014 cut-off."
+    },
+    {
+     "q": "A pre-1950 law inconsistent with a Fundamental Right is:",
+     "options": [
+      "Void from inception for every purpose, both past and future",
+      "Valid until Parliament expressly repeals or amends the provision",
+      "Void to the extent of inconsistency, and may revive if that is removed",
+      "Void only from the date on which a court declares it unconstitutional"
+     ],
+     "answer": 2,
+     "expl": "Art 13(1) plus the doctrines of eclipse and severability. The law is dormant, not dead - it revives if the inconsistency is later removed."
+    }
+   ]
+  },
+  {
+   "day": 5,
+   "topic": "Emergency Provisions 352, 356, 360",
+   "lesson": "352 NATIONAL: war, external aggression or ARMED REBELLION - the 44th 1978 replaced 'internal disturbance'. President proclaims only on the WRITTEN recommendation of the CABINET. Approval by BOTH Houses within ONE MONTH by SPECIAL majority; 6 months at a time, extendable indefinitely. Revocation: by the President anytime; or if ONE-TENTH of Lok Sabha members give notice a special sitting must be held and a SIMPLE majority disapproval ends it. Used three times: 1962, 1971, 1975. 356 PRESIDENT'S RULE: on the Governor's report 'OR OTHERWISE'. Approval by both Houses within TWO MONTHS by SIMPLE majority; 6 months at a time; MAXIMUM THREE YEARS. Extension beyond ONE YEAR needs BOTH a National Emergency in force AND an Election Commission certificate that elections cannot be held. S.R. Bommai 1994: justiciable, FLOOR TEST is the test of majority, the Court may RESTORE a dismissed government, secularism is basic structure. Sarkaria 1988 and Punchhi 2010 recommended last-resort use. 360 FINANCIAL: NEVER invoked; permits reduction of salaries of all public servants including Supreme Court and High Court judges. 358 vs 359 - the key contrast. 358: Art 19 ONLY, AUTOMATIC, but ONLY on war or external aggression. 359: any FR EXCEPT 20 and 21, needs a separate PRESIDENTIAL ORDER, suspends only the right to MOVE COURTS, may be confined to part of India, available on ANY ground including armed rebellion. The 44th fixed ADM Jabalpur 1976; Puttaswamy 2017 expressly overruled it. AP: President's Rule in January 1973 during the Jai Andhra agitation - the same crisis that produced the Six-Point Formula and Art 371D.",
+   "shortcuts": "352 = ONE month, SPECIAL majority. 356 = TWO months, SIMPLE majority. The harder emergency has the shorter clock. 358 = Art 19 only, automatic, EXTERNAL trigger only. 359 = needs an order, never 20 and 21. 356 max 3 years; beyond year 1 needs Emergency PLUS EC certificate. 360 never used. Bommai = floor test. AP 1973 -> 371D.",
+   "blueprint": "'Internal disturbance' as a current 352 ground -> FALSE. 'Art 19 suspends on ANY 352' -> FALSE. '356 extended beyond a year by Parliament alone' -> FALSE, needs Emergency + EC. '356 is a non-justiciable political question' -> FALSE since 1994. 'Financial emergency in 1991' -> FALSE, 360 never used.",
+   "quiz": [
+    {
+     "q": "On a 352 proclamation: 1-Both Houses must approve within one month by special majority. 2-Art 19 is automatically suspended on ANY such proclamation. 3-One-tenth of Lok Sabha members can force a special sitting to disapprove it. 4-Arts 20 and 21 are not suspendable. Correct?",
+     "options": [
+      "1, 3 and 4 only",
+      "1, 2 and 3 only",
+      "2 and 4 only",
+      "1, 2, 3 and 4"
+     ],
+     "answer": 0,
+     "expl": "Statement 2 is the trap. Art 358 operates automatically ONLY on war or external aggression. On an armed-rebellion proclamation Art 19 is not auto-suspended."
+    },
+    {
+     "q": "A: President's Rule was continued beyond one year on a resolution of Parliament alone. R: Extension beyond one year needs a National Emergency in force and an Election Commission certificate.",
+     "options": [
+      "Both true, R explains A",
+      "Both true, R does not explain A",
+      "A true, R false",
+      "A false, R true"
+     ],
+     "answer": 3,
+     "expl": "R exactly right; A false. Parliamentary approval stays NECESSARY but stops being SUFFICIENT after one year. The killer word in A is 'alone'."
+    },
+    {
+     "q": "A Governor reports loss of majority and recommends 356 without any vote in the Assembly. Best statement of the law?",
+     "options": [
+      "Immune from challenge, a proclamation under Art 356 being a political question",
+      "Open to challenge; majority must ordinarily be tested on the floor of the House",
+      "Valid, since Art 356 permits action on the Governor's report or otherwise",
+      "Invalid, since an Election Commission certificate is needed before proclamation"
+     ],
+     "answer": 1,
+     "expl": "Bommai 1994. Option 1 is the pre-1994 position; option 4 transplants the EC certificate, which belongs to extension beyond one year, not to the proclamation."
+    },
+    {
+     "q": "Match: A-Art 352 B-Art 356 C-Art 360 D-Art 359 with 1-never invoked 2-armed rebellion 3-suspension of the right to move courts 4-failure of constitutional machinery.",
+     "options": [
+      "A4 B2 C1 D3",
+      "A2 B4 C1 D3",
+      "A2 B1 C4 D3",
+      "A2 B4 C3 D1"
+     ],
+     "answer": 1,
+     "expl": "352 armed rebellion, 356 constitutional breakdown, 360 never used, 359 suspends the right to move courts (never for Arts 20 and 21)."
+    },
+    {
+     "q": "Which correctly distinguishes Art 358 from Art 359?",
+     "options": [
+      "358 needs a Presidential order; 359 operates automatically on any proclamation",
+      "358 covers all Fundamental Rights; 359 is confined to Art 19 alone",
+      "Both operate automatically, and both may extend to Arts 20 and 21",
+      "358 is automatic and covers Art 19 only; 359 needs an order, never 20 and 21"
+     ],
+     "answer": 3,
+     "expl": "358 - Art 19, automatic, external trigger only, whole country. 359 - any FR except 20 and 21, by order, suspends only the right to move courts, may cover part of India."
+    },
+    {
+     "q": "S1: A financial emergency was declared during the 1991 crisis. S2: Art 360 has never been invoked. Correct?",
+     "options": [
+      "S1 only",
+      "S2 only",
+      "Both",
+      "Neither"
+     ],
+     "answer": 1,
+     "expl": "S1 false. India faced a balance-of-payments crisis in 1991 but never proclaimed Art 360. It remains the only unused emergency provision."
+    },
+    {
+     "q": "Revocation of a 352 proclamation by the Lok Sabha requires:",
+     "options": [
+      "A special majority of both Houses sitting together in joint session",
+      "A resolution of the Rajya Sabha subsequently agreed to by the Lok Sabha",
+      "Notice by one-tenth of its members and disapproval by a simple majority",
+      "The President's satisfaction recorded on the Cabinet's written advice"
+     ],
+     "answer": 2,
+     "expl": "The 44th Amendment's democratic safeguard. Note the asymmetry: APPROVAL needs a special majority, DISAPPROVAL needs only a simple majority."
+    },
+    {
+     "q": "Andhra Pradesh was placed under President's Rule in January 1973 in the context of:",
+     "options": [
+      "The Telangana agitation of 1969, which produced the Gentlemen's Agreement",
+      "The formation of the State in 1956 under the States Reorganisation Act",
+      "The Jai Andhra agitation, which led to the Six-Point Formula and Art 371D",
+      "The bifurcation of 2014 under the Andhra Pradesh Reorganisation Act"
+     ],
+     "answer": 2,
+     "expl": "The 1972-73 Jai Andhra agitation produced President's Rule, then the Six-Point Formula of 1973 and the 32nd Amendment inserting Arts 371D and 371E."
+    },
+    {
+     "q": "S1: Art 33 lets Parliament restrict Fundamental Rights for the armed and police forces. S2: A State legislature may do the same for the State police. Correct?",
+     "options": [
+      "S1 only",
+      "S2 only",
+      "Both",
+      "Neither"
+     ],
+     "answer": 0,
+     "expl": "Art 33 vests the power in PARLIAMENT alone. A State legislature cannot restrict or abrogate FRs for its own force - a favourite institution-swap trap."
+    },
+    {
+     "q": "S1: Bommai held a 356 proclamation justiciable. S2: The Court may restore a dismissed State government. Correct?",
+     "options": [
+      "S1 only",
+      "S2 only",
+      "Both",
+      "Neither"
+     ],
+     "answer": 2,
+     "expl": "Both true. Bommai made the material reviewable, mandated the floor test and held that restoration of a dismissed government is within the Court's power."
+    }
+   ]
+  },
+  {
+   "day": 6,
+   "topic": "Executive: President, Vice-President, Governor",
+   "lesson": "PRESIDENT Arts 52-62. Electoral college (Art 54): ELECTED MPs of both Houses + ELECTED MLAs of States and of DELHI and PUDUCHERRY (70th Amdt). EXCLUDED: nominated members of either House, nominated MLAs, and ALL members of Legislative Councils. Proportional representation, single transferable vote, secret ballot; disputes only to the Supreme Court; a vacancy in the electoral college does not invalidate the election. Age 35, qualified for the Lok Sabha. Oath by the CJI. Removal by IMPEACHMENT (Art 61). Art 74 advice is binding; the 44th allows ONE reconsideration. Art 111: assent, withhold, or return ONCE (not a Money Bill); if re-passed the President MUST assent. No time limit, hence a pocket veto is possible. Art 72 pardon: covers COURT MARTIAL and DEATH SENTENCE. Art 123 ordinance: only when a House is not in session, ceases SIX WEEKS from reassembly; D.C. Wadhwa 1987 - re-promulgation is a fraud on the Constitution; Krishna Kumar Singh 2017 - failure to lay it is an abuse. VICE-PRESIDENT Arts 63-71: elected by BOTH HOUSES ONLY - State legislatures do NOT vote, and NOMINATED members DO vote. Ex officio Chairman of the Rajya Sabha and not a member of it. Removal: RS resolution by a majority of all its members, AGREED TO by the Lok Sabha, 14 days' notice, NO grounds specified. CORRECTION: there is NO 'acting Vice-President'. If the VP's office is vacant the Deputy Chairman discharges the CHAIRMAN's duties. The VP acts as PRESIDENT when the PRESIDENT's office is vacant (Art 65), for a maximum of SIX MONTHS. GOVERNOR Arts 153-167: APPOINTED by the President, holds office during the President's PLEASURE, age 35, qualified for the Assembly. Art 163 gives the Governor DISCRETION - the President has none. Art 161 pardon CANNOT cover a death sentence or a court martial. Art 200 has FOUR options: assent, withhold, return once, or RESERVE for the President - reservation is compulsory where a Bill derogates from the High Court's powers. Art 201 then governs, and the President is not obliged to assent even on a re-passed Bill. CURRENT: TN Governor case April 2025 prescribed timelines and deemed assent; the Presidential Reference opinion of 20 November 2025 held courts CANNOT fix timelines under Arts 200/201 and that DEEMED ASSENT is impermissible, though prolonged inaction remains justiciable. Epuru Sudhakar 2006 (an AP case): a pardon is reviewable for mala fides or non-application of mind. 91st 2003: ministers capped at 15%, floor of 12 in States.",
+   "shortcuts": "Electoral college: NO Council member, NO nominee. VP: both Houses only, and nominees DO vote. Art 72 can pardon death and court martial; Art 161 can do NEITHER. Art 111 has 3 options; Art 200 has FOUR - reservation is the difference. Ordinance dies 6 weeks after reassembly. Wadhwa 1987 re-promulgation = fraud. Governor: appointed, pleasure, DISCRETION. 91st = 15% cap, floor of 12.",
+   "blueprint": "'Nominated members vote for President' -> FALSE. 'MLCs vote' -> FALSE. 'Nominated members vote for VP' -> TRUE. 'Governor pardons a death sentence' -> FALSE. 'Return a second time' -> FALSE. 'Deemed assent' -> FALSE after 20 Nov 2025. 'Acting Vice-President' -> no such office.",
+   "quiz": [
+    {
+     "q": "Presidential election: 1-Nominated MPs participate. 2-Elected members of State Legislative Councils participate. 3-Elected MLAs of Delhi and Puducherry participate. 4-A vacancy in the electoral college is not a ground of challenge. Correct?",
+     "options": [
+      "1, 3 and 4 only",
+      "3 and 4 only",
+      "2, 3 and 4 only",
+      "1 and 2 only"
+     ],
+     "answer": 1,
+     "expl": "No nominated member and NO Council member votes, elected or otherwise. Delhi and Puducherry came in by the 70th Amendment. Note: nominated members DO vote for the VP."
+    },
+    {
+     "q": "S1: The Governor may pardon a person sentenced to death by a court in the State. S2: Art 161 extends to offences against laws on matters within the State's executive power. Correct?",
+     "options": [
+      "S1 only",
+      "S2 only",
+      "Both",
+      "Neither"
+     ],
+     "answer": 1,
+     "expl": "S2 states Art 161's subject-matter scope correctly; S1 is false. Only Art 72 can pardon a death sentence or touch a court martial."
+    },
+    {
+     "q": "A State Assembly re-passes a Bill without amendment after the Governor returned it. The Governor:",
+     "options": [
+      "Must assent without any other option, exactly as the President must under Art 111",
+      "May return the Bill a second time for further reconsideration by the House",
+      "Must reserve the Bill for the President once it has been re-passed by the House",
+      "Shall not withhold assent, though reservation in a fit case is not excluded"
+     ],
+     "answer": 3,
+     "expl": "Art 200 differs structurally from Art 111 because only the Governor has a reservation option. Return is available ONCE; a second return is not open."
+    },
+    {
+     "q": "Order chronologically: 1-Re-promulgation of ordinances held a fraud on the Constitution 2-Council of Ministers capped at 15% 3-Presidential Reference opinion on Arts 200 and 201 4-Pardon held reviewable in an Andhra Pradesh case.",
+     "options": [
+      "1-4-2-3",
+      "4-1-2-3",
+      "1-2-4-3",
+      "2-1-4-3"
+     ],
+     "answer": 2,
+     "expl": "D.C. Wadhwa 1987, 91st Amendment 2003, Epuru Sudhakar 2006, Presidential Reference opinion 20 November 2025."
+    },
+    {
+     "q": "S1: An ordinance ceases to operate six weeks after the reassembly of the legislature. S2: It may be re-promulgated indefinitely without being laid. Correct?",
+     "options": [
+      "S1 only",
+      "S2 only",
+      "Both",
+      "Neither"
+     ],
+     "answer": 0,
+     "expl": "S1 true. S2 false: D.C. Wadhwa 1987 held re-promulgation a fraud on the Constitution, and Krishna Kumar Singh 2017 held failure to lay it an abuse."
+    },
+    {
+     "q": "Which is a discretionary power of the Governor but not of the President?",
+     "options": [
+      "Promulgating an ordinance when the House is not in session",
+      "Reserving a Bill for the consideration of the President",
+      "Granting a pardon for an offence against a law of the State",
+      "Addressing the legislature at the commencement of the first session"
+     ],
+     "answer": 1,
+     "expl": "Reservation under Art 200 has no counterpart in Art 111 - there is no higher authority to reserve to. Art 163 gives the Governor discretion; Art 74 denies it to the President."
+    },
+    {
+     "q": "A: The office of Vice-President falling vacant, the Deputy Chairman discharges the Chairman's functions. R: There is no office of acting Vice-President.",
+     "options": [
+      "Both true, R explains A",
+      "Both true, R does not explain A",
+      "A true, R false",
+      "A false, R true"
+     ],
+     "answer": 0,
+     "expl": "Both true and causal. The VP acts as PRESIDENT under Art 65 when the President's office is vacant, for a maximum of six months - a different situation entirely."
+    },
+    {
+     "q": "The 91st Amendment 2003 did which of the following?",
+     "options": [
+      "Inserted Art 15(5) and excepted minority educational institutions",
+      "Inserted Arts 15(6) and 16(6) providing reservation for weaker sections",
+      "Capped the Council of Ministers at 15% and barred defectors from office",
+      "Added the Tenth Schedule providing disqualification on ground of defection"
+     ],
+     "answer": 2,
+     "expl": "Two limbs, one amendment. 15(5) is the 93rd, EWS is the 103rd, the Tenth Schedule is the 52nd - the standard number-swap set."
+    },
+    {
+     "q": "S1: A Governor holds office during the pleasure of the President. S2: A Governor may be removed by impeachment. Correct?",
+     "options": [
+      "S1 only",
+      "S2 only",
+      "Both",
+      "Neither"
+     ],
+     "answer": 0,
+     "expl": "S2 false. Impeachment under Art 61 applies only to the PRESIDENT. A Governor is recalled by the President - no grounds and no procedure are prescribed."
+    },
+    {
+     "q": "On the Governor's delay in assenting to State Bills, the position after 20 November 2025 is that:",
+     "options": [
+      "Courts cannot fix timelines and deemed assent is impermissible",
+      "Assent is automatic after three months",
+      "The Governor may withhold assent indefinitely with no remedy",
+      "Courts may fix timelines and deem assent"
+     ],
+     "answer": 0,
+     "expl": "The Presidential Reference opinion set aside the April 2025 timelines and deemed assent, but held prolonged unexplained inaction still justiciable - the remedy being a direction to decide."
+    }
+   ]
+  }
+ ]
+}

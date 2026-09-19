@@ -1,0 +1,152 @@
+[
+ {
+  "q": "A law fixing minimum wages is challenged as violating equality and freedom, the State pleading the directive shield. Which statement is correct?",
+  "options": [
+   "The plea fails: the shield covers two specified directives, and wages is not one",
+   "The plea succeeds: the shield covers any law advancing a Directive Principle",
+   "The plea fails: the shield operates only against the freedom guarantee",
+   "The plea succeeds: wage legislation falls within the resource directives"
+  ],
+  "answer": 0,
+  "expl": "The shield is confined to two clauses, and a minimum wage law does not fall within them.",
+  "why": "The fourth option attempts to force the law into the covered directives, which is the more sophisticated route to the wrong answer.",
+  "round": "A",
+  "trapcat": "G",
+  "trapnote": "Do not merely ask whether the shield exists. Ask whether this law falls inside its two clauses."
+ },
+ {
+  "q": "An owner argues that the 2024 ruling permits acquisition of any flat without compensation, as all private property is now a community resource. Which statement is correct?",
+  "options": [
+   "The argument is correct, the ruling having widened the directive to all property",
+   "The argument fails because the directive was deleted by the same ruling",
+   "The argument is correct only where the State declares a public purpose",
+   "The argument inverts the ruling, which held that not all private resources qualify"
+  ],
+  "answer": 3,
+  "expl": "The ruling narrowed the directive; ownership alone is not the test.",
+  "why": "The fourth option concedes the premise and adds a condition, which makes it the most plausible of the wrong answers.",
+  "round": "A",
+  "trapcat": "E",
+  "trapnote": "When a ruling narrows a provision, expect the exam to test it through an option that widens it."
+ },
+ {
+  "q": "Consider a claim that a citizen may be prosecuted directly for breach of a Fundamental Duty: 1-No writ lies to enforce a duty. 2-Prosecution requires an enabling statute. 3-A duty may inform the interpretation of a restriction on a right. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 3,
+  "expl": "All three are correct; duties operate through statute and interpretation, not directly.",
+  "why": "The third statement is the one candidates doubt: duties have been used to sustain the reasonableness of restrictions.",
+  "round": "A",
+  "trapcat": "D",
+  "trapnote": "Duties have indirect legal force. Their absence of direct enforceability does not make them decorative."
+ },
+ {
+  "q": "An accused from a Scheduled Area is produced without counsel. Which combination states the correct obligations?",
+  "options": [
+   "Arrange free aid only if he applies in writing to the legal services authority",
+   "Inform him of the right, arrange free aid and record the fact in the case diary",
+   "Arrange free aid only after the charge has been framed by the trial court",
+   "Inform him of the right, the arrangement of aid resting with the trial court alone"
+  ],
+  "answer": 1,
+  "expl": "The obligation arises at the earliest stage and is not contingent on a written application.",
+  "why": "Each wrong option defers or conditions the obligation, which is how the safeguard is most often defeated in practice.",
+  "round": "A",
+  "trapcat": "H",
+  "trapnote": "Liberty safeguards attach at the earliest stage. Options that postpone them are usually wrong."
+ },
+ {
+  "q": "A State pleads that a directive obliges it to provide housing and that no budgetary provision is therefore needed. Which statement is correct?",
+  "options": [
+   "A directive guides policy and is implemented through law and budget, not by itself",
+   "A directive creates an immediate obligation enforceable without any legislation",
+   "A directive has no role once the State has framed any housing scheme at all",
+   "A directive operates only where the State expressly adopts it by resolution"
+  ],
+  "answer": 0,
+  "expl": "Directives set goals; implementation requires legislative and financial action.",
+  "why": "The second option overstates directives into self-executing obligations, the opposite error to treating them as irrelevant.",
+  "round": "A",
+  "trapcat": "D",
+  "trapnote": "A directive is a goal, not a self-executing command. Implementation runs through law and budget."
+ },
+ {
+  "q": "Consider: 1-The legal aid directive is in the socialist group. 2-The monuments directive is in the Gandhian group. 3-The weaker sections directive is in the Gandhian group. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 2,
+  "expl": "Monuments belongs to the liberal group; legal aid is socialist and weaker sections Gandhian.",
+  "why": "Two Gandhian-sounding items are placed together so that a candidate grouping by intuition rather than by list will take both.",
+  "round": "A",
+  "trapcat": "F",
+  "trapnote": "Group assignment questions reward learning the three lists as blocks rather than item by item."
+ },
+ {
+  "q": "A magistrate declines to provide counsel to an indigent accused to save public expenditure. Which statement is correct?",
+  "options": [
+   "The trial stands, legal aid being a directive and therefore unenforceable",
+   "The trial stands if the accused did not ask for counsel at the first hearing",
+   "The trial is vitiated, free legal aid being a component of a fair procedure",
+   "The trial is vitiated only where the offence carries a sentence of death"
+  ],
+  "answer": 2,
+  "expl": "Denial of legal aid to an indigent accused vitiates the trial as an unfair procedure.",
+  "why": "The fourth option confines a general safeguard to capital cases, which is a common and plausible narrowing.",
+  "round": "A",
+  "trapcat": "E",
+  "trapnote": "Safeguards attaching to fair procedure are not confined to the gravest offences."
+ },
+ {
+  "q": "Consider the claim that Directive Principles authorise the police to prohibit any assembly said to disturb welfare. Which statement is correct?",
+  "options": [
+   "The claim succeeds: directives are fundamental in the governance of the country",
+   "The claim fails: a restriction still needs a law and a listed ground",
+   "The claim succeeds where the State records that welfare is advanced",
+   "The claim fails: directives have no relevance to restrictions on rights"
+  ],
+  "answer": 1,
+  "expl": "A directive cannot supply a ground of restriction that the Constitution does not list.",
+  "why": "The fourth option reaches the right result by denying directives any relevance, which is itself wrong.",
+  "round": "A",
+  "trapcat": "G",
+  "trapnote": "Right answer, wrong reason is still wrong. Directives are relevant, but cannot create new grounds."
+ },
+ {
+  "q": "A scheme provides free education to children below six and none for those aged six to fourteen. Which statement is correct?",
+  "options": [
+   "The six to fourteen group holds a fundamental right, which the omission breaches",
+   "Both groups hold directives only, and the scheme is a matter of policy",
+   "Both groups hold fundamental rights, and the scheme breaches both of them",
+   "The below-six group holds a fundamental right, which the scheme satisfies"
+  ],
+  "answer": 0,
+  "expl": "Six to fourteen is a right; below six is a directive on early childhood care.",
+  "why": "The fourth option reverses the two categories, which is the error the 2002 amendment most commonly produces.",
+  "round": "T",
+  "trapcat": "I",
+  "trapnote": "One amendment split this subject by age. Six to fourteen is the right; below six remained a directive."
+ },
+ {
+  "q": "A case involves child labour, unequal wages, denial of legal aid and acquisition of homes. Which statement correctly describes the applicable framework?",
+  "options": [
+   "Four directives, each enforceable only through legislation enacted for the purpose",
+   "Four fundamental rights, each directly enforceable by petition to a High Court",
+   "Two rights and two directives, the directives being wholly outside judicial notice",
+   "A right, a directive, a directive read into a right, and a directive with a narrow shield"
+  ],
+  "answer": 3,
+  "expl": "Child labour is a right; wages a directive; legal aid a directive read into a right; acquisition engages the shielded directives.",
+  "why": "Synthesis questions of this kind punish uniform characterisation. The four limbs sit in three different legal categories.",
+  "round": "T",
+  "trapcat": "G",
+  "trapnote": "In a four-limb scenario the limbs rarely share one category. Classify each separately."
+ }
+]

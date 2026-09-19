@@ -1,0 +1,724 @@
+{
+ "days": [
+  {
+   "day": 7,
+   "topic": "Parliament and State Legislature",
+   "lesson": "Parliament = PRESIDENT + Lok Sabha + Rajya Sabha; the President is part of Parliament though a member of neither House. CORRECTION: LS maximum today is 550 (530 States + 20 UTs). The figure 552 was the PRE-2020 ceiling, which included 2 nominated Anglo-Indians; that nomination ENDED on 25 January 2020 under the 104th Amendment. Actual strength 543. RS maximum 250 (238 States/UTs + 12 nominated); actual 245. LS term 5 years, extendable by ONE YEAR AT A TIME during a National Emergency and not beyond SIX MONTHS after it ends. RS is never dissolved; one-third retire every SECOND year, so a member serves 6 years. Art 85: not more than SIX MONTHS between the last sitting of one session and the first of the next - there is NO constitutional minimum number of sittings and no three-session rule; three sessions is convention. MONEY BILL: introduced only in the LS on the President's recommendation; the SPEAKER'S certificate is final under 110(3); RS cannot reject or amend and must return within 14 DAYS, recommendations non-binding; NO joint sitting. Aadhaar 2018 upheld certification but Rojer Mathew 2019 referred the question to a larger bench - still pending. JOINT SITTING Art 108: summoned by the President, presided over by the SPEAKER, simple majority; never for a Money Bill or a Constitutional Amendment Bill. Held three times: 1961 Dowry Prohibition, 1978 Banking Service Commission Repeal, 2002 POTA. COMMITTEES: PAC 22 (15 LS + 7 RS), examines CAG reports, Opposition chair by convention since 1967; ESTIMATES 30, ALL from the LS; CoPU 22 (15+7). PRIVILEGES 105/194: freedom of speech in the House, immunity for anything said or any vote given, immunity for authorised publication. Never codified. Freedom from arrest is in CIVIL cases only - 40 days before and after a session - NOT in criminal cases or preventive detention. STATE: Assembly max 500, min 60; Council not more than one-third of the Assembly and not fewer than 40. Art 169: Parliament creates or abolishes a Council by LAW, after the Assembly passes a special-majority resolution; such a law is NOT an Art 368 amendment. AP: Council abolished 1985, revived 2007; the Assembly resolved to abolish it again on 27 January 2020 but PARLIAMENT NEVER ACTED, so the Council CONTINUES. AP Council 58 members; AP Assembly 175 seats.",
+   "shortcuts": "LS 530+20 = 550 max, 543 actual. RS 238+12 = 250 max, 245 actual. 552 is DEAD since 2020. PAC 22, CoPU 22, ESTIMATES 30 and LS-only. Money Bill: Speaker certifies, RS 14 days, no joint sitting. Joint sitting held 3 times: 1961, 1978, 2002. Arrest immunity = CIVIL only. Art 169: Assembly proposes, PARLIAMENT disposes. AP Council survives a 2020 abolition resolution.",
+   "blueprint": "'552' with the words 'at present' -> FALSE, it is 550. 'RS can reject a Money Bill' -> FALSE. 'Joint sitting for a Money Bill' -> FALSE. 'MP immune from criminal arrest' -> FALSE. 'Assembly resolution abolishes the Council' -> FALSE, Parliament's law does. Match questions need not map one-to-one.",
+   "quiz": [
+    {
+     "q": "On the Lok Sabha: 1-Its maximum strength at present is 552. 2-Not more than 20 members represent the Union Territories. 3-Its term may be extended by one year at a time during a National Emergency. 4-Any extension ends within six months of the Emergency. Correct?",
+     "options": [
+      "1, 2 and 3 only",
+      "2, 3 and 4 only",
+      "1, 3 and 4 only",
+      "1, 2, 3 and 4"
+     ],
+     "answer": 1,
+     "expl": "552 was the pre-2020 ceiling including 2 Anglo-Indians. The 104th Amendment ended that on 25 Jan 2020, so the maximum is 530+20 = 550."
+    },
+    {
+     "q": "Match: A-Public Accounts Committee B-Estimates Committee C-Committee on Public Undertakings with 1-30 members, all Lok Sabha 2-22 members, 15 LS and 7 RS 3-22 members, 15 LS and 7 RS.",
+     "options": [
+      "A1 B2 C3",
+      "A2 B3 C1",
+      "A3 B1 C2",
+      "A2 B1 C3"
+     ],
+     "answer": 3,
+     "expl": "PAC and CoPU share the same 22 (15+7) composition; Estimates is the odd one out at 30 and Lok Sabha only. List II entries need not be used once each."
+    },
+    {
+     "q": "An Assembly passes a special-majority resolution to abolish its Legislative Council. Three years later the Council still functions because:",
+     "options": [
+      "The resolution required ratification by at least half the State legislatures",
+      "The resolution required the Governor's prior recommendation for introduction",
+      "A Council once created under Art 169 cannot afterwards be abolished at all",
+      "Abolition takes effect only on a law of Parliament, which has not been made"
+     ],
+     "answer": 3,
+     "expl": "Art 169 makes the Assembly resolution a PRECONDITION, not the operative act. This is exactly AP's position since 27 January 2020."
+    },
+    {
+     "q": "S1: An MP is immune from arrest in a criminal case while the House is in session. S2: Freedom from arrest under Art 105 covers civil cases only. Correct?",
+     "options": [
+      "S1 only",
+      "S2 only",
+      "Both",
+      "Neither"
+     ],
+     "answer": 1,
+     "expl": "S1 false. The immunity is civil only, 40 days before and after a session. A criminal arrest is lawful, but the presiding officer must be informed."
+    },
+    {
+     "q": "A: The Rajya Sabha cannot be dissolved. R: The Constitution requires it to be dissolved every six years and reconstituted afresh.",
+     "options": [
+      "Both true, R explains A",
+      "Both true, R does not explain A",
+      "A true, R false",
+      "A false, R true"
+     ],
+     "answer": 2,
+     "expl": "A is true: it is a permanent body. R is false: one-third retire every second year and it is never dissolved.",
+     "why": "The Reason contradicts the Assertion outright, which is easy to miss when the Assertion is familiar and correct.",
+     "trapnote": "Assertion-Reason: a true Assertion can sit beside a false Reason. Test each statement on its own before testing the link."
+    },
+    {
+     "q": "Which is correct about a joint sitting under Art 108?",
+     "options": [
+      "It is presided over by the Vice-President as Chairman of the Rajya Sabha",
+      "It may be summoned to resolve a deadlock over a Money Bill",
+      "It is presided over by the Speaker and has been held three times",
+      "It requires a special majority of the total membership of both Houses"
+     ],
+     "answer": 2,
+     "expl": "Speaker presides, simple majority of those present, never for a Money Bill or Constitutional Amendment Bill. Held in 1961, 1978 and 2002."
+    },
+    {
+     "q": "S1: Art 85 requires at least three sessions of Parliament in a year. S2: Not more than six months may elapse between two sessions. Correct?",
+     "options": [
+      "S1 only",
+      "S2 only",
+      "Both",
+      "Neither"
+     ],
+     "answer": 1,
+     "expl": "S1 false. Art 85 prescribes only the six-month gap; there is no minimum number of sittings or sessions. Three sessions a year is convention, not law."
+    },
+    {
+     "q": "The Rajya Sabha returns a Money Bill with recommendations after 20 days. The consequence is:",
+     "options": [
+      "The Bill lapses and must be introduced afresh in the Lok Sabha",
+      "A joint sitting must be summoned by the President to resolve the deadlock",
+      "The Lok Sabha is bound to accept the recommendations so made",
+      "The Bill is deemed passed by both Houses at the end of 14 days"
+     ],
+     "answer": 3,
+     "expl": "If the RS does not return it within 14 days it is deemed passed by both Houses. Even a timely return carries only non-binding recommendations."
+    },
+    {
+     "q": "S1: A State Legislative Council may not exceed one-third of the Assembly's strength. S2: The AP Legislative Assembly has 175 seats. Correct?",
+     "options": [
+      "S1 only",
+      "S2 only",
+      "Both",
+      "Neither"
+     ],
+     "answer": 2,
+     "expl": "Both true. The Council also cannot be fewer than 40 members. AP's Council has 58 seats against an Assembly of 175."
+    },
+    {
+     "q": "A: The Speaker's certificate that a Bill is a Money Bill is declared final by the Constitution. R: The correctness of that approach was referred to a larger bench in 2019.",
+     "options": [
+      "Both true, R explains A",
+      "Both true, R does not explain A",
+      "A true, R false",
+      "A false, R true"
+     ],
+     "answer": 1,
+     "expl": "Both true, but R does not explain A. Art 110(3) declares finality; Rojer Mathew 2019 questioned it and the reference is still pending."
+    }
+   ]
+  },
+  {
+   "day": 8,
+   "topic": "Judiciary, CAG and PIL",
+   "lesson": "India has a SINGLE INTEGRATED judiciary applying both central and State law - unlike the US dual system. SC Arts 124-147: strength 34 = CJI + 33. SC judges retire at 65, HC judges at 62. Collegium is judge-made: Second Judges 1993 and Third Judges 1998 read 'consultation' as CONCURRENCE. The 99th Amendment and the NJAC Act were STRUCK DOWN in 2015. Removal 124(4): proved misbehaviour or incapacity; motion signed by 100 LS or 50 RS members; inquiry under the Judges (Inquiry) Act 1968; special majority in BOTH Houses in the SAME session. NO judge has ever been removed - V. Ramaswami's motion failed in the LS in 1993. ART 32 vs ART 226 - the core contrast. 32 is ITSELF a Fundamental Right, covers FRs ONLY, and the SC cannot refuse relief where an FR is violated. 226 is NOT an FR, covers FRs AND other legal rights, runs against ANY person or authority, is discretionary, and extends to wherever the cause of action arises (226(2)). So 226 is WIDER in scope while 32 is STRONGER as a guarantee. FIVE WRITS: Habeas Corpus (lies against the State AND private persons - the only one that does); Mandamus (not against a private person, the President or a Governor, nor for a discretionary or contractual duty); Prohibition (PREVENTIVE, to a lower court while proceedings are pending); Certiorari (CURATIVE, quashes an order already made, and after A.K. Kraipak also lies against administrative authorities); Quo Warranto (public office of a substantive character, and ANY person may apply). Other jurisdiction: 131 original federal disputes, 136 SLP, 143 advisory (opinion NOT binding). CAG Arts 148-151: 6 years OR age 65, whichever is earlier; removed in the same manner and on the same grounds as an SC judge; reports go to the President and then the PAC, and to the Governor for the State; NOT eligible for any further office under the Union or a State. PAIR IT: the Finance Commission (Art 280) is CONSTITUTIONAL; NITI Aayog is EXECUTIVE, created by a Cabinet resolution in 2015. PIL: Hussainara Khatoon, S.P. Gupta 1981 (relaxed locus, epistolary jurisdiction), Bandhua Mukti Morcha. AP High Court established at AMARAVATI on 1 January 2019 under s.30 of the AP Reorganisation Act 2014.",
+   "shortcuts": "226 is WIDER; 32 is STRONGER. 32 is itself an FR, 226 is not. HABEAS is the only writ against a private person. PROHIBITION stops before; CERTIORARI cancels after. QUO WARRANTO - anyone may apply. SC 34 judges, retire 65; HC retire 62. CAG 6 years or 65, no further office. Finance Commission constitutional (280); NITI executive. AP HC Amaravati, 1 Jan 2019.",
+   "blueprint": "'32 is wider than 226' -> FALSE. 'Writs run only against the State' -> FALSE for habeas corpus. 'A judge has been removed' -> FALSE, none ever. 'NITI recommends tax devolution' -> FALSE, that is the Finance Commission. A&R with two independence safeguards -> ask whether one CAUSES the other, not whether they share a theme.",
+   "quiz": [
+    {
+     "q": "Consider: 1-Art 226 is wider in scope than Art 32. 2-The right to move the SC under Art 32 is itself a Fundamental Right. 3-A High Court may refuse relief under Art 226 in its discretion. 4-Habeas corpus may issue against a private individual. Correct?",
+     "options": [
+      "1, 2 and 3 only",
+      "2, 3 and 4 only",
+      "1, 2, 3 and 4",
+      "1 and 4 only"
+     ],
+     "answer": 2,
+     "expl": "All four. The counter-intuitive pair is that the HC has WIDER subject-matter jurisdiction while the SC offers the STRONGER guarantee."
+    },
+    {
+     "q": "A: The CAG is not eligible for any further office under the Union or a State after demitting office. R: The CAG is removable only in the manner applicable to a Supreme Court judge.",
+     "options": [
+      "Both true, R explains A",
+      "Both true, R does not explain A",
+      "A true, R false",
+      "A false, R true"
+     ],
+     "answer": 1,
+     "expl": "Both true but parallel, not causal. R protects independence DURING tenure; A protects it AFTER. The manner of removal does not cause the post-retirement bar."
+    },
+    {
+     "q": "Match: A-Mandamus B-Certiorari C-Quo Warranto D-Prohibition with 1-quashes an order already made 2-commands performance of a legal duty 3-questions title to a public office 4-restrains a lower court from exceeding jurisdiction.",
+     "options": [
+      "A4 B1 C3 D2",
+      "A1 B2 C4 D3",
+      "A2 B4 C3 D1",
+      "A2 B1 C3 D4"
+     ],
+     "answer": 3,
+     "expl": "The hard pair is Certiorari vs Prohibition: prohibition is PREVENTIVE while proceedings are pending, certiorari is CURATIVE after the order exists."
+    },
+    {
+     "q": "A relative alleges a person was picked up by police and appears in no station register. The appropriate remedy is:",
+     "options": [
+      "A civil suit for damages only",
+      "A writ of habeas corpus under Art 226 or Art 32",
+      "A representation to the State Human Rights Commission alone",
+      "A writ of mandamus against the State"
+     ],
+     "answer": 1,
+     "expl": "Habeas corpus is the remedy for illegal detention and survives every emergency, since Arts 20 and 21 are non-suspendable after the 44th Amendment."
+    },
+    {
+     "q": "S1: NJAC replaced the collegium system. S2: The 99th Amendment was struck down in 2015. Correct?",
+     "options": [
+      "S1 only",
+      "S2 only",
+      "Both",
+      "Neither"
+     ],
+     "answer": 1,
+     "expl": "S1 false. The NJAC never became operational; the Court struck down both the 99th Amendment and the NJAC Act for violating judicial independence."
+    },
+    {
+     "q": "Which body is NOT a constitutional body?",
+     "options": [
+      "Finance Commission",
+      "Election Commission of India",
+      "Comptroller and Auditor General",
+      "NITI Aayog"
+     ],
+     "answer": 3,
+     "expl": "NITI Aayog rests on a 2015 Cabinet resolution - no Article, no statute - exactly as the Planning Commission did in 1950. The rest have Articles."
+    },
+    {
+     "q": "S1: No judge of the Supreme Court or a High Court has ever been removed under Art 124(4). S2: The ground is proved misbehaviour or incapacity. Correct?",
+     "options": [
+      "S1 only",
+      "S2 only",
+      "Both",
+      "Neither"
+     ],
+     "answer": 2,
+     "expl": "Both true. The closest instance was Justice V. Ramaswami in 1993, where the motion failed in the Lok Sabha for want of the required majority."
+    },
+    {
+     "q": "The advisory opinion of the Supreme Court under Art 143 is:",
+     "options": [
+      "Not binding, and the Court may decline to answer",
+      "Binding on the President",
+      "Binding on all courts as a precedent under Art 141",
+      "Available only in federal disputes"
+     ],
+     "answer": 0,
+     "expl": "An Art 143 opinion is advisory; the Court may also decline to answer a reference. Art 131 is the one confined to federal disputes."
+    },
+    {
+     "q": "A: A writ of quo warranto may be sought by a person with no personal grievance. R: Quo warranto questions the title of a person to a public office of a substantive character.",
+     "options": [
+      "Both true, R explains A",
+      "Both true, R does not explain A",
+      "A true, R false",
+      "A false, R true"
+     ],
+     "answer": 0,
+     "expl": "Causal. Because the writ protects a PUBLIC interest in lawful office-holding rather than a private right, standing is open to any member of the public."
+    },
+    {
+     "q": "S1: The AP High Court was established at Amaravati on 1 January 2019. S2: Before that, AP and Telangana shared a common High Court. Correct?",
+     "options": [
+      "S1 only",
+      "S2 only",
+      "Both",
+      "Neither"
+     ],
+     "answer": 2,
+     "expl": "Both true. The AP High Court was constituted by Presidential order under s.30 of the AP Reorganisation Act 2014; the common seat had been Hyderabad."
+    }
+   ]
+  },
+  {
+   "day": 9,
+   "topic": "Local Bodies 73rd/74th, PESA and AP",
+   "lesson": "73rd Amendment (rural): Part IX Arts 243-243-O, ELEVENTH Schedule, 29 subjects; passed 1992, IN FORCE 24 APRIL 1993 (National Panchayati Raj Day). 74th (urban): Part IXA Arts 243P-243ZG, TWELFTH Schedule, 18 subjects; IN FORCE 1 JUNE 1993. COMPULSORY vs VOLUNTARY - the distinction the topic turns on. COMPULSORY: three tiers (a State with population up to 20 lakhs may skip the INTERMEDIATE tier); direct elections at every level; 5-year term and fresh polls within 6 months of dissolution; SC/ST reservation in proportion to population; not less than ONE-THIRD of seats and chairperson posts for women; State Election Commission (243K); State Finance Commission every 5 years (243-I); minimum age 21 to contest. VOLUNTARY: backward-class reservation, and DEVOLUTION of the 29/18 subjects. So 'the 73rd TRANSFERRED 29 subjects to panchayats' is FALSE - the Schedules are a MENU; the State legislature 'may by law endow'. URBAN bodies 243Q: Nagar Panchayat for a transitional area, Municipal Council for a smaller urban area, Municipal Corporation for a larger urban area. Wards Committees compulsory where population is 3 lakhs or more (243S); DPC 243ZD with at least four-fifths elected; MPC 243ZE for 10 lakh-plus areas. 243-O and 243ZG bar courts: an election may be questioned ONLY by an ELECTION PETITION as State law provides - mirroring Art 329. GAP FILLED - 243M: Part IX does NOT apply to Fifth Schedule SCHEDULED AREAS and Sixth Schedule tribal areas, to Nagaland, Meghalaya and Mizoram, to the hill areas of Manipur with a district council, or to the Darjeeling Gorkha Hill Council area. 243M also lets PARLIAMENT extend Part IX there - which it did through PESA, the Provisions of the Panchayats (Extension to the Scheduled Areas) Act 1996. Under PESA the GRAM SABHA approves plans, must be CONSULTED before land acquisition and resettlement, prevents and restores alienation of tribal land, owns minor forest produce, controls money lending to STs, minor water bodies and minor minerals, and may regulate intoxicants. AP: Scheduled Areas exist in Alluri Sitharama Raju, Parvathipuram Manyam, Eluru, Palnadu, Srikakulam and neighbouring tracts. AP Panchayat Raj Act 1994. Tiers: Gram Panchayat - MANDAL Parishad - Zilla Parishad. Sarpanch, MPTC and ZPTC are DIRECTLY elected; MPP and ZP Chairperson are INDIRECTLY elected. AP gives 50% reservation to women by STATE law, above the one-third constitutional floor. AP has 26 districts since 4 April 2022.",
+   "shortcuts": "Passed 1992, in force 1993 - 73rd 24 April, 74th 1 June. 11th Schedule 29 rural, 12th Schedule 18 urban. The Schedules are a MENU, not a mandate. Women one-third is the floor; AP gives 50% by State law. EXCLUDED by 243M, RESTORED by PESA 1996. SEC (243K) runs local polls, NOT the ECI. Disputes by ELECTION PETITION (243-O). AP: Sarpanch/MPTC/ZPTC direct; MPP/ZP Chair indirect. 26 districts since 4 April 2022.",
+   "blueprint": "'Transferred 29 subjects' -> FALSE, verb-level trap; the State 'may by law endow'. 'ECI conducts panchayat polls' -> FALSE, it is the SEC. 'Writ against a panchayat election' -> FALSE, election petition only. 'Right to contest is a Fundamental Right' -> FALSE, it is statutory. Scheduled Area in the stem -> think PESA, not Part IX.",
+   "quiz": [
+    {
+     "q": "On the 73rd Amendment: 1-It transferred the 29 subjects of the Eleventh Schedule to panchayats. 2-One-third reservation for women is compulsory. 3-Backward-class reservation is left to the State. 4-A State up to 20 lakhs may skip the intermediate tier. Correct?",
+     "options": [
+      "1, 2 and 4 only",
+      "2, 3 and 4 only",
+      "1, 2 and 3 only",
+      "1, 2, 3 and 4"
+     ],
+     "answer": 1,
+     "expl": "Statement 1 is a verb-level trap. The Amendment did not transfer anything; the State legislature 'may by law endow'. The Schedule is a menu, which is why devolution varies by State."
+    },
+    {
+     "q": "A: Part IX was extended to the Scheduled Areas by a separate Act of Parliament. R: Art 243M provides that Part IX shall not apply to Fifth Schedule Scheduled Areas.",
+     "options": [
+      "Both true, R explains A",
+      "Both true, R does not explain A",
+      "A true, R false",
+      "A false, R true"
+     ],
+     "answer": 0,
+     "expl": "Genuinely causal. Because 243M excluded them, Parliament enacted PESA 1996 - and 243M itself authorises that extension. Excluded by 243M, restored by PESA."
+    },
+    {
+     "q": "A defeated Gram Panchayat candidate in AP files a writ in the High Court alleging counting irregularities. Correct position?",
+     "options": [
+      "Maintainable if the State Election Commission declines to act",
+      "The dispute lies before the Election Commission of India",
+      "Maintainable - the right to contest is a Fundamental Right",
+      "Not maintainable - an election may be questioned only by an election petition"
+     ],
+     "answer": 3,
+     "expl": "Art 243-O bars courts, mirroring Art 329. The right to contest is STATUTORY, not fundamental. Local polls are run by the SEC under 243K, not the ECI."
+    },
+    {
+     "q": "Match: A-Nagar Panchayat B-Municipal Council C-Municipal Corporation D-Metropolitan Planning Committee with 1-larger urban area 2-transitional area 3-population of 10 lakhs or more 4-smaller urban area.",
+     "options": [
+      "A4 B2 C1 D3",
+      "A1 B4 C2 D3",
+      "A2 B4 C1 D3",
+      "A2 B1 C4 D3"
+     ],
+     "answer": 2,
+     "expl": "243Q classifies by size: transitional, smaller urban, larger urban. The MPC under 243ZE serves metropolitan areas of 10 lakhs or more."
+    },
+    {
+     "q": "S1: Panchayat elections are conducted by the Election Commission of India. S2: A State Finance Commission is constituted every five years. Correct?",
+     "options": [
+      "S1 only",
+      "S2 only",
+      "Both",
+      "Neither"
+     ],
+     "answer": 1,
+     "expl": "S1 false - Art 243K creates a separate STATE Election Commission for panchayat and municipal polls. Art 243-I requires an SFC every five years."
+    },
+    {
+     "q": "Under PESA 1996, which is NOT a power of the Gram Sabha in a Scheduled Area?",
+     "options": [
+      "Ownership of minor forest produce within the village area",
+      "Recommendation for the grant of leases for minor minerals",
+      "Trying criminal offences committed within the village",
+      "Mandatory consultation before the acquisition of land"
+     ],
+     "answer": 2,
+     "expl": "PESA confers governance and resource powers, not criminal jurisdiction. Trial of offences remains with the ordinary courts under the BNSS."
+    },
+    {
+     "q": "S1: The 73rd Amendment was passed in 1992. S2: It came into force on 24 April 1993. Correct?",
+     "options": [
+      "S1 only",
+      "S2 only",
+      "Both",
+      "Neither"
+     ],
+     "answer": 2,
+     "expl": "Both true - a date pair examiners exploit. The 74th came into force on 1 June 1993. 24 April is observed as National Panchayati Raj Day."
+    },
+    {
+     "q": "In Andhra Pradesh, which are directly elected?",
+     "options": [
+      "Sarpanch, MPTC and ZPTC",
+      "Zilla Parishad Chairperson only",
+      "Mandal Parishad President only",
+      "All office-bearers at every level"
+     ],
+     "answer": 0,
+     "expl": "Sarpanch, MPTC and ZPTC are directly elected as territorial members. The MPP and ZP Chairperson are indirectly elected from among them."
+    },
+    {
+     "q": "A: Andhra Pradesh provides 50% reservation for women in panchayat raj bodies. R: The Constitution fixes 50% as the reservation for women in panchayats.",
+     "options": [
+      "Both true, R explains A",
+      "Both true, R does not explain A",
+      "A true, R false",
+      "A false, R true"
+     ],
+     "answer": 2,
+     "expl": "A is true. R is false: the Constitution prescribes not less than one-third; the higher figure comes from State law.",
+     "why": "The Reason converts a State enhancement into a constitutional requirement, which is the commonest way this fact is misstated.",
+     "trapnote": "Assertion-Reason: a true Assertion can sit beside a false Reason. Test each statement on its own before testing the link."
+    },
+    {
+     "q": "Art 243M excludes Part IX from applying to:",
+     "options": [
+      "All Union Territories and the National Capital Territory of Delhi",
+      "Every State whose population does not exceed twenty lakhs",
+      "Scheduled Areas, tribal areas, Nagaland, Meghalaya and Mizoram",
+      "Municipal areas, which are governed by Part IXA instead"
+     ],
+     "answer": 2,
+     "expl": "Also the hill areas of Manipur with a district council and the Darjeeling Gorkha Hill Council area. The 20-lakh rule is a different provision - it only waives the intermediate tier."
+    }
+   ]
+  },
+  {
+   "day": 10,
+   "topic": "Amendment Spine and Art 368",
+   "lesson": "THREE amendment procedures, and candidates learn numbers without learning the classes. CLASS 1 SIMPLE MAJORITY, outside Art 368 and NOT counted as constitutional amendments: creation or abolition of a Legislative Council (169), new States and boundary or name changes (2-4), citizenship, salaries, quorum, the Fifth and Sixth Schedules. CLASS 2 SPECIAL MAJORITY under 368: majority of TOTAL membership of each House AND two-thirds present and voting. CLASS 3 SPECIAL MAJORITY + RATIFICATION by at least HALF the State legislatures (by simple majority, with NO time limit): election of the President, extent of Union and State executive power, the SC and HCs, distribution of legislative powers, any List in the Seventh Schedule, representation of States in Parliament, and Art 368 itself. Assent by the President is MANDATORY (24th Amendment). There is NO joint sitting on an Amendment Bill. SPINE: 1st 1951 Art 15(4) + Ninth Schedule. 7th 1956 States reorganisation. 24th 1971 amendments are not 'law' under Art 13. 32nd 1973 ARTS 371D AND 371E FOR ANDHRA PRADESH. 42nd 1976 mini-Constitution: SSI in the Preamble, 39A/43A/48A, Art 51A (10 duties), wide 31C, 6-year terms. 44th 1978: armed rebellion, Arts 20-21 non-suspendable, property to 300A, LS term back to 5, Cabinet's written advice. 52nd 1985 Tenth Schedule anti-defection. 61st 1989 voting age 18. 73rd/74th 1992. 86th 2002 21A + 45 + 51A(k). 91st 2003 15% cap. 93rd 2005 15(5). 97th 2011 43B + 19(1)(c). 99th 2014 NJAC, struck down 2015. 101st 2016 GST - 246A, 269A, 279A. ADDED: 102nd 2018 NCBC constitutional, Art 338B and Art 342A. 103rd 2019 EWS 15(6)/16(6). 104th 2020 SC/ST extension + Anglo-Indian nomination ended. 105th 2021 RESTORED the States' power to identify SEBCs after the 2021 Maratha judgment read the 102nd as removing it. 106th 2023 NARI SHAKTI VANDAN ADHINIYAM - one-third reservation for women in the LOK SABHA and STATE ASSEMBLIES via Arts 330A, 332A, 334A; it applies WITHIN SC/ST seats; it does NOT cover the Rajya Sabha or Legislative Councils; and it operates ONLY after the next Census and the delimitation that follows, for 15 years. So it is ENACTED but NOT YET OPERATIVE. NINTH SCHEDULE: created by the 1st Amendment with Art 31B. I.R. Coelho 2007 - anything inserted AFTER 24 April 1973 is open to basic-structure challenge.",
+   "shortcuts": "Three classes: simple (169, 2-4, 5th/6th Schedules), special, special + half the States. Assent mandatory; no joint sitting. 32nd = AP's 371D. 42nd expands, 44th corrects. 102nd -> Maratha judgment -> 105th. 106th = one-third women, directly elected Houses ONLY, after Census AND delimitation - not yet operative. Ninth Schedule is not absolute after I.R. Coelho 2007. Swap traps: 91/103, 42/44, 86/93, 101/103.",
+   "blueprint": "'106th is already in force' -> FALSE. '106th covers the Rajya Sabha' -> FALSE. 'Ninth Schedule is beyond review' -> FALSE post-2007. 'Art 169 law is a constitutional amendment' -> FALSE. Two amendments a few years apart on the same Article -> look for the JUDGMENT between them.",
+   "quiz": [
+    {
+     "q": "On the 106th Amendment 2023: 1-It reserves one-third of seats in the Lok Sabha and State Assemblies for women. 2-It extends to the Rajya Sabha and Legislative Councils. 3-It came into operation on receiving assent. 4-It applies within SC/ST reserved seats. Correct?",
+     "options": [
+      "1, 2 and 4 only",
+      "1 and 4 only",
+      "1, 3 and 4 only",
+      "1, 2, 3 and 4"
+     ],
+     "answer": 1,
+     "expl": "It covers only DIRECTLY elected Houses, so the RS and Councils are out; and it operates only after the next Census and the delimitation that follows."
+    },
+    {
+     "q": "A: Parliament enacted the 105th Amendment in 2021. R: The 102nd Amendment had been read as depriving States of the power to identify socially and educationally backward classes.",
+     "options": [
+      "Both true, R explains A",
+      "Both true, R does not explain A",
+      "A true, R false",
+      "A false, R true"
+     ],
+     "answer": 0,
+     "expl": "Causal and documented. The 102nd inserted Art 342A; the 2021 Maratha judgment read it as vesting identification in the Centre; the 105th restored the States' power."
+    },
+    {
+     "q": "Order chronologically: 1-Special provisions for Andhra Pradesh inserted 2-Right to property ceased to be a Fundamental Right 3-Anti-defection introduced 4-Panchayati Raj given constitutional status.",
+     "options": [
+      "1-2-3-4",
+      "1-3-2-4",
+      "2-1-3-4",
+      "3-1-2-4"
+     ],
+     "answer": 0,
+     "expl": "32nd 1973 (Arts 371D/371E), 44th 1978, 52nd 1985, 73rd 1992. The stem hides Art 371D behind a description - a candidate who has never met it cannot date it."
+    },
+    {
+     "q": "Which requires ratification by at least half the State legislatures?",
+     "options": [
+      "Amending the Fundamental Rights contained in Part III",
+      "Abolishing a State Legislative Council under Art 169",
+      "Creating a new State by altering the boundaries of existing States",
+      "Amending the representation of States in Parliament"
+     ],
+     "answer": 3,
+     "expl": "Representation of States in Parliament is a federal provision needing ratification. FRs need only a special majority; new States and Council abolition go by simple majority."
+    },
+    {
+     "q": "S1: A law under Art 169 abolishing a Legislative Council is a constitutional amendment under Art 368. S2: It is passed like an ordinary law. Correct?",
+     "options": [
+      "S1 only",
+      "S2 only",
+      "Both",
+      "Neither"
+     ],
+     "answer": 1,
+     "expl": "Art 169 expressly says such a law shall not be deemed an amendment under Art 368. Arts 2-4 on new States work the same way."
+    },
+    {
+     "q": "A: A law placed in the Ninth Schedule is immune from judicial review. R: Art 31B protects laws in the Ninth Schedule from challenge on Part III grounds.",
+     "options": [
+      "Both true, R explains A",
+      "Both true, R does not explain A",
+      "A true, R false",
+      "A false, R true"
+     ],
+     "answer": 3,
+     "expl": "R true, A false. I.R. Coelho 2007 held that anything inserted after 24 April 1973 - the date of Kesavananda - is open to basic-structure challenge."
+    },
+    {
+     "q": "Which pair is correctly matched?",
+     "options": [
+      "91st - reservation for the Economically Weaker Sections",
+      "102nd - constitutional status given to the NCBC",
+      "101st - reservation of one-third of seats for women",
+      "93rd - disqualification on the ground of defection"
+     ],
+     "answer": 1,
+     "expl": "102nd 2018 inserted Art 338B. EWS is the 103rd, anti-defection the 52nd, GST the 101st, women's reservation the 106th - the classic number-swap set."
+    },
+    {
+     "q": "S1: The President must assent to a Constitutional Amendment Bill. S2: A joint sitting may be summoned to resolve a deadlock on such a Bill. Correct?",
+     "options": [
+      "S1 only",
+      "S2 only",
+      "Both",
+      "Neither"
+     ],
+     "answer": 0,
+     "expl": "The 24th Amendment made assent mandatory. There is NO joint sitting for a Constitutional Amendment Bill or for a Money Bill."
+    },
+    {
+     "q": "The 104th Amendment 2020 did which of the following?",
+     "options": [
+      "Capped the Council of Ministers and barred defectors from ministership",
+      "Gave constitutional status to the NCBC and inserted Art 342A",
+      "Introduced the goods and services tax and created the GST Council",
+      "Extended SC/ST reservation in legislatures and ended Anglo-Indian seats"
+     ],
+     "answer": 3,
+     "expl": "Two limbs in one amendment - and the reason the Lok Sabha's maximum strength fell from 552 to 550 with effect from 25 January 2020."
+    },
+    {
+     "q": "S1: The 42nd Amendment extended the Lok Sabha term to six years. S2: The 44th Amendment restored it to five. Correct?",
+     "options": [
+      "S1 only",
+      "S2 only",
+      "Both",
+      "Neither"
+     ],
+     "answer": 2,
+     "expl": "Both true. The 42nd expands and the 44th corrects - the cleanest way to keep the two most-confused amendments apart."
+    }
+   ]
+  },
+  {
+   "day": 11,
+   "topic": "FR 23-35: Exploitation, Religion, Culture, Remedies",
+   "lesson": "Art 23: traffic in human beings, begar and other similar forms of forced labour prohibited; contravention is an OFFENCE. Available against the STATE AND PRIVATE PERSONS (horizontal) and protects ALL PERSONS, not only citizens. 23(2) permits COMPULSORY SERVICE for public purposes, provided there is no discrimination on grounds ONLY of religion, race, caste or class. PUDR 1982 (Asiad Workers): paying LESS THAN THE MINIMUM WAGE is forced labour - so the trigger is WAGES AND DEBT, not chains. Statutes: Bonded Labour System (Abolition) Act 1976, Immoral Traffic (Prevention) Act 1956, BNS trafficking. Art 24: no child below 14 in a FACTORY, MINE or other HAZARDOUS employment - it does NOT ban all child labour. The Child Labour (Prohibition and Regulation) Amendment Act 2016 goes further: it bars ALL employment below 14 except family enterprises outside school hours and the entertainment industry, and creates 'adolescents' 14-18 barred from hazardous work. M.C. Mehta 1996 (Sivakasi) on rehabilitation. Art 25: conscience, profess, practise, propagate - ALL PERSONS - subject to public order, morality, health and other Part III provisions. 25(2)(a) regulation of secular activity; 25(2)(b) social welfare and reform + throwing open Hindu institutions, with Sikhs, Jains and Buddhists included. Essential religious practices doctrine. SABARIMALA 2018 (4:1) is UNSETTLED - the review was referred to a NINE-JUDGE bench in November 2019 and is PENDING. Art 26: a DENOMINATION may manage its own affairs IN MATTERS OF RELIGION, but administers property SUBJECT TO LAW. Art 27: no TAX whose proceeds are appropriated for promoting a particular religion - a FEE for services is permitted. Art 28 has FOUR situations: wholly State-maintained = COMPLETELY PROHIBITED; State-administered but established under a trust requiring it = PERMITTED with NO consent needed; recognised = consent; aided = consent. Art 29: 29(1) protects any SECTION OF CITIZENS with a distinct language, script or culture - not only minorities; 29(2) no denial of admission to a State-maintained or aided institution on grounds only of religion, race, caste or language, and it protects ANY citizen. Art 30: minorities may ESTABLISH AND ADMINISTER - both limbs needed. T.M.A. Pai 2002: the unit is the STATE, not the country. 30(1A) compensation. Art 15(5) expressly EXCEPTS minority institutions. Art 32 is itself an FR; 32(4) no suspension except as the Constitution provides, i.e. Art 359, and NEVER Arts 20-21 after the 44th. Art 33: PARLIAMENT alone may restrict FRs for the armed forces, forces charged with maintaining PUBLIC ORDER, and intelligence organisations - the police officer's own Article. Art 34 martial law indemnity. Art 35: PARLIAMENT ALONE makes laws prescribing PUNISHMENT for Part III offences, which is why the PCR Act and the Bonded Labour Act are CENTRAL statutes.",
+   "shortcuts": "23 and 24 bind PRIVATE hands and protect ALL PERSONS. PUDR: sub-minimum wage = forced labour. 24 covers factory/mine/hazardous; the 2016 Act goes wider. 27: TAX barred, FEE allowed. 28 has FOUR situations - only the TRUST-established one needs no consent. 30 needs BOTH establish and administer. 33 = the police officer's Article. 35 = Parliament alone prescribes punishment for Part III offences. Sabarimala is PENDING.",
+   "blueprint": "'Art 23 protects citizens only' -> FALSE. 'Art 24 bans all child labour' -> FALSE under the Constitution, TRUE under the 2016 Act - read which one. 'Art 28 bars instruction everywhere' -> FALSE, four situations. 'State law punishing untouchability' -> FALSE, Art 35 gives it to Parliament. 'Sabarimala is settled' -> FALSE, pending before nine judges.",
+   "quiz": [
+    {
+     "q": "On Art 23: 1-It is available against private individuals as well as the State. 2-It protects citizens only. 3-The State may impose compulsory service for public purposes. 4-Sub-minimum wage has been held to be forced labour. Correct?",
+     "options": [
+      "1 and 3 only",
+      "2, 3 and 4 only",
+      "1, 3 and 4 only",
+      "1, 2 and 3 only"
+     ],
+     "answer": 2,
+     "expl": "Art 23 says nothing about citizenship and protects all persons - which matters in trafficking cases involving foreign nationals. PUDR 1982 supplies statement 4."
+    },
+    {
+     "q": "Match Art 28: A-wholly State-maintained B-State-administered under a trust requiring instruction C-recognised by the State D-aided by the State with 1-consent needed 2-completely prohibited 3-permitted, no consent needed 4-consent needed.",
+     "options": [
+      "A2 B3 C1 D4",
+      "A2 B4 C3 D1",
+      "A3 B2 C1 D4",
+      "A2 B1 C3 D4"
+     ],
+     "answer": 0,
+     "expl": "Four situations, not two. The trust-established institution is the ONLY one where instruction is permitted without consent - the exception to the exception."
+    },
+    {
+     "q": "A State law prescribes imprisonment for practising untouchability within that State. Correct position?",
+     "options": [
+      "Valid - Art 17 permits any legislature to punish it",
+      "Open to challenge - Art 35 vests that power exclusively in Parliament",
+      "Invalid - untouchability can only be dealt with by courts",
+      "Valid - public order and police are State subjects"
+     ],
+     "answer": 1,
+     "expl": "Art 35 is a specific carve-out that overrides the general distribution of powers. That is why the PCR Act 1955 and the Bonded Labour Act 1976 are central statutes."
+    },
+    {
+     "q": "S1: Art 24 bans employment of children below 14 in all occupations. S2: The 2016 amendment to the child labour law bars all employment below 14 with narrow exceptions. Correct?",
+     "options": [
+      "S1 only",
+      "S2 only",
+      "Both",
+      "Neither"
+     ],
+     "answer": 1,
+     "expl": "Art 24 covers only factory, mine and other hazardous employment. The 2016 statute goes WIDER than the Constitution - read which instrument the stem asks about."
+    },
+    {
+     "q": "A: A fee levied on pilgrims to meet the cost of facilities at a temple is not barred by Article 27. R: Article 27 bars every compulsory levy connected with a religious institution.",
+     "options": [
+      "Both true, R explains A",
+      "Both true, R does not explain A",
+      "A true, R false",
+      "A false, R true"
+     ],
+     "answer": 2,
+     "expl": "A is true: a fee for services is permissible. R is false: the bar is on a tax for the promotion of religion.",
+     "why": "The Reason states a wider bar than the provision contains, and that wider bar would make the Assertion wrong.",
+     "trapnote": "Assertion-Reason: a true Assertion can sit beside a false Reason. Test each statement on its own before testing the link."
+    },
+    {
+     "q": "S1: Sabarimala 2018 is settled law. S2: The review was referred to a nine-judge bench in 2019 and is pending. Correct?",
+     "options": [
+      "S1 only",
+      "S2 only",
+      "Both",
+      "Neither"
+     ],
+     "answer": 1,
+     "expl": "The 2018 judgment (4:1) went into review and the questions were referred to nine judges in November 2019. Treat the position as unresolved."
+    },
+    {
+     "q": "Which is a right of minorities under Art 30 but not under Art 29?",
+     "options": [
+      "Not to be denied admission to a State-aided institution",
+      "To conserve a distinct language or script",
+      "To establish and administer educational institutions",
+      "To profess and practise religion"
+     ],
+     "answer": 2,
+     "expl": "Art 30 gives the right to ESTABLISH AND ADMINISTER, both limbs needed. Art 29(1) protects any section of citizens - it is not confined to minorities."
+    },
+    {
+     "q": "An SI finds labourers at a brick kiln working off advances, some apparently under 14. Which frame applies?",
+     "options": [
+      "Art 21 alone, no other Fundamental Right being engaged on these facts",
+      "Art 19(1)(g), the dispute concerning freedom of trade and occupation",
+      "Art 23 with the Bonded Labour Act, and Art 24 with the 2016 child labour Act",
+      "No Fundamental Right at all, since Arts 23 and 24 bind only the State"
+     ],
+     "answer": 2,
+     "expl": "Arts 23 and 24 bind private persons directly. Under PUDR the offence does not require proof of confinement - sub-minimum wage suffices."
+    },
+    {
+     "q": "Art 33 empowers which authority to restrict Fundamental Rights for the police?",
+     "options": [
+      "The Director General of Police",
+      "Parliament alone",
+      "The Governor",
+      "The State legislature"
+     ],
+     "answer": 1,
+     "expl": "Parliament alone, and it covers forces charged with maintaining public order and intelligence organisations too. This is the constitutional basis of service restrictions on police personnel."
+    },
+    {
+     "q": "S1: Art 32 may be suspended during an emergency. S2: Arts 20 and 21 cannot be suspended. Correct?",
+     "options": [
+      "S1 only",
+      "S2 only",
+      "Both",
+      "Neither"
+     ],
+     "answer": 2,
+     "expl": "Both true. 32(4) allows suspension as the Constitution provides, i.e. under Art 359 - but after the 44th Amendment Arts 20 and 21 are always outside it."
+    }
+   ]
+  },
+  {
+   "day": 12,
+   "topic": "Number Sheet, Method and Trap Taxonomy",
+   "lesson": "SEVEN-STEP METHOD for an unseen question. 1 RIGHTS-HOLDER: person or citizen? 14, 20, 21, 22, 23, 24, 25, 27, 28 = all persons; 15, 16, 19, 29, 30 = citizens. A foreigner or company in the stem kills every citizen-only option. 2 ABSOLUTE WORDS: always, never, all, only, any, automatically, immediately - usually planted. Genuine absolutes: Art 17, and Arts 20-21 non-suspendability. 3 TENSE: has the position CHANGED? LS 552 -> 550 (2020); 50% ceiling after Janhit Abhiyan 2022; 31C after Property Owners Assn 2024; Governor's assent after 20 Nov 2025; 106th not yet operative; the 44th's 2-month detention rule never notified. 4 ENACTED vs OPERATIVE - two live examples sit in this syllabus. 5 NAME THE INSTITUTION: ECI or SEC? Finance Commission or NITI? Parliament or State legislature? Judicial or Executive Magistrate? President or Governor? 6 ASSERTION-REASON: ask whether R CAUSES A, not whether both are true and share a theme. Two true facts with no causal link give answer B. 7 CHRONOLOGY: anchor on two certain dates. Anchors - 1950 commencement, 1973 Kesavananda and Art 371D, 1976 42nd, 1978 44th, 1992 Mandal and 73rd/74th, 1994 Bommai, 2002 86th, 2016 GST, 2019 EWS, 2020 104th, 2023 106th, 2024 the new criminal codes in force. SIX DISTRACTOR TYPES: number swap; institution swap; stage transplant (a real requirement moved to the wrong step); period transplant (right for a past era); absolute word; cause-effect reversal. NUMBER SPINE: 12 State, 13 void laws, 14-18 equality, 19-22 freedom, 23-24 exploitation, 25-28 religion, 29-30 culture, 32-35 remedies, 36-51 DPSP, 51A duties, 52-62 President, 63-71 VP, 72 pardon, 74 advice, 85 sessions, 108 joint sitting, 109-110 Money Bill, 111 assent, 123 ordinance, 124-147 SC, 131 original, 136 SLP, 143 advisory, 148-151 CAG, 153-167 Governor, 161 pardon, 169 Council, 200-201 assent, 213 ordinance, 214-231 HC, 226 wider writ, 243-243O local, 246A GST power, 279A GST Council, 280 Finance Commission, 312 AIS, 324 ECI, 338B NCBC, 352/356/360, 358/359, 361, 368, 371D ANDHRA PRADESH.",
+   "shortcuts": "Read in this order: rights-holder, absolute word, date. Then name the institution. A&R: does R CAUSE A? If they merely share a theme, answer B. Six traps: number swap, institution swap, stage transplant, period transplant, absolute word, cause-effect reversal. Enacted is not operative - 106th Amendment and the 44th's 2-month rule both prove it.",
+   "blueprint": "Sunday drill: 35 statement + 10 match + 5 A&R in 60 minutes. Mark each miss with a trap code - N number swap, I institution swap, S stage transplant, P period transplant, A absolute word, C cause-effect reversal. Revise the code that repeats, not the topic.",
+   "quiz": [
+    {
+     "q": "S1: Art 15 has seven grounds. S2: Art 16(2) has five grounds. Correct?",
+     "options": [
+      "S1 only",
+      "S2 only",
+      "Both",
+      "Neither"
+     ],
+     "answer": 3,
+     "expl": "Both false and deliberately reversed. Art 15 has FIVE (RRCSP); Art 16(2) has SEVEN, adding descent and residence. A pure number-swap trap."
+    },
+    {
+     "q": "Which statement reflects the CURRENT position?",
+     "options": [
+      "The Lok Sabha's maximum strength is 552",
+      "Deemed assent applies to a Governor's delay",
+      "Reservation can never exceed 50%",
+      "The 106th Amendment is not yet operative"
+     ],
+     "answer": 3,
+     "expl": "550 since 2020; the 50% ceiling is not basic structure after Janhit Abhiyan 2022; deemed assent was held impermissible on 20 Nov 2025."
+    },
+    {
+     "q": "A: NITI Aayog's recommendations on the devolution of central taxes are not binding. R: NITI Aayog was created by a Cabinet resolution and is not a constitutional body.",
+     "options": [
+      "Both true, R explains A",
+      "Both true, R does not explain A",
+      "A true, R false",
+      "A false, R true"
+     ],
+     "answer": 3,
+     "expl": "R true, A FALSE - because NITI Aayog has no role in tax devolution at all. That is the Finance Commission's function under Art 280. Check the premise before the conclusion."
+    },
+    {
+     "q": "Match: A-Art 243K B-Art 324 C-Art 280 D-Art 279A with 1-GST Council 2-State Election Commission 3-Finance Commission 4-Election Commission of India.",
+     "options": [
+      "A2 B4 C3 D1",
+      "A4 B2 C3 D1",
+      "A3 B4 C2 D1",
+      "A2 B4 C1 D3"
+     ],
+     "answer": 0,
+     "expl": "Institution-swap drill. 243K is the SEC for local polls; 324 is the ECI; 280 is the Finance Commission; 279A is the GST Council."
+    },
+    {
+     "q": "Which is a genuine absolute rule with no exception?",
+     "options": [
+      "Art 17 abolition of untouchability",
+      "Art 19 freedom of speech",
+      "Art 14 permits no classification",
+      "Art 21 right to life is never restricted"
+     ],
+     "answer": 0,
+     "expl": "Art 17 admits no reasonable restriction and no exception. Art 19 has eight heads; Art 21 allows deprivation by fair procedure; Art 14 permits reasonable classification."
+    },
+    {
+     "q": "Order chronologically: 1-Bommai 2-Kesavananda 3-Puttaswamy 4-Maneka Gandhi.",
+     "options": [
+      "2-4-3-1",
+      "2-4-1-3",
+      "2-1-4-3",
+      "4-2-1-3"
+     ],
+     "answer": 1,
+     "expl": "Kesavananda 1973, Maneka 1978, Bommai 1994, Puttaswamy 2017. Puttaswamy is also the case that expressly overruled ADM Jabalpur 1976."
+    },
+    {
+     "q": "S1: Art 226 is wider in scope than Art 32. S2: The CAG holds office for six years or until the age of 65. Correct?",
+     "options": [
+      "S1 only",
+      "S2 only",
+      "Both",
+      "Neither"
+     ],
+     "answer": 2,
+     "expl": "Both true. 226 covers FRs and other legal rights and runs against any person; 32 is narrower in scope but is itself a Fundamental Right."
+    },
+    {
+     "q": "'The Election Commission must certify that elections cannot be held' is a requirement at which stage of Art 356?",
+     "options": [
+      "For extension beyond one year",
+      "At the time of the proclamation",
+      "For revocation",
+      "For parliamentary approval within two months"
+     ],
+     "answer": 0,
+     "expl": "A stage-transplant trap. The EC certificate plus a National Emergency in force are needed only to extend beyond ONE YEAR, up to the three-year maximum."
+    },
+    {
+     "q": "Which emergency provision has never been invoked?",
+     "options": [
+      "Art 352",
+      "Art 356",
+      "Art 360",
+      "All three have been used"
+     ],
+     "answer": 2,
+     "expl": "Art 360 financial emergency has never been proclaimed, including in the 1991 balance-of-payments crisis. 352 was used three times and 356 over a hundred."
+    },
+    {
+     "q": "S1: Art 371D was inserted by the 32nd Amendment 1973. S2: It continues to apply to Andhra Pradesh after the 2014 bifurcation. Correct?",
+     "options": [
+      "S1 only",
+      "S2 only",
+      "Both",
+      "Neither"
+     ],
+     "answer": 2,
+     "expl": "Both true. 371D arose from the Six-Point Formula after the Jai Andhra agitation and survived bifurcation, applying to AP and Telangana alike."
+    }
+   ]
+  }
+ ]
+}

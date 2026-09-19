@@ -1,0 +1,152 @@
+[
+ {
+  "q": "Consider: 1-The quota clause is textually a reservation provision. 2-It is read as a facet of equality, not a derogation. 3-Its beneficiaries are backward classes inadequately represented in services. 4-It gives every member of such a class an enforceable right. Correct set?",
+  "options": [
+   "1, 2 and 3",
+   "1, 2 and 4",
+   "2, 3 and 4",
+   "1, 3 and 4"
+  ],
+  "answer": 0,
+  "expl": "Text, doctrine and class are all bounded; no individual enforceable right arises.",
+  "why": "Every option offers three statements, so counting will not help. The clause is enabling: it permits the State to provide reservation and does not vest an individual with a claim to it. Statements one to three are each exact.",
+  "round": "A",
+  "trapcat": "J",
+  "trapnote": "Enabling provisions confer no individual right. 'Exception' language and 'universal right' language both fail."
+ },
+ {
+  "q": "Which statement best reflects the 2024 nine-judge interpretation of the resource-ownership directive?",
+  "options": [
+   "Every privately owned resource qualifies once the State declares a public purpose",
+   "The directive now operates only where the State already owns the resource in question",
+   "The directive was confined to natural resources, excluding all manufactured assets",
+   "Not every privately owned resource qualifies; the form of ownership is not the test"
+  ],
+  "answer": 3,
+  "expl": "The Court rejected the broad reading: private ownership alone does not make a resource communal.",
+  "why": "The earlier expansive line would have brought all private property within the directive. The bench rejected it, treating the character of the resource rather than the fact of private ownership as decisive.",
+  "round": "A",
+  "trapcat": "E",
+  "trapnote": "Saying the directive was 'narrowed' is too vague to answer with. Test the specific private-property holding."
+ },
+ {
+  "q": "A State provides 62% total reservation across backward classes, with no EWS component and no extraordinary local conditions pleaded. What is the outcome?",
+  "options": [
+   "Valid: the ceiling was held in 2022 not to form part of the basic structure",
+   "Valid: adequate backwardness data displaces the ceiling absent a specific challenge",
+   "Fails: the ceiling binds the backward-class compartment absent extraordinary conditions",
+   "Fails: any reservation above one-half is void irrespective of the compartment involved"
+  ],
+  "answer": 2,
+  "expl": "The ceiling governs the backward-class compartment; only extraordinary conditions excuse a breach.",
+  "why": "The first option quotes a genuine 2022 holding and applies it to the wrong compartment: that ruling concerned a separately created economic quota. The fourth overstates the rule by ignoring the compartment altogether.",
+  "round": "A",
+  "trapcat": "D",
+  "trapnote": "A real holding transplanted to the wrong compartment is the hardest distractor in this topic."
+ },
+ {
+  "q": "Evaluate: 1-Hotel denial routes to the access limb with no funding condition. 2-Well denial routes to that same limb unconditionally. 3-Aided-school admission denial routes to admission-equality. 4-Bias in a private dwelling routes to the access limb. Correct set?",
+  "options": [
+   "1, 2 and 3",
+   "1 and 3",
+   "2 and 4",
+   "1, 3 and 4"
+  ],
+  "answer": 1,
+  "expl": "Wells need State maintenance and public dedication; a private dwelling is outside both limbs.",
+  "why": "Each fact-pattern has its own limb and its own conditions. The hotel limb carries no funding requirement; the water-sources limb carries two; a private dwelling appears in neither and is reached, if at all, by penal law.",
+  "round": "A",
+  "trapcat": "J",
+  "trapnote": "Do not treat the access guarantee as one undifferentiated rule. It has two limbs on different terms."
+ },
+ {
+  "q": "A High Court passes an administrative order adversely affecting its staff, and separately a judicial order is alleged to be unfair. By what routes may each be challenged?",
+  "options": [
+   "The administrative order by writ; the judicial order through appeal or review",
+   "Both by writ, the judiciary being State in every capacity under the definition",
+   "The administrative order through appeal; the judicial order by writ for breach of rights",
+   "Both through appeal, writs not lying against any court or tribunal whatever"
+  ],
+  "answer": 0,
+  "expl": "Capacity decides amenability: administrative and rule-making, yes; adjudication, no.",
+  "why": "Treating the judiciary as State without the capacity split is a half-truth that produces a wrong answer. Judicial orders are corrected within the hierarchy, not by collateral writ challenge as rights violations.",
+  "round": "A",
+  "trapcat": "B",
+  "trapnote": "The question is never simply whether courts are State, but in which capacity they acted."
+ },
+ {
+  "q": "Match A-arbitrariness as the enemy of equality, B-fair procedure, C-the quota method, D-the rights-welfare balance with P-1974 officer case, Q-1978 passport case, R-1992 Mandal case, S-1980 shield case. Code?",
+  "options": [
+   "A-Q  B-P  C-S  D-R",
+   "A-S  B-Q  C-R  D-P",
+   "A-P  B-R  C-Q  D-S",
+   "A-P  B-Q  C-R  D-S"
+  ],
+  "answer": 3,
+  "expl": "Each doctrine is fixed to its year and its facts; the swaps test paired memory.",
+  "why": "Store doctrine, year and facts as a single unit: the unexplained transfer, the impounded passport, the Mandal quotas, the cut-down shield. Recalling any one element should retrieve the other two.",
+  "round": "A",
+  "trapcat": "F",
+  "trapnote": "Learn doctrine plus year plus facts together. Isolated doctrine names are exactly what swapped options exploit."
+ },
+ {
+  "q": "A citizen accepts a foreign honour styled as a knighthood, and a non-citizen holding an office of profit accepts one with clearance. What is the position of each?",
+  "options": [
+   "The citizen may accept with consent; the office-holder is barred outright",
+   "Both are barred, the prohibition extending to every person within the territory",
+   "The citizen is barred outright; the office-holder may accept with consent",
+   "Both may accept with consent, the consent requirement applying to them uniformly"
+  ],
+  "answer": 2,
+  "expl": "The citizen bar is absolute; the consent route exists for non-citizen office-holders.",
+  "why": "Most material compresses these into one rule and produces the wrong answer. They are separate clauses addressing separate classes of person, and the award-versus-title distinction is a further, independent axis.",
+  "round": "A",
+  "trapcat": "C",
+  "trapnote": "Two clauses, two classes of person. Consent is available to one of them only."
+ },
+ {
+  "q": "Which mechanism temporarily suspends the citizen's right to move the courts for specified rights, as distinct from office-holder immunity, forces modification and the welfare-law shield?",
+  "options": [
+   "Immunity of specified office-holders from court process during their term",
+   "Suspension of the right to move courts for specified rights during an Emergency",
+   "Protection of certain welfare laws from equality and freedom challenges",
+   "Modification of the application of rights to members of the armed forces"
+  ],
+  "answer": 1,
+  "expl": "Suspension of the remedy differs from immunity, from modification and from a substantive shield.",
+  "why": "All four name real mechanisms, so recognition is useless. Ask what each one DOES: one suspends a remedy, one protects a person, one adjusts application to a class, one immunises a category of law.",
+  "round": "T",
+  "trapcat": "I",
+  "trapnote": "When every option is a real doctrine, classify by function rather than by family resemblance."
+ },
+ {
+  "q": "Three claims: 1-Awards for excellence and titles are legally identical. 2-A citizen may accept a foreign title with consent. 3-Awards for excellence may not be used as a prefix or suffix. Correct set?",
+  "options": [
+   "3 only",
+   "1 and 3",
+   "2 and 3",
+   "1 and 2"
+  ],
+  "answer": 0,
+  "expl": "Awards and titles are different species; the citizen bar admits no consent; the prefix rule holds.",
+  "why": "Three statements and three independent doctrines, each of which must be tested separately. Awards recognise achievement while titles confer rank, which is why the award scheme survives the prohibition at all.",
+  "round": "T",
+  "trapcat": "J",
+  "trapnote": "Test each statement against its own doctrine. Shared subject-matter does not mean a shared rule."
+ },
+ {
+  "q": "A public authority refuses a foreign national entry to a State-funded community hall on caste grounds, pleading a classification permitted by law but recording no basis for it. Which combination resolves the matter?",
+  "options": [
+   "The citizen-only access clause governs, and the classification survives unchallenged",
+   "Person-based equality and the access clause both apply, and the classification survives",
+   "Neither equality guarantee applies; the employment clause alone governs the refusal",
+   "Person-based equality governs, the citizen-only access clause fails, the classification fails"
+  ],
+  "answer": 3,
+  "expl": "Three doctrines converge: the challenger is a person, the access clause is citizens-only, and no basis was recorded.",
+  "why": "Synthesis questions punish single-doctrine answers. The nationality of the challenger disposes of the access clause; the absence of any recorded basis disposes of the classification defence independently of the ground relied on.",
+  "round": "T",
+  "trapcat": "G",
+  "trapnote": "Check rights-holder, ground and reasoning as three separate gates. Failing any one is enough."
+ }
+]

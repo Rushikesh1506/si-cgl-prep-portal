@@ -1,0 +1,302 @@
+[
+ {
+  "q": "A foreign trader alleges a municipal body denied him a licence granted to locals in identical positions. The body replies that equality rights under Articles 15 and 16 belong to citizens alone. Which guarantee most directly supports his challenge?",
+  "options": [
+   "Non-discrimination among citizens",
+   "Equal protection to any person against State action",
+   "No remedy exists for non-citizens",
+   "Equality in public employment"
+  ],
+  "answer": 1,
+  "expl": "Art 14 says person, binds State action.",
+  "why": "Article 14 guarantees equality before law and equal protection to any person, so a foreigner can invoke it against State action. Articles 15 and 16 deliberately say citizen, creating the distinction the authority is misusing.",
+  "trapnote": "Kill any option claiming citizen-only bars all remedy; check person-vs-citizen first.",
+  "round": "F",
+  "trapcat": "I"
+ },
+ {
+  "q": "A dhaba open to travellers turns away a family, stating caste as the reason. Which provision is most directly implicated?",
+  "options": [
+   "Equality in public employment",
+   "Equality before law against the owner",
+   "Ban on state titles",
+   "Access to listed public places"
+  ],
+  "answer": 3,
+  "expl": "Listed-access clause binds private parties, no funding needed.",
+  "why": "Eating houses fall in the listed-access clause, which operates against private parties and needs no State funding. Whether a criminal statute adds liability is a separate facts-based question.",
+  "trapnote": "Art 14 binds the State, not the dhaba owner; never auto-jump from Constitution to a specific criminal Act.",
+  "round": "F",
+  "trapcat": "H"
+ },
+ {
+  "q": "A pond maintained from the panchayat fund is closed to Dalit households. Which provision is violated?",
+  "options": [
+   "No clause: ponds are private",
+   "The listed-access clause for State-maintained water sources",
+   "The anti-title clause",
+   "The public-employment clause"
+  ],
+  "answer": 1,
+  "expl": "State-maintained + public use: both conditions met.",
+  "why": "Wells, tanks and bathing ghats maintained wholly or partly by the State and dedicated to public use fall squarely here; both the funding and public-use conditions are satisfied on these facts.",
+  "trapnote": "Test both conditions; a private farm pond fails the funding leg.",
+  "round": "F",
+  "trapcat": "C"
+ },
+ {
+  "q": "A State order reserves clerk posts for district-born candidates. A non-local challenges it. Outcome?",
+  "options": [
+   "Valid as a State privilege",
+   "Valid as backward-class welfare",
+   "Invalid: residence power sits with Parliament alone",
+   "Valid under the AP special provision"
+  ],
+  "answer": 2,
+  "expl": "Residence conditions need a Parliamentary law.",
+  "why": "Residence qualifications for State posts can be prescribed only by Parliament. A State order cannot do it, and backward-class welfare is a different constitutional route entirely.",
+  "trapnote": "Residence in stem means jobs clause, never the five-ground clause.",
+  "round": "F",
+  "trapcat": "B"
+ },
+ {
+  "q": "A panchayat bars Dalits from the village shrine festival. What is the nature of the protection?",
+  "options": [
+   "Absolute and enforceable even against private parties",
+   "Suspendable in Emergency",
+   "Subject to reasonable restriction",
+   "Available only against the State"
+  ],
+  "answer": 0,
+  "expl": "Untouchability abolition admits no exception.",
+  "why": "The abolition is absolute, punishable by law, and reaches private conduct. It is the one equality guarantee with no reasonable-restriction or Emergency escape.",
+  "trapnote": "Any option adding reasonable restriction or Emergency suspension is false.",
+  "round": "F",
+  "trapcat": "D"
+ },
+ {
+  "q": "An officer is transferred out with no ground on record though the file shows none existed. Which principle decides?",
+  "options": [
+   "Directive Principles override",
+   "Arbitrariness itself breaches equality",
+   "Courts cannot review transfers",
+   "Only legislative competence matters"
+  ],
+  "answer": 1,
+  "expl": "Unexplained adverse action fails the reasonableness test.",
+  "why": "Since Royappa, arbitrariness is the antithesis of equality; Maneka extended it to unfair procedure. No classification analysis is even needed when no reason exists.",
+  "trapnote": "Do not confuse with procedure cases; here the defect is absence of reason itself.",
+  "round": "F",
+  "trapcat": "E"
+ },
+ {
+  "q": "Match: A-equality before law, B-five grounds, C-public employment, D-untouchability with P-Art 14, Q-Art 15, R-Art 16, S-Art 17. Correct code?",
+  "options": [
+   "A-Q B-P C-S D-R",
+   "A-P B-R C-Q D-S",
+   "A-P B-Q C-R D-S",
+   "A-S B-Q C-R D-P"
+  ],
+  "answer": 2,
+  "expl": "Anchor untouchability, then the equality-before-law phrase.",
+  "why": "Fix the two immovable pairs first: untouchability with its single-line abolition, and the equality-before-law phrase with its general guarantee. The remaining two fall into place.",
+  "trapnote": "Solve match sets from the most unique item, never left to right.",
+  "round": "F",
+  "trapcat": "F"
+ },
+ {
+  "q": "An advertisement bars candidates on descent and residence. Which guarantee lists BOTH as barred grounds?",
+  "options": [
+   "The seven-ground jobs clause",
+   "The five-ground clause",
+   "The anti-untouchability clause",
+   "The anti-title clause"
+  ],
+  "answer": 0,
+  "expl": "Seven grounds: five plus descent and residence.",
+  "why": "The jobs clause adds descent and residence to the five. Spotting either word routes the question there and kills the five-ground option.",
+  "trapnote": "Descent or residence in stem means jobs clause, never the general clause.",
+  "round": "F",
+  "trapcat": "I"
+ },
+ {
+  "q": "An Indian architect accepts a foreign knighthood without Rashtrapati Bhavan clearance. Position?",
+  "options": [
+   "Barred outright for citizens",
+   "Valid for professionals",
+   "Valid with retrospective consent",
+   "Valid: awards are not titles"
+  ],
+  "answer": 0,
+  "expl": "Citizens are barred outright; consent route is for non-citizen office-holders.",
+  "why": "The bar on citizens accepting foreign titles is absolute. The consent mechanism concerns non-citizens holding office. Knighthood is a title, unlike excellence awards.",
+  "trapnote": "Do not extend the consent route to citizens.",
+  "round": "F",
+  "trapcat": "C"
+ },
+ {
+  "q": "A rule makes only left-handed applicants eligible for constable posts. Classification test outcome?",
+  "options": [
+   "Fails: left-handedness is a barred ground",
+   "Valid: State has absolute discretion",
+   "Valid: difference is real",
+   "Fails: real difference but no link to the job"
+  ],
+  "answer": 3,
+  "expl": "Passes limb one, dies on limb two.",
+  "why": "Handedness is a real difference, so the first limb is met, but it has no nexus to constable duties. Both limbs are cumulative; clearing one is not enough.",
+  "trapnote": "Real difference alone never validates; always test the link.",
+  "round": "F",
+  "trapcat": "G"
+ },
+ {
+  "q": "A canteen-access denial on religion and a job denial on descent are challenged together. Correct pairing?",
+  "options": [
+   "Jobs clause for both",
+   "Neither: private parties involved",
+   "General clause for both",
+   "General clause + jobs clause"
+  ],
+  "answer": 3,
+  "expl": "Religion-access routes generally; descent routes to jobs.",
+  "why": "Religion-based access denial goes to the five-ground clause, which reaches listed private access points. Descent exists only in the seven-ground jobs clause. Different wrongs, different routes.",
+  "trapnote": "Paired wrongs need paired provisions; one article rarely covers both.",
+  "round": "C",
+  "trapcat": "I"
+ },
+ {
+  "q": "An unaided non-minority college denies an EWS seat; a minority college denies a backward-class seat. Position?",
+  "options": [
+   "Both violate equally",
+   "First protected, second violates",
+   "First violates quota law, second protected by minority rights",
+   "Neither violates"
+  ],
+  "answer": 2,
+  "expl": "Private quota law skips minority institutions.",
+  "why": "The private-institution quota clause covers unaided non-minority colleges including EWS, but expressly excepts minority institutions, which must both establish and administer.",
+  "trapnote": "Minority + establish + administer: all three needed for the shield.",
+  "round": "C",
+  "trapcat": "C"
+ },
+ {
+  "q": "A law giving effect to farm-welfare policy and one giving effect to resource-ownership policy are both challenged for inequality, both pleading a DPSP shield. Outcome?",
+  "options": [
+   "Only the farm one",
+   "Neither: shield repealed",
+   "Only the resource-ownership one",
+   "Both shielded"
+  ],
+  "answer": 2,
+  "expl": "Post-1980 the shield covers two clauses only.",
+  "why": "The wide shield died in 1980; only laws effectuating the two resource clauses survive challenge. Farm welfare sits outside them, and a later ruling narrowed the resource clause further.",
+  "trapnote": "Pre-1980 position quoted as current law is the classic trap.",
+  "round": "C",
+  "trapcat": "G"
+ },
+ {
+  "q": "Correct cause-effect order: arbitrariness doctrine, Emergency repair, shield cut, quota method, EWS entry, EWS upheld?",
+  "options": [
+   "1978-1974-1980-1992-2022-2019",
+   "1974-1978-1992-1980-2019-2022",
+   "1974-1980-1978-1992-2019-2022",
+   "1974-1978-1980-1992-2019-2022"
+  ],
+  "answer": 3,
+  "expl": "Each step answers the previous one.",
+  "why": "The repair follows the excess, the shield-cut follows the widening, the quota method follows the Mandal dispute, EWS entry precedes its upholding. Chronology encodes causation.",
+  "trapnote": "Options swapping neighbours test whether you know what answered what.",
+  "round": "C",
+  "trapcat": "F"
+ },
+ {
+  "q": "A ministerial-size law and an EWS-quota law are matched to amendments. Correct pairing?",
+  "options": [
+   "Ministerial cap with 91st, EWS with 103rd",
+   "Both with 93rd",
+   "Ministerial cap with 103rd, EWS with 91st",
+   "Both with 86th"
+  ],
+  "answer": 0,
+  "expl": "15% cap versus EWS insertion, different amendments.",
+  "why": "The 91st capped Councils of Ministers at 15%; the 103rd inserted the two EWS clauses. Swapping them is the standard number trap, often with 86th/93rd as decoys.",
+  "trapnote": "Year-anchored pairs beat number memory: 2003 cap, 2019 EWS.",
+  "round": "C",
+  "trapcat": "G"
+ },
+ {
+  "q": "Rule X is fair on paper but enforced against one rival shop with a law-and-order pretext and no distinction; Rule Y denies hearing before seizure. Governing doctrines?",
+  "options": [
+   "Both are Emergency issues",
+   "Neither is justiciable",
+   "Both are Directive issues",
+   "Arbitrariness vs fair procedure"
+  ],
+  "answer": 3,
+  "expl": "Royappa for selective enforcement, Maneka for procedure.",
+  "why": "Rule X is valid law with void selection: arbitrariness without determining principle. Rule Y is void procedure: fairness, justness, reasonableness missing. Different defects, different doctrines.",
+  "trapnote": "Separate the law from its application before choosing doctrine.",
+  "round": "C",
+  "trapcat": "G"
+ },
+ {
+  "q": "An Assembly law imposes a residence rule for State posts; an AP zonal quota operates under a Presidential Order. Validity pair?",
+  "options": [
+   "Assembly law valid, Order invalid",
+   "Assembly law invalid, Order route valid",
+   "Both valid",
+   "Both invalid"
+  ],
+  "answer": 1,
+  "expl": "Residence power is Parliament's; AP quotas flow from the special provision.",
+  "why": "Residence qualifications need a Parliamentary law, so the Assembly law fails. AP local quotas validly flow from the special constitutional arrangement through the Presidential Order, not from residence power.",
+  "trapnote": "Never reduce the AP arrangement to a mere residence requirement.",
+  "round": "C",
+  "trapcat": "B"
+ },
+ {
+  "q": "A 1976-style internal-disturbance proclamation is issued today and freedoms are auto-suspended. Position?",
+  "options": [
+   "Both valid for 20 days",
+   "Proclamation invalid, freedoms intact",
+   "Proclamation valid, freedoms suspended",
+   "Both steps valid"
+  ],
+  "answer": 1,
+  "expl": "1978 replaced the ground and shielded core rights.",
+  "why": "The ground today is armed rebellion, not internal disturbance, and core life-and-personal-liberty rights cannot be suspended. The auto-suspension logic also needs war or external aggression.",
+  "trapnote": "Pre-1978 Emergency law quoted as current is always false.",
+  "round": "C",
+  "trapcat": "G"
+ },
+ {
+  "q": "A school admission denial on caste versus on language-minority status: governing provisions?",
+  "options": [
+   "Neither is constitutional",
+   "Both hit the jobs clause",
+   "Caste denial hits aided-admission equality; language claim invokes minority culture rights",
+   "Both hit the same clause"
+  ],
+  "answer": 2,
+  "expl": "Admission equality vs minority cultural rights differ.",
+  "why": "Denial of admission in aided institutions on prohibited grounds routes to admission-equality; a linguistic minority's cultural claim routes to minority rights. Conflating them loses both.",
+  "trapnote": "Admission disputes rarely belong to the access-to-shops clause.",
+  "round": "C",
+  "trapcat": "I"
+ },
+ {
+  "q": "A soldier punished for joining a political union challenges the action under association freedom. Outcome?",
+  "options": [
+   "Valid: forces application of rights can be modified by Parliament",
+   "Valid: Governors decide forces discipline",
+   "Violation: only Emergency permits this",
+   "Violation: uniformed citizens keep full freedoms"
+  ],
+  "answer": 0,
+  "expl": "Forces carve-out permits modification.",
+  "why": "Parliament may by law restrict or abrogate Fundamental Rights for the armed forces and police to ensure discipline. The challenge fails at the modification doctrine, not at Emergency or gubernatorial power.",
+  "trapnote": "Uniform does not erase rights, but the modification clause reroutes them.",
+  "round": "C",
+  "trapcat": "B"
+ }
+]

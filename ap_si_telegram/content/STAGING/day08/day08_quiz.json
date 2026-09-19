@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Consider the two writ jurisdictions: 1-The Supreme Court's is confined to fundamental rights. 2-A High Court's extends to other legal rights as well. 3-The Supreme Court may decline relief where a fundamental right is shown to be violated. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 0,
+  "expl": "The Supreme Court cannot decline where a fundamental right is violated; a High Court has discretion.",
+  "why": "The scope is wider in the High Court while the guarantee is stronger in the Supreme Court, and both propositions hold at once.",
+  "round": "F",
+  "trapcat": "G",
+  "trapnote": "Wider in scope, weaker in guarantee. The two courts differ on both axes in opposite directions."
+ },
+ {
+  "q": "Which writ lies against a private individual?",
+  "options": [
+   "Mandamus",
+   "Certiorari",
+   "Habeas corpus",
+   "Quo warranto"
+  ],
+  "answer": 2,
+  "expl": "Habeas corpus is the only writ available against a private person.",
+  "why": "Each of the other three is directed at a public authority or an inferior tribunal.",
+  "round": "F",
+  "trapcat": "I",
+  "trapnote": "Illegal detention by anyone may be tested. The other writs presuppose a public office or court."
+ },
+ {
+  "q": "Consider certiorari and prohibition: 1-Prohibition is issued while proceedings are pending. 2-Certiorari quashes an order already made. 3-Both lie only against judicial and not administrative bodies. Which is/are correct?",
+  "options": [
+   "2 and 3 only",
+   "1 and 3 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "answer": 2,
+  "expl": "Certiorari lies against administrative authorities acting judicially as well.",
+  "why": "The timing distinction is the primary one; the extension to administrative action is the secondary point.",
+  "round": "F",
+  "trapcat": "I",
+  "trapnote": "Prohibition prevents, certiorari cures. Both may reach administrative bodies acting judicially."
+ },
+ {
+  "q": "On the tenure of the Comptroller and Auditor General, which statement is correct?",
+  "options": [
+   "Five years or until the age of sixty-five, whichever is earlier",
+   "Six years or until the age of sixty-five, whichever is earlier",
+   "Six years or until the age of sixty-two, whichever is earlier",
+   "Six years or until the age of sixty-five, whichever is later"
+  ],
+  "answer": 1,
+  "expl": "Six years or sixty-five, whichever comes first.",
+  "why": "The fourth option changes only the final word, which is the least visible variation available.",
+  "round": "F",
+  "trapcat": "C",
+  "trapnote": "Six and sixty-five, whichever is earlier. Sixty-two is the retirement age for a High Court judge."
+ },
+ {
+  "q": "Consider the Comptroller and Auditor General: 1-He is removed in the manner applicable to a judge of the Supreme Court. 2-He is eligible for further office under the Union after demitting office. 3-His reports are examined by a parliamentary committee. Which is/are correct?",
+  "options": [
+   "1 and 3 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 0,
+  "expl": "He is barred from further office under the Union or any State.",
+  "why": "The bar on further office is a post-tenure independence safeguard, distinct from the manner of removal.",
+  "round": "F",
+  "trapcat": "D",
+  "trapnote": "Two separate safeguards: difficulty of removal during tenure, and a bar on office afterwards."
+ },
+ {
+  "q": "On the strength of the Supreme Court, which statement is correct?",
+  "options": [
+   "The Chief Justice and not more than thirty other judges",
+   "The Chief Justice and not more than thirty-three other judges, fixed by the Constitution",
+   "The Chief Justice and not more than thirty-three other judges",
+   "Not more than thirty-four judges in all, fixed by the Constitution"
+  ],
+  "answer": 2,
+  "expl": "The number is fixed by Parliament by law, not by the Constitution itself.",
+  "why": "Two options give the correct arithmetic and attribute it to the wrong source, which is the finer distinction tested.",
+  "round": "C",
+  "trapcat": "G",
+  "trapnote": "The arithmetic is right in three options. The source of the number is what separates them."
+ },
+ {
+  "q": "On appointment of Supreme Court judges: 1-The collegium rests on interpretation, not express text. 2-An amendment replacing it was struck down in 2015. 3-It fell for violating the separation of powers as such. Correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 0,
+  "expl": "It was struck down for violating the independence of the judiciary, a basic feature.",
+  "why": "The third statement names a real doctrine but not the ground actually relied on, which is a precise distinction.",
+  "round": "C",
+  "trapcat": "F",
+  "trapnote": "The ground was judicial independence. Separation of powers is related but was not the stated basis."
+ },
+ {
+  "q": "On the removal of a judge of the Supreme Court, which statement is correct?",
+  "options": [
+   "Proved misbehaviour or incapacity, with a simple majority in both Houses in the same session",
+   "Proved misbehaviour or incapacity, with a special majority in both Houses in the same session",
+   "Any ground the Houses consider sufficient, with a special majority in both Houses",
+   "Proved misbehaviour or incapacity, with a special majority in the lower House alone"
+  ],
+  "answer": 1,
+  "expl": "The ground is limited and the majority is special, in both Houses in the same session.",
+  "why": "No judge has ever been removed, the nearest instance having failed in the lower House in 1993.",
+  "round": "C",
+  "trapcat": "G",
+  "trapnote": "Three elements: limited grounds, special majority, both Houses in the same session."
+ },
+ {
+  "q": "Consider the original jurisdiction of the Supreme Court: 1-It extends to disputes between the Union and a State. 2-It extends to disputes between two or more States. 3-It extends to a dispute arising out of a pre-Constitution treaty. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 0,
+  "expl": "Disputes arising out of certain pre-Constitution instruments are expressly excluded.",
+  "why": "The exclusion is textual and is the limb most often omitted from summaries of this jurisdiction.",
+  "round": "C",
+  "trapcat": "D",
+  "trapnote": "Federal disputes are covered, with express exclusions for certain pre-Constitution instruments."
+ },
+ {
+  "q": "On the advisory jurisdiction, which statement is correct?",
+  "options": [
+   "The Court must answer, though its opinion does not bind the President",
+   "The Court may decline to answer, and its opinion binds the President once given",
+   "The Court may decline to answer, and its opinion does not bind the President",
+   "The Court must answer, and its opinion binds all courts as a precedent"
+  ],
+  "answer": 2,
+  "expl": "The Court may decline a reference and the opinion is advisory only.",
+  "why": "Each wrong option makes one of the two attributes mandatory, so both must be held together.",
+  "round": "C",
+  "trapcat": "D",
+  "trapnote": "Two attributes: the Court may decline, and the opinion does not bind."
+ },
+ {
+  "q": "Consider public interest litigation: 1-Standing has been relaxed for those unable to approach a court. 2-A letter may be treated as a petition. 3-It is available to agitate a purely private contractual dispute. Which is/are correct?",
+  "options": [
+   "2 and 3 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 1,
+  "expl": "It is not available for private disputes dressed as public causes.",
+  "why": "Courts now impose costs where the jurisdiction is invoked for a private or publicity purpose.",
+  "round": "C",
+  "trapcat": "D",
+  "trapnote": "Relaxed standing does not mean unrestricted standing. Private disputes remain outside."
+ },
+ {
+  "q": "Which statement about the seat of the High Court for Andhra Pradesh is correct?",
+  "options": [
+   "It was established at Amaravati with effect from 2 June 2014",
+   "It was established at Amaravati with effect from 1 January 2019",
+   "It was established at Vijayawada with effect from 1 January 2019",
+   "It continues to be the common High Court at Hyderabad"
+  ],
+  "answer": 1,
+  "expl": "A separate High Court was constituted at Amaravati from 1 January 2019.",
+  "why": "The 2014 date is that of bifurcation, when the common High Court continued for a period.",
+  "round": "C",
+  "trapcat": "L",
+  "trapnote": "Bifurcation in 2014, separate High Court in 2019. The two dates are distinct."
+ },
+ {
+  "q": "Consider the writ of quo warranto: 1-It questions the title of a person to a public office. 2-The office must be of a substantive character. 3-Only a person personally aggrieved may apply. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 0,
+  "expl": "Any member of the public may apply for this writ.",
+  "why": "The public character of the interest protected explains why standing is open in this one writ.",
+  "round": "T",
+  "trapcat": "I",
+  "trapnote": "Standing is open here because the interest protected is public, not personal."
+ },
+ {
+  "q": "On the Finance Commission and the body that replaced the Planning Commission, which statement is correct?",
+  "options": [
+   "Both are constitutional bodies established under express provisions",
+   "The first rests on a statute and the second on a constitutional provision",
+   "The first is a constitutional body and the second rests on a Cabinet resolution",
+   "Both rest on Cabinet resolutions, neither having constitutional status"
+  ],
+  "answer": 2,
+  "expl": "One is constitutional; the other is an executive creation of 2015.",
+  "why": "This pairing is the standard constitutional-versus-executive trap in the institutional questions.",
+  "round": "T",
+  "trapcat": "B",
+  "trapnote": "Ask for the source of every body: Constitution, statute, or executive resolution."
+ },
+ {
+  "q": "A magistrate grants remand mechanically without recording reasons. Which statement is correct?",
+  "options": [
+   "The order may be tested only in the Supreme Court, liberty being a fundamental right",
+   "The order is not amenable to writ jurisdiction, judicial orders being excluded",
+   "The order may be tested only by way of appeal to the Court of Session",
+   "The order may be tested in the High Court, whose writ power extends to legal rights"
+  ],
+  "answer": 3,
+  "expl": "The wider High Court jurisdiction is the appropriate route.",
+  "why": "The third option states a genuine principle about judicial orders and applies it too broadly.",
+  "round": "T",
+  "trapcat": "G",
+  "trapnote": "Remand orders are routinely tested. The exclusion of judicial orders is narrower than it sounds."
+ },
+ {
+  "q": "Consider: 1-The Supreme Court's writ jurisdiction is itself a fundamental right. 2-A High Court's writ jurisdiction is a fundamental right. 3-The Supreme Court's writ jurisdiction may be suspended during an Emergency. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 1,
+  "expl": "The Supreme Court remedy is itself a fundamental right and may be suspended; the High Court's is not a fundamental right.",
+  "why": "Both correct statements concern the same provision, which is why the middle statement stands out once identified.",
+  "round": "T",
+  "trapcat": "G",
+  "trapnote": "One remedy is itself a right and is suspendable. The other is a constitutional power, not a right."
+ },
+ {
+  "q": "Which statement about the first public interest litigation concerning undertrial prisoners is correct?",
+  "options": [
+   "It established a speedy trial as part of the guarantee of life and personal liberty",
+   "It established free legal aid as an independently enforceable directive",
+   "It established the collegium as the method of appointing judges",
+   "It established that a letter may never be treated as a petition"
+  ],
+  "answer": 0,
+  "expl": "Speedy trial and free legal aid were both read into the liberty guarantee.",
+  "why": "The second option describes the right result by the wrong route, directives not being independently enforceable.",
+  "round": "T",
+  "trapcat": "E",
+  "trapnote": "Rights were read into the liberty guarantee. Directives were the aid, not the source."
+ },
+ {
+  "q": "Consider the reports of the Comptroller and Auditor General relating to a State: 1-They are submitted to the Governor. 2-They are laid before the State legislature. 3-They are examined by the Public Accounts Committee of Parliament. Which is/are correct?",
+  "options": [
+   "2 and 3 only",
+   "1 and 3 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "answer": 2,
+  "expl": "State reports are examined by the State legislature's own committee.",
+  "why": "The third statement transfers the scrutiny function to the wrong legislature, a straightforward institution swap.",
+  "round": "T",
+  "trapcat": "I",
+  "trapnote": "Union reports go to Parliament's committee; State reports go to the State committee."
+ },
+ {
+  "q": "On curative petitions, which statement is correct?",
+  "options": [
+   "They lie in place of a review petition where the ground is an error of law",
+   "They lie before a review petition is filed, as a preliminary step",
+   "They lie only in criminal matters where a death sentence has been confirmed",
+   "They lie after a review petition has been dismissed, in rare and exceptional cases"
+  ],
+  "answer": 3,
+  "expl": "The curative petition is the last resort after dismissal of a review.",
+  "why": "The fourth option confines a general remedy to a single category of case, which is a common narrowing.",
+  "round": "T",
+  "trapcat": "D",
+  "trapnote": "Sequence: judgment, review, curative. Each step is narrower than the one before."
+ },
+ {
+  "q": "Consider: 1-The Supreme Court may transfer a case from one High Court to another. 2-A High Court has superintendence over all courts within its territory. 3-A High Court may issue a writ only within its own territorial jurisdiction. Which is/are correct?",
+  "options": [
+   "2 and 3 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 1,
+  "expl": "A High Court may act where the cause of action arises, even if outside its territory.",
+  "why": "The territorial extension by reference to the cause of action is the point the third statement suppresses.",
+  "round": "T",
+  "trapcat": "I",
+  "trapnote": "Territorial jurisdiction is extended by the place where the cause of action arises."
+ }
+]

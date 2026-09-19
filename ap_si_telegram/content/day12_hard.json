@@ -1,0 +1,152 @@
+[
+ {
+  "q": "A question describes a real requirement attached to the wrong provision. Which of the following is such a case?",
+  "options": [
+   "A census condition attached to the operation of women's reservation in panchayats",
+   "A census condition attached to the operation of the 2023 reservation amendment",
+   "A written Cabinet advice requirement attached to a Proclamation of Emergency",
+   "A fourteen-day period attached to the return of a Money Bill by the upper House"
+  ],
+  "answer": 0,
+  "expl": "The census condition belongs to the 2023 amendment, not to local body reservation.",
+  "why": "Three options state requirements correctly attached; only one transplants a condition across provisions.",
+  "round": "A",
+  "trapcat": "G",
+  "trapnote": "Requirements travel badly. A condition attached to one amendment rarely applies to another."
+ },
+ {
+  "q": "Consider: 1-A directive becomes enforceable when read into a Fundamental Right. 2-A Fundamental Duty becomes enforceable when a statute gives it effect. 3-Both are directly enforceable by writ. Which is/are correct?",
+  "options": [
+   "2 and 3 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 1,
+  "expl": "Neither is directly enforceable; each operates through a different route.",
+  "why": "The two routes differ: one runs through a right and the other through a statute.",
+  "round": "A",
+  "trapcat": "E",
+  "trapnote": "Two indirect routes: a directive through a right, a duty through a statute."
+ },
+ {
+  "q": "Which combination correctly describes the current position on reservation?",
+  "options": [
+   "The ceiling binds all reservation, including the economic quota",
+   "The ceiling has been abolished and no limit now operates on any reservation",
+   "The ceiling binds backward-class reservation; the economic quota sits outside it",
+   "The ceiling binds the economic quota; backward-class reservation sits outside it"
+  ],
+  "answer": 2,
+  "expl": "The ceiling was confined rather than abolished, and the economic quota was placed outside it.",
+  "why": "The fourth option reverses the two compartments, which is a cleaner error than a candidate expects.",
+  "round": "A",
+  "trapcat": "F",
+  "trapnote": "Confined, not abolished. The compartment it binds is the backward-class compartment."
+ },
+ {
+  "q": "A fact-pattern involves an illegal detention, a denial of legal aid and a refusal of admission to an aided school. Which statement is correct?",
+  "options": [
+   "Three Directive Principles are engaged, none directly enforceable by writ",
+   "Three separate provisions are engaged, only one of which is a Directive Principle",
+   "Three Fundamental Rights are engaged, each enforceable in the Supreme Court",
+   "Only the detention is justiciable, the remaining limbs being matters of policy"
+  ],
+  "answer": 1,
+  "expl": "Liberty and admission-equality are rights; legal aid is a directive read into a right.",
+  "why": "Uniform characterisation of a multi-limb fact-pattern is almost always the wrong answer.",
+  "round": "A",
+  "trapcat": "G",
+  "trapnote": "Multi-limb patterns rarely share one category. Classify each limb before answering."
+ },
+ {
+  "q": "Consider the following on the amending power: 1-Parliament may amend any provision. 2-It may not damage the basic structure. 3-Procedural compliance cures a basic-structure defect. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 0,
+  "expl": "Procedural compliance and the substantive limit are independent of each other.",
+  "why": "A measure may satisfy every procedural requirement and still fall on the substantive limit.",
+  "round": "A",
+  "trapcat": "G",
+  "trapnote": "Two independent checks. Satisfying one says nothing about the other."
+ },
+ {
+  "q": "Which statement correctly identifies the distinction between two remedies?",
+  "options": [
+   "Prohibition quashes an order already made; certiorari restrains pending proceedings",
+   "Both restrain pending proceedings, differing only in the court that issues them",
+   "Both quash orders already made, differing only in the authority addressed",
+   "Prohibition restrains proceedings that are pending; certiorari quashes an order already made"
+  ],
+  "answer": 3,
+  "expl": "The distinction is one of timing.",
+  "why": "The pair is the most frequently reversed in the whole of the remedies topic.",
+  "round": "A",
+  "trapcat": "I",
+  "trapnote": "Prohibition prevents; certiorari cures. The distinction is timing, not court or authority."
+ },
+ {
+  "q": "Consider a set of options in which two are defensible and one is more complete. Which approach is correct?",
+  "options": [
+   "Select the option that is shortest and therefore least likely to contain an error",
+   "Select the option that most closely repeats the language of the stem",
+   "Select the option that accounts for every limb of the stem",
+   "Select the option that names the most authorities, being most comprehensive"
+  ],
+  "answer": 2,
+  "expl": "Completeness against the stem is the criterion, not length or vocabulary.",
+  "why": "The remaining options describe surface heuristics that a well-constructed paper defeats.",
+  "round": "T",
+  "trapcat": "G",
+  "trapnote": "Answer against the stem, limb by limb. Surface features are engineered to mislead."
+ },
+ {
+  "q": "Consider: 1-The abolition of untouchability binds private persons. 2-The general equality guarantee binds private persons. 3-The prohibition of child labour binds private persons. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 1,
+  "expl": "The general equality guarantee binds the State alone.",
+  "why": "Two of the horizontal provisions are correctly stated and the vertical one is placed between them.",
+  "round": "T",
+  "trapcat": "D",
+  "trapnote": "The general guarantee is vertical. The specific ones beside it are horizontal."
+ },
+ {
+  "q": "A candidate must choose between two options that differ only in the year stated. Which approach is correct?",
+  "options": [
+   "Anchor the event to a neighbouring event whose date is certain and reason from it",
+   "Select the earlier year, amendments generally being older than they appear",
+   "Select the later year, constitutional change having accelerated over time",
+   "Select the year that matches the number of the amendment concerned"
+  ],
+  "answer": 0,
+  "expl": "Relative dating from a fixed anchor is more reliable than recall of an isolated year.",
+  "why": "The remaining options describe guessing strategies that have no foundation.",
+  "round": "T",
+  "trapcat": "F",
+  "trapnote": "Date relatively, not absolutely. Anchor to an event you are certain of and work outwards."
+ },
+ {
+  "q": "Which statement correctly summarises the treatment of a superseded position offered as current law?",
+  "options": [
+   "It is a correct option if it accurately states the historical position",
+   "It is a correct option where the stem does not specify a date",
+   "It is a wrong option only where the change occurred within the last decade",
+   "It is a wrong option, however accurately it states what the law once was"
+  ],
+  "answer": 3,
+  "expl": "An option must state the law as it stands unless the stem asks otherwise.",
+  "why": "The third option is the most tempting, because stems frequently omit an express date.",
+  "round": "T",
+  "trapcat": "G",
+  "trapnote": "Absent words to the contrary, a stem asks for the present position."
+ }
+]

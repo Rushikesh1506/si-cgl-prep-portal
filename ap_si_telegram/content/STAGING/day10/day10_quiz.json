@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Consider the amending procedures: 1-Creation or abolition of a Legislative Council requires a simple majority. 2-Alteration of State boundaries requires a simple majority. 3-Both are counted as constitutional amendments. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 0,
+  "expl": "Neither is counted as an amendment under the amending article.",
+  "why": "Several important changes are made by simple majority and are expressly excluded from the amendment count.",
+  "round": "F",
+  "trapcat": "D",
+  "trapnote": "Simple-majority changes are outside the amending article and are not counted as amendments."
+ },
+ {
+  "q": "Which of the following requires ratification by not less than half the State legislatures?",
+  "options": [
+   "Any change to the chapter on Fundamental Rights",
+   "Any change to the Directive Principles of State Policy",
+   "Any change to a List in the Seventh Schedule",
+   "Any change to the Preamble of the Constitution"
+  ],
+  "answer": 2,
+  "expl": "Distribution of legislative powers is a federal provision requiring ratification.",
+  "why": "Fundamental Rights need only a special majority, which is the pairing most often mistaken.",
+  "round": "F",
+  "trapcat": "G",
+  "trapnote": "Federal provisions need ratification. Rights and Directives need only a special majority."
+ },
+ {
+  "q": "Consider the 2023 amendment on reservation of seats for women: 1-It covers the lower House of Parliament. 2-It covers State Legislative Assemblies. 3-It covers the upper House of Parliament. Which is/are correct?",
+  "options": [
+   "2 and 3 only",
+   "1 and 3 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "answer": 2,
+  "expl": "Indirectly elected Houses are outside the amendment.",
+  "why": "The amendment operates on directly elected Houses only, which excludes the upper House and State Councils.",
+  "round": "F",
+  "trapcat": "L",
+  "trapnote": "Directly elected Houses only. The upper House and State Councils are outside it."
+ },
+ {
+  "q": "On the commencement of the 2023 reservation amendment, which statement is correct?",
+  "options": [
+   "It operates from the date it received the assent of the President",
+   "It operates after the first census conducted after its commencement and the ensuing delimitation",
+   "It operates after the first census, delimitation not being a precondition",
+   "It operates after a delimitation exercise, a census not being a precondition"
+  ],
+  "answer": 1,
+  "expl": "Both a census and the delimitation that follows it are preconditions.",
+  "why": "Two options give one of the two conditions, so partial knowledge produces a near miss.",
+  "round": "F",
+  "trapcat": "L",
+  "trapnote": "Two cumulative conditions: the census first, then the delimitation that follows it."
+ },
+ {
+  "q": "Consider the 1976 amendment: 1-It inserted three words in the Preamble. 2-It added Fundamental Duties. 3-It reduced the term of the lower House to five years. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 0,
+  "expl": "It extended the term to six years; the reduction came in 1978.",
+  "why": "The 1976 amendment expanded and the 1978 amendment corrected, which is the pattern to hold.",
+  "round": "F",
+  "trapcat": "C",
+  "trapnote": "One amendment expanded, the next corrected. Attribute each change to the right one."
+ },
+ {
+  "q": "Consider the 1978 amendment: 1-It substituted armed rebellion for internal disturbance. 2-It placed two articles beyond suspension. 3-It removed property from the chapter on Fundamental Rights. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 3,
+  "expl": "All three limbs belong to the same amendment.",
+  "why": "The 1978 amendment is best learned as a package of corrections to the preceding one.",
+  "round": "F",
+  "trapcat": "C",
+  "trapnote": "Three corrections in one amendment: the ground, the protected articles, and property."
+ },
+ {
+  "q": "Which amendment gave constitutional status to the commission for backward classes?",
+  "options": [
+   "The 103rd, in 2019",
+   "The 105th, in 2021",
+   "The 104th, in 2020",
+   "The 102nd, in 2018"
+  ],
+  "answer": 3,
+  "expl": "The 102nd inserted the provision constituting that commission.",
+  "why": "All four numbers are adjacent and all four amendments are real, so recognition alone will not separate them.",
+  "round": "C",
+  "trapcat": "C",
+  "trapnote": "Adjacent numbers: 102nd commission, 103rd economic quota, 104th seats, 105th State power."
+ },
+ {
+  "q": "Consider the 2021 amendment: 1-It restored the power of States to identify backward classes. 2-It responded to a judicial interpretation of an earlier amendment. 3-It abolished the central list of backward classes. Which is/are correct?",
+  "options": [
+   "2 and 3 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 1,
+  "expl": "The central list continues; the State lists were restored.",
+  "why": "The amendment restored a power without displacing the central list, which the third statement denies.",
+  "round": "C",
+  "trapcat": "F",
+  "trapnote": "Restoration of a State power, not abolition of the central list. Both lists now coexist."
+ },
+ {
+  "q": "Consider the Ninth Schedule: 1-It was created by the first amendment. 2-Laws placed in it are protected from challenge on rights grounds. 3-Laws placed in it after April 1973 may be challenged for damaging the basic structure. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 3,
+  "expl": "All three are accurate.",
+  "why": "The cut-off date is the date of the decision that established the basic structure doctrine.",
+  "round": "C",
+  "trapcat": "F",
+  "trapnote": "The Schedule is not an absolute shield. The cut-off is the date of the 1973 decision."
+ },
+ {
+  "q": "On the 2016 amendment relating to the goods and services tax, which statement is correct?",
+  "options": [
+   "It inserted a Council alone, the taxing power arising under the existing Lists",
+   "It inserted a concurrent taxing power alone, the Council being created by statute",
+   "It inserted a concurrent taxing power, a provision on inter-State supply and a Council",
+   "It transferred the entire subject to the Union List with effect from that date"
+  ],
+  "answer": 2,
+  "expl": "Three provisions were inserted: the taxing power, inter-State supply and the Council.",
+  "why": "Most summaries mention only the Council, which is why the taxing power is the tested limb.",
+  "round": "C",
+  "trapcat": "D",
+  "trapnote": "Three provisions, not one. The taxing power is the charging provision; the Council is the body."
+ },
+ {
+  "q": "Consider the 2020 amendment: 1-It extended reservation of seats for Scheduled Castes and Tribes. 2-It discontinued nominated Anglo-Indian seats. 3-It reduced the maximum strength of the lower House to 550. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 3,
+  "expl": "All three follow from the same amendment.",
+  "why": "The reduction in the ceiling is a consequence of discontinuing the nominated seats rather than a separate change.",
+  "round": "C",
+  "trapcat": "C",
+  "trapnote": "Two express changes and one arithmetical consequence, all from one amendment."
+ },
+ {
+  "q": "On the amendment relating to cooperative societies, which statement is correct?",
+  "options": [
+   "It inserted a Fundamental Right to form cooperative societies alone",
+   "It inserted a Directive Principle and extended the freedom of association",
+   "It inserted a Directive Principle alone, the freedom being unaffected",
+   "It transferred cooperative societies to the Union List"
+  ],
+  "answer": 1,
+  "expl": "The amendment worked on Part III and Part IV together.",
+  "why": "The amendment added words to the existing freedom rather than creating a new right, which the second option overstates.",
+  "round": "C",
+  "trapcat": "D",
+  "trapnote": "One amendment touching two Parts: a new directive and an extended existing freedom."
+ },
+ {
+  "q": "Consider the 2002 amendment: 1-It inserted a fundamental right to education. 2-It reworded a Directive Principle. 3-It added a Fundamental Duty. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 3,
+  "expl": "All three limbs belong to the same amendment.",
+  "why": "It is the only amendment that worked on Parts III, IV and IVA simultaneously.",
+  "round": "C",
+  "trapcat": "C",
+  "trapnote": "Three Parts touched at once. That is what makes this amendment distinctive."
+ },
+ {
+  "q": "Which statement about the assent of the President to a Constitution Amendment Bill is correct?",
+  "options": [
+   "Assent is discretionary, the President retaining a power to withhold it",
+   "Assent is obligatory, the position having been settled by amendment in 1976",
+   "Assent is obligatory, the position having been settled by amendment in 1971",
+   "Assent is discretionary, though the Bill may be returned only once"
+  ],
+  "answer": 2,
+  "expl": "The 1971 amendment made assent obligatory.",
+  "why": "The third option gives the right rule with the wrong year, which requires both halves to be known.",
+  "round": "T",
+  "trapcat": "C",
+  "trapnote": "Obligatory assent, settled in 1971 by the same amendment that excluded amendments from the bar."
+ },
+ {
+  "q": "Consider the 1985 amendment: 1-It added a Schedule dealing with disqualification on defection. 2-It provided an exception for a split in a party. 3-The split exception was later removed. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 3,
+  "expl": "All three are accurate; the split exception was deleted in 2003.",
+  "why": "The deletion of the split defence is the change most often omitted from summaries of the anti-defection scheme.",
+  "round": "T",
+  "trapcat": "C",
+  "trapnote": "The split defence existed and was deleted. Only a merger now operates as a defence."
+ },
+ {
+  "q": "On the 2019 amendment providing reservation for economically weaker sections, which statement is correct?",
+  "options": [
+   "It inserted an enabling provision in the employment article alone",
+   "It inserted enabling provisions in both the education and employment articles",
+   "It inserted an enabling provision in the education article alone",
+   "It inserted a Directive Principle requiring such reservation to be made"
+  ],
+  "answer": 1,
+  "expl": "Two enabling provisions were inserted, one in each article.",
+  "why": "The paired insertion mirrors the structure of the existing backward-class provisions.",
+  "round": "T",
+  "trapcat": "D",
+  "trapnote": "Enabling provisions come in pairs here: one for education, one for employment."
+ },
+ {
+  "q": "Consider the amending power: 1-Parliament may amend any part of the Constitution. 2-It may not damage the basic structure. 3-A joint sitting may be summoned if the Houses disagree. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 0,
+  "expl": "There is no joint sitting for a Constitution Amendment Bill.",
+  "why": "The absence of a joint sitting means each House must pass the Bill separately by the required majority.",
+  "round": "T",
+  "trapcat": "I",
+  "trapnote": "No joint sitting for Money Bills or Amendment Bills. Each House must clear it independently."
+ },
+ {
+  "q": "Which statement about the 1971 amendment is correct?",
+  "options": [
+   "It declared that fundamental rights may not be amended in any circumstances",
+   "It declared that amendments are subject to the basic structure doctrine",
+   "It declared that an amendment is not law for the purposes of the bar on abridging rights",
+   "It inserted the Ninth Schedule to protect laws from challenge"
+  ],
+  "answer": 2,
+  "expl": "It took amendments outside the definition of law for that purpose.",
+  "why": "The third option attributes a judicial doctrine to a parliamentary amendment, which is a category error.",
+  "round": "T",
+  "trapcat": "F",
+  "trapnote": "Parliament removed one check; a court later supplied a different one. Do not merge the two."
+ },
+ {
+  "q": "Consider the special provisions for Andhra Pradesh: 1-They were inserted by an amendment of 1973. 2-They provide for local cadres in public employment. 3-They ceased to apply on the bifurcation of the State in 2014. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 0,
+  "expl": "They continue to apply to both successor States.",
+  "why": "The provisions survived bifurcation and remain the legal basis of zone-wise recruitment in the State.",
+  "round": "T",
+  "trapcat": "L",
+  "trapnote": "The 1973 provisions survived the 2014 bifurcation and apply to both successor States."
+ },
+ {
+  "q": "On the special provisions for Andhra Pradesh, which statement is correct?",
+  "options": [
+   "They empower Parliament to prescribe residence qualifications for State posts",
+   "They empower the President to provide for local cadres and local-area recruitment",
+   "They empower the State government to reserve posts for residents of the State",
+   "They empower the Governor to allot candidates to zones after recruitment"
+  ],
+  "answer": 1,
+  "expl": "The power is exercised by the President through an order.",
+  "why": "The second option describes a different provision under which the power belongs to Parliament.",
+  "round": "T",
+  "trapcat": "B",
+  "trapnote": "One provision: Parliament by law. The other: the President by order. Different actors."
+ }
+]

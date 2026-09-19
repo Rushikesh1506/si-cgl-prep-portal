@@ -1,0 +1,159 @@
+### Q1. Art 14 uses the expression 'any person'. This means it covers:
+   (A) Citizens only
+   (B) Citizens, foreigners and juristic persons such as companies
+   (C) Government servants only
+   (D) Citizens and foreigners, but never a company
+   >> Answer: (B) Citizens, foreigners and juristic persons such as companies
+   Why: Arts 15 and 16 say 'citizen'; Art 14 says 'person'. A company can invoke Art 14 in appropriate cases. This single word decides a whole family of questions.
+
+### Q2. Match A-Art 14 B-Art 15 C-Art 16 D-Art 17 with 1-five grounds 2-equality before law 3-untouchability 4-public employment.
+   (A) A2 B1 C4 D3
+   (B) A3 B1 C4 D2
+   (C) A2 B4 C1 D3
+   (D) A1 B2 C3 D4
+   >> Answer: (A) A2 B1 C4 D3
+   Why: Fix Art 17 first - it is always untouchability - then Art 14, which always carries the 'equality before law' phrase. The other two then fall into place.
+
+### Q3. A valid classification under Art 14 requires:
+   (A) Intelligible differentia alone
+   (B) Rational nexus alone
+   (C) Both differentia and a nexus to the law's object
+   (D) Neither, since Art 14 bars all classification
+   >> Answer: (C) Both differentia and a nexus to the law's object
+   Why: Two limbs, cumulative. A law can clear the first and die on the second: 'only candidates born on a Monday' has a real differentia but no nexus to recruitment.
+
+### Q4. Which is NOT one of the five grounds under Art 15?
+   (A) Descent
+   (B) Race
+   (C) Sex
+   (D) Place of birth
+   >> Answer: (A) Descent
+   Why: Exactly five: religion, race, caste, sex, place of birth. Descent and residence appear only in Art 16(2), which has seven grounds.
+
+### Q5. Untouchability under Art 17 falls under which group of rights?
+   (A) Right to Equality
+   (B) Right against Exploitation
+   (C) Right to Freedom
+   (D) Right to Constitutional Remedies
+   >> Answer: (A) Right to Equality
+   Why: Arts 14 to 18 form the Right to Equality. Art 17 is absolute, admits no reasonable restriction, and binds private persons as well as the State.
+
+### Q6. Consider Art 15(2): 1-Shops and hotels are covered only if maintained out of State funds. 2-It binds private persons. 3-It covers wells dedicated to public use. 4-Its grounds equal Art 16(2) in number. Which are correct?
+   (A) 1 and 3 only
+   (B) 2 and 3 only
+   (C) 2, 3 and 4 only
+   (D) 1, 2 and 4 only
+   >> Answer: (B) 2 and 3 only
+   Why: CORRECTION: the funding condition attaches ONLY to 15(2)(b). Shops and hotels under 15(2)(a) carry none and bind private parties. 15 has five grounds, 16(2) has seven.
+
+### Q7. A private hotel in Vijayawada refuses service openly on caste grounds. The most accurate position is:
+   (A) No Fundamental Right is involved; Art 15 binds only the State
+   (B) Art 15(2)(a) is violated, and the conduct is also penal under the SC/ST PoA Act
+   (C) Only Art 17 applies, since refusal of service is always untouchability
+   (D) Art 14 is violated by the hotel's arbitrary classification
+   >> Answer: (B) Art 15(2)(a) is violated, and the conduct is also penal under the SC/ST PoA Act
+   Why: 15(2)(a) names hotels, needs no State funding and binds private parties. Art 14 binds only the State. 'Always' in the third option is an absolute-word trap.
+
+### Q8. Consider: 1-Art 14 covers companies. 2-Art 15 covers foreigners. 3-Art 17 admits no exception. 4-Judicial orders can be challenged as violating Fundamental Rights. Which are correct?
+   (A) 1 and 3 only
+   (B) 2 and 3 only
+   (C) 1, 3 and 4 only
+   (D) 1, 2 and 3 only
+   >> Answer: (A) 1 and 3 only
+   Why: 2 is false - Arts 15/16 are citizens-only. 4 is false: the judiciary is 'State' only in its administrative and rule-making role (Mirajkar 1967, Antulay 1988).
+
+### Q9. A residence requirement for a class of posts in a State may be prescribed by:
+   (A) The State legislature
+   (B) Parliament alone
+   (C) The Governor
+   (D) The State Public Service Commission
+   >> Answer: (B) Parliament alone
+   Why: Art 16(3) vests it in Parliament alone. Contrast Art 371D for AP, where local cadres and local-area recruitment come from a PRESIDENTIAL ORDER, not a law of Parliament.
+
+### Q10. S1: Art 371D was inserted by the 32nd Amendment 1973. S2: It empowers Parliament to prescribe a residence requirement for AP. Correct?
+   (A) S1 only
+   (B) S2 only
+   (C) Both
+   (D) Neither
+   >> Answer: (A) S1 only
+   Why: S2 false - that is Art 16(3). Art 371D works through the AP Presidential Order 1975 and deals with local cadres, local candidates and an Administrative Tribunal.
+
+### Q11. E.P. Royappa (1974) is remembered for holding that:
+   (A) Equality is the antithesis of arbitrariness
+   (B) Directive Principles prevail over Fundamental Rights
+   (C) The basic structure cannot be amended
+   (D) The creamy layer must be excluded
+   >> Answer: (A) Equality is the antithesis of arbitrariness
+   Why: Bhagwati J: equality cannot be cribbed or cabined, and arbitrariness is its sworn enemy. Maneka 1978 extended it; Shayara Bano 2017 applied it to strike down laws.
+
+### Q12. Order chronologically: 1-Creamy layer laid down 2-Promotion quota restored by amendment 3-Arbitrariness held antithesis of equality 4-EWS upheld as not violating basic structure.
+   (A) 3-1-2-4
+   (B) 1-3-2-4
+   (C) 3-2-1-4
+   (D) 3-1-4-2
+   >> Answer: (A) 3-1-2-4
+   Why: Royappa 1974, Indra Sawhney 1992, 77th/85th Amendments 1995-2001, Janhit Abhiyan 2022. Option 3 reverses cause and effect - the amendments answered Indra Sawhney.
+
+### Q13. Art 15(5), on admissions in private unaided institutions, expressly excepts:
+   (A) Minority educational institutions under Art 30
+   (B) All private colleges
+   (C) Government colleges
+   (D) Institutions receiving foreign funding
+   >> Answer: (A) Minority educational institutions under Art 30
+   Why: 93rd Amendment 2005. The carve-out protects Art 30, under which a minority must both ESTABLISH and ADMINISTER the institution - both limbs are required.
+
+### Q14. A: A combined 60% reservation for BC, SC/ST and EWS is automatically unconstitutional. R: Indra Sawhney fixed a 50% ceiling.
+   (A) Both true, R explains A
+   (B) Both true, R does not explain A
+   (C) A true, R false
+   (D) A false, R true
+   >> Answer: (D) A false, R true
+   Why: UPDATE: R is true, A is false. Janhit Abhiyan 2022 held the 50% ceiling is NOT basic structure and the EWS 10% sits OUTSIDE it. The killer word is 'automatically'.
+
+### Q15. S1: Art 31C today shields laws giving effect to all Directive Principles. S2: A nine-judge bench in 2024 narrowed Art 39(b). Correct?
+   (A) S1 only
+   (B) S2 only
+   (C) Both
+   (D) Neither
+   >> Answer: (B) S2 only
+   Why: Minerva Mills 1980 cut the 42nd Amendment's wide shield to 39(b)-(c). Property Owners Assn 2024 held not every privately owned resource is a material resource of the community.
+
+### Q16. Which pair is WRONGLY matched?
+   (A) 42nd Amendment - widened the Art 31C shield
+   (B) 44th Amendment - armed rebellion
+   (C) 86th Amendment - Art 21A
+   (D) 91st Amendment - EWS reservation
+   >> Answer: (D) 91st Amendment - EWS reservation
+   Why: The 91st capped the Council of Ministers at 15%. EWS is the 103rd (2019), inserting 15(6) and 16(6). A classic number-swap trap, along with 86th versus 93rd.
+
+### Q17. S1: Under Art 18 a citizen needs the President's consent to accept a foreign title. S2: Bharat Ratna may be used as a prefix to a name. Correct?
+   (A) S1 only
+   (B) S2 only
+   (C) Both
+   (D) Neither
+   >> Answer: (D) Neither
+   Why: Both false. 18(2) bars a CITIZEN outright; consent concerns a non-citizen holding office of profit. Balaji Raghavan 1996: awards are not titles and take no prefix or suffix.
+
+### Q18. Which is NOT an exception to Art 14?
+   (A) Art 361 immunity of the President and Governors
+   (B) Art 31C shield for Art 39(b)-(c) laws
+   (C) Art 105 parliamentary privileges
+   (D) Art 32 right to constitutional remedies
+   >> Answer: (D) Art 32 right to constitutional remedies
+   Why: Art 32 ENFORCES Art 14; it is not an exception to it. The genuine carve-outs are 31C, 33, 105/194, 359 and 361.
+
+### Q19. An SI is ordered to book one shopkeeper for conduct that thirty others on the same street are also committing, because he belongs to a rival group. The order is challengeable because:
+   (A) The underlying law is void
+   (B) Selective enforcement without a determining principle is arbitrary and violates Art 14
+   (C) Art 15 bars discrimination on political grounds
+   (D) Only the Governor may authorise prosecution
+   >> Answer: (B) Selective enforcement without a determining principle is arbitrary and violates Art 14
+   Why: The law is valid; the SELECTION is not. Royappa and Maneka make arbitrariness itself a violation. Art 15 has five grounds and political affiliation is not one of them.
+
+### Q20. A: Reservation under Art 16(4) is an exception to the guarantee of equality of opportunity. R: Art 16(1) guarantees equality of opportunity in public employment.
+   (A) Both true, R explains A
+   (B) Both true, R does not explain A
+   (C) A true, R false
+   (D) A false, R true
+   >> Answer: (D) A false, R true
+   Why: R is true, A is FALSE. Indra Sawhney 1992 held 16(4) is not an exception but a facet of REAL equality - an emphatic restatement of 16(1). Calling reservation an exception is wrong.

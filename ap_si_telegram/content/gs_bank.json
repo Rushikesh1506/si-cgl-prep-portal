@@ -1,0 +1,212 @@
+[
+ {
+  "id": 1,
+  "topic": "Polity",
+  "q": "Art 14 protects 'persons' while Arts 15-16 protect 'citizens'. Which rights does a foreign national retain?",
+  "a": "Only Art 14, plus Arts 20, 21 and 22. Arts 15, 16 and 19 are citizens-only.",
+  "tip": "Rights-holder test decides half the FR questions. Foreigner in the stem -> kill 15/16/19."
+ },
+ {
+  "id": 2,
+  "topic": "Polity",
+  "q": "CORRECTED: does Art 15(2) require State funding for shops and hotels?",
+  "a": "NO. 15(2)(a) shops, restaurants, hotels and places of entertainment carry NO funding condition and bind PRIVATE parties. Only 15(2)(b) wells, tanks, ghats and roads need State funds or public dedication.",
+  "tip": "Horizontal FRs = 15(2), 17, 23, 24. They bind private persons."
+ },
+ {
+  "id": 3,
+  "topic": "AP Polity",
+  "q": "CORRECTED: what did the AP Reorganisation Act 2014 actually provide about the capital?",
+  "a": "Hyderabad as COMMON CAPITAL for not more than 10 years, a period that ended 2 June 2024, plus an expert committee (Sivaramakrishnan, Aug 2014). The Act did NOT name Amaravati - that was a 2015 State decision.",
+  "tip": "Act versus State decision - a source trap."
+ },
+ {
+  "id": 4,
+  "topic": "AP Polity",
+  "q": "Which Article was written specifically for Andhra Pradesh, and by which amendment?",
+  "a": "Art 371D, with 371E, inserted by the 32nd Amendment 1973 after the Six-Point Formula. Executed by the AP Presidential Order 1975: local cadres, local candidates, Administrative Tribunal. It survived the 2014 bifurcation and applies to AP and Telangana.",
+  "tip": "16(3) = Parliament by LAW. 371D = President by ORDER. Different actors."
+ },
+ {
+  "id": 5,
+  "topic": "Polity",
+  "q": "Preventive detention: is the Advisory Board period 2 months or 3 months?",
+  "a": "THREE months. The 44th Amendment's 2-month rule, with a SITTING High Court judge as chair, was passed but NEVER brought into force.",
+  "tip": "Any option saying 2 months is wrong. Enacted is not operative."
+ },
+ {
+  "id": 6,
+  "topic": "Polity",
+  "q": "CORRECTED: what is the Lok Sabha's maximum strength today?",
+  "a": "550 = 530 States + 20 UTs. The old figure 552 included 2 Anglo-Indians, ended by the 104th Amendment on 25 Jan 2020. Actual strength 543. Rajya Sabha: 250 maximum (238 + 12), actual 245.",
+  "tip": "Rebuild from components 530 + 20; never recall the total."
+ },
+ {
+  "id": 7,
+  "topic": "AP Geography",
+  "q": "CORRECTED: where does the Godavari enter AP, and where is Polavaram?",
+  "a": "It enters through ALLURI SITHARAMA RAJU district, via the seven mandals transferred from Khammam in 2014. POLAVARAM is in ELURU district after the 4 April 2022 reorganisation - it was in West Godavari.",
+  "tip": "Every AP district answer must be checked against the 2022 map."
+ },
+ {
+  "id": 8,
+  "topic": "AP Geography",
+  "q": "Name the Krishna-system structures in AP from upstream to downstream.",
+  "a": "Srisailam, then Nagarjuna Sagar, then the Prakasam Barrage at Vijayawada. On the Godavari: Polavaram and the Dowleswaram (Sir Arthur Cotton) Barrage. On the Penna: Somasila and Gandikota.",
+  "tip": "Identify by nearest town: Vijayawada = Krishna, Rajahmundry = Godavari, Nellore = Penna."
+ },
+ {
+  "id": 9,
+  "topic": "AP History",
+  "q": "CORRECTED: distinguish the two bodies called Andhra Mahasabha.",
+  "a": "Andhra Mahasabha of coastal Andhra: BAPATLA, May 1913, presided over by B.N. Sarma. Andhra Maha Sabha of Hyderabad State, i.e. Telangana: JOGIPET, Medak, 1930. Examiners swap them deliberately.",
+  "tip": "1913 Bapatla = Madras Presidency. 1930 Jogipet = Hyderabad State."
+ },
+ {
+  "id": 10,
+  "topic": "AP History",
+  "q": "Give the full 1952-56 chain for the formation of Andhra Pradesh.",
+  "a": "Potti Sriramulu fasts from 19 Oct 1952 and dies 15 Dec 1952. Andhra State formed 1 Oct 1953, capital KURNOOL - India's FIRST linguistic State. SRC under Fazl Ali appointed 1953, reports 1955. Gentlemen's Agreement 1956. AP formed 1 Nov 1956, first CM Neelam Sanjiva Reddy.",
+  "tip": "1953 came from a DEATH; 1956 came from a COMMISSION. Never merge them."
+ },
+ {
+  "id": 11,
+  "topic": "Economy",
+  "q": "Distinguish revenue, fiscal and primary deficit.",
+  "a": "Revenue Deficit = Revenue Expenditure minus Revenue Receipts. Fiscal Deficit = Total Expenditure minus (Revenue Receipts + Non-debt Capital Receipts). Primary Deficit = Fiscal Deficit minus Interest Payments.",
+  "tip": "Fiscal deficit is a FLOW in one year; public debt is a STOCK. Never equate them."
+ },
+ {
+  "id": 12,
+  "topic": "Economy",
+  "q": "Which economic bodies are constitutional and which are not?",
+  "a": "CONSTITUTIONAL: Finance Commission (280), GST Council (279A), ECI (324), SEC (243K), CAG (148), NCBC (338B). EXECUTIVE: NITI Aayog (Cabinet resolution 2015) and the old Planning Commission (1950). STATUTORY: NHRC, CVC, Lokpal.",
+  "tip": "16th Finance Commission - Arvind Panagariya, award period 2026-31."
+ },
+ {
+  "id": 13,
+  "topic": "Police Law",
+  "q": "BNS 2023: date in force, section count, and the new offences.",
+  "a": "In force 1 JULY 2024. 358 sections. New: s.111 organised crime, s.112 petty organised crime, s.113 terrorist act, s.103(2) mob lynching, s.106(2) hit-and-run, s.152 replacing sedition. Community service added as a punishment.",
+  "tip": "Nyaya = justice = offences = replaces the IPC."
+ },
+ {
+  "id": 14,
+  "topic": "Police Law",
+  "q": "BNSS 2023: what changed for an investigating officer?",
+  "a": "In force 1 July 2024, 531 sections. Zero FIR regardless of jurisdiction (s.173); e-FIR; MANDATORY forensic visit with videography for offences punishable with 7 years or more (s.176(3)); 90-day progress update to the informant; s.187 police custody restructured; trial in absentia for proclaimed offenders.",
+  "tip": "Suraksha = protection = procedure = replaces the CrPC."
+ },
+ {
+  "id": 15,
+  "topic": "Police Law",
+  "q": "BSA 2023: what is the core change?",
+  "a": "In force 1 July 2024, 170 sections. Electronic and digital records are placed on the same footing as documentary evidence, with an expanded definition covering semiconductor memory and communication devices.",
+  "tip": "Sakshya = evidence. Translate the middle word and the matching is automatic."
+ },
+ {
+  "id": 16,
+  "topic": "Polity",
+  "q": "CORRECTED: how many Fundamental Duties, and added by which amendments?",
+  "a": "ELEVEN. The 42nd (1976) gave TEN, on the Swaran Singh Committee's advice. The 86th (2002) added the ELEVENTH, 51A(k), the parent's duty for a child aged 6-14.",
+  "tip": "42nd = 10, 86th = +1. Never say the 42nd gave 11."
+ },
+ {
+  "id": 17,
+  "topic": "Science",
+  "q": "Vitamin deficiency mapping.",
+  "a": "A - night blindness and xerophthalmia; B1 - beriberi; B3 - pellagra; B12 - pernicious anaemia; C - scurvy; D - rickets in children and osteomalacia in adults; K - impaired clotting.",
+  "tip": "A, D, E and K are fat-soluble and stored; B and C are water-soluble and need daily intake."
+ },
+ {
+  "id": 18,
+  "topic": "Science",
+  "q": "Common chemical names.",
+  "a": "Washing soda Na2CO3.10H2O; baking soda NaHCO3; bleaching powder Ca(OCl)Cl; plaster of Paris CaSO4 with half a water; gypsum CaSO4 with two waters; quicklime CaO; slaked lime Ca(OH)2.",
+  "tip": "Plaster of Paris and gypsum differ only in water of crystallisation - the usual trap."
+ },
+ {
+  "id": 19,
+  "topic": "AP Economy",
+  "q": "How should an AP scheme be memorised for the exam?",
+  "a": "Always as name + beneficiary + benefit + department. Thalliki Vandanam is AP's school-education assistance scheme paid to mothers, replacing the earlier Amma Vodi. Verify the current amount from a recent source before the exam.",
+  "tip": "Scheme names change with governments; the BENEFICIARY and DEPARTMENT rarely do."
+ },
+ {
+  "id": 20,
+  "topic": "AP Polity",
+  "q": "AP districts and local bodies.",
+  "a": "26 districts since 4 APRIL 2022, up from 13. Tiers: Gram Panchayat, MANDAL Parishad, Zilla Parishad. Sarpanch, MPTC and ZPTC are DIRECTLY elected; MPP and ZP Chairperson INDIRECTLY. AP gives 50% women's reservation by State law. AP Panchayat Raj Act 1994.",
+  "tip": "The constitutional floor is one-third; AP's 50% comes from STATE law."
+ },
+ {
+  "id": 21,
+  "topic": "History",
+  "q": "The 1919 cluster.",
+  "a": "Rowlatt Act March 1919; Jallianwala Bagh 13 April 1919 at Amritsar; the Montagu-Chelmsford reforms and the Government of India Act 1919 introducing DYARCHY in the provinces; the Hunter Committee inquiry; Tagore renounced his knighthood.",
+  "tip": "One year, several events. Exams ask which does NOT belong to 1919."
+ },
+ {
+  "id": 22,
+  "topic": "AP Geography",
+  "q": "CORRECTED: AP's soils.",
+  "a": "RED soils cover about two-thirds - Rayalaseema and the uplands - suited to groundnut and millets. BLACK regur in parts of Kurnool, Nandyal, Anantapur, Prakasam and Guntur - cotton. DELTAIC ALLUVIAL in the Godavari-Krishna deltas - the RICE BOWL and the most exam-relevant soil. Also coastal sands and laterite.",
+  "tip": "The original card omitted deltaic alluvium, AP's most important soil."
+ },
+ {
+  "id": 23,
+  "topic": "Polity",
+  "q": "Emergency provisions at a glance.",
+  "a": "352 National - war, external aggression, armed rebellion; approval in 1 month by SPECIAL majority; used 1962, 1971, 1975. 356 President's Rule - 2 months, SIMPLE majority, maximum 3 years; beyond 1 year needs an Emergency in force plus an EC certificate. 360 Financial - NEVER used.",
+  "tip": "The harder emergency has the shorter clock: 352 one month, 356 two."
+ },
+ {
+  "id": 24,
+  "topic": "Science Tech",
+  "q": "ISRO and the AP connection.",
+  "a": "ISRO headquarters Bengaluru. Satish Dhawan Space Centre SHAR, SRIHARIKOTA, is in TIRUPATI district after 2022 - previously Nellore - adjoining Pulicat Lake, India's second-largest brackish-water lagoon.",
+  "tip": "SHAR is in AP and is asked directly. Note the post-2022 district."
+ },
+ {
+  "id": 25,
+  "topic": "Current",
+  "q": "CORRECTED: literacy, Census 2011.",
+  "a": "INDIA 72.98%, about 73% - NOT 74%. Undivided AP 67.02%, the lowest among the major States. Residuary AP about 67.4%. Kerala highest, Bihar lowest.",
+  "tip": "Always quote 72.98 for India. The 74% figure in the old card was wrong."
+ },
+ {
+  "id": 26,
+  "topic": "Economy",
+  "q": "GST rests on which Articles?",
+  "a": "THREE. Art 246A is the concurrent taxing power and the actual charging provision; Art 269A covers inter-State supply and IGST; Art 279A creates the GST Council. 101st Amendment 2016. Council voting: Centre one-third, States two-thirds, decisions by a three-fourths majority, quorum one-half.",
+  "tip": "Most notes give only 279A. 246A is the power; 279A is the body."
+ },
+ {
+  "id": 27,
+  "topic": "AP History",
+  "q": "The Satavahanas, in exam detail.",
+  "a": "Founder SIMUKA. Principal capital PRATISHTHANA, that is Paithan; the later seat was DHANYAKATAKA or AMARAVATI. Greatest ruler GAUTAMIPUTRA SATAKARNI, known from the NASIK inscription of his mother Gautami Balashri. Amaravati's fame is the MAHACHAITYA, a Buddhist stupa.",
+  "tip": "Ancient Amaravati, the stupa, and modern Amaravati, the capital, are the same site."
+ },
+ {
+  "id": 28,
+  "topic": "AP Geography",
+  "q": "AP river and coast superlatives.",
+  "a": "The Godavari is the longest river in AP and the longest in PENINSULAR India, rising at Trimbakeshwar, Nashik. AP's coastline is about 974 km - SECOND longest among the States, after GUJARAT. Highest peak: Arma Konda in the Eastern Ghats.",
+  "tip": "Superlatives are asked one rank off. Gujarat, then AP, then Tamil Nadu."
+ },
+ {
+  "id": 29,
+  "topic": "Polity",
+  "q": "Ombudsman and anti-corruption bodies.",
+  "a": "Lokpal at the Centre and Lokayukta in the States under the Lokpal and Lokayuktas Act 2013 - STATUTORY, not constitutional. AP has its own Lokayukta and Upa-Lokayukta Act 1983. The CVC is statutory (2003); the CBI operates under the Delhi Special Police Establishment Act 1946.",
+  "tip": "None of these is constitutional. The CAG and the ECI are."
+ },
+ {
+  "id": 30,
+  "topic": "Science",
+  "q": "Atmospheric layers and the ozone question.",
+  "a": "Troposphere - weather, temperature falls with height. STRATOSPHERE - the OZONE layer, temperature rises with height. Mesosphere - meteors burn up. Thermosphere with the ionosphere - radio reflection. Exosphere - outermost.",
+  "tip": "Ozone is a POLLUTANT in the troposphere and a SHIELD in the stratosphere."
+ }
+]

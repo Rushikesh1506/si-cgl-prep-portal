@@ -1,0 +1,152 @@
+[
+ {
+  "q": "A takeover of housing stock is defended by invoking the directive shield. What is the first question to ask?",
+  "options": [
+   "Whether the law gives effect to one of the two shielded directives",
+   "Whether the State has obtained the prior concurrence of Parliament",
+   "Whether the owners were heard before the law was introduced",
+   "Whether the shield has been invoked expressly in the preamble of the law"
+  ],
+  "answer": 0,
+  "expl": "The shield is confined to two directives; that threshold decides everything else.",
+  "why": "The remaining options describe procedural steps that sound plausible but form no part of the shield's operation.",
+  "round": "X",
+  "trapcat": "G",
+  "trapnote": "Test the threshold before the merits. If the law is outside the two clauses, nothing else matters."
+ },
+ {
+  "q": "A note states that the 2024 ruling made all private property a community resource. What kind of error is this?",
+  "options": [
+   "An overstatement: the ruling so held, subject to payment of compensation",
+   "An omission: the ruling so held, but only for natural resources",
+   "An anachronism: the ruling was delivered before the shield was narrowed",
+   "An inversion: the ruling held precisely the opposite on that question"
+  ],
+  "answer": 3,
+  "expl": "The ruling rejected the proposition that private ownership alone makes a resource communal.",
+  "why": "Two of the wrong options concede the proposition and qualify it, which is more tempting than a flat denial would be.",
+  "round": "X",
+  "trapcat": "J",
+  "trapnote": "Distinguish inversion from qualification. Here the holding is the reverse, not a narrower version."
+ },
+ {
+  "q": "A law restricting press freedom is defended as a welfare measure advancing a directive. Which statement is correct?",
+  "options": [
+   "The restriction is valid, welfare being fundamental in the governance of the country",
+   "The restriction is valid if the shield is pleaded and the law is a State law",
+   "The restriction is tested against the listed grounds; a welfare label does not suffice",
+   "The restriction is void, no restriction on the press being constitutionally permissible"
+  ],
+  "answer": 2,
+  "expl": "A welfare purpose does not convert an unlisted ground into a listed one.",
+  "why": "The fourth option overstates press freedom into an absolute, which is the mirror error to the State's argument.",
+  "round": "X",
+  "trapcat": "B",
+  "trapnote": "A purpose is not a ground. Restrictions are tested against the list, whatever the objective."
+ },
+ {
+  "q": "Children out of school are drawn into labour, and their families cannot afford litigation. Which chain correctly links the provisions?",
+  "options": [
+   "Denial of schooling is a directive breach, and child labour is a policy matter alone",
+   "Denial of schooling feeds child labour, and the aid directive answers the access barrier",
+   "Child labour is a directive breach, and schooling is enforceable only after fourteen",
+   "All three limbs are directives, none being enforceable in a court of law"
+  ],
+  "answer": 1,
+  "expl": "Schooling is a right, child labour engages a right, and legal aid answers the access problem.",
+  "why": "The wrong options each demote at least one limb from a right to a directive, which is the recurring error in this area.",
+  "round": "X",
+  "trapcat": "H",
+  "trapnote": "Trace the chain and check the category of each link. Demoting a right to a directive breaks it."
+ },
+ {
+  "q": "A statement set is accurate on duties and directives but adds that the strength of the lower House is fixed by a Fundamental Duty. Which statement is correct?",
+  "options": [
+   "The added statement is defective: House strength is a structural provision, not a duty",
+   "The added statement is accurate: the duty to uphold the Constitution covers it",
+   "The added statement is defective: House strength is fixed by a Directive Principle",
+   "The added statement is accurate, the duty having been added in 2002"
+  ],
+  "answer": 0,
+  "expl": "The composition of the House is a structural provision unconnected with Part IVA.",
+  "why": "The second and fourth options attempt to absorb a structural rule into a duty, which is how such defects are usually disguised.",
+  "round": "X",
+  "trapcat": "J",
+  "trapnote": "A correct set with one foreign item planted in it is the standard construction. Check each item's Part."
+ },
+ {
+  "q": "The November 2022 ruling on economically weaker sections is cited to deny a schooling claim. Which statement is correct?",
+  "options": [
+   "The ruling extended the ceiling doctrine to educational rights generally",
+   "The ruling suspended the schooling right pending a census and delimitation",
+   "The ruling held schooling to be a directive rather than a fundamental right",
+   "The ruling concerned reservation and leaves the schooling right untouched"
+  ],
+  "answer": 3,
+  "expl": "The ruling concerned reservation and the ceiling; it did not touch the schooling right.",
+  "why": "The third option borrows the census condition from a different amendment, which is a frequent cross-contamination.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "Rulings decide what was in issue. A holding cannot be exported to an unrelated right."
+ },
+ {
+  "q": "The 2024 ruling is cited to justify taking over every lodging house in a town. Which statement is correct?",
+  "options": [
+   "The citation succeeds: the ruling permits takeover of all private commercial property",
+   "The citation fails: the ruling abolished the directive relied on",
+   "The citation fails: the ruling requires the resource to satisfy a community test",
+   "The citation succeeds where the State records a welfare purpose in the order"
+  ],
+  "answer": 2,
+  "expl": "The ruling imposed a test; it did not authorise indiscriminate takeover.",
+  "why": "The fourth option adds a procedural fig leaf, which is how an overreaching argument is usually dressed.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "A narrowing ruling cannot support a widening argument, whatever procedural step is added."
+ },
+ {
+  "q": "The 2023 women's reservation amendment is cited as a reason to defer maternity benefits. Which statement is correct?",
+  "options": [
+   "The citation succeeds: all affirmative measures await the census",
+   "The citation fails: the census condition attaches to seat reservation alone",
+   "The citation fails: the amendment repealed the maternity directive",
+   "The citation succeeds where the State has not completed delimitation"
+  ],
+  "answer": 1,
+  "expl": "The census condition governs the operation of seat reservation and nothing else.",
+  "why": "The second and fourth options generalise a narrow condition, which is the standard current-affairs error.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "A condition attached to one amendment does not travel to unrelated welfare obligations."
+ },
+ {
+  "q": "The criminal procedure statute in force from July 2024 is cited in support of providing counsel to an indigent arrested person. Which statement is correct?",
+  "options": [
+   "The citation is apt: the statute operationalises the legal aid directive",
+   "The citation is inapt: the statute removed the legal aid obligation",
+   "The citation is inapt: legal aid arises only at the stage of framing charges",
+   "The citation is apt only where the offence is punishable with seven years or more"
+  ],
+  "answer": 0,
+  "expl": "The statute carries forward the counsel and legal aid safeguards that give the directive effect.",
+  "why": "The fourth option imports the forensic-visit threshold into an unrelated safeguard, which is a plausible cross-wiring.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "Thresholds belong to the provisions that create them. Do not carry a seven-year rule into legal aid."
+ },
+ {
+  "q": "The creation of twenty-six districts in Andhra Pradesh in 2022 is cited to claim that panchayat funds have automatically doubled. Which statement is correct?",
+  "options": [
+   "The claim succeeds: funds follow the number of administrative units created",
+   "The claim fails: panchayat funding is determined by the Union finance commission",
+   "The claim succeeds where the State has accepted the finance commission report",
+   "The claim fails: devolution follows a finance commission and a budget, not reorganisation"
+  ],
+  "answer": 3,
+  "expl": "Reorganisation changes units; devolution requires a State finance commission and legislative appropriation.",
+  "why": "The third option reaches the right conclusion by naming the wrong commission, which is a distinct and common confusion.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "State local bodies are funded on a State finance commission's advice, not the Union commission's."
+ }
+]
