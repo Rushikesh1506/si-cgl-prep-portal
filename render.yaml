@@ -1,0 +1,15 @@
+# Render Blueprint — Target SI & CGL Prep Portal (static site, free tier OK)
+# Dashboard: New -> Blueprint -> select repo Rushikesh1506/si-cgl-prep-portal -> Apply.
+# No build step, no secrets: pure HTML/CSS/JS. Publish dir is repo root.
+# NOTE: ap_si_telegram/render.yaml is a SEPARATE optional bot worker template
+# (needs BOT_TOKEN + CHAT_ID, paid tier recommended). This blueprint only ships the portal.
+services:
+  - type: web
+    name: si-cgl-prep-portal
+    env: static
+    buildCommand: ""
+    staticPublishPath: .
+    routes:
+      - type: rewrite
+        source: /english
+        destination: /english/index.html
