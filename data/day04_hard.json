@@ -1,0 +1,152 @@
+[
+ {
+  "q": "A territory is proposed to be ceded to another country, and it is argued that the Preamble bars the transfer. Which statement reflects the position?",
+  "options": [
+   "Cession requires a constitutional amendment; the Preamble was then held not to be part",
+   "Cession requires only an executive agreement; the Preamble was held to be part",
+   "Cession is impermissible in any circumstances by virtue of the Preamble",
+   "Cession requires a constitutional amendment; the Preamble was then held to be part"
+  ],
+  "answer": 0,
+  "expl": "The 1960 reference held cession needs an amendment and the Preamble was not then part.",
+  "why": "Two options give the correct result on cession and differ only on the Preamble holding, so both limbs must be known.",
+  "round": "A",
+  "trapcat": "F",
+  "trapnote": "This case decided two things. Know both, because options will pair a right limb with a wrong one."
+ },
+ {
+  "q": "An amendment substantially curtails the equality guarantee to advance a welfare objective. Which statement is correct?",
+  "options": [
+   "It is void, fundamental rights being beyond the amending power altogether",
+   "It is valid, an amendment not being law for the purpose of the bar",
+   "It is void unless ratified by not less than half the State legislatures",
+   "It is valid unless it damages the basic structure of the Constitution"
+  ],
+  "answer": 3,
+  "expl": "Amendments escape the bar but remain subject to the basic structure limit.",
+  "why": "The third option states a true proposition and draws the wrong conclusion from it, which is the strongest distractor here.",
+  "round": "A",
+  "trapcat": "G",
+  "trapnote": "A true premise can support a wrong conclusion. The bar is escaped; the basic structure limit is not."
+ },
+ {
+  "q": "Consider: 1-The 1967 decision held fundamental rights beyond the amending power. 2-The 1971 amendment reversed that position. 3-The 1973 decision restored the 1967 position in full. Which is/are correct?",
+  "options": [
+   "2 and 3 only",
+   "1 and 3 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "answer": 2,
+  "expl": "The 1973 decision did not restore the earlier position; it substituted the basic structure limit.",
+  "why": "The third statement is a plausible simplification of a complex sequence and is the planted defect.",
+  "round": "A",
+  "trapcat": "F",
+  "trapnote": "The 1973 decision overruled the 1967 one while imposing a different limit. It did not restore it."
+ },
+ {
+  "q": "A student is refused admission by a private unaided institution on grounds unconnected with any statute. Which statement is correct?",
+  "options": [
+   "A fundamental rights petition lies because education is a public function",
+   "No fundamental rights petition lies against it unless it satisfies the State test",
+   "No remedy is available at all against a private unaided institution",
+   "A fundamental rights petition lies because the institution is recognised by a board"
+  ],
+  "answer": 1,
+  "expl": "Absent the State test, the fundamental rights route does not lie, though other remedies may.",
+  "why": "The third option overstates the conclusion into a denial of all remedy, which is a distinct and wrong proposition.",
+  "round": "A",
+  "trapcat": "G",
+  "trapnote": "Closing one route does not close every route. Distinguish the remedy from the right."
+ },
+ {
+  "q": "An executive instruction not traceable to any statute restricts a fundamental right. Which statement is correct?",
+  "options": [
+   "It is not 'law' capable of imposing a restriction, and the restriction fails",
+   "It is 'law' for this purpose, executive instructions having statutory force",
+   "It is 'law' only if issued by the State government rather than a district officer",
+   "It is not 'law', but the restriction stands if the purpose is a listed ground"
+  ],
+  "answer": 0,
+  "expl": "A restriction must be imposed by law; an unsupported executive instruction cannot do it.",
+  "why": "The fourth option accepts the premise and then ignores it, which is the subtler of the two wrong routes.",
+  "round": "A",
+  "trapcat": "B",
+  "trapnote": "A listed purpose cannot cure the absence of a law. Both elements are required."
+ },
+ {
+  "q": "Consider the 2019 citizenship amendment: 1-It names three countries. 2-It names six communities. 3-It applies to persons who entered India after 31 December 2014. Which is/are correct?",
+  "options": [
+   "2 and 3 only",
+   "1 and 3 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "answer": 2,
+  "expl": "The cut-off operates for those who entered on or before that date, not after it.",
+  "why": "The third statement inverts the direction of the cut-off, which is the single most frequently misstated feature.",
+  "round": "A",
+  "trapcat": "C",
+  "trapnote": "Cut-off dates have a direction. Check whether the provision looks backwards or forwards from the date."
+ },
+ {
+  "q": "A State legislature enacts a law conferring citizenship on a class of residents. Which statement is correct?",
+  "options": [
+   "The law is valid if the President accords his assent to it",
+   "The law is valid for State purposes though not for Union purposes",
+   "The law is void, citizenship falling within Parliament's exclusive competence",
+   "The law is void unless it is placed in the Ninth Schedule for protection"
+  ],
+  "answer": 2,
+  "expl": "Citizenship is exclusively for Parliament; no State legislature can legislate on it.",
+  "why": "The third option invents a split between State and Union citizenship, contradicting single citizenship.",
+  "round": "T",
+  "trapcat": "B",
+  "trapnote": "Single citizenship means there is no State-level citizenship to legislate for."
+ },
+ {
+  "q": "Consider: 1-The bar on laws abridging fundamental rights extends to ordinances. 2-It extends to rules and regulations. 3-It extends to constitutional amendments. Which is/are correct?",
+  "options": [
+   "2 and 3 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 1,
+  "expl": "Ordinances, rules and regulations are included; amendments were expressly excluded in 1971.",
+  "why": "The definition is wide and inclusive, which is precisely why the single express exclusion is the item tested.",
+  "round": "T",
+  "trapcat": "I",
+  "trapnote": "The definition of law is deliberately wide. Learn the one express exclusion rather than the inclusions."
+ },
+ {
+  "q": "An electoral roll entry is relied on as conclusive proof of citizenship in a verification exercise. Which statement is correct?",
+  "options": [
+   "The entry is evidence but not conclusive; status rests on the Constitution and the statute",
+   "The entry is conclusive, inclusion following a statutory verification process",
+   "The entry is irrelevant, citizenship being determinable only by a civil court",
+   "The entry is conclusive unless the person is shown to hold a foreign passport"
+  ],
+  "answer": 0,
+  "expl": "A roll entry is indicative; conferral and determination of status follow a different process.",
+  "why": "The fourth option concedes the general proposition and creates a single exception, which is a common way of dressing an error.",
+  "round": "T",
+  "trapcat": "H",
+  "trapnote": "Evidence of a fact is not the same as title to a status. Keep the two distinct."
+ },
+ {
+  "q": "A person claims citizenship at commencement on the footing of five years' ordinary residence but has no Indian domicile. Which statement is correct?",
+  "options": [
+   "The claim succeeds: five years' residence is by itself sufficient for the purpose",
+   "The claim fails: the required period of ordinary residence is ten years",
+   "The claim succeeds: domicile is presumed from long ordinary residence",
+   "The claim fails: domicile at commencement is a separate and necessary condition"
+  ],
+  "answer": 3,
+  "expl": "Domicile at commencement is required in addition to one of the alternative conditions.",
+  "why": "The fourth option presumes one element from another, which is exactly how such conditions are collapsed in practice.",
+  "round": "T",
+  "trapcat": "G",
+  "trapnote": "Where a provision has a condition plus alternatives, satisfying an alternative alone is not enough."
+ }
+]

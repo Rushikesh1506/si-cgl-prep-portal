@@ -1,0 +1,152 @@
+[
+ {
+  "q": "It is claimed that the 2023 reservation amendment has already altered the composition of the lower House. Which statement is correct?",
+  "options": [
+   "The claim fails: the amendment operates only after a census and the delimitation that follows",
+   "The claim succeeds: the amendment operated from the date it received assent",
+   "The claim fails: the amendment applies to the upper House and not the lower",
+   "The claim succeeds: the composition changed at the last general election"
+  ],
+  "answer": 0,
+  "expl": "The amendment is enacted but not yet operative.",
+  "why": "The third option is wrong in the opposite direction, the amendment covering directly elected Houses only.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "Enacted is not operative. The census and delimitation conditions must be satisfied first."
+ },
+ {
+  "q": "Consider the ceiling on the strength of the lower House: 1-It stands at 550. 2-It was reduced from 552 in 2020. 3-The reduction followed the ending of nominated Anglo-Indian seats. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 3,
+  "expl": "All three are accurate and describe a single change.",
+  "why": "The ceiling changed because two nominated seats were discontinued, which is the causal link worth retaining.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "The ceiling fell by exactly the number of nominated seats discontinued in 2020."
+ },
+ {
+  "q": "A member discloses details of custodial torture during a debate. Which statement is correct?",
+  "options": [
+   "The disclosure is not protected, custody matters being outside the scope of privilege",
+   "The disclosure is protected, and the statutory safeguards stand suspended during the debate",
+   "The disclosure is protected in the House; the statutory safeguards continue to operate outside it",
+   "The disclosure is protected only where the presiding officer has granted prior permission"
+  ],
+  "answer": 2,
+  "expl": "Speech in the House is protected; the operation of statutory safeguards is unaffected.",
+  "why": "The third option treats privilege as suspending the general law, which reverses the relationship entirely.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "Privilege protects what is said in the House. It neither suspends nor displaces the general law."
+ },
+ {
+  "q": "The November 2022 ruling is cited as having altered the reservation of seats in legislatures. Which statement is correct?",
+  "options": [
+   "The citation succeeds: the ruling extended reservation to legislative seats",
+   "The citation fails: that ruling concerned reservation in education and employment",
+   "The citation fails: legislative seat reservation was altered in 2024 instead",
+   "The citation succeeds subject to the completion of a census"
+  ],
+  "answer": 1,
+  "expl": "Reservation of seats in legislatures rests on separate provisions and a separate amendment.",
+  "why": "The fourth option imports the census condition from the 2023 amendment, a frequent cross-contamination.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "Reservation in education and employment and reservation of seats are governed separately."
+ },
+ {
+  "q": "Consider the extension of reservation of seats for Scheduled Castes and Tribes in legislatures: 1-It was extended in 2020. 2-The same amendment ended nominated Anglo-Indian seats. 3-The extension runs to 2030. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 3,
+  "expl": "All three limbs belong to the same amendment.",
+  "why": "One amendment did two apparently unrelated things, which is why its number is asked from both directions.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "Two limbs in one amendment: extension of reservation and ending of nominated seats."
+ },
+ {
+  "q": "The 2022 reorganisation of districts in Andhra Pradesh is cited as altering the number of Assembly seats. Which statement is correct?",
+  "options": [
+   "The citation succeeds: Assembly seats follow the number of districts in the State",
+   "The citation fails: Assembly strength may be altered only by a resolution of the Assembly",
+   "The citation succeeds where the Election Commission has approved the reorganisation",
+   "The citation fails: Assembly strength is altered by delimitation and not by district reorganisation"
+  ],
+  "answer": 3,
+  "expl": "District reorganisation is administrative; seat numbers follow a delimitation exercise.",
+  "why": "The third option denies the citation for a wrong reason, which is a distinct kind of error.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "Administrative units and electoral constituencies are determined by different processes."
+ },
+ {
+  "q": "A claim is made that a joint sitting may be summoned to resolve disagreement over the 2023 reservation amendment. Which statement is correct?",
+  "options": [
+   "The claim succeeds: a joint sitting lies for any Bill on which the Houses disagree",
+   "The claim fails: a joint sitting lies only where the upper House has rejected the Bill",
+   "The claim fails: no joint sitting lies for a Constitution Amendment Bill",
+   "The claim succeeds where the disagreement persists for more than six months"
+  ],
+  "answer": 2,
+  "expl": "Money Bills and Amendment Bills are both excluded from the joint sitting machinery.",
+  "why": "The third option states a partial truth about ordinary Bills and applies it to an excluded category.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "Two categories are excluded from joint sittings. An Amendment Bill is one of them."
+ },
+ {
+  "q": "Consider the criminal statutes in force from July 2024 in relation to a sitting member: 1-They apply to a member as to any other person. 2-Privilege bars registration of an offence against a member. 3-The presiding officer must be informed of an arrest. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 1,
+  "expl": "The statutes apply generally and the presiding officer must be informed; privilege bars nothing.",
+  "why": "The second statement converts a procedural courtesy into a substantive bar, which is the common field error.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "Informing the presiding officer is a requirement of procedure. It is not a bar to process."
+ },
+ {
+  "q": "It is claimed that because the Council in Andhra Pradesh delays Bills, it may be dissolved by the Governor. Which statement is correct?",
+  "options": [
+   "The claim fails: a Council cannot be dissolved and abolition requires a law of Parliament",
+   "The claim succeeds: the Governor may dissolve the Council on the advice of the Ministry",
+   "The claim fails: a Council may be dissolved only after a resolution of the Assembly",
+   "The claim succeeds where the Council has delayed a Money Bill beyond fourteen days"
+  ],
+  "answer": 0,
+  "expl": "A Council is a permanent body; it can be abolished only by a law of Parliament after a resolution.",
+  "why": "The third option confuses dissolution with abolition, which are different concepts with different routes.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "A Council is never dissolved. It is abolished, and only by a law of Parliament."
+ },
+ {
+  "q": "A question asks which of these is examined by the Public Accounts Committee. Which statement is correct?",
+  "options": [
+   "The estimates of expenditure submitted by ministries before the Budget",
+   "The working of public undertakings referred to it by the Speaker",
+   "The demands for grants moved by the Minister of Finance in the House",
+   "The audit reports of the Comptroller and Auditor General laid before the House"
+  ],
+  "answer": 3,
+  "expl": "The Committee examines the audit reports after expenditure has occurred.",
+  "why": "Each wrong option names the function of a different committee or a different stage of the financial process.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "Accounts are examined after the spending. Estimates are examined before it."
+ }
+]

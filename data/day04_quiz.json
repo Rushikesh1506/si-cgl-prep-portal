@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Consider the Preamble: 1-It was held in 1960 not to be part of the Constitution. 2-That view was revised in 1973. 3-It has been amended twice. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 0,
+  "expl": "It has been amended once, by the 1976 amendment inserting three words.",
+  "why": "The two judgments are correctly stated; only the count of amendments is wrong, and one amendment is the figure to retain.",
+  "round": "F",
+  "trapcat": "C",
+  "trapnote": "The Preamble has been amended exactly once. Any other count is the planted defect."
+ },
+ {
+  "q": "The date appearing in the Preamble is:",
+  "options": [
+   "26 January 1950, being the date of commencement",
+   "26 November 1949, being the date of commencement",
+   "26 November 1949, being the date of adoption",
+   "26 January 1950, being the date of adoption"
+  ],
+  "answer": 2,
+  "expl": "The Preamble records adoption; commencement followed on 26 January 1950 and is not in the text.",
+  "why": "All four options pair a real date with a real event, so only the correct pairing distinguishes them.",
+  "round": "F",
+  "trapcat": "C",
+  "trapnote": "Two dates, two events, one document. Only the adoption date appears in the Preamble."
+ },
+ {
+  "q": "Consider the words inserted in the Preamble in 1976: 1-Socialist. 2-Secular. 3-Federal. Which is/are correct?",
+  "options": [
+   "2 and 3 only",
+   "1 and 3 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "answer": 2,
+  "expl": "Socialist and Secular were inserted, together with Integrity; Federal was not.",
+  "why": "Federal is attractive because India is described as federal in character, but the word does not appear in the Preamble at all.",
+  "round": "F",
+  "trapcat": "I",
+  "trapnote": "The third inserted word is Integrity, not Federal. The Preamble never uses the word federal."
+ },
+ {
+  "q": "A person voluntarily acquires the citizenship of a foreign State and then claims to retain Indian citizenship. Which statement is correct?",
+  "options": [
+   "Indian citizenship continues, the overseas status conferring full dual citizenship",
+   "Indian citizenship ceases, the Constitution barring voluntary dual allegiance",
+   "Indian citizenship continues until a competent authority formally cancels it",
+   "Indian citizenship ceases only where the foreign State is a neighbouring country"
+  ],
+  "answer": 1,
+  "expl": "Voluntary acquisition of foreign citizenship terminates Indian citizenship.",
+  "why": "The overseas citizen status is widely misdescribed as dual citizenship, which is what makes the second option persuasive.",
+  "round": "F",
+  "trapcat": "D",
+  "trapnote": "Overseas citizenship is a registered status with limited rights. It is not a second citizenship."
+ },
+ {
+  "q": "Consider the citizenship provisions at commencement: 1-One deals with migration from Pakistan to India. 2-One deals with return to India under a permit after migrating to Pakistan. 3-One deals with registration by persons of Indian origin residing abroad. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 3,
+  "expl": "Three separate provisions cover migration in, return under permit, and registration from abroad.",
+  "why": "The distinguishing feature between the first two is the direction of travel, and the word permit belongs only to the second.",
+  "round": "F",
+  "trapcat": "I",
+  "trapnote": "Direction of travel separates the migration provisions. The word permit appears in only one of them."
+ },
+ {
+  "q": "Which statement correctly describes the expression 'the State' for the purposes of fundamental rights?",
+  "options": [
+   "It includes every body performing a function of public importance, without more",
+   "It excludes local authorities, which are governed by a separate Part",
+   "It includes local authorities and other authorities under governmental control",
+   "It includes the judiciary in the exercise of its adjudicatory functions"
+  ],
+  "answer": 2,
+  "expl": "Local and other authorities are included; control rather than public importance is the test.",
+  "why": "The fourth option is the classic half-truth: the judiciary counts in its administrative capacity, not its adjudicatory one.",
+  "round": "F",
+  "trapcat": "B",
+  "trapnote": "Control is the test, not public importance. And the judiciary counts only in its administrative role."
+ },
+ {
+  "q": "A body is held not to be 'the State'. Consider: 1-No Supreme Court petition lies for fundamental rights. 2-No High Court writ lies against it at all. 3-A High Court writ may lie for its public functions. Correct?",
+  "options": [
+   "1 and 3 only",
+   "1 and 2 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 0,
+  "expl": "The Supreme Court route closes; the High Court route can remain open for public functions.",
+  "why": "The second and third statements are direct opposites, so the candidate must know which of the two survives the finding.",
+  "round": "F",
+  "trapcat": "G",
+  "trapnote": "The High Court writ power runs against any person or authority and does not depend on this definition."
+ },
+ {
+  "q": "A pre-Constitution law is inconsistent with a fundamental right. Which statement is correct?",
+  "options": [
+   "It is void in its entirety from the date the Constitution commenced",
+   "It is void to the extent of the inconsistency and may revive if that is removed",
+   "It remains valid until Parliament repeals or amends the provision",
+   "It is void only after a court has expressly declared it to be so"
+  ],
+  "answer": 1,
+  "expl": "Severability limits the voidness and the eclipse doctrine permits revival.",
+  "why": "The fourth option confuses the effect of a declaration with the source of invalidity, which arises from the Constitution itself.",
+  "round": "C",
+  "trapcat": "G",
+  "trapnote": "Two doctrines operate together here: severability limits the damage, eclipse permits revival."
+ },
+ {
+  "q": "Consider: 1-A constitutional amendment is 'law' for the purpose of the bar on laws abridging fundamental rights. 2-An amendment may nevertheless be struck down for damaging the basic structure. 3-The provision excluding amendments was inserted in 1971. Which is/are correct?",
+  "options": [
+   "2 and 3 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 0,
+  "expl": "Amendments were expressly taken outside the bar in 1971, but the basic structure check remains.",
+  "why": "The check did not disappear; it moved from one doctrine to another, which is the point the set is built around.",
+  "round": "C",
+  "trapcat": "F",
+  "trapnote": "The bar was removed and a different limit took its place. The check moved rather than vanished."
+ },
+ {
+  "q": "A municipality demolishes a shop without notice and without any law authorising it. Which statement is correct?",
+  "options": [
+   "A local authority is not the State, the remedy lying only in civil proceedings",
+   "A local authority is the State, but municipal action is immune from rights review",
+   "A local authority is the State, and the action fails for want of a fair procedure",
+   "A local authority is the State only where it receives grants from the government"
+  ],
+  "answer": 2,
+  "expl": "Local authorities are expressly included, and action without law or procedure fails.",
+  "why": "The fourth option invents a funding condition, borrowing the language of the control test and misapplying it.",
+  "round": "C",
+  "trapcat": "B",
+  "trapnote": "Local authorities are named expressly. No funding or control inquiry is needed for them."
+ },
+ {
+  "q": "A custom excludes a community from a village well. Which statement is correct?",
+  "options": [
+   "Custom lies outside the bar, which reaches only enacted legislation",
+   "Custom lies outside the bar, but is separately void as an unreasonable practice",
+   "Custom is within the bar only where a court has previously recognised it",
+   "Custom having the force of law is within the bar, and the custom falls"
+  ],
+  "answer": 3,
+  "expl": "The definition of law expressly includes custom and usage having the force of law.",
+  "why": "The second option reflects the intuitive but wrong assumption that only statutes can be tested.",
+  "round": "C",
+  "trapcat": "I",
+  "trapnote": "Custom and usage having the force of law are expressly covered. The bar is not confined to statutes."
+ },
+ {
+  "q": "On the 1955 citizenship statute and its 2019 amendment: 1-Both rest on Parliament's plenary power. 2-The amendment uses a cut-off of 31 December 2014. 3-It applies uniformly to all areas of India. Correct?",
+  "options": [
+   "2 and 3 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 1,
+  "expl": "Areas under the Sixth Schedule and inner line permit regimes are excluded.",
+  "why": "The third statement is the defect and is easily missed because the exclusion is geographical rather than substantive.",
+  "round": "C",
+  "trapcat": "D",
+  "trapnote": "Check for geographical carve-outs. A statute can be general in subject and limited in territory."
+ },
+ {
+  "q": "An institution receives deep and pervasive government funding and control, but is registered as a private society. Which statement is correct?",
+  "options": [
+   "It may be the State if the control test is satisfied on the facts",
+   "It cannot be the State, registration as a society being conclusive",
+   "It is the State automatically once any government funding is received",
+   "It may be the State only if a statute expressly so declares"
+  ],
+  "answer": 0,
+  "expl": "Form of registration is not conclusive; deep and pervasive control can bring a body within the definition.",
+  "why": "The third option converts a multi-factor test into a single automatic trigger, which is the commonest overstatement here.",
+  "round": "C",
+  "trapcat": "E",
+  "trapnote": "The control test is cumulative and factual. Neither registration nor any single factor is conclusive."
+ },
+ {
+  "q": "Consider the Preamble's objectives: 1-Justice is described as social, economic and political. 2-Liberty covers thought, expression, belief, faith and worship. 3-Equality is described as of status and of opportunity. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 3,
+  "expl": "All three descriptions match the text of the Preamble.",
+  "why": "Sets in which every item is accurate test verification; the temptation is to assume that one item must be planted.",
+  "round": "C",
+  "trapcat": "F",
+  "trapnote": "Learn the four objectives with their qualifying words. They are asked as exact phrases."
+ },
+ {
+  "q": "A claim is made that because the Preamble is part of the Constitution, the three words inserted in 1976 are invalid. Which statement is correct?",
+  "options": [
+   "The claim succeeds: the Preamble being part, it is beyond the amending power",
+   "The claim fails: the Preamble is not part of the Constitution at all",
+   "The claim succeeds: only the original text of the Preamble has legal force",
+   "The claim fails: the Preamble is part of the Constitution and is amendable"
+  ],
+  "answer": 3,
+  "expl": "Being part of the Constitution makes it amendable, subject to the basic structure.",
+  "why": "The claim inverts the consequence of the 1973 holding, treating inclusion as immunity rather than as amenability.",
+  "round": "T",
+  "trapcat": "G",
+  "trapnote": "Being part of the Constitution brings a provision within the amending power, not outside it."
+ },
+ {
+  "q": "Consider: 1-India has single citizenship. 2-Every State prescribes its own additional citizenship requirements. 3-Domicile requirements for employment in a State may be prescribed only by Parliament. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 1,
+  "expl": "Citizenship is single and uniform; residence requirements for posts rest with Parliament.",
+  "why": "The second statement is the planted defect and is attractive because States do prescribe local requirements in other contexts.",
+  "round": "T",
+  "trapcat": "I",
+  "trapnote": "Single citizenship is absolute. Local preferences in employment arise from other provisions entirely."
+ },
+ {
+  "q": "An aided university expels a student without a hearing and pleads that it is a private body. Which statement is correct?",
+  "options": [
+   "It may be the State on the control test, and a fair hearing is in any event required",
+   "It is not the State, and no hearing requirement arises in a private institution",
+   "It is the State solely because it receives aid from the government",
+   "It is the State only if it was established by a statute of the legislature"
+  ],
+  "answer": 0,
+  "expl": "Aid alone is not decisive, but deep control can be; and the duty to hear can arise independently.",
+  "why": "The fourth option states a sufficient condition as though it were a necessary one, which is a frequent logical trap.",
+  "round": "T",
+  "trapcat": "E",
+  "trapnote": "Distinguish sufficient from necessary conditions. A statutory body is the State; not only statutory bodies are."
+ },
+ {
+  "q": "Consider the doctrine of eclipse: 1-It applies to pre-Constitution laws. 2-The eclipsed law is dormant rather than dead. 3-It applies equally to post-Constitution laws against citizens. Which is/are correct?",
+  "options": [
+   "2 and 3 only",
+   "1 and 3 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "answer": 2,
+  "expl": "The doctrine operates on pre-Constitution laws; post-Constitution laws stand on a different footing.",
+  "why": "The third statement is the defect and turns on a distinction that is easy to state and easy to forget.",
+  "round": "T",
+  "trapcat": "C",
+  "trapnote": "Pre and post Constitution laws are treated differently under the bar. The doctrines are not interchangeable."
+ },
+ {
+  "q": "Which statement about the amendment of the Preamble is correct?",
+  "options": [
+   "It may be amended only by a law ratified by half the State legislatures",
+   "It may not be amended at all, being a declaration of the people's will",
+   "It may be amended only where the amendment enlarges an existing objective",
+   "It may be amended under the general amending power, subject to the basic structure"
+  ],
+  "answer": 3,
+  "expl": "The Preamble is amendable like any other part, subject to the basic structure limit.",
+  "why": "The second option imports the federal ratification requirement, which does not attach to the Preamble.",
+  "round": "T",
+  "trapcat": "G",
+  "trapnote": "Ratification attaches to specified federal provisions only. The Preamble is not among them."
+ },
+ {
+  "q": "A migrant produces documents of birth, parentage and continuous residence. An officer asserts authority to confer citizenship on that basis. Which statement is correct?",
+  "options": [
+   "Status flows from the officer's satisfaction once the documents are found genuine",
+   "Status flows from the Constitution and the citizenship statute, not from a police verification",
+   "Status flows from the State government's order on a police recommendation",
+   "Status flows from inclusion in the electoral roll of the constituency concerned"
+  ],
+  "answer": 1,
+  "expl": "Conferral of status rests with the statutory authority; verification is not conferral.",
+  "why": "The fourth option is attractive because electoral rolls are widely treated as proof of status; they are indicative only.",
+  "round": "T",
+  "trapcat": "H",
+  "trapnote": "Verification is not conferral, and a roll entry is evidence rather than title."
+ }
+]

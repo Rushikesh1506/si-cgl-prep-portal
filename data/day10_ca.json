@@ -1,0 +1,152 @@
+[
+ {
+  "q": "A note states that the amendment capping the Council of Ministers also created the economic reservation. Which statement is correct?",
+  "options": [
+   "The two changes belong to different amendments, in 2003 and 2019 respectively",
+   "The two changes belong to the same amendment, enacted in 2003",
+   "The two changes belong to the same amendment, enacted in 2019",
+   "The two changes belong to different amendments, in 2003 and 2021 respectively"
+  ],
+  "answer": 0,
+  "expl": "The ministerial cap came in 2003 and the economic reservation in 2019.",
+  "why": "The fourth option separates the two changes correctly and misdates the second, which is the finer error.",
+  "round": "X",
+  "trapcat": "J",
+  "trapnote": "Separating two changes is only half the task. The dates must also be right."
+ },
+ {
+  "q": "A note correctly states that the voting age is eighteen and adds that the schooling right applies from eighteen to twenty-five. Which statement is correct?",
+  "options": [
+   "Both limbs are right, the schooling right having been extended in 2002",
+   "The first limb is wrong and the second right: the voting age is twenty-one",
+   "Both limbs are wrong: the voting age is twenty-one and schooling covers six to fourteen",
+   "The first limb is right and the second wrong: the schooling right covers six to fourteen"
+  ],
+  "answer": 3,
+  "expl": "A true first limb carries a false second limb.",
+  "why": "Half-truth construction, with the accurate opening lending credibility to what follows.",
+  "round": "X",
+  "trapcat": "J",
+  "trapnote": "An accurate first limb is frequently there to carry an inaccurate second one."
+ },
+ {
+  "q": "Consider a claim that the 2024 ruling on community resources permits acquisition without compensation. Which statement is correct?",
+  "options": [
+   "The claim succeeds: the ruling dispensed with compensation for community resources",
+   "The claim fails: the ruling widened the directive but preserved compensation",
+   "The claim fails: the ruling narrowed the directive and did not touch compensation",
+   "The claim succeeds where the State records a public purpose in the acquisition order"
+  ],
+  "answer": 2,
+  "expl": "The ruling narrowed the directive and said nothing dispensing with compensation.",
+  "why": "The third option misdescribes the direction of the ruling while reaching the right conclusion.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "A right conclusion drawn from a misdescribed holding is still a wrong option."
+ },
+ {
+  "q": "A college declines to implement the economic reservation, citing a pending challenge. Which statement is correct?",
+  "options": [
+   "The challenge remains pending before a larger bench of the Supreme Court",
+   "The challenge was decided in 2022 and the amendment was upheld",
+   "The challenge was decided in 2022 and the amendment was struck down",
+   "The challenge was withdrawn and the amendment has never been tested"
+  ],
+  "answer": 1,
+  "expl": "The amendment was upheld by a majority in November 2022.",
+  "why": "The second option borrows the pending-reference pattern from a different and unrelated controversy.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "That challenge was decided. A pending larger-bench reference belongs to a different subject."
+ },
+ {
+  "q": "Consider the position of a Council of Ministers in a State with a sixty-member Assembly: 1-The ceiling is fifteen per cent. 2-The floor is twelve ministers. 3-The ceiling prevails over the floor. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 0,
+  "expl": "The floor operates where fifteen per cent would yield fewer than twelve.",
+  "why": "Fifteen per cent of sixty is nine, so the floor of twelve governs and the ceiling does not prevail.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "In small Assemblies the floor governs. The ceiling binds only where it yields the larger figure."
+ },
+ {
+  "q": "It is claimed that the 2022 district reorganisation in Andhra Pradesh required a constitutional amendment. Which statement is correct?",
+  "options": [
+   "The claim succeeds: alteration of internal boundaries requires an amendment",
+   "The claim fails: such reorganisation requires a law of Parliament instead",
+   "The claim succeeds: any change to a State's administration requires ratification",
+   "The claim fails: creation of districts within a State is done under State law"
+  ],
+  "answer": 3,
+  "expl": "Districts are administrative units created under State law.",
+  "why": "The third option confuses internal districts with the alteration of State boundaries, which is a different subject.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "Districts are State administrative units. Altering State boundaries is a different process entirely."
+ },
+ {
+  "q": "Consider the special provisions for Andhra Pradesh: 1-They were inserted by the 32nd amendment. 2-They followed a political settlement of 1973. 3-They are exercised through an order made in 1975. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 3,
+  "expl": "All three are accurate and describe a single sequence.",
+  "why": "The settlement preceded the amendment, and the order followed it, which is the order of events to retain.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "Settlement, then amendment, then order. The sequence runs in that direction only."
+ },
+ {
+  "q": "A claim is made that the criminal statutes in force from July 2024 required a constitutional amendment to enact. Which statement is correct?",
+  "options": [
+   "The claim succeeds: replacing the penal code required an amendment",
+   "The claim fails: they are ordinary legislation enacted under the existing lists",
+   "The claim fails: they were enacted by ordinance and later ratified",
+   "The claim succeeds: criminal law was moved to the Union List by amendment"
+  ],
+  "answer": 1,
+  "expl": "Criminal law and procedure are existing subjects; ordinary legislation sufficed.",
+  "why": "The fourth option invents a transfer between Lists, which would itself have required ratification.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "Replacing a statute needs a statute. Only a change to the Constitution needs an amendment."
+ },
+ {
+  "q": "Consider: 1-The 2020 amendment extended seat reservation to 2030. 2-The 2023 amendment added reservation for women. 3-Both operate on the same articles. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 0,
+  "expl": "The 2023 amendment inserted new articles rather than operating on the existing ones.",
+  "why": "The distinction between amending an existing article and inserting a new one is the point being tested.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "New reservations usually arrive as new articles rather than amendments to existing ones."
+ },
+ {
+  "q": "It is claimed that the ceiling on reservation was abolished by the 2022 decision. Which statement is correct?",
+  "options": [
+   "The claim is accurate: the ceiling no longer operates in any context",
+   "The claim understates it: the decision also abolished backward-class reservation",
+   "The claim is inaccurate: the decision reaffirmed the ceiling for all categories",
+   "The claim overstates it: the ceiling is not a basic feature and the economic quota sits outside it"
+  ],
+  "answer": 3,
+  "expl": "The ceiling continues to govern backward-class reservation; the economic quota was placed outside it.",
+  "why": "The difference between abolishing a rule and confining it is the distinction the item tests.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "The ceiling was confined, not abolished. It still binds the backward-class compartment."
+ }
+]

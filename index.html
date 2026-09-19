@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Target SI & CGL Prep Portal — AP SI GS + SSC CGL</title>
+<meta name="description" content="Clean, fast, mobile-responsive study portal for AP SI General Studies and SSC CGL English & Aptitude." />
+<link rel="stylesheet" href="style.css?v=20260919eng2" />
+</head>
+<body>
+
+<header class="topbar">
+  <button id="menuBtn" class="menu-btn" aria-label="Toggle sidebar" aria-expanded="false">☰</button>
+  <div class="brand">
+    <div class="brand-mark">🎯</div>
+    <div>
+      <h1>Target SI &amp; CGL Prep Portal</h1>
+      <p class="subtitle">AP SI • General Studies &nbsp;|&nbsp; SSC CGL • English &amp; Aptitude</p>
+    </div>
+  </div>
+  <div class="badges">
+    <span class="badge badge-si">SI GS</span>
+    <span class="badge badge-cgl">SSC CGL English</span>
+    <span class="badge badge-mock">Mock Exams</span>
+  </div>
+</header>
+
+<div class="layout">
+  <!-- ============ SIDEBAR ============ -->
+  <aside id="sidebar" class="sidebar" aria-label="Syllabus navigation">
+    <div class="sidebar-head">
+      <input id="searchBox" type="search" placeholder="Search topics… (e.g. Article 15)" aria-label="Search topics" />
+    </div>
+    <nav id="navAccordion" class="accordion"><!-- rendered by script.js NAV_TREE --></nav>
+    <div class="sidebar-foot">
+      <div class="progress-wrap">
+        <div class="progress-label"><span>Overall progress</span><span id="progressPct">0%</span></div>
+        <div class="progress-bar"><div id="progressFill" class="progress-fill"></div></div>
+      </div>
+      <p class="hint">Progress auto-saves in this browser.</p>
+      <button id="resetBtn" class="btn btn-ghost btn-sm">Reset progress</button>
+    </div>
+  </aside>
+  <div id="scrim" class="scrim" hidden></div>
+
+  <!-- ============ MAIN ============ -->
+  <main class="content">
+    <nav id="crumb" class="crumb" aria-label="Breadcrumb"></nav>
+
+    <section class="topic-hero">
+      <div>
+        <p id="topicKicker" class="kicker">AP SI • General Studies • Indian Polity</p>
+        <h2 id="topicTitle">Fundamental Rights</h2>
+        <p id="topicMeta" class="meta"></p>
+      </div>
+      <div class="hero-actions">
+        <button class="btn btn-primary" data-goto-quiz>Start Mock →</button>
+      </div>
+    </section>
+
+    <div class="tabs" role="tablist" aria-label="Study views">
+      <button id="tabNotes" class="tab active" role="tab" aria-selected="true" data-tab="notes">📖 Concept Notes</button>
+      <button id="tabQuiz" class="tab" role="tab" aria-selected="false" data-tab="quiz">📝 Mock Practice <span id="quizCount" class="pill">0</span></button>
+      <button id="tabCases" class="tab" role="tab" aria-selected="false" data-tab="cases">🏛️ Case Files <span id="caseCount" class="pill">29</span></button>
+    </div>
+
+    <!-- TAB 1 : NOTES -->
+    <section id="paneNotes" class="pane active" role="tabpanel" aria-labelledby="tabNotes">
+      <div id="notesBody" class="notes"><!-- rendered by script.js --></div>
+      <div class="notes-nav">
+        <button id="prevTopic" class="btn btn-ghost">← Prev</button>
+        <button id="markDone" class="btn btn-success">✓ Mark as complete</button>
+        <button id="nextTopic" class="btn btn-ghost">Next →</button>
+      </div>
+    </section>
+
+    <!-- TAB 2 : QUIZ -->
+    <section id="paneQuiz" class="pane" role="tabpanel" aria-labelledby="tabQuiz" hidden>
+      <div class="quiz-toolbar">
+        <label>Day
+          <select id="daySel">
+            <option value="1">Day 1 – Equality</option>
+            <option value="2">Day 2 – Freedoms</option>
+            <option value="3">Day 3 – DPSP/Duties</option>
+            <option value="4">Day 4 – Preamble/Citizenship</option>
+            <option value="5">Day 5 – Emergency/Amendments</option>
+            <option value="6">Day 6 – Judiciary/CAG/PIL</option>
+            <option value="7">Day 7 – Executive/Parliament</option>
+            <option value="8">Day 8 – Federalism/Local</option>
+            <option value="9">Day 9 – AP Special</option>
+            <option value="10">Day 10 – Mixed GS</option>
+            <option value="11">Day 11 – Mixed GS</option>
+            <option value="12">Day 12 – Mixed GS</option>
+            <option value="bank">GS Bank drill</option>
+            <option value="topic">This topic only</option>
+          </select>
+        </label>
+        <label>Set
+          <select id="modeSel">
+            <option value="full">Full 45 (20 core + 10 adv + 5 analy + 5 curr + 5 SI)</option>
+            <option value="core">Core 20</option>
+            <option value="hard">Advanced 10</option>
+            <option value="ca">Analytical 10</option>
+            <option value="analy">Analytical 5</option>
+            <option value="curr">Current 5</option>
+            <option value="si">SI-Field 5</option>
+          </select>
+        </label>
+        <button id="loadBank" class="btn btn-primary btn-sm">Load set</button>
+        <button id="masterTestBtn" class="btn btn-primary btn-sm">🎯 Master Test (exam mode)</button>
+        <label>Scope
+          <select id="scopeSel">
+            <option value="topic">This topic only</option>
+            <option value="grammar">Grammar mix (20Q)</option>
+            <option value="voicenarr">Voice + Narration (12Q)</option>
+            <option value="vocab">Vocab mix (15Q)</option>
+            <option value="sectional">Full 25-Q sectional</option>
+          </select>
+        </label>
+        <button id="loadMix" class="btn btn-ghost btn-sm">Load mix</button>
+        <button id="restartQuiz" class="btn btn-ghost btn-sm">↻ Restart</button>
+      </div>
+      <p id="bankStatus" class="bank-status"></p>
+      <div class="quiz-top">
+        <div class="quiz-progress">
+          <div class="quiz-progress-label"><span id="qCounter">No set loaded</span><span id="qTimer" hidden></span><span id="qScore">Score: 0</span></div>
+          <div class="progress-bar"><div id="quizFill" class="progress-fill quiz-fill"></div></div>
+        </div>
+      </div>
+      <div id="palette" class="palette"></div>
+      <div id="quizBody"></div>
+      <div id="resultCard" class="result-card" hidden>
+        <h3>🎉 Mock Complete!</h3>
+        <p id="resultScore" class="result-score"></p>
+        <p id="resultMsg" class="result-msg"></p>
+        <div class="result-actions">
+          <button id="reviewBtn" class="btn btn-ghost">Review answers</button>
+          <button id="retryBtn" class="btn btn-primary">Retry mock</button>
+        </div>
+      </div>
+      <div id="analysisCard" class="analysis-card" hidden></div>
+    </section>
+
+    <!-- TAB 3 : CASES -->
+    <section id="paneCases" class="pane" role="tabpanel" aria-labelledby="tabCases" hidden>
+      <div class="quiz-toolbar">
+        <input id="caseSearch" type="search" placeholder="Filter cases… (e.g. Maneka, 1978, Art 21)" aria-label="Filter cases" />
+        <select id="caseTag" aria-label="Filter by tag">
+          <option value="">All tags</option>
+          <option value="equality">Equality (14–18)</option>
+          <option value="freedom">Freedom (19–22)</option>
+          <option value="structure">Basic structure</option>
+          <option value="police">Police / SI duty</option>
+          <option value="AP">Andhra Pradesh</option>
+        </select>
+      </div>
+      <div id="caseGrid" class="case-grid"></div>
+    </section>
+
+    <footer class="footer">
+      <p><strong>Target SI &amp; CGL Prep Portal</strong> • Pure HTML/CSS/JS • SI GS notes + 29 case files + 45 Q/day audited bank (12 days) + GS bank • SSC CGL English topic mastery (notes + practice + Master Test) • Add units in <code>articles.js / english.js</code>.</p>
+    </footer>
+  </main>
+</div>
+
+<script src="articles.js?v=20260920"></script>
+<script src="cases.js?v=20260920"></script>
+<script src="english.js?v=20260919b"></script>
+<script src="takeaways.js?v=20260921"></script>
+<script src="script.js?v=20260921"></script>
+</body>
+</html>

@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Consider the Directive Principles: 1-They are not enforceable by any court. 2-They are fundamental in the governance of the country. 3-The State is under a duty to apply them in making laws. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 3,
+  "expl": "All three appear in the same article: non-enforceability, fundamentality and the duty to apply.",
+  "why": "Candidates reject the second and third because the first is so firmly learned. The same article carries all three propositions together.",
+  "round": "F",
+  "trapcat": "D",
+  "trapnote": "Non-enforceable does not mean irrelevant. The same article that denies the remedy asserts the duty."
+ },
+ {
+  "q": "A free legal aid claim is made by an indigent accused. Consider: 1-The directive on legal aid is by itself enforceable. 2-It becomes enforceable when read with the right to life. 3-It is implemented through a statutory legal services framework. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 2,
+  "expl": "A directive alone gives no remedy; the enforceability comes from reading it into the liberty guarantee.",
+  "why": "This is the central mechanism of the whole Part: a directive acquires teeth only through a fundamental right, never on its own.",
+  "round": "F",
+  "trapcat": "E",
+  "trapnote": "Whenever a directive is said to be enforceable, look for the fundamental right it was read into."
+ },
+ {
+  "q": "Which grouping correctly reflects the conventional classification of the Directive Principles?",
+  "options": [
+   "Uniform civil code, environment and separation of powers fall in the Gandhian group",
+   "Equal pay, legal aid and living wage fall in the Gandhian group",
+   "Village panchayats, legal aid and monuments fall in the Gandhian group",
+   "Village panchayats, cottage industry and cow protection fall in the Gandhian group"
+  ],
+  "answer": 3,
+  "expl": "The Gandhian group centres on village self-rule, cottage industry, weaker sections and cattle.",
+  "why": "The distractors each mix one genuine Gandhian item with liberal or socialist items, so partial recognition is not enough.",
+  "round": "F",
+  "trapcat": "F",
+  "trapnote": "Classify by theme: village and rural economy is Gandhian; wages and welfare are socialist; law reform is liberal."
+ },
+ {
+  "q": "On the shield protecting certain laws from challenge, which statement is correct?",
+  "options": [
+   "It protects laws giving effect to any directive in the Part",
+   "It protects laws giving effect to two specified directives only",
+   "It protects laws giving effect to any directive, if Parliament so declares",
+   "It protects laws giving effect to two directives, only against the equality guarantee"
+  ],
+  "answer": 1,
+  "expl": "The attempt to widen the shield to all directives was struck down; two clauses remain.",
+  "why": "The fourth option is the subtle one: the shield operates against both the equality and freedom guarantees, not equality alone.",
+  "round": "F",
+  "trapcat": "G",
+  "trapnote": "Two limbs to check: which directives are covered, and which rights the shield operates against."
+ },
+ {
+  "q": "Consider the amendment that dealt with education: 1-It inserted a fundamental right to education for the six to fourteen age group. 2-It reworded the directive on early childhood care. 3-It added a fundamental duty on parents. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 3,
+  "expl": "One amendment touched Part III, Part IV and Part IVA simultaneously.",
+  "why": "Candidates usually recall only the new fundamental right and treat the other two limbs as belonging to different amendments.",
+  "round": "F",
+  "trapcat": "C",
+  "trapnote": "This amendment is unusual in touching three Parts at once. Expect all three limbs in a set question."
+ },
+ {
+  "q": "On Fundamental Duties, which statement is correct?",
+  "options": [
+   "Eleven were introduced in 1976 and none has been added since",
+   "Ten were introduced in 1976 and an eleventh was added in 2005",
+   "Ten were introduced in 1976 and an eleventh was added in 2002",
+   "Eleven were introduced in 1976 and a twelfth was added in 2002"
+  ],
+  "answer": 2,
+  "expl": "The original set was ten; the parental duty on schooling was the eleventh addition.",
+  "why": "All four options are numerically close, so recognition of the familiar figure eleven does not by itself identify the right answer.",
+  "round": "F",
+  "trapcat": "C",
+  "trapnote": "Separate the original count from the later addition. Both numbers are asked, often in the same option."
+ },
+ {
+  "q": "Consider: 1-Fundamental Duties are enforceable by writ. 2-They may be enforced through ordinary legislation. 3-Courts use them to interpret the scope of rights. Which is/are correct?",
+  "options": [
+   "2 and 3 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 0,
+  "expl": "No writ lies for a duty, but statutes enforce them and courts use them interpretively.",
+  "why": "The distinction between direct enforceability and indirect operation through statute and interpretation is the whole of this topic.",
+  "round": "F",
+  "trapcat": "D",
+  "trapnote": "Unenforceable by writ is not the same as legally inert. Duties operate through statutes and interpretation."
+ },
+ {
+  "q": "A State enacts prohibition, relying on the directive concerning intoxicating drinks. A trader challenges it. Which statement is correct?",
+  "options": [
+   "The directive by itself validates the law, the freedom yielding to it",
+   "The directive supports the restriction, which must still be reasonable",
+   "The directive is irrelevant, being unenforceable in a court of law",
+   "The directive validates the law only if the shield is expressly invoked"
+  ],
+  "answer": 1,
+  "expl": "Directives inform the reasonableness of a restriction without overriding the right.",
+  "why": "Two of the wrong options represent the two opposite errors: treating directives as supreme, and treating them as legally worthless.",
+  "round": "F",
+  "trapcat": "G",
+  "trapnote": "Directives neither override rights nor are irrelevant to them. They inform reasonableness."
+ },
+ {
+  "q": "Which article provides for the separation of the judiciary from the executive in the public services of the State?",
+  "options": [
+   "A directive in the liberal group, which underlies the split in the magistracy",
+   "A directive in the Gandhian group, which underlies village-level adjudication",
+   "A fundamental right, breach of which is directly actionable by writ",
+   "A directive in the socialist group, which underlies the legal aid framework"
+  ],
+  "answer": 0,
+  "expl": "It is a liberal-group directive and the source of the judicial and executive magistrate split.",
+  "why": "The practical consequence, remand before one magistrate and preventive orders before another, is what makes this directive operationally important.",
+  "round": "C",
+  "trapcat": "F",
+  "trapnote": "This directive has a daily consequence in policing: two kinds of magistrate, two kinds of order."
+ },
+ {
+  "q": "Consider the 2024 ruling on material resources of the community: 1-It narrowed the meaning of the directive. 2-It held that private ownership alone determines the question. 3-It confirmed the continued operation of the unamended shield. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 2,
+  "expl": "The ruling narrowed the directive and preserved the unamended shield, rejecting ownership as the test.",
+  "why": "The second statement inverts the holding: the Court rejected the proposition that every privately owned resource qualifies.",
+  "round": "C",
+  "trapcat": "E",
+  "trapnote": "Where a ruling narrows a provision, expect a statement that overstates it in the opposite direction."
+ },
+ {
+  "q": "A State claims that any welfare law is immune from challenge because it advances a Directive Principle. Which is the correct objection?",
+  "options": [
+   "The shield requires the prior approval of the President before it operates",
+   "The shield operates only where the law was enacted by Parliament and not a State",
+   "The shield was abolished entirely, no such immunity surviving today",
+   "The shield is confined to two directives, and welfare generally is not among them"
+  ],
+  "answer": 3,
+  "expl": "The wide version of the shield was struck down; the narrow version survives for two clauses.",
+  "why": "The fourth option overcorrects, which is a common error once a candidate learns that the shield was cut back.",
+  "round": "C",
+  "trapcat": "G",
+  "trapnote": "Cutting a provision down is not abolishing it. Identify precisely how far the narrowing went."
+ },
+ {
+  "q": "Consider the directive on equal pay and the duty to develop a scientific temper. Which statement is correct?",
+  "options": [
+   "Both are directives, the second falling in the liberal group",
+   "The first is a directive and the second a fundamental duty",
+   "Both are fundamental duties, the first added in 2002",
+   "The first is a fundamental duty and the second a directive"
+  ],
+  "answer": 1,
+  "expl": "Equal pay for equal work is a directive; scientific temper is a duty of the citizen.",
+  "why": "The two Parts are adjacent and thematically similar, which is why swap questions between them are common.",
+  "round": "C",
+  "trapcat": "F",
+  "trapnote": "Directives bind the State; duties bind the citizen. Ask who the provision addresses."
+ },
+ {
+  "q": "A parent refuses to send a nine-year-old to school. Which combination correctly identifies the provisions engaged?",
+  "options": [
+   "A fundamental right of the child and a fundamental duty of the parent",
+   "A fundamental right of the child and a directive addressed to the parent",
+   "A directive on early childhood care and a fundamental duty of the parent",
+   "A fundamental duty of the child and a directive addressed to the State"
+  ],
+  "answer": 0,
+  "expl": "The child holds the right; the parent bears the corresponding duty.",
+  "why": "The third option is attractive because the early childhood directive exists, but it concerns children below six, not a nine-year-old.",
+  "round": "C",
+  "trapcat": "I",
+  "trapnote": "Match the age to the provision. Below six is a directive; six to fourteen is a right."
+ },
+ {
+  "q": "Consider: 1-The uniform civil code directive is in the liberal group. 2-The village panchayats directive is in the Gandhian group. 3-The legal aid directive was inserted in 2002. Which is/are correct?",
+  "options": [
+   "2 and 3 only",
+   "1 and 3 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "answer": 2,
+  "expl": "Legal aid was inserted in 1976, not 2002; the two group assignments are correct.",
+  "why": "Two accurate pairings are placed beside one accurate-looking date error, so group knowledge alone will not settle the set.",
+  "round": "C",
+  "trapcat": "F",
+  "trapnote": "Do not assume every set contains an error. Verification is faster than suspicion."
+ },
+ {
+  "q": "An officer refuses to arrange legal aid for an indigent arrested person, citing budgetary constraint. Which statement is correct?",
+  "options": [
+   "The obligation is unenforceable, the directive being outside the reach of courts",
+   "The obligation arises only after the accused is committed to trial by a magistrate",
+   "The obligation rests on the legal services authority alone and not on the police",
+   "The obligation is enforceable, the directive having been read into the liberty guarantee"
+  ],
+  "answer": 3,
+  "expl": "Legal aid to an indigent accused is an enforceable component of the liberty guarantee.",
+  "why": "The fourth option shifts the duty to another agency, which is a realistic field argument and therefore a strong distractor.",
+  "round": "C",
+  "trapcat": "E",
+  "trapnote": "Where a directive has been read into a right, the resulting obligation binds every State agency, including the police."
+ },
+ {
+  "q": "On the relationship between Parts III and IV, which statement is correct?",
+  "options": [
+   "Part IV prevails over Part III wherever a conflict arises",
+   "The balance between them is itself part of the basic structure",
+   "Part III prevails absolutely, Part IV yielding in every case",
+   "Neither Part may be amended, both being beyond the amending power"
+  ],
+  "answer": 1,
+  "expl": "Giving either Part absolute primacy was held to destroy an essential feature.",
+  "why": "The second and third options represent the two positions the courts rejected at different times, which is why both feel historically familiar.",
+  "round": "C",
+  "trapcat": "G",
+  "trapnote": "Both extremes have been argued and both were rejected. The answer is the balance itself."
+ },
+ {
+  "q": "Consider the directives inserted in 1976: 1-Legal aid. 2-Participation of workers in management. 3-Protection of the environment. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 3,
+  "expl": "All three were inserted by the same 1976 amendment.",
+  "why": "Candidates often attribute the environmental directive to a later amendment because environmental law developed afterwards.",
+  "round": "C",
+  "trapcat": "C",
+  "trapnote": "Three directives entered together in 1976. Learn them as a single group."
+ },
+ {
+  "q": "Which statement about the directive on promotion of cooperative societies is correct?",
+  "options": [
+   "It was inserted in 1976, alongside the directives on legal aid and environment",
+   "It was inserted in 2002, alongside the change to early childhood care",
+   "It was inserted in 2011, alongside a related change to the freedom of association",
+   "It was inserted in 2011, alongside a related change to the right to property"
+  ],
+  "answer": 2,
+  "expl": "The cooperatives amendment added a directive and extended the freedom of association.",
+  "why": "Two options give the correct year with a wrong companion change, so the year alone does not decide the question.",
+  "round": "T",
+  "trapcat": "C",
+  "trapnote": "Amendments usually make several changes at once. Learn the package, not the isolated item."
+ },
+ {
+  "q": "A law reserving seats in local bodies for weaker sections is challenged as unequal. Which statement is correct?",
+  "options": [
+   "A directive on weaker sections overrides the equality guarantee entirely",
+   "The shield protects it from any challenge on grounds of inequality",
+   "The challenge succeeds, directives having no bearing on the equality analysis",
+   "A directive on weaker sections supports it, and equality permits reasonable classification"
+  ],
+  "answer": 3,
+  "expl": "The directive informs the reasonableness of the classification without displacing the guarantee.",
+  "why": "The third option misapplies the shield, which does not extend to the directive on weaker sections at all.",
+  "round": "T",
+  "trapcat": "G",
+  "trapnote": "Check whether the shield actually covers the directive relied on before treating a law as immune."
+ },
+ {
+  "q": "Consider: 1-Directives were drawn from the Irish Constitution. 2-Fundamental Duties were recommended by the Sarkaria Commission. 3-Environmental protection appears both as a directive and as a duty. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 1,
+  "expl": "Duties came from the Swaran Singh Committee; Sarkaria dealt with Centre-State relations.",
+  "why": "The environment appears twice over, as a directive binding the State and a duty binding the citizen, which is the point worth retaining.",
+  "round": "T",
+  "trapcat": "D",
+  "trapnote": "Some subjects appear in both Part IV and Part IVA. The environment is the clearest example."
+ }
+]

@@ -1,0 +1,152 @@
+[
+ {
+  "q": "A note states that villages have eighteen subjects and towns twenty-nine. What is the error?",
+  "options": [
+   "The two figures have been transposed between the rural and urban Schedules",
+   "Both figures are understated, the correct numbers being higher",
+   "The rural figure is correct and the urban figure is wrong",
+   "Both figures are correct but relate to different Schedules than stated"
+  ],
+  "answer": 0,
+  "expl": "Twenty-nine is rural and eighteen is urban.",
+  "why": "Straight transposition preserves both numbers, which is why the error survives a quick reading.",
+  "round": "X",
+  "trapcat": "J",
+  "trapnote": "Transposed figures are the hardest arithmetic error to spot because both numbers look familiar."
+ },
+ {
+  "q": "A note correctly gives the five-year term and then states that the finance commission conducts elections. Which statement is correct?",
+  "options": [
+   "Both limbs are right, the finance commission supervising local elections",
+   "The term is wrong and the function is right: the term is six years",
+   "Both limbs are wrong: the term is six years and elections rest with the State",
+   "The term is right and the function is wrong: elections rest with the election commission"
+  ],
+  "answer": 3,
+  "expl": "A correct first limb carries an incorrect second limb.",
+  "why": "The two commissions are deliberately separate, and merging them is the standard institutional error.",
+  "round": "X",
+  "trapcat": "J",
+  "trapnote": "An accurate opening limb is often there to carry an inaccurate second one past you."
+ },
+ {
+  "q": "Consider a rescue operation in a Scheduled Area after the 2022 district reorganisation: 1-The special scheme continues to apply. 2-The village assembly retains its powers. 3-Reorganisation displaced the scheme in new districts. Which is/are correct?",
+  "options": [
+   "2 and 3 only",
+   "1 and 3 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "answer": 2,
+  "expl": "Reorganisation is administrative and does not displace a parliamentary scheme.",
+  "why": "The third statement assumes that redrawing boundaries alters the legal character of the area, which it does not.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "Scheduled Area status attaches to territory by notification, not to district boundaries."
+ },
+ {
+  "q": "The 2023 reservation amendment is cited to claim that women's reservation in panchayats must await a census. Which statement is correct?",
+  "options": [
+   "The citation succeeds: all women's reservation now awaits the census",
+   "The citation fails: panchayat reservation is already operative under its own provision",
+   "The citation fails: the amendment abolished panchayat reservation for women",
+   "The citation succeeds where the State has not completed delimitation"
+  ],
+  "answer": 1,
+  "expl": "Local body reservation has been operative since 1993 and is unaffected by the 2023 amendment.",
+  "why": "The census condition attaches to seats in legislatures and does not travel to local bodies.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "A condition attached to one amendment does not extend to a provision enacted thirty years earlier."
+ },
+ {
+  "q": "The November 2022 ruling is cited in a dispute about reservation in a Zilla Parishad. Which statement is correct?",
+  "options": [
+   "The citation is of limited help: local body reservation rests on separate provisions",
+   "The citation is decisive: the ruling governs all reservation in the country",
+   "The citation is of no relevance: the ruling concerned the appointment of judges",
+   "The citation is decisive where the reservation exceeds one-half of the seats"
+  ],
+  "answer": 0,
+  "expl": "Local body reservation is governed by its own provisions and State law.",
+  "why": "The third option misdescribes the subject-matter, testing precision rather than the substantive point.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "Reservation in local bodies and reservation in employment rest on different provisions."
+ },
+ {
+  "q": "The 2024 ruling on community resources is cited in relation to minor minerals in a Scheduled Area. Which statement is correct?",
+  "options": [
+   "The ruling displaced the consent requirement for all mineral operations",
+   "The ruling extended the consent requirement to non-Scheduled Areas as well",
+   "The ruling abolished the category of minor minerals altogether",
+   "The special scheme's consent requirement continues to operate regardless of that ruling"
+  ],
+  "answer": 3,
+  "expl": "The statutory consent requirement operates independently of a ruling on a Directive Principle.",
+  "why": "The second and third options each treat a constitutional ruling as if it amended a statute.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "A ruling on a Directive Principle does not amend a parliamentary statute."
+ },
+ {
+  "q": "Consider election duty in a local poll: 1-The State Election Commission superintends it. 2-Disputes go by election petition. 3-The national commission may be approached on appeal. Which is/are correct?",
+  "options": [
+   "2 and 3 only",
+   "1 and 3 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "answer": 2,
+  "expl": "There is no appeal to the national commission in a local election.",
+  "why": "The chain runs from the State commission to an election petition and nowhere else.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "Local polls stay within the State commission and the election petition machinery."
+ },
+ {
+  "q": "It is claimed that the criminal statutes in force from July 2024 altered the powers of the village assembly. Which statement is correct?",
+  "options": [
+   "The claim succeeds: the assembly acquired power to try petty offences",
+   "The claim fails: those statutes govern criminal procedure and offences, not local governance",
+   "The claim succeeds: the assembly lost its power over minor forest produce",
+   "The claim fails: the assembly never had any statutory powers to alter"
+  ],
+  "answer": 1,
+  "expl": "Criminal statutes do not touch a local governance scheme.",
+  "why": "The fourth option reaches the right conclusion by denying the powers exist, which is itself wrong.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "A right conclusion from a false premise remains a wrong option."
+ },
+ {
+  "q": "Following reorganisation, a claim is made that the number of Zilla Parishads is fixed by the Constitution. Which statement is correct?",
+  "options": [
+   "The claim fails: the number follows the number of districts determined under State law",
+   "The claim succeeds: the Constitution fixes one such body for every district",
+   "The claim fails: the number is fixed by the State Election Commission",
+   "The claim succeeds subject to the approval of the Union government"
+  ],
+  "answer": 0,
+  "expl": "The Constitution requires a district-level body; the number of districts is a State matter.",
+  "why": "The third option names the wrong authority while reaching the right conclusion.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "The Constitution requires a tier. How many units that tier contains is a State question."
+ },
+ {
+  "q": "Consider: 1-Andhra Pradesh has Scheduled Areas. 2-The 1996 extension law operates there. 3-The village assembly must be consulted before land acquisition there. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 3,
+  "expl": "All three are accurate and together describe the operative position in the State.",
+  "why": "This chain is directly relevant to an officer posted in the agency tracts of the State.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "Scheduled Areas exist, the special scheme applies, and consultation before acquisition is required."
+ }
+]

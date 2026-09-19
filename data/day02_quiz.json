@@ -1,0 +1,302 @@
+[
+ {
+  "q": "A citizen posts peaceful criticism of a sarpanch's work. Consider: 1-Criticism alone is not incitement. 2-Defamation is a listed ground of restriction. 3-Maintenance of law and order is a listed ground. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 0,
+  "expl": "Defamation is listed; law and order is not. Public order is the listed ground.",
+  "why": "The eight listed heads include public order but not 'law and order', which is wider. Criticism does not become incitement merely because it is sharp.",
+  "round": "F",
+  "trapcat": "I",
+  "trapnote": "'Law and order' never appears among the listed heads. Public order does. The two are not interchangeable."
+ },
+ {
+  "q": "A group is refused permission for an unarmed, peaceful meeting by an oral instruction with no law relied on. Which statement is correct?",
+  "options": [
+   "The refusal is valid: assembly may be regulated on grounds of law and order",
+   "The refusal is valid: permission is a privilege and not a guaranteed freedom",
+   "The refusal fails: a restriction must rest on a law and satisfy reasonableness",
+   "The refusal fails: assembly is an absolute freedom admitting no restriction"
+  ],
+  "answer": 2,
+  "expl": "Restrictions must be by law and reasonable; an oral instruction with no legal basis fails both.",
+  "why": "Two of the wrong options are attractive: assembly IS restrictable, but only by law and on listed grounds, and it is not absolute either.",
+  "round": "F",
+  "trapcat": "B",
+  "trapnote": "Ask two questions of every restriction: is there a law, and is the ground a listed one?"
+ },
+ {
+  "q": "Consider the protection against ex post facto laws: 1-It bars conviction under a law not in force when the act was done. 2-It bars a penalty greater than that then prescribed. 3-It bars retrospective changes of procedure. Which is/are correct?",
+  "options": [
+   "2 and 3 only",
+   "1 and 3 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "answer": 2,
+  "expl": "It reaches conviction and quantum of penalty, not procedural changes.",
+  "why": "Procedure may be altered retrospectively; only the creation of the offence and the severity of the penalty are frozen as at the date of the act.",
+  "round": "F",
+  "trapcat": "C",
+  "trapnote": "The protection freezes the offence and the sentence, not the machinery by which a trial is conducted."
+ },
+ {
+  "q": "An accused is acquitted, and the State seeks a fresh prosecution on identical facts for the same offence. Separately a departmental inquiry proceeds on the same facts. Which statement is correct?",
+  "options": [
+   "Both the fresh prosecution and the departmental inquiry are barred",
+   "The fresh prosecution is barred; the departmental inquiry may proceed",
+   "The fresh prosecution is permitted; the departmental inquiry is barred",
+   "Both are permitted, the bar applying only where a sentence was imposed"
+  ],
+  "answer": 1,
+  "expl": "The bar needs prosecution and punishment before a court; a departmental inquiry is neither.",
+  "why": "The fourth option is the subtle one: the bar does require prosecution AND punishment, but an acquittal on the merits still bars a second prosecution for the same offence.",
+  "round": "F",
+  "trapcat": "H",
+  "trapnote": "Departmental and criminal proceedings run in parallel. Only a second court prosecution is barred."
+ },
+ {
+  "q": "Consider the protection against self-incrimination: 1-It extends to specimen handwriting. 2-It extends to a confession extracted by threat. 3-It applies only to a person accused of an offence. Which is/are correct?",
+  "options": [
+   "2 and 3 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 0,
+  "expl": "Handwriting is not testimony; a coerced confession is; and the protection needs an accused.",
+  "why": "The protection covers what is drawn from the mind, not what is measured from the body. Fingerprints, blood and DNA also fall outside it.",
+  "round": "F",
+  "trapcat": "E",
+  "trapnote": "Body versus mind is the whole distinction. Anything compared rather than narrated falls outside."
+ },
+ {
+  "q": "A man is arrested at 6 pm Monday and produced before a magistrate at 9 pm Tuesday. Travel occupied four hours. Which statement is correct?",
+  "options": [
+   "The requirement is breached: twenty-three hours remain after excluding travel",
+   "The requirement is satisfied: the period runs from the first working hour of the court",
+   "The requirement is satisfied: twenty-three hours remain after excluding travel",
+   "The requirement is breached: travel time forms part of the twenty-four hours"
+  ],
+  "answer": 2,
+  "expl": "Twenty-seven hours elapsed; deducting four hours of travel leaves twenty-three, within the limit.",
+  "why": "Two options state the same arithmetic and differ only in the conclusion drawn, so the candidate must actually compute rather than recognise a phrase.",
+  "round": "F",
+  "trapcat": "G",
+  "trapnote": "Always subtract before concluding. Elapsed time minus journey is the figure that matters."
+ },
+ {
+  "q": "Consider the freedom to carry on trade: 1-It is available to citizens only. 2-It may be restricted by prescribing professional qualifications. 3-The State may carry on a trade to the complete exclusion of citizens. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 3,
+  "expl": "All three are correct; State monopoly is expressly saved.",
+  "why": "The third is the one most candidates reject. A State monopoly, whether complete or partial, is expressly protected against challenge under this freedom.",
+  "round": "F",
+  "trapcat": "D",
+  "trapnote": "State monopoly is expressly saved. Rejecting it because it sounds extreme is the intended error."
+ },
+ {
+  "q": "A preventive detention order is made. Consider: 1-The detenu must be produced before a magistrate within twenty-four hours. 2-The detenu has no right to legal representation before the Advisory Board. 3-Grounds of detention must be communicated. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 1,
+  "expl": "Production before a magistrate belongs to the punitive track, not the preventive one.",
+  "why": "The first statement imports the arrest timetable into preventive detention, where it has no application. Grounds and the absence of counsel are both correct.",
+  "round": "F",
+  "trapcat": "I",
+  "trapnote": "Two tracks, two sets of rules. Magistrate production and counsel belong to one of them only."
+ },
+ {
+  "q": "On the period of preventive detention without an Advisory Board opinion, which statement reflects the law in force?",
+  "options": [
+   "Three months, the Board chaired by a person qualified to be a High Court judge",
+   "Two months, the Board chaired by a sitting judge of a High Court",
+   "Two months, the Board chaired by a person qualified to be a High Court judge",
+   "Three months, the Board chaired by a sitting judge of the Supreme Court"
+  ],
+  "answer": 0,
+  "expl": "The two-month change was enacted in 1978 but never brought into force; three months still governs.",
+  "why": "The second option states a real constitutional amendment that was never notified. It is correct as text and wrong as law in force.",
+  "round": "F",
+  "trapcat": "C",
+  "trapnote": "An amendment that was passed is not necessarily an amendment in force. Three months is the operative figure."
+ },
+ {
+  "q": "A State law makes it an offence to publish material 'against the national interest'. Which is the strongest constitutional objection?",
+  "options": [
+   "Speech may not be restricted by a State legislature, the power belonging to Parliament",
+   "Publication is protected absolutely, restrictions applying only to spoken utterances",
+   "'National interest' is not among the listed grounds on which speech may be restricted",
+   "Restrictions on speech require a prior proclamation of Emergency to be operative"
+  ],
+  "answer": 2,
+  "expl": "The listed heads are exhaustive; a ground outside them cannot save a restriction.",
+  "why": "The heads are closed. Attractive-sounding grounds such as national interest, national security in that phrasing, or law and order do not appear.",
+  "round": "F",
+  "trapcat": "B",
+  "trapnote": "The eight heads are exhaustive. Any ground not on the list cannot be relied on however reasonable it sounds."
+ },
+ {
+  "q": "Consider the right to property: 1-It was omitted from Part III in 1978. 2-It is now a constitutional right outside Part III. 3-Its breach can be enforced directly by petition to the Supreme Court under the fundamental-rights remedy. Which is/are correct?",
+  "options": [
+   "2 and 3 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 1,
+  "expl": "It survives as a constitutional right, but the fundamental-rights remedy no longer lies for it directly.",
+  "why": "The third statement is the trap: removing it from Part III necessarily removed access to the Part III remedy, though a High Court remedy remains available.",
+  "round": "C",
+  "trapcat": "G",
+  "trapnote": "Deletion from Part III removes the Part III remedy. The right survives; the route changes."
+ },
+ {
+  "q": "Compare Article 358 and Article 359 during a Proclamation of Emergency. Which statement is correct?",
+  "options": [
+   "358 requires an order and reaches all rights; 359 is automatic and confined to Article 19",
+   "358 is automatic and confined to Article 19; 359 requires an order and excludes Articles 20 and 21",
+   "Both operate automatically, and both are confined to war or external aggression grounds",
+   "Both require a Presidential order, and both exclude Articles 20 and 21 from their reach"
+  ],
+  "answer": 1,
+  "expl": "One suspends a right automatically on an external ground; the other suspends a remedy by order.",
+  "why": "Each wrong option swaps one attribute only, so the candidate must hold four variables at once: trigger, instrument, scope and carve-out.",
+  "round": "C",
+  "trapcat": "G",
+  "trapnote": "Four variables distinguish these two provisions. Test each separately before choosing."
+ },
+ {
+  "q": "An officer records that an arrested person's relative was not informed because the station was short-staffed. Which statement is correct?",
+  "options": [
+   "The requirement is mandatory; administrative difficulty is not a recognised excuse",
+   "The requirement is directory; substantial compliance during the inquiry suffices",
+   "The requirement applies only where the arrest is made without a warrant",
+   "The requirement applies only to arrests of women and of persons below eighteen"
+  ],
+  "answer": 0,
+  "expl": "Informing a nominated person is a mandatory safeguard now carried into statutory form.",
+  "why": "The remaining options each narrow a general safeguard by inventing a qualification, which is how such distractors are usually built.",
+  "round": "C",
+  "trapcat": "H",
+  "trapnote": "Safeguards that protect liberty are read as mandatory. Look for options that quietly make them conditional."
+ },
+ {
+  "q": "Consider the progression of Article 21: 1-The 1950 view required only that some procedure exist. 2-The 1978 ruling required procedure to be fair, just and reasonable. 3-Privacy was recognised as part of the right in 2017. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 3,
+  "expl": "All three describe the accepted progression accurately.",
+  "why": "Candidates often reject the first statement because it states an overruled position, but the statement is about what the 1950 view HELD, which is accurate.",
+  "round": "C",
+  "trapcat": "F",
+  "trapnote": "A statement describing a superseded holding is not thereby false. Read what the statement actually asserts."
+ },
+ {
+  "q": "A woman is to be arrested at 10 pm. Which statement reflects the correct position?",
+  "options": [
+   "Arrest is barred after sunset in all circumstances without exception",
+   "Arrest requires the prior permission of a Sessions Judge after sunset",
+   "The restriction applies only where the offence is punishable with under seven years",
+   "Arrest is barred after sunset save with the prior permission of a Magistrate"
+  ],
+  "answer": 3,
+  "expl": "The safeguard is conditional, and the condition is prior permission of a Magistrate.",
+  "why": "The second option converts a conditional safeguard into an absolute one, and the third moves the authority up a level. Both are common field misconceptions.",
+  "round": "C",
+  "trapcat": "D",
+  "trapnote": "Conditional safeguards are not absolute bars. Identify the authority and the condition precisely."
+ },
+ {
+  "q": "Consider the six freedoms as they now stand: 1-They are available to citizens only. 2-Freedom of the press is separately enumerated. 3-Each is subject to restriction on grounds specific to it. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 1,
+  "expl": "Press freedom is not separately listed; it is read into freedom of speech and expression.",
+  "why": "The second statement is the trap. The press has no distinct clause; its protection is derived, which is why restrictions on it run through the speech heads.",
+  "round": "C",
+  "trapcat": "I",
+  "trapnote": "Press freedom is derived, not enumerated. Expect it as a false statement in list questions."
+ },
+ {
+  "q": "A law provides that a person may be detained for two years without reference to an Advisory Board, Parliament having so prescribed. Which statement is correct?",
+  "options": [
+   "Permissible: Parliament may prescribe the circumstances for detention beyond three months",
+   "Impermissible: no detention beyond three months is valid without a Board opinion",
+   "Permissible: any legislature may prescribe such circumstances for its own subjects",
+   "Impermissible: the maximum period of preventive detention is fixed at three months"
+  ],
+  "answer": 0,
+  "expl": "The Constitution expressly allows Parliament to prescribe classes of case for detention beyond three months.",
+  "why": "Two options confuse the general rule with the express exception, and one confuses Parliament's exclusive competence with that of a State legislature.",
+  "round": "T",
+  "trapcat": "D",
+  "trapnote": "The three-month rule has an express exception exercisable by Parliament. It is a rule with a carve-out, not a ceiling."
+ },
+ {
+  "q": "Consider: 1-Articles 20 and 21 cannot be suspended during an Emergency. 2-This was the position before 1978. 3-The judgment holding the contrary was expressly overruled in 2017. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 2,
+  "expl": "The protection came in 1978; before that the contrary was held, and that holding was overruled in 2017.",
+  "why": "The second statement inverts the chronology, which is exactly what makes the first and third appear to support it.",
+  "round": "T",
+  "trapcat": "F",
+  "trapnote": "Check whether a statement describes the position before or after the corrective amendment."
+ },
+ {
+  "q": "A procession is permitted but a participant carries a firearm. Which statement is correct?",
+  "options": [
+   "The guarantee covers all assembly, arms going only to the reasonableness of restriction",
+   "The guarantee is lost for the entire procession once any participant carries a weapon",
+   "The guarantee applies, arms being permissible if licensed and carried openly",
+   "The guarantee covers assembly that is peaceable and unarmed; this falls outside it"
+  ],
+  "answer": 3,
+  "expl": "The guarantee is textually limited to assembly that is peaceable and without arms.",
+  "why": "The third option overstates by penalising the whole assembly, and the fourth introduces a licensing qualification that the text does not contain.",
+  "round": "T",
+  "trapcat": "I",
+  "trapnote": "The limitation is in the text of the guarantee itself, not in the restriction clause."
+ },
+ {
+  "q": "On movement and residence: 1-Both may be restricted in the general public interest. 2-Both may be restricted to protect any Scheduled Tribe. 3-Both are available to every person in the territory. Correct?",
+  "options": [
+   "2 and 3 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 1,
+  "expl": "Both restriction grounds apply to both freedoms, but the freedoms belong to citizens alone.",
+  "why": "The two restriction grounds are shared, which makes the third statement the only defect, and it turns on the rights-holder rather than the restriction.",
+  "round": "T",
+  "trapcat": "I",
+  "trapnote": "Shared restriction grounds tempt the eye away from the rights-holder. Check who holds the freedom."
+ }
+]

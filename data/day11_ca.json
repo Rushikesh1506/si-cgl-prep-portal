@@ -1,0 +1,152 @@
+[
+ {
+  "q": "A rescue is made but the contractor is acquitted for want of proof of trafficking. What was most likely missing?",
+  "options": [
+   "Evidence of age, transport, payment and statements of those rescued",
+   "A formal complaint by the persons rescued at the time of the rescue",
+   "The prior sanction of the district magistrate for the prosecution",
+   "Proof that each of the persons rescued was a citizen of India"
+  ],
+  "answer": 0,
+  "expl": "The offence is proved by the surrounding evidence rather than by a complaint alone.",
+  "why": "The fourth option raises a citizenship requirement that does not exist for this protection.",
+  "round": "X",
+  "trapcat": "H",
+  "trapnote": "Build the evidentiary chain: age, movement, payment and statements. A complaint alone is not enough."
+ },
+ {
+  "q": "A note states that both a pilgrim service fee and a levy to promote one religion are barred. What is the error?",
+  "options": [
+   "Both are permissible where the legislature records a secular purpose",
+   "The levy is permissible; only the fee for services is barred",
+   "Both are barred, and the note is accurate as stated",
+   "The fee is permissible; only the levy for promotion is barred"
+  ],
+  "answer": 3,
+  "expl": "A fee for services rendered stands outside the prohibition.",
+  "why": "The third option reverses the two categories, which is a cleaner error than the note itself contains.",
+  "round": "X",
+  "trapcat": "J",
+  "trapnote": "Merging fee and tax is the standard error. They are distinct categories with distinct rules."
+ },
+ {
+  "q": "Consider a claim that the 2022 decision on the economic reservation compels a minority institution to admit under that quota. Which statement is correct?",
+  "options": [
+   "The claim succeeds: the decision extended the quota to all institutions",
+   "The claim fails: the decision struck down the enabling provision entirely",
+   "The claim fails: the enabling provision expressly excepts minority institutions",
+   "The claim succeeds where the institution receives aid from public funds"
+  ],
+  "answer": 2,
+  "expl": "The express exception for minority institutions continues to operate.",
+  "why": "The fourth option introduces an aid condition that the exception does not contain.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "The exception is express and unconditional. Aid does not remove it."
+ },
+ {
+  "q": "It is argued that the 2024 ruling on community resources ends the right of a minority to administer its institution. Which statement is correct?",
+  "options": [
+   "The argument succeeds: institutional property is now a community resource",
+   "The argument fails: the ruling concerned a Directive Principle, not the minority right",
+   "The argument fails: the ruling widened the minority right instead of narrowing it",
+   "The argument succeeds where the institution receives aid from public funds"
+  ],
+  "answer": 1,
+  "expl": "The ruling concerned the meaning of a Directive Principle and did not touch the minority right.",
+  "why": "The third option misdescribes the ruling while reaching the right conclusion, which is a separate error.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "Identify the subject-matter of a ruling before assessing what it can or cannot displace."
+ },
+ {
+  "q": "Consider the criminal statutes in force from July 2024 in a trafficking case: 1-They contain provisions on trafficking. 2-They contain safeguards for the arrest of women. 3-They abolished the constitutional prohibition on forced labour. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 0,
+  "expl": "A statute cannot abolish a constitutional prohibition.",
+  "why": "The third statement is structurally impossible, which is what the set tests.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "A statute cannot repeal a constitutional provision. The proposition fails on structure."
+ },
+ {
+  "q": "A trafficking route crosses three newly created districts in Andhra Pradesh. Which statement is correct?",
+  "options": [
+   "Registration must await determination of the district in which the offence occurred",
+   "Registration may be made only in the district where the persons were first taken",
+   "Registration requires the concurrence of the superintendents of all three districts",
+   "Registration may be made irrespective of jurisdiction and transferred to the competent station"
+  ],
+  "answer": 3,
+  "expl": "Jurisdiction-free registration followed by transfer is the correct course.",
+  "why": "Each wrong option makes registration conditional, which is precisely what the provision was designed to prevent.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "Jurisdiction never blocks registration. Register first and transfer afterwards."
+ },
+ {
+  "q": "Consider the hill shrine matter: 1-A decision was delivered in 2018. 2-Review petitions were filed. 3-The questions were referred to a larger bench and remain pending. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 3,
+  "expl": "All three are accurate and describe the current position.",
+  "why": "The sequence explains why the matter cannot be presented as settled law.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "Decision, review, reference, pending. That is the full and current sequence."
+ },
+ {
+  "q": "It is claimed that the 2023 reservation amendment requires one-third of seats in aided schools to be reserved for girls. Which statement is correct?",
+  "options": [
+   "The claim succeeds: the amendment extends to educational institutions",
+   "The claim fails: the amendment concerns seats in legislatures and is not yet operative",
+   "The claim fails: the amendment concerns educational institutions but awaits a census",
+   "The claim succeeds where the institution receives aid from public funds"
+  ],
+  "answer": 1,
+  "expl": "The amendment concerns legislative seats and awaits a census and delimitation.",
+  "why": "The third option concedes the wrong subject-matter while correctly identifying the timing defect.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "Two limbs again: wrong subject-matter and not yet operative. The complete option names both."
+ },
+ {
+  "q": "A State assembly law prescribes punishment for the practice of untouchability. Which statement is correct?",
+  "options": [
+   "The law is liable to challenge, that punishment power being Parliament's alone",
+   "The law is valid, public order and police being subjects within the State's competence",
+   "The law is valid, the subject falling within the concurrent legislative field",
+   "The law is liable to challenge, the practice not being an offence at all"
+  ],
+  "answer": 0,
+  "expl": "Punishment for offences under the rights chapter may be prescribed by Parliament alone.",
+  "why": "The second option reasons from the ordinary distribution of powers, which a specific provision displaces.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "A specific exclusive power defeats the general distribution, however familiar the general rule."
+ },
+ {
+  "q": "Consider: 1-The protection against forced labour binds private persons. 2-The prohibition of child labour binds private persons. 3-The abolition of untouchability binds private persons. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 3,
+  "expl": "All three operate horizontally.",
+  "why": "These, with the access limb of the non-discrimination provision, are the rights that bind private hands.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "Four provisions bind private persons. These three plus the access limb of non-discrimination."
+ }
+]

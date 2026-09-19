@@ -1,0 +1,152 @@
+[
+ {
+  "q": "A law treating two groups differently survives challenge because the court finds a real difference between them bearing a link to the law's purpose. Which doctrine has been applied?",
+  "options": [
+   "The valid-classification test: a real difference bearing a nexus to the object",
+   "The colourable-legislation test: indirect exercise of a power not directly held",
+   "The pith-and-substance test: the true character of a law for competence purposes",
+   "The basic-structure test: whether an amendment damages an essential feature"
+  ],
+  "answer": 0,
+  "expl": "Difference plus link to the object is the two-limb classification test.",
+  "why": "All four are real constitutional doctrines, each stated accurately, so only the fact-pattern separates them. Competence doctrines ask who may legislate; the classification test asks whether a distinction is permissible.",
+  "round": "X",
+  "trapcat": "G",
+  "trapnote": "Reverse-engineer from the reasoning described. 'Difference plus link' names one doctrine only."
+ },
+ {
+  "q": "Advice is given that since the five-ground clause covers citizens, a foreign company refused a licence has no equality remedy at all. What is the flaw in that advice?",
+  "options": [
+   "It omits the employment clause, which extends its protection to non-citizens as well",
+   "It omits the person-based guarantee, which binds State action regardless of nationality",
+   "It omits the trade-freedom guarantee, available to foreign and Indian traders alike",
+   "It is accurate: no equality guarantee in Part III is available to a foreign company"
+  ],
+  "answer": 1,
+  "expl": "The citizen limitation is correctly stated but fatally incomplete.",
+  "why": "The advice is ninety per cent right, which is what makes it dangerous. The two rejected additions are themselves citizens-only, so they could not cure the gap; only the person-based guarantee does.",
+  "round": "X",
+  "trapcat": "J",
+  "trapnote": "Advice that states a true rule may still be wrong for what it leaves out. Ask what qualification is missing."
+ },
+ {
+  "q": "A detenu has been held four months with no Advisory Board reference, though grounds were communicated and a representation was permitted. Which requirement decides the outcome?",
+  "options": [
+   "The requirement to communicate grounds, the representation being incomplete",
+   "The twenty-four-hour production requirement, no magistrate having seen the detenu",
+   "The Board-review requirement for detention beyond the permitted period is breached",
+   "No requirement is breached: grounds were given and a representation was allowed"
+  ],
+  "answer": 2,
+  "expl": "The specific review track governs; the satisfied requirements cannot save the detention.",
+  "why": "The second option imports the punitive-arrest timetable into a preventive case, where it does not apply at all. Where a general and a specific provision both appear to fit, the specific one governs.",
+  "round": "X",
+  "trapcat": "I",
+  "trapnote": "Preventive detention runs on its own track. Production before a magistrate belongs to the other one."
+ },
+ {
+  "q": "A caste-based refusal at a State-funded ghat is reported; the atrocities statute applies and registration is mandatory; the officer declines to register. What is the consequence for the officer?",
+  "options": [
+   "Departmental liability alone, the duty to register being directory in character",
+   "Liability only if the aggrieved person first obtains a direction from a magistrate",
+   "No liability: registration is discretionary where the complaint is constitutional",
+   "Liability for wilful neglect of a mandatory duty under the atrocities statute"
+  ],
+  "answer": 3,
+  "expl": "Refusal triggers the access clause, the statute criminalises it, and the duty is mandatory.",
+  "why": "Follow every link in the chain. Dropping the mandatory-duty link converts a penal consequence into a service matter, which is what the first and fourth options invite you to do.",
+  "round": "X",
+  "trapcat": "H",
+  "trapnote": "Trace fact to provision to statute to duty to consequence. A broken link changes the answer entirely."
+ },
+ {
+  "q": "Four statements: 1-The person-based guarantee covers companies in some cases. 2-The private-institution quota clause excepts minority institutions. 3-The Emergency ground was repaired in 1978. 4-EWS reservation was introduced by the 102nd Amendment. Which is defective?",
+  "options": [
+   "Statement 4",
+   "Statement 1",
+   "Statement 2",
+   "Statement 3"
+  ],
+  "answer": 0,
+  "expl": "EWS came by the 103rd; the 102nd gave constitutional status to the backward-classes commission.",
+  "why": "The defective statement names an adjacent amendment rather than an obviously wrong one, so familiarity will not expose it. The first three are each exact as stated.",
+  "round": "X",
+  "trapcat": "G",
+  "trapnote": "Adjacent-number errors survive recognition. Verify the subject of each amendment, not just its plausibility."
+ },
+ {
+  "q": "In November 2022 the Supreme Court upheld the 10% EWS framework by a majority. Which underlying question did that ruling actually decide?",
+  "options": [
+   "Whether Directive Principles may override the equality guarantee contained in Part III",
+   "Whether the ceiling doctrine binds a separately created economic reservation compartment",
+   "Whether the private-institution quota clause extends to minority educational institutions",
+   "Whether the power to identify backward classes vests in the States or in the Union"
+  ],
+  "answer": 1,
+  "expl": "The ruling placed the economic compartment outside the ceiling and denied the ceiling basic-structure status.",
+  "why": "All four describe genuine constitutional controversies, and three of them have been decided in other cases. News-based questions test which doctrine was actually in issue, not which sounds contemporaneous.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "Current-affairs questions are static-law questions in disguise. Identify the doctrine, not the headline."
+ },
+ {
+  "q": "On the 2024 nine-judge ruling concerning community resources: 1-it addressed the resource-ownership directive. 2-it held all private property to be a community resource. 3-it addressed the welfare-law shield. 4-it overruled the 1980 balance ruling. Correct set?",
+  "options": [
+   "1, 2 and 3",
+   "2 and 4",
+   "1 and 3",
+   "1, 3 and 4"
+  ],
+  "answer": 2,
+  "expl": "It addressed both the directive and the shield, held the opposite on private property, and left 1980 intact.",
+  "why": "Distinguish what a bench decided from what was argued before it. The second statement inverts the actual holding, and the fourth confuses a narrowing of scope with the overruling of a separate doctrine.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "Separate holding from argument. A point pressed in a case is not a point decided by it."
+ },
+ {
+  "q": "The 2023 amendment reserving seats for women in legislatures becomes operative only after a census and the delimitation that follows. Which existing route does it extend?",
+  "options": [
+   "The backward-class reservation route in employment, carried over to elected office",
+   "The Scheduled Tribes quota, extended to the Rajya Sabha and Legislative Councils",
+   "The enabling power for State-made quotas in private educational institutions",
+   "Affirmative action for women, extended to the Lok Sabha and State Assemblies"
+  ],
+  "answer": 3,
+  "expl": "It extends special-provision logic for women to the directly elected Houses only.",
+  "why": "The second option is the standard trap: the amendment does not touch the indirectly elected Houses at all. Delayed operation reflects a dependence on delimitation and says nothing about validity.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "Enacted is not operative, and directly elected Houses are not all Houses. Both limbs are tested."
+ },
+ {
+  "q": "Following the 2022 district reorganisation, a non-local challenges AP zonal recruitment quotas. Which combination controls the outcome?",
+  "options": [
+   "The special AP arrangement, operating through the Presidential Order made under it",
+   "The Parliamentary power to prescribe residence qualifications for posts in a State",
+   "The backward-class reservation power exercised by the State by executive order",
+   "The five-ground clause, place of birth being among the grounds it expressly lists"
+  ],
+  "answer": 0,
+  "expl": "Reorganisation altered the zones, not the constitutional source of the quota.",
+  "why": "The second option is the recurring confusion in AP recruitment questions: the residence power and the local-cadre power sit in different provisions and are exercised by different authorities through different instruments.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "An administrative change never repeals a constitutional source. Identify the source before assessing the change."
+ },
+ {
+  "q": "A woman is arrested at 9 pm after prior magistrate permission and produced within the permitted period. Counsel pleads the night-arrest safeguard, protective discrimination and arbitrariness. What is the outcome?",
+  "options": [
+   "Void: the permission must be obtained from a Sessions Judge and not from a Magistrate",
+   "Valid: the exception was satisfied and production took place within the permitted period",
+   "Valid: night-arrest safeguards apply to preventive detention and not to punitive arrest",
+   "Void: a woman may not be arrested after sunset in any circumstances whatsoever"
+  ],
+  "answer": 1,
+  "expl": "The safeguard bars night arrest without permission; permission was obtained and the clock was met.",
+  "why": "Every doctrine cited by counsel is real, which is what makes this the hardest pattern. The safeguard is not absolute but conditional, and the condition was complied with, so each plea fails on its own terms.",
+  "round": "V",
+  "trapcat": "L",
+  "trapnote": "Real law, correctly cited, can still fail where the exception was satisfied. Check compliance before concluding breach."
+ }
+]

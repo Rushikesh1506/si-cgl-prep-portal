@@ -1,0 +1,152 @@
+[
+ {
+  "q": "A conflict arises between a House and a court over who determines the scope of privilege. Which statement is correct?",
+  "options": [
+   "Privileges are subject to the Constitution, and the courts may determine their existence and extent",
+   "The House alone determines the existence and extent of its privileges conclusively",
+   "Privileges are outside the Constitution and are determined by the House alone",
+   "Privileges are determined by the President on a reference from the House"
+  ],
+  "answer": 0,
+  "expl": "Privileges operate subject to the Constitution and their existence and extent are examinable.",
+  "why": "The historical dispute on this question is the reason the topic recurs in State papers.",
+  "round": "A",
+  "trapcat": "G",
+  "trapnote": "Privileges are constitutional in source and therefore examinable, whatever the House asserts."
+ },
+ {
+  "q": "Consider a Bill that would alter the representation of States in Parliament. Which statement is correct?",
+  "options": [
+   "It needs a special majority alone, ratification being confined to Seventh Schedule changes",
+   "It needs a simple majority, being outside the amending procedure altogether",
+   "It needs a special majority and the prior concurrence of the affected States",
+   "It needs a special majority and ratification by not less than half the State legislatures"
+  ],
+  "answer": 3,
+  "expl": "Representation of States in Parliament is a federal provision requiring ratification.",
+  "why": "The fourth option substitutes concurrence of affected States for ratification by half the legislatures.",
+  "round": "A",
+  "trapcat": "G",
+  "trapnote": "Ratification by half the States is required. Concurrence of affected States is a different thing."
+ },
+ {
+  "q": "An ordinary Bill is passed by the lower House and rejected by the upper House. Which statement is correct?",
+  "options": [
+   "The Bill lapses and must be reintroduced afresh in the lower House",
+   "The President may summon a joint sitting, which decides by a special majority",
+   "The President may summon a joint sitting, which decides by a simple majority of those present",
+   "The lower House may pass it again after fourteen days and it is deemed passed"
+  ],
+  "answer": 2,
+  "expl": "A joint sitting decides by a simple majority of members present and voting.",
+  "why": "The fourth option applies the Money Bill machinery to an ordinary Bill, which is the standard cross-wiring.",
+  "round": "A",
+  "trapcat": "I",
+  "trapnote": "The deemed-passage rule belongs to Money Bills. Ordinary deadlocks go to a joint sitting."
+ },
+ {
+  "q": "Consider the Andhra Pradesh Legislative Council: 1-An Assembly resolution for its abolition was passed in 2020. 2-Parliament enacted the corresponding law. 3-The Council continues to function. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 1,
+  "expl": "The resolution was passed and the Council continues because Parliament did not act.",
+  "why": "The set is constructed so that the two true statements would ordinarily be inconsistent, which is the point.",
+  "round": "A",
+  "trapcat": "L",
+  "trapnote": "The resolution and the continuing Council coexist precisely because Parliament never legislated."
+ },
+ {
+  "q": "On the relative powers of a Legislative Council and the Assembly on a Money Bill, which statement is correct?",
+  "options": [
+   "The Council may delay the Bill for fourteen days and may make recommendations only",
+   "The Council may reject the Bill, whereupon a joint sitting of the two Houses is summoned",
+   "The Council may amend the Bill, the Assembly being bound to consider the amendments",
+   "The Council has no role whatever in relation to a Money Bill of the State"
+  ],
+  "answer": 0,
+  "expl": "The Council mirrors the upper House at the Union level: delay and recommendation only.",
+  "why": "The fourth option removes the Council entirely, which overstates a genuinely weak position.",
+  "round": "A",
+  "trapcat": "G",
+  "trapnote": "A Council is weaker than the Union upper House but not powerless. It may delay and recommend."
+ },
+ {
+  "q": "Consider: 1-The lower House alone may pass a resolution for the removal of the Vice-President. 2-The upper House alone may initiate such a resolution. 3-The resolution requires the agreement of the other House. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 2,
+  "expl": "The upper House initiates and the lower House must agree.",
+  "why": "The first statement reverses the initiating House, which is the natural assumption given where the Vice-President presides.",
+  "round": "A",
+  "trapcat": "I",
+  "trapnote": "Initiation lies with the House he presides over; agreement is required from the other."
+ },
+ {
+  "q": "A State legislature seeks to create a Legislative Council for itself. Which statement is correct?",
+  "options": [
+   "The Assembly resolution requires a simple majority of members present and voting",
+   "The Assembly resolution requires ratification by half the State legislatures",
+   "The Assembly resolution requires a majority of total membership and two-thirds of those voting",
+   "The Assembly resolution requires the prior recommendation of the Governor"
+  ],
+  "answer": 2,
+  "expl": "The resolution requires a special majority of the Assembly.",
+  "why": "The requirement is a special majority even though the resulting law of Parliament is passed like an ordinary law.",
+  "round": "A",
+  "trapcat": "G",
+  "trapnote": "A special majority for the resolution, an ordinary law for the enactment. The two differ."
+ },
+ {
+  "q": "Consider the Estimates Committee: 1-It has thirty members. 2-It is drawn from both Houses. 3-Ministers may not be elected to it. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "1 and 3 only",
+   "2 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 1,
+  "expl": "Thirty members, all from the lower House, and ministers are excluded.",
+  "why": "The single-House composition is the distinguishing feature of this committee among the financial committees.",
+  "round": "T",
+  "trapcat": "C",
+  "trapnote": "Estimates is the single-House committee. Accounts and undertakings draw from both."
+ },
+ {
+  "q": "A Bill is certified as a Money Bill and a member contends that it contains matters beyond the permitted list. Which statement is correct?",
+  "options": [
+   "The certificate is declared final, though the extent of that finality is under reference",
+   "The contention is not maintainable in any forum, the certificate being conclusive for all purposes",
+   "The contention must be raised before the President, who decides the question",
+   "The contention is decided by the Chairman of the upper House on a reference"
+  ],
+  "answer": 0,
+  "expl": "Finality is declared by the text, and the extent of that finality is a live question.",
+  "why": "The second option states the textual position as though no question could ever arise, which is the overstatement tested.",
+  "round": "T",
+  "trapcat": "L",
+  "trapnote": "The text declares finality; whether that ousts all review is the question under reference."
+ },
+ {
+  "q": "Parliament extends the term of the House during a Proclamation of Emergency. Which statement is correct?",
+  "options": [
+   "The extension may be for two years at a time and ceases with the Proclamation",
+   "The extension may be for one year at a time and continues until fresh elections are held",
+   "The extension may be for the duration of the Proclamation without any annual limit",
+   "One year at a time, and not beyond six months after the Proclamation ceases to operate"
+  ],
+  "answer": 3,
+  "expl": "One year at a time, with a six-month tail after the Proclamation ends.",
+  "why": "Each wrong option alters either the unit of extension or the tail period, so both variables must be held.",
+  "round": "T",
+  "trapcat": "G",
+  "trapnote": "Two variables: the annual unit and the six-month tail. Options vary one at a time."
+ }
+]

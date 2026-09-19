@@ -1,0 +1,152 @@
+[
+ {
+  "q": "A passport is impounded 'in the public interest' with no reasons given and no hearing. The State argues that a statutory power was exercised and nothing more is required. Which statement best states the law?",
+  "options": [
+   "The exercise fails: procedure depriving liberty must be fair, just and reasonable",
+   "The exercise stands: a power conferred by statute needs no further justification",
+   "The exercise fails: passports may not be impounded except during an Emergency",
+   "The exercise stands: reasons may be withheld where the public interest is invoked"
+  ],
+  "answer": 0,
+  "expl": "Existence of a statutory power is not enough; the procedure must independently be fair.",
+  "why": "The second option states the overruled 1950 position, which is why it reads like orthodoxy. The fourth converts an invocation into a justification.",
+  "round": "A",
+  "trapcat": "G",
+  "trapnote": "A superseded doctrine offered as the current rule is the standard trap in this topic."
+ },
+ {
+  "q": "Consider: 1-A confession obtained by threat is inadmissible against the maker. 2-Narco-analysis without consent violates the protection against self-incrimination. 3-A specimen signature taken under compulsion violates it. Which is/are correct?",
+  "options": [
+   "2 and 3 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 1,
+  "expl": "Coerced statements and involuntary narco-analysis are protected; a specimen signature is not.",
+  "why": "All three concern compulsion, but only two concern testimony. The signature is material for comparison and falls outside.",
+  "round": "A",
+  "trapcat": "E",
+  "trapnote": "Group the three by what is being extracted: a statement, the contents of the mind, or a physical exemplar."
+ },
+ {
+  "q": "Dwellers are evicted at night with no notice. The State argues the guarantee of life protects mere physical existence. Which statement is correct?",
+  "options": [
+   "The guarantee extends to shelter absolutely, and eviction is impermissible",
+   "The guarantee is confined to physical existence, and no procedure is required",
+   "The guarantee extends to dignity, and eviction requires a fair procedure",
+   "The guarantee applies only where the dwellers hold lawful title to the land"
+  ],
+  "answer": 2,
+  "expl": "Life means more than animal existence; deprivation requires a procedure that is fair.",
+  "why": "The second option overstates the right into an absolute bar; the fourth makes the guarantee depend on title, which it does not.",
+  "round": "A",
+  "trapcat": "D",
+  "trapnote": "Expanded content does not mean an absolute right. Procedure remains the operative safeguard."
+ },
+ {
+  "q": "Arrest at 8 pm; grounds given next afternoon; production after forty hours excluding travel. Consider: 1-Grounds were defectively communicated. 2-The production rule was breached. 3-A later remand cures both. Correct?",
+  "options": [
+   "2 and 3 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 1,
+  "expl": "Grounds must be communicated forthwith and production made within twenty-four hours; a later remand cures neither.",
+  "why": "The third statement is the field misconception that a magistrate's order retrospectively legalises an illegal detention. It does not.",
+  "round": "A",
+  "trapcat": "H",
+  "trapnote": "A subsequent remand does not validate a detention that was illegal when it began."
+ },
+ {
+  "q": "A legislature enacts a vaguely worded prohibition on 'any criticism likely to cause disaffection', and officers enforce it broadly. Which statement is correct?",
+  "options": [
+   "The provision is vulnerable: restrictions must be precise and the least invasive available",
+   "The provision is valid: vagueness affects enforcement alone and not the law itself",
+   "The provision is valid: disaffection is expressly a listed ground of restriction",
+   "The provision is vulnerable: restrictions on speech require a two-thirds majority"
+  ],
+  "answer": 0,
+  "expl": "Vagueness and overbreadth defeat reasonableness; disaffection is not a listed head.",
+  "why": "The third option invents a listed ground that sounds historical and familiar, which is precisely why it is tempting.",
+  "round": "A",
+  "trapcat": "B",
+  "trapnote": "Check the listed heads before accepting any ground, however familiar its phrasing sounds."
+ },
+ {
+  "q": "Consider the role of a Magistrate at the stage of remand: 1-The Magistrate must satisfy himself that detention is necessary. 2-The case diary may be examined. 3-The Magistrate may grant remand mechanically where the police seek it. Which is/are correct?",
+  "options": [
+   "2 and 3 only",
+   "1 and 3 only",
+   "1 and 2 only",
+   "1, 2 and 3"
+  ],
+  "answer": 2,
+  "expl": "Remand requires application of mind; mechanical orders defeat the safeguard.",
+  "why": "The third statement describes common practice rather than law, which is what makes it attractive to a candidate reasoning from experience.",
+  "round": "A",
+  "trapcat": "H",
+  "trapnote": "Prevailing practice is not the legal standard. The safeguard exists precisely to prevent mechanical orders."
+ },
+ {
+  "q": "An officer asserts preventive detention may run indefinitely while the danger lasts. Which statement is correct?",
+  "options": [
+   "Detention may continue indefinitely provided grounds are periodically reconsidered",
+   "Detention beyond three months requires the sanction of the State government alone",
+   "Beyond three months an Advisory Board opinion is needed unless Parliament otherwise provides",
+   "Detention may never exceed three months in the aggregate, in any case"
+  ],
+  "answer": 2,
+  "expl": "The three-month rule with its Board mechanism and its parliamentary exception governs.",
+  "why": "The fourth option converts a procedural threshold into an absolute ceiling, which is the mirror image of the officer's error.",
+  "round": "A",
+  "trapcat": "D",
+  "trapnote": "Three months is a threshold triggering a safeguard, not an outer limit on detention."
+ },
+ {
+  "q": "A foreign national alleges custody torture and is told the protections are citizens-only. Consider: 1-Self-incrimination protection extends to him. 2-Life and personal liberty extend to him. 3-The six freedoms extend to him. Correct?",
+  "options": [
+   "2 and 3 only",
+   "1 and 2 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 1,
+  "expl": "The penal and liberty protections reach every person; the six freedoms do not.",
+  "why": "This tests the rights-holder distinction inside a single Part, where adjacent articles differ on precisely that point.",
+  "round": "T",
+  "trapcat": "I",
+  "trapnote": "Adjacent articles can differ on the rights-holder. Check each one rather than the Part as a whole."
+ },
+ {
+  "q": "Consider: 1-Assembly may be restricted in the interests of public order. 2-Association may be restricted in the interests of morality. 3-Movement may be restricted in the general public interest. Which is/are correct?",
+  "options": [
+   "1 and 2 only",
+   "2 and 3 only",
+   "1 and 3 only",
+   "1, 2 and 3"
+  ],
+  "answer": 3,
+  "expl": "Each freedom carries its own restriction grounds, and all three statements pair correctly.",
+  "why": "Set questions of this kind are usually built with one mismatched pair, so a set where all three match tests whether the candidate verifies rather than assumes.",
+  "round": "T",
+  "trapcat": "G",
+  "trapnote": "Do not assume a set must contain an error. Verify each pair against its own restriction clause."
+ },
+ {
+  "q": "A speech provokes a riot; arrests follow with no grounds given and no production; the arrested person's child is refused school. Which combination identifies the breaches?",
+  "options": [
+   "A breach of the speech guarantee, and no breach of the arrest safeguards on these facts",
+   "Breaches of the speech guarantee and of the education right, the arrest being lawful",
+   "No breach on any limb, the riot justifying every step taken by the authorities",
+   "Speech restriction permissible, but arrest safeguards and the education right are breached"
+  ],
+  "answer": 3,
+  "expl": "Incitement is a listed ground, so the restriction stands; the arrest and education breaches remain.",
+  "why": "Synthesis questions punish blanket answers. Each limb must be assessed on its own footing, and here they do not all fall the same way.",
+  "round": "T",
+  "trapcat": "G",
+  "trapnote": "In multi-limb scenarios, expect the limbs to resolve differently. A uniform answer is usually wrong."
+ }
+]
