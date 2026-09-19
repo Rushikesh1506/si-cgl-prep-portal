@@ -43,38 +43,11 @@ const NAV_TREE = [
       ]},
     ]},
   ]},
-  { label: "SSC CGL", icon: "✍️", children: [
-    { label: "English — Topic Mastery", icon: "📖", children: [
-      { label: "Start Here — How SSC Tests English", topicId: "eng_hub" },
-      { label: "Grammar", header: true, children: [
-        { label: "Subject-Verb Agreement", topicId: "eng_sva" },
-        { label: "Tenses & Sequence", topicId: "eng_tenses" },
-        { label: "Articles", topicId: "eng_articles" },
-        { label: "Prepositions", topicId: "eng_prepositions" },
-        { label: "Pronouns + Adjectives/Adverbs", topicId: "eng_pronouns" },
-        { label: "Advanced Grammar (Degree/Pairs/Modals/Conditionals/Tags)", topicId: "eng_modifiers" },
-      ]},
-      { label: "Voice & Narration", header: true, children: [
-        { label: "Active → Passive Voice", topicId: "eng_voice" },
-        { label: "Direct → Indirect Narration", topicId: "eng_narration" },
-      ]},
-      { label: "Vocabulary", header: true, children: [
-        { label: "Synonyms, Antonyms, Confused Words", topicId: "eng_vocab" },
-        { label: "One-Word + Spelling", topicId: "eng_ows" },
-        { label: "Idioms & Phrases", topicId: "eng_idioms" },
-        { label: "Parajumbles", topicId: "eng_jumble" },
-      ]},
-      { label: "Exam Skills", header: true, children: [
-        { label: "Mixed Error Detection", topicId: "eng_error" },
-        { label: "Sentence Improvement + Fillers", topicId: "eng_improve" },
-        { label: "Cloze Test + Reading Comprehension", topicId: "eng_cloze_rc" },
-        { label: "25-Q English Sectional (Exam Mode)", topicId: "eng_mock" },
-      ]},
-    ]},
-  ]},
+  /* SSC CGL English lives standalone at english/index.html (header badge links there),
+     so it is intentionally absent from this sidebar. */
 ];
 
-const FLAT_ORDER = ["fr_overview","fr_art14","fr_art15","fr_art16","fr_art17","fr_art18","fr_cases_hub","polity_dpsp","polity_exec","polity_judi","polity_emerg","polity_amend","eng_hub","eng_sva","eng_tenses","eng_articles","eng_prepositions","eng_pronouns","eng_modifiers","eng_voice","eng_narration","eng_vocab","eng_ows","eng_idioms","eng_jumble","eng_error","eng_improve","eng_cloze_rc","eng_mock"];
+const FLAT_ORDER = ["fr_overview","fr_art14","fr_art15","fr_art16","fr_art17","fr_art18","fr_cases_hub","polity_dpsp","polity_exec","polity_judi","polity_emerg","polity_amend"];
 
 /* ---------- STATE ---------- */
 const store = {

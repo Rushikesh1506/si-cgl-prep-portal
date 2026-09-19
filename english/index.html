@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>CGL English Coach — Tier-1 Topic Mastery</title>
+<meta name="description" content="Topic-wise SSC CGL Tier-1 English mastery: real-paper lessons, passages, practice, topic tests and sectional mocks." />
+<link rel="stylesheet" href="style.css?v=1" />
+</head>
+<body>
+<header class="top">
+  <button id="menuBtn" class="menu-btn" aria-label="Toggle roadmap">☰</button>
+  <div class="brand"><div class="brand-mark">🎓</div>
+    <div><h1>CGL English Coach</h1><p class="sub">Tier-1 English • one topic at a time</p></div>
+  </div>
+  <div class="top-right">
+    <span class="mission">🎯 Working target: 22+/25</span>
+    <button id="mockBtn" class="btn btn-mock">📝 Sectional Mock (25Q)</button>
+  </div>
+</header>
+
+<div class="layout">
+  <aside id="road" class="road" aria-label="Topic roadmap">
+    <div class="road-head"><input id="roadSearch" type="search" placeholder="Find a topic…" aria-label="Find a topic" /></div>
+    <nav id="roadNav"></nav>
+    <div class="road-foot">
+      <div class="progress-label"><span>Topics mastered</span><span id="roadPct">0/16</span></div>
+      <div class="progress-bar"><div id="roadFill" class="progress-fill"></div></div>
+      <button id="paperBtn" class="btn btn-ghost btn-sm" style="margin-top:10px">📊 Real-paper analysis</button>
+    </div>
+  </aside>
+  <div id="scrim" class="scrim" hidden></div>
+
+  <main class="main">
+    <nav id="crumb" class="crumb"></nav>
+    <section id="view"></section>
+    <footer class="foot"><p><strong>CGL English Coach</strong> • lessons from real Sept 2024 Tier-1 papers • PYQ-labelled questions come from official answer keys; the rest is SSC-pattern practice.</p></footer>
+  </main>
+</div>
+
+<script src="bank.js?v=1"></script>
+<script src="pyq.js?v=1"></script>
+<script src="lessons-a.js?v=1"></script>
+<script src="lessons-b.js?v=1"></script>
+<script src="passages.js?v=1"></script>
+<script src="app.js?v=1"></script>
+</body>
+</html>
