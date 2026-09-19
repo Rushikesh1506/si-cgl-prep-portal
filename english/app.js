@@ -97,7 +97,8 @@ const ADVICE = {
   eng_jumble: "Find one certain link (pronoun/however/chronology) and kill two options.",
 };
 
-/* ---------- roadmap ---------- */
+/* ---------- roadmap (collapsible phases) ---------- */
+const roadOpen = {}; // phase name -> bool; default open
 function renderRoad(filter) {
   filter = (filter || "").toLowerCase();
   const nav = $("#roadNav");
@@ -106,10 +107,17 @@ function renderRoad(filter) {
   PHASES.forEach(ph => {
     const items = ph.ids.filter(id => (LESSONS[id].title + " " + id).toLowerCase().includes(filter));
     if (!items.length) return;
-    const h = document.createElement("div");
-    h.className = "phase";
-    h.textContent = ph.name;
-    nav.appendChild(h);
+    if (!(ph.name in roadOpen)) roadOpen[ph.name] = true;
+    const open = filter ? true : roadOpen[ph.name];
+    const wrap = document.createElement("div");
+    wrap.className = "phase-group" + (open ? " open" : "");
+    const h = document.createElement("button");
+    h.className = "phase-toggle";
+    h.setAttribute("aria-expanded", open);
+    h.innerHTML = `<span class="chev">${open ? "▾" : "▸"}</span><span>${ph.name}</span><span class="pcount">${items.length}</span>`;
+    h.onclick = () => { roadOpen[ph.name] = !roadOpen[ph.name]; renderRoad($("#roadSearch").value || ""); };
+    const kids = document.createElement("div");
+    kids.className = "phase-kids";
     items.forEach(id => {
       const L = LESSONS[id];
       const t = tierOf(id);
@@ -119,8 +127,11 @@ function renderRoad(filter) {
       b.dataset.tier = t;
       b.innerHTML = `<span class="dot"></span><span>${L.title}</span><span class="best">${qCount(id)}Q${store.best[id] ? " · " + store.best[id].s + "/" + store.best[id].t : ""}</span>`;
       b.onclick = () => { goLesson(id); closeMobile(); };
-      nav.appendChild(b);
+      kids.appendChild(b);
     });
+    wrap.appendChild(h);
+    wrap.appendChild(kids);
+    nav.appendChild(wrap);
   });
   $("#roadPct").textContent = mastered + "/" + ORDER.length;
   $("#roadFill").style.width = (mastered / ORDER.length * 100) + "%";

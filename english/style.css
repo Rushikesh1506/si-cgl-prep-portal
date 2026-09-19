@@ -23,6 +23,15 @@ body{margin:0;font-family:"Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-s
 .road-head input{width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:10px;font-size:.9rem;background:#fff}
 #roadNav{flex:1;overflow-y:auto;padding:10px}
 .phase{font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.6px;color:var(--muted);margin:12px 6px 4px}
+.phase-group{border-top:1px dashed var(--line);margin-top:8px;padding-top:2px}
+.phase-group:first-child{border-top:0;margin-top:0}
+.phase-toggle{width:100%;display:flex;gap:8px;align-items:center;background:none;border:0;cursor:pointer;
+  font-size:.74rem;font-weight:800;text-transform:uppercase;letter-spacing:.6px;color:var(--muted);
+  margin:10px 4px 4px;padding:6px 4px;border-radius:8px;text-align:left}
+.phase-toggle:hover{color:var(--ink);background:#f5efe1}
+.phase-toggle .chev{font-size:.62rem;width:12px;flex-shrink:0}
+.phase-toggle .pcount{margin-left:auto;background:#eee5d2;border-radius:99px;padding:0 9px;font-size:.68rem}
+.phase-group:not(.open) .phase-kids{display:none}
 .tcard{display:flex;gap:10px;align-items:center;width:100%;text-align:left;background:transparent;border:0;padding:10px;border-radius:11px;cursor:pointer;font-size:.9rem;color:var(--ink)}
 .tcard:hover{background:#f5efe1}
 .tcard.active{background:#fef3c7;font-weight:700}
@@ -100,6 +109,11 @@ table.lt th{background:#1c1917;color:#fff}
   .layout{grid-template-columns:1fr}
   .menu-btn{display:block}
   .road{position:fixed;left:0;top:0;height:100vh;width:min(320px,86vw);z-index:60;transform:translateX(-105%);transition:transform .25s ease}
-  .road.open{transform:none}
+  .road.open{transform:none;box-shadow:0 0 40px rgba(0,0,0,.3)}
   .mission{display:none}
+  .top{gap:8px;padding:10px 12px}
+  .brand h1{font-size:1rem}
+  .sub{display:none}
+  .tcard{padding:13px 10px}
+  .main{padding:16px 12px}
 }
