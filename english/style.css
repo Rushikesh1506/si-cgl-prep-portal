@@ -16,6 +16,8 @@ body{margin:0;font-family:"Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-s
 .sub{margin:0;font-size:.78rem;opacity:.75}
 .top-right{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
 .mission{font-size:.8rem;font-weight:700;background:#33302b;padding:6px 12px;border-radius:99px}
+a.mission.home-link{color:#fff;text-decoration:none;border:1px solid #57534e}
+a.mission.home-link:hover{background:#44403c}
 .menu-btn{display:none;background:#33302b;color:#fff;border:0;border-radius:10px;font-size:20px;padding:6px 12px;cursor:pointer}
 .layout{display:grid;grid-template-columns:310px 1fr;min-height:calc(100vh - 68px)}
 .road{background:var(--card);border-right:1px solid var(--line);display:flex;flex-direction:column;position:sticky;top:68px;height:calc(100vh - 68px)}
@@ -111,6 +113,10 @@ table.lt th{background:#1c1917;color:#fff}
   .road{position:fixed;left:0;top:0;height:100vh;width:min(320px,86vw);z-index:60;transform:translateX(-105%);transition:transform .25s ease}
   .road.open{transform:none;box-shadow:0 0 40px rgba(0,0,0,.3)}
   .mission{display:none}
+  .mission.home-link{display:block;font-size:.72rem;padding:5px 10px}
+  .top{flex-wrap:wrap;gap:8px;padding:10px 12px}
+  .brand{min-width:0}
+  .brand h1{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
   .top{gap:8px;padding:10px 12px}
   .brand h1{font-size:1rem}
   .sub{display:none}
