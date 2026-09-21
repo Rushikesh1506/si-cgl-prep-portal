@@ -325,7 +325,16 @@ function buildExplanation(raw) {
   if (raw.explanation) parts.push(raw.explanation);
   if (raw.expl) parts.push("<b>Rule:</b> " + raw.expl);
   if (raw.rule) parts.push("<b>Rule:</b> " + raw.rule);
-  if (raw.why) parts.push("<b>Why:</b> " + raw.why);
+  if (raw.why) {
+    if (typeof raw.why === "object") {
+      const letters = ["A", "B", "C", "D"];
+      parts.push("<b>Option-wise:</b><br>" + ["0", "1", "2", "3"]
+        .filter(k => raw.why[k])
+        .map(k => `<b>${letters[+k]}:</b> ${raw.why[k]}`).join("<br>"));
+    } else {
+      parts.push("<b>Why:</b> " + raw.why);
+    }
+  }
   if (raw.tip) parts.push("<b>Elimination:</b> " + raw.tip);
   if (raw.elim) parts.push("<b>Elimination:</b> " + raw.elim);
   if (raw.trapnote) parts.push("<b>Trap:</b> " + raw.trapnote);
@@ -446,6 +455,17 @@ async function loadBank() {
       if (!r.ok) throw new Error("gs_bank.json HTTP " + r.status);
       const arr = await r.json();
       setQuizList(arr, "GS Bank drill (flashcards)", "bank");
+      return;
+    }
+    if (day === "fr120") {
+      // FR 120-bank tiers: B=Foundation 20, C=Conceptual 30, D=Difficult 25, T=Tricky 25, S=Application 20
+      const TIER = { full: null, core: "B", hard: "D", analy: "C", ca: "C", curr: "T", si: "S" };
+      const r = await fetch("data/fr120_bank.json");
+      if (!r.ok) throw new Error("fr120_bank.json HTTP " + r.status);
+      let arr = await r.json();
+      const want = TIER[mode];
+      if (want) arr = arr.filter(q => q.round === want);
+      setQuizList(arr, want ? `FR 120-bank tier ${want} (${arr.length}Q)` : "FR 120-bank full (120Q)", "bank");
       return;
     }
     // 45/day audited bank: quiz=Core 20, hard=Advanced 10,
