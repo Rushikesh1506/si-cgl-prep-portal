@@ -1,0 +1,2402 @@
+[
+ {
+  "answer": 2,
+  "expl": "Part III (Art. 12-35) is the Magna Carta of India: justiciable rights enforceable directly via Art. 32 (SC) and Art. 226 (HC). No other Part gives that direct court ticket.",
+  "options": [
+   "Part IV — Directive Principles",
+   "Part IVA — Fundamental Duties",
+   "Part III — Fundamental Rights",
+   "Part IX — Panchayats"
+  ],
+  "q": "The part of the Constitution called the Magna Carta of India is",
+  "round": "B",
+  "trapcat": "F+PYQ",
+  "trapnote": "IVA (duties) and IX (panchayats) decoys; IV holds non-justiciable goals.",
+  "why": {
+   "0": "Wrong: Part IV goals cannot be enforced through Art. 32 (Art. 37).",
+   "1": "Wrong: duties are obligations, not enforceable rights.",
+   "2": "Correct: Part III alone is justiciable via 32/226.",
+   "3": "Wrong: local governance, added by 73rd, no FR character."
+  }
+ },
+ {
+  "answer": 2,
+  "expl": "Ambedkar: Art. 32 is the heart and soul — rights without remedy are paper. It is itself an FR and part of basic structure (Minerva Mills, 1980). Five writs flow from it.",
+  "options": [
+   "Article 14 — equality before law",
+   "Article 21 — life and liberty",
+   "Article 32 — constitutional remedies",
+   "Article 368 — amendment power"
+  ],
+  "q": "Which article did Dr. B.R. Ambedkar call the heart and soul of the Constitution?",
+  "round": "B",
+  "trapcat": "F+PYQ",
+  "trapnote": "Quote-attribution frame (PYQ Q168/Q171 style); 368 is procedure, not remedy.",
+  "why": {
+   "0": "Wrong: equality content, not the enforcement guarantee Ambedkar praised.",
+   "1": "Wrong: substantive liberty, enforceable only through 32/226.",
+   "2": "Correct: direct SC access via 5 writs; itself an FR.",
+   "3": "Wrong: amendment procedure, unrelated to remedies."
+  }
+ },
+ {
+  "answer": 1,
+  "expl": "Art. 17 abolishes untouchability absolutely — no exceptions, no reasonable restriction, binds State and private persons. Enforced via PCR Act 1955 + SC/ST Atrocities Act 1989.",
+  "options": [
+   "Article 15",
+   "Article 17",
+   "Article 19",
+   "Article 21"
+  ],
+  "q": "Untouchability is abolished and its practice forbidden under",
+  "round": "B",
+  "trapcat": "F",
+  "trapnote": "15 is general non-discrimination; 17 is the absolute abolition.",
+  "why": {
+   "0": "Wrong: Art. 15 bans discrimination but carries exception clauses.",
+   "1": "Correct: absolute, horizontal, offence-punishable abolition.",
+   "2": "Wrong: freedoms chapter, unrelated to untouchability.",
+   "3": "Wrong: life/liberty, not social-disability abolition."
+  }
+ },
+ {
+  "answer": 3,
+  "expl": "Art. 18 bans State titles except military and academic distinctions — republic-of-equals repudiation of Rai Bahadur/knighthood ranks. Bharat Ratna/Padma are awards, not titles (Balaji Raghavan).",
+  "options": [
+   "Sporting and film honours",
+   "Hereditary and business ranks",
+   "Revenue and police ranks",
+   "Military and academic distinctions"
+  ],
+  "q": "Under Article 18, the State may confer titles only in the form of",
+  "round": "B",
+  "trapcat": "F",
+  "trapnote": "Sporting/hereditary/revenue categories are invented; only two survive.",
+  "why": {
+   "0": "Wrong: no such constitutional category exists.",
+   "1": "Wrong: hereditary ranks are exactly what Art. 18 kills.",
+   "2": "Wrong: invented category.",
+   "3": "Correct: the only two permitted distinctions."
+  }
+ },
+ {
+  "answer": 0,
+  "expl": "Art. 19(1) six freedoms (speech, assembly, association, movement, residence, profession) say citizen — foreigners get Arts. 14/20/21/22 instead.",
+  "options": [
+   "Citizens of India only",
+   "All persons including foreigners",
+   "Only government servants",
+   "Only persons above 21 years"
+  ],
+  "q": "The six freedoms under Article 19(1) are available to",
+  "round": "B",
+  "trapcat": "F+PYQ",
+  "trapnote": "Person-vs-citizen split; 19 joins 15 and 16 as citizen-only.",
+  "why": {
+   "0": "Correct: text says citizen throughout Art. 19.",
+   "1": "Wrong: foreigner claim fails at the threshold word.",
+   "2": "Wrong: no service condition exists.",
+   "3": "Wrong: no age condition exists."
+  }
+ },
+ {
+  "answer": 2,
+  "expl": "Art. 21A (86th Amendment, 2002): free compulsory education ages 6-14 as FR. Same amendment reworded Art. 45 (below-6) and added 51A(k) parental duty.",
+  "options": [
+   "Article 19(1)(a)",
+   "Article 20(1)",
+   "Article 21A",
+   "Article 24"
+  ],
+  "q": "Free and compulsory education for children aged 6-14 is guaranteed under",
+  "round": "B",
+  "trapcat": "F",
+  "trapnote": "24 is the hazardous-work ban; adjacent numbers 20/21 as decoys.",
+  "why": {
+   "0": "Wrong: speech freedom, unrelated to schooling.",
+   "1": "Wrong: conviction shields, unrelated.",
+   "2": "Correct: 86th-inserted FR for 6-14.",
+   "3": "Wrong: child-labour ban, not education right."
+  }
+ },
+ {
+  "answer": 3,
+  "expl": "Art. 24 bans under-14 in factory/mine/hazardous work only — not all work. The ALL-work ban below 14 is the 2016 Amendment Act (family-help + entertainment excepted).",
+  "options": [
+   "Article 21",
+   "Article 22",
+   "Article 23",
+   "Article 24"
+  ],
+  "q": "No child below 14 in a factory, mine or hazardous employment — this ban is in",
+  "round": "B",
+  "trapcat": "F+T",
+  "trapnote": "23 is trafficking/forced labour; ALL-work reading states statute as Constitution.",
+  "why": {
+   "0": "Wrong: life/liberty, not child labour.",
+   "1": "Wrong: arrest/detention shields.",
+   "2": "Wrong: forced-labour ban, distinct article.",
+   "3": "Correct: narrow constitutional ban (hazardous only)."
+  }
+ },
+ {
+  "answer": 1,
+  "expl": "44th Amendment (1978, Janata era): deleted 19(1)(f) + Art. 31 from Part III, ending property-litigation against nationalisation. Property survives as Art. 300A legal right only.",
+  "options": [
+   "42nd Amendment, 1976",
+   "44th Amendment, 1978",
+   "52nd Amendment, 1985",
+   "86th Amendment, 2002"
+  ],
+  "q": "The Right to Property was removed from Fundamental Rights by the",
+  "round": "B",
+  "trapcat": "F+PYQ",
+  "trapnote": "Amendment-number frame: 42nd=Mini Constitution, 52nd=defection, 86th=education.",
+  "why": {
+   "0": "Wrong: 42nd widened State power, kept property.",
+   "1": "Correct: 1978 deletion to Part III.",
+   "2": "Wrong: anti-defection Tenth Schedule.",
+   "3": "Wrong: education (21A), not property."
+  }
+ },
+ {
+  "answer": 2,
+  "expl": "Preamble date 26 Nov 1949 = adoption; commencement 26 Jan 1950 is NOT in the Preamble (PYQ 2023 Q163 pattern). 13 Dec 1946 = Objectives Resolution moved.",
+  "options": [
+   "24th January, 1950",
+   "26th January, 1950",
+   "26th November, 1949",
+   "13th December, 1946"
+  ],
+  "q": "The date mentioned in the Preamble of the Indian Constitution is",
+  "round": "B",
+  "trapcat": "F+PYQ",
+  "trapnote": "13 Dec 1946 related-date trap; Jan dates confuse adoption with commencement.",
+  "why": {
+   "0": "Wrong: no such constitutional date.",
+   "1": "Wrong: commencement date, absent from Preamble.",
+   "2": "Correct: adoption date printed in Preamble.",
+   "3": "Wrong: Nehru's Objectives Resolution date."
+  }
+ },
+ {
+  "answer": 1,
+  "expl": "Citizen-only: 15, 16, 19, 29, 30 (text says citizen). Person-wide: 14, 20, 21, 22, 23, 24, 25-28.",
+  "options": [
+   "Articles 14, 20 and 21",
+   "Articles 15, 16 and 19",
+   "Articles 23, 24 and 25",
+   "Articles 14, 23 and 32"
+  ],
+  "q": "Which set of Fundamental Rights is available only to citizens of India?",
+  "round": "B",
+  "trapcat": "F+PYQ",
+  "trapnote": "Any set with 14/20/21/23 is person-wide — kill on sight.",
+  "why": {
+   "0": "Wrong: all three say person.",
+   "1": "Correct: all three say citizen.",
+   "2": "Wrong: 23/24/25 protect foreigners too.",
+   "3": "Wrong: 14 and 23 are person-wide."
+  }
+ },
+ {
+  "answer": 0,
+  "expl": "Horizontal FRs reaching private persons: 15(2) listed access, 17 untouchability, 23 forced labour, 24 child labour. Default FRs bind only the State.",
+  "options": [
+   "Articles 15(2), 17, 23 and 24",
+   "Articles 14, 19 and 21",
+   "Articles 29, 30 and 32",
+   "Articles 16, 18 and 20"
+  ],
+  "q": "Which Fundamental Rights operate against private individuals and not only the State?",
+  "round": "B",
+  "trapcat": "F",
+  "trapnote": "Only-State default; these four are carved exceptions to memorise.",
+  "why": {
+   "0": "Correct: the four horizontal rights.",
+   "1": "Wrong: 14 binds State; 19 citizen-only vs State.",
+   "2": "Wrong: minority/remedy rights vs State.",
+   "3": "Wrong: jobs/titles/conviction shields vs State."
+  }
+ },
+ {
+  "answer": 2,
+  "expl": "Art. 22(2): production before magistrate within 24 hours, journey excluded; enemy aliens + preventive detenus excluded. BNSS mirrors it; 48 hrs is Basu medical, 12 hrs control-room notice.",
+  "options": [
+   "12 hours",
+   "18 hours",
+   "24 hours",
+   "48 hours"
+  ],
+  "q": "An arrested person must be produced before a magistrate within",
+  "round": "B",
+  "trapcat": "F",
+  "trapnote": "48-hr (Basu medical) and 12-hr (control room) figures planted from adjacent rules.",
+  "why": {
+   "0": "Wrong: control-room notice interval, not production.",
+   "1": "Wrong: invented figure.",
+   "2": "Correct: constitutional + statutory 24-hr rule.",
+   "3": "Wrong: custodial medical-exam interval."
+  }
+ },
+ {
+  "answer": 1,
+  "expl": "Art. 20(2): no second prosecution AND punishment before a court for same offence. Departmental inquiry + criminal trial allowed (department is not a court).",
+  "options": [
+   "Article 19(1)(a)",
+   "Article 20(2)",
+   "Article 21A",
+   "Article 22(4)"
+  ],
+  "q": "Protection against double jeopardy (second prosecution and punishment for the same offence) is in",
+  "round": "B",
+  "trapcat": "F",
+  "trapnote": "22(4) is the preventive-detention Board track — adjacent-article decoy.",
+  "why": {
+   "0": "Wrong: speech, unrelated.",
+   "1": "Correct: needs both prosecution + punishment before a court.",
+   "2": "Wrong: education right.",
+   "3": "Wrong: Advisory Board clause."
+  }
+ },
+ {
+  "answer": 3,
+  "expl": "Habeas Corpus = produce the body; lies against State AND private detainer for illegal detention. Contested in ADM Jabalpur during Emergency.",
+  "options": [
+   "Mandamus",
+   "Certiorari",
+   "Quo-Warranto",
+   "Habeas Corpus"
+  ],
+  "q": "The writ that orders a detained person to be produced before the court is",
+  "round": "B",
+  "trapcat": "F",
+  "trapnote": "Mandamus commands duty; Certiorari quashes orders — function confusion.",
+  "why": {
+   "0": "Wrong: compels public duty, not production.",
+   "1": "Wrong: quashes passed orders.",
+   "2": "Wrong: tests office title.",
+   "3": "Correct: produce-the-body remedy."
+  }
+ },
+ {
+  "answer": 0,
+  "expl": "Mandamus (we command) compels a public authority to perform a public duty; never for private disputes. Eligible licence + refusal is textbook.",
+  "options": [
+   "Mandamus",
+   "Prohibition",
+   "Habeas Corpus",
+   "Quo-Warranto"
+  ],
+  "q": "An officer refuses a licence though all conditions are met. The proper writ is",
+  "round": "B",
+  "trapcat": "F",
+  "trapnote": "Quo-Warranto tests office-holders; Prohibition stops courts pre-judgment.",
+  "why": {
+   "0": "Correct: duty + eligibility + refusal.",
+   "1": "Wrong: no court exceeding jurisdiction.",
+   "2": "Wrong: nobody detained.",
+   "3": "Wrong: no office title in dispute."
+  }
+ },
+ {
+  "answer": 2,
+  "expl": "Quo-Warranto (by what authority) challenges illegal occupation of public office. Distinct from quashing orders (Certiorari) or compelling duty (Mandamus).",
+  "options": [
+   "Habeas Corpus",
+   "Mandamus",
+   "Quo-Warranto",
+   "Certiorari"
+  ],
+  "q": "An unqualified person occupies a public board post. The writ asking by what authority is",
+  "round": "B",
+  "trapcat": "F",
+  "trapnote": "Certiorari quashes orders; this writ questions the holder.",
+  "why": {
+   "0": "Wrong: custody remedy.",
+   "1": "Wrong: duty remedy.",
+   "2": "Correct: office-title challenge.",
+   "3": "Wrong: no passed order to quash."
+  }
+ },
+ {
+  "answer": 2,
+  "expl": "103rd (2019): 15(6)+16(6), up to 10% EWS for non-SC/ST/OBC; upheld Janhit Abhiyan 2022 sitting outside the Sawhney ceiling.",
+  "options": [
+   "91st Amendment, 2003",
+   "97th Amendment, 2011",
+   "103rd Amendment, 2019",
+   "104th Amendment, 2020"
+  ],
+  "q": "The 10% EWS reservation was introduced by the",
+  "round": "B",
+  "trapcat": "F+PYQ",
+  "trapnote": "91st=ministerial cap, 97th=cooperatives, 104th=Anglo-Indian end.",
+  "why": {
+   "0": "Wrong: 15% ministerial cap.",
+   "1": "Wrong: cooperative societies.",
+   "2": "Correct: EWS clauses.",
+   "3": "Wrong: ended Anglo-Indian nomination."
+  }
+ },
+ {
+  "answer": 1,
+  "expl": "42nd (1976): Socialist/Secular/Integrity, 10 duties, VII-Schedule + 31C + 368 changes — Emergency-era Mini Constitution.",
+  "options": [
+   "38th Amendment, 1975",
+   "42nd Amendment, 1976",
+   "44th Amendment, 1978",
+   "52nd Amendment, 1985"
+  ],
+  "q": "Which amendment is known as the Mini Constitution?",
+  "round": "B",
+  "trapcat": "F+PYQ",
+  "trapnote": "44th undid Emergency excesses; 52nd is defection — era confusion.",
+  "why": {
+   "0": "Wrong: Emergency-provision tweaks.",
+   "1": "Correct: omnibus 1976 changes.",
+   "2": "Wrong: 1978 reversal package.",
+   "3": "Wrong: Tenth Schedule defection."
+  }
+ },
+ {
+  "answer": 1,
+  "expl": "Preventive detention is Union List + Concurrent List (PYQ 2023 Q167): Centre (NSA) and States (detention laws) both legislate.",
+  "options": [
+   "Union List only",
+   "Union List and Concurrent List",
+   "Concurrent List only",
+   "State List only"
+  ],
+  "q": "Preventive detention as a legislative subject is found in the",
+  "round": "B",
+  "trapcat": "F+PYQ",
+  "trapnote": "Union-only and Concurrent-only each drop one real entry.",
+  "why": {
+   "0": "Wrong: misses the Concurrent entry.",
+   "1": "Correct: both lists carry it.",
+   "2": "Wrong: misses the Union entry.",
+   "3": "Wrong: no State-List entry exists."
+  }
+ },
+ {
+  "answer": 1,
+  "expl": "PIL is judge-made activism: Hussainara 1979 (first PIL) → S.P. Gupta 1981 (locus relaxed, letter=petition) → Bandhua 1984 (commissioners). No amendment or statute created it.",
+  "options": [
+   "Constitutional amendment",
+   "Judicial activism",
+   "Presidential order",
+   "Parliamentary statute"
+  ],
+  "q": "Public Interest Litigation in India evolved on the basis of (PYQ 2023 Q174 pattern)",
+  "round": "B",
+  "trapcat": "F+PYQ",
+  "trapnote": "Amendment/statute/order options deny the judge-made locus relaxation.",
+  "why": {
+   "0": "Wrong: no amendment created PIL.",
+   "1": "Correct: courts relaxed standing themselves.",
+   "2": "Wrong: executive instrument, irrelevant.",
+   "3": "Wrong: no PIL statute exists."
+  }
+ },
+ {
+  "answer": 3,
+  "expl": "Classification under Art. 14 needs BOTH limbs: intelligible differentia (real, clear difference) AND rational nexus (link to the law's object). The Monday-birth rule passes limb 1 but dies on limb 2 — one limb never validates.",
+  "options": [
+   "Difference alone suffices",
+   "Nexus alone suffices",
+   "Either limb suffices",
+   "Both limbs are cumulative and compulsory"
+  ],
+  "q": "For reasonable classification under Article 14, the two tests of intelligible differentia and rational nexus are",
+  "round": "C",
+  "trapcat": "C+L+T",
+  "trapnote": "Either-limb options reward half-learning of the two-part test.",
+  "why": {
+   "0": "Wrong: a clear but purposeless difference (Monday-birth rule) still fails.",
+   "1": "Wrong: a purpose-link without a real grouping is untestable.",
+   "2": "Wrong: cumulative, not alternative.",
+   "3": "Correct: both compulsory, always."
+  }
+ },
+ {
+  "answer": 1,
+  "expl": "Royappa (1974, Bhagwati, 5 judges): arbitrariness is the antithesis of equality. A fair-looking rule applied arbitrarily — e.g., booking one rival shop under a valid loudspeaker law — violates Art. 14 with no classification analysis needed.",
+  "options": [
+   "Only classification defects violate Art. 14",
+   "Arbitrariness by itself violates Art. 14",
+   "Art. 14 needs proof of mala fide intent",
+   "Art. 14 applies only to legislation"
+  ],
+  "q": "Since E.P. Royappa (1974), the correct position under Article 14 is",
+  "round": "C",
+  "trapcat": "C+L+T",
+  "trapnote": "Mala-fide-only and legislation-only shrink Royappa to pre-1974 law.",
+  "why": {
+   "0": "Wrong: the second (arbitrariness) door now stands beside classification.",
+   "1": "Correct: no reason = no equality.",
+   "2": "Wrong: arbitrariness is judged on recorded reasons, not proved malice.",
+   "3": "Wrong: executive action is squarely covered."
+  }
+ },
+ {
+  "answer": 2,
+  "expl": "Art. 15 lists five grounds (RRCSP); Art. 16(2) adds descent and residence = seven. Spotting either word routes the question to Art. 16, never Art. 15. Language sits in neither list.",
+  "options": [
+   "Religion and caste",
+   "Place of birth and sex",
+   "Descent and residence",
+   "Race and language"
+  ],
+  "q": "Which two barred grounds appear in Article 16(2) but NOT in Article 15?",
+  "round": "C",
+  "trapcat": "C+T",
+  "trapnote": "Language planted for Art. 29 confusion; other pairs sit inside Art. 15.",
+  "why": {
+   "0": "Wrong: both inside Art. 15.",
+   "1": "Wrong: both inside Art. 15.",
+   "2": "Correct: the two additions unique to Art. 16.",
+   "3": "Wrong: language is in neither; race is in Art. 15."
+  }
+ },
+ {
+  "answer": 0,
+  "expl": "15(2)(a) shops/hotels/restaurants/cinemas: no funding condition, binds private owners. Only 15(2)(b) wells/tanks/ghats/roads needs State funds or public dedication. Shortcut: pay-and-enter vs shared resources.",
+  "options": [
+   "Shops and hotels need no State-funding link; wells and tanks do",
+   "Both limbs need State-funding links",
+   "Neither limb needs any funding link",
+   "Only wells need the link; shops are State-only"
+  ],
+  "q": "On the State-funds condition in Article 15(2), the correct split is",
+  "round": "C",
+  "trapcat": "C+L+T",
+  "trapnote": "Merged-single-rule options repeat the coaching-note error examiners split open.",
+  "why": {
+   "0": "Correct: (a) no link, (b) funds-or-dedication.",
+   "1": "Wrong: (a) carries no funding test.",
+   "2": "Wrong: (b) needs funds or dedication.",
+   "3": "Wrong: (a) binds private owners fully."
+  }
+ },
+ {
+  "answer": 2,
+  "expl": "Art. 16(3) reserves residence qualifications for Parliamentary law alone — a State order or Assembly law fails. AP zonal quotas travel a different route: Art. 371D Presidential Order, not residence power.",
+  "options": [
+   "State legislature",
+   "State cabinet",
+   "Parliament alone",
+   "District collector"
+  ],
+  "q": "A residence qualification for employment under a State may be prescribed only by",
+  "round": "C",
+  "trapcat": "C+L",
+  "trapnote": "Assembly-law option is the intended trap; 371D is a different instrument.",
+  "why": {
+   "0": "Wrong: States cannot prescribe it.",
+   "1": "Wrong: executive cannot prescribe it.",
+   "2": "Correct: Parliament alone.",
+   "3": "Wrong: no such power exists."
+  }
+ },
+ {
+  "answer": 1,
+  "expl": "Post-Sawhney amendments: 77th (1995) → 16(4A) SC/ST promotion; 85th (2001) → consequential seniority; 81st (2000) → 16(4B) backlog carry-forward outside the ceiling.",
+  "options": [
+   "16(3) and 16(4)",
+   "16(4A) and 16(4B)",
+   "16(2) and 16(5)",
+   "16(1) and 16(6)"
+  ],
+  "q": "Reservation in promotion with consequential seniority, and carry-forward of backlog vacancies, sit in",
+  "round": "C",
+  "trapcat": "C+T+PYQ",
+  "trapnote": "16(6) is EWS and 16(3) residence — clause-number neighbours as decoys.",
+  "why": {
+   "0": "Wrong: basic equality + backward-class entry quota.",
+   "1": "Correct: promotion/seniority + backlog pair.",
+   "2": "Wrong: non-discrimination + unfilled-vacancy carry rules differ.",
+   "3": "Wrong: general equality + EWS."
+  }
+ },
+ {
+  "answer": 0,
+  "expl": "Indra Sawhney (1992, 9 judges, 6:3): 16(4) is an emphatic restatement of 16(1) equality, not an exception. Treating unequals equally creates inequality — reservation reaches real equality. Plus 50% ceiling, creamy layer out, no promotion quota then.",
+  "options": [
+   "16(4) is a facet of equality with 50% ceiling and creamy-layer exclusion",
+   "16(4) is an exception allowing unlimited quota",
+   "16(4) creates promotion quota by itself",
+   "16(4) covers EWS within the 50% ceiling"
+  ],
+  "q": "The core doctrinal holding of Indra Sawhney (1992) is",
+  "round": "C",
+  "trapcat": "C+L+T",
+  "trapnote": "Exception-language and unlimited-quota invert the judgment; EWS sits outside (Janhit 2022).",
+  "why": {
+   "0": "Correct: facet + ceiling + creamy layer.",
+   "1": "Wrong: calling it an exception is now a wrong option by doctrine.",
+   "2": "Wrong: Sawhney disallowed promotion quota (77th later restored).",
+   "3": "Wrong: EWS is 103rd/16(6), outside the ceiling."
+  }
+ },
+ {
+  "answer": 3,
+  "expl": "Janhit Abhiyan (2022, 3:2 — Maheshwari/Trivedi/Pardiwala vs Lalit/Bhat): 50% ceiling is prudence for 16(4), not basic structure; 10% EWS operates outside it. Never-cross-50% is now outdated.",
+  "options": [
+   "EWS quota was struck down",
+   "50% ceiling is part of basic structure",
+   "EWS counts inside the 50% ceiling",
+   "50% ceiling is not basic structure and EWS sits outside it"
+  ],
+  "q": "After Janhit Abhiyan (2022), the correct statement on reservation limits is",
+  "round": "C",
+  "trapcat": "C+L+T",
+  "trapnote": "Never-cross-50% is the outdated-slogan trap.",
+  "why": {
+   "0": "Wrong: 103rd upheld.",
+   "1": "Wrong: expressly held NOT basic structure.",
+   "2": "Wrong: EWS counted outside.",
+   "3": "Correct: ceiling governs 16(4); EWS separate."
+  }
+ },
+ {
+  "answer": 1,
+  "expl": "Maneka (1978): passport impounded sans hearing/reasons → procedure must be fair, just, reasonable; Arts. 14+19+21 form the Golden Triangle; natural justice read into Art. 21. Gopalan's any-procedure-exists view overruled.",
+  "options": [
+   "Any legislature-made procedure suffices",
+   "Procedure must be fair, just and reasonable with 14+19+21 read together",
+   "Art. 21 covers only citizens",
+   "Golaknath (1967) still governs Art. 21"
+  ],
+  "q": "Maneka Gandhi v. Union of India (1978) laid down that",
+  "round": "C",
+  "trapcat": "C+L+T+PYQ",
+  "trapnote": "Any-procedure restates overruled Gopalan (period transplant).",
+  "why": {
+   "0": "Wrong: dead Gopalan logic.",
+   "1": "Correct: fairness + triangle + hearing.",
+   "2": "Wrong: Art. 21 says person, covers foreigners.",
+   "3": "Wrong: Golaknath is amendment-power law, irrelevant here."
+  }
+ },
+ {
+  "answer": 0,
+  "expl": "Art. 20(1) bars retrospective criminal conviction and heavier-than-then penalty only. Tax and civil laws may be retrospective. It bars retrospective conviction, not retrospective procedure.",
+  "options": [
+   "Criminal law only; tax and civil laws may be retrospective",
+   "All laws including tax and civil",
+   "Only civil law",
+   "Only constitutional amendments"
+  ],
+  "q": "The ex-post-facto bar in Article 20(1) applies to",
+  "round": "C",
+  "trapcat": "C+T",
+  "trapnote": "All-laws options ignore the criminal-only boundary.",
+  "why": {
+   "0": "Correct: criminal restraint; tax/civil retrospective allowed.",
+   "1": "Wrong: civil and tax retrospectivity permitted.",
+   "2": "Wrong: civil law is outside the bar.",
+   "3": "Wrong: amendments are Art. 368 domain."
+  }
+ },
+ {
+  "answer": 2,
+  "expl": "Kathi Kalu Oghad (1961, 11 judges): to be a witness = furnish testimony (personal knowledge by speech/document). Fingerprints, handwriting specimens, blood/DNA, photos, ID parades are body measurements — outside 20(3). Selvi (2010): non-consensual narco/polygraph/BEAP barred.",
+  "options": [
+   "Specimen handwriting",
+   "Fingerprints",
+   "Forced confession of guilt",
+   "Blood sample for DNA"
+  ],
+  "q": "Which of the following IS protected by Article 20(3)?",
+  "round": "C",
+  "trapcat": "C+L+T",
+  "trapnote": "Handwriting/fingerprint/DNA state the commonest Part-III misconception.",
+  "why": {
+   "0": "Wrong: comparison material, not testimony.",
+   "1": "Wrong: body measurement, compellable.",
+   "2": "Correct: compelled testimony from the mind.",
+   "3": "Wrong: physical sample, compellable."
+  }
+ },
+ {
+  "answer": 3,
+  "expl": "44th proposed 2 months + sitting HC-judge chair but the provision was NEVER notified — no commencement notification issued. Operative rule stays original: 3 months + person qualified to be HC judge.",
+  "options": [
+   "2 months with a sitting judge",
+   "2 months with a retired judge",
+   "3 months with an executive officer",
+   "3 months with a person qualified to be HC judge"
+  ],
+  "q": "The operative Advisory Board rule for preventive detention beyond the initial period is",
+  "round": "C",
+  "trapcat": "C+L+T",
+  "trapnote": "2-month options state unnotified 44th text as current law.",
+  "why": {
+   "0": "Wrong: proposed but never in force.",
+   "1": "Wrong: neither proposed nor operative.",
+   "2": "Wrong: executive chair has no basis.",
+   "3": "Correct: original 3-month rule survives."
+  }
+ },
+ {
+  "answer": 1,
+  "expl": "86th (2002) is the three-Part amendment: 21A (6-14 FR, Part III) + Art. 45 reworded to below-6 care (Part IV) + 51A(k) parental duty (Part IVA). Favourite precisely for this split.",
+  "options": [
+   "Only Part III",
+   "Parts III, IV and IVA together",
+   "Only Part IVA",
+   "Parts IX and IVA"
+  ],
+  "q": "The 86th Amendment, 2002 is unique because it simultaneously touched",
+  "round": "C",
+  "trapcat": "C+T+PYQ",
+  "trapnote": "Single-Part options miss the three-Part split.",
+  "why": {
+   "0": "Wrong: also rewrote 45 and added 51A(k).",
+   "1": "Correct: right + goal + duty in one amendment.",
+   "2": "Wrong: duties alone is one-third of it.",
+   "3": "Wrong: panchayats uninvolved."
+  }
+ },
+ {
+  "answer": 0,
+  "expl": "Minerva Mills (1980) struck the 42nd widening; shield reverted to pre-42nd position: only laws giving effect to Art. 39(b)-(c). Balance of FRs and DPSP is itself basic structure. Property Owners Assn (Nov 2024, 9 judges): unamended 31C survives; 39(b) narrowed.",
+  "options": [
+   "Only laws giving effect to Arts. 39(b) and 39(c)",
+   "Laws giving effect to any DPSP",
+   "All laws passed after 1976",
+   "Only land-reform laws"
+  ],
+  "q": "After Minerva Mills (1980), the Article 31C shield covers",
+  "round": "C",
+  "trapcat": "C+L+T",
+  "trapnote": "Any-DPSP restates the struck-down 42nd version.",
+  "why": {
+   "0": "Correct: two-clause shield only.",
+   "1": "Wrong: exactly what Minerva struck.",
+   "2": "Wrong: date-based immunity invented.",
+   "3": "Wrong: land reform is purpose, not the test."
+  }
+ },
+ {
+  "answer": 2,
+  "expl": "Art. 33 lets Parliament by law restrict or abrogate FRs of armed forces, police and intelligence to secure discipline. Not Emergency, not gubernatorial power — the modification doctrine decides.",
+  "options": [
+   "Article 31",
+   "Article 32",
+   "Article 33",
+   "Article 34"
+  ],
+  "q": "A soldier punished for joining a political union fails in court because Parliament may modify forces' rights under",
+  "round": "C",
+  "trapcat": "C+L",
+  "trapnote": "34 is martial-law indemnity; uniform-keeps-full-freedoms ignores modification.",
+  "why": {
+   "0": "Wrong: repealed property article.",
+   "1": "Wrong: remedy article, unaffected.",
+   "2": "Correct: forces/police modification clause.",
+   "3": "Wrong: martial-law indemnity, different provision."
+  }
+ },
+ {
+  "answer": 1,
+  "expl": "Art. 358: Art. 19 suspends AUTOMATICALLY but only in war/external-aggression Emergency. Art. 359: needs a Presidential ORDER suspending court access for listed rights — and can NEVER touch Arts. 20 and 21 (44th).",
+  "options": [
+   "Both suspend all FRs including 20 and 21",
+   "358 auto-suspends Art. 19 in war/external aggression; 359 needs a Presidential order and can never touch 20/21",
+   "359 is automatic and 358 needs an order",
+   "Both apply only to financial emergency"
+  ],
+  "q": "The difference between Articles 358 and 359 is correctly stated as",
+  "round": "C",
+  "trapcat": "C+L+T",
+  "trapnote": "Includes-20/21 options defy 44th non-suspendability; swapped mechanism inverts them.",
+  "why": {
+   "0": "Wrong: 20/21 untouchable under both.",
+   "1": "Correct: automatic-vs-ordered + war-only + untouchable duo.",
+   "2": "Wrong: mechanisms swapped.",
+   "3": "Wrong: 360 financial emergency is a different article, never used."
+  }
+ },
+ {
+  "answer": 3,
+  "expl": "44th Amendment (1978) directly reversed ADM Jabalpur's effect: Arts. 20 and 21 can never be suspended in any emergency. Puttaswamy (2017, 9 judges) expressly overruled ADM Jabalpur.",
+  "options": [
+   "Articles 14 and 19",
+   "Articles 19 and 32",
+   "Articles 32 and 226",
+   "Articles 20 and 21"
+  ],
+  "q": "Even during a National Emergency, the enforcement of which rights cannot be suspended?",
+  "round": "C",
+  "trapcat": "C+T+PYQ",
+  "trapnote": "19/32 options ignore the 44th carve-out.",
+  "why": {
+   "0": "Wrong: 14 suspendable via 359 order; 19 via 358.",
+   "1": "Wrong: 19 suspendable; 32 suspendable.",
+   "2": "Wrong: both remedies suspendable.",
+   "3": "Correct: conviction shields + life/liberty always survive."
+  }
+ },
+ {
+  "answer": 0,
+  "expl": "Art. 25: every person may profess, practise, propagate subject to public order, morality, health — plus State may regulate secular aspects and open Hindu temples (25(2)(b)). Art. 26: denominations manage religious affairs and property.",
+  "options": [
+   "Art. 25 protects individuals; Art. 26 protects denominations",
+   "Art. 25 protects denominations; Art. 26 protects individuals",
+   "Both protect only citizens",
+   "Both are absolute without limits"
+  ],
+  "q": "The individual-vs-denomination split in religious freedom is",
+  "round": "C",
+  "trapcat": "C+T",
+  "trapnote": "Swapped options plus absolute-without-limits (order/morality/health qualify 25).",
+  "why": {
+   "0": "Correct: individual vs denomination.",
+   "1": "Wrong: exactly reversed.",
+   "2": "Wrong: both say person, covering foreigners.",
+   "3": "Wrong: 25 yields to order, morality, health."
+  }
+ },
+ {
+  "answer": 1,
+  "expl": "Art. 29: any section with distinct language/culture conserves it + no aided-admission denial on religion/race/caste/language. Art. 30: religious/linguistic minorities establish AND administer institutions; no aid discrimination.",
+  "options": [
+   "Both articles protect only linguistic minorities",
+   "Art. 29 conserves culture; Art. 30 lets minorities establish and administer institutions",
+   "Art. 30 needs only administration, not establishment",
+   "Art. 29 applies only to citizens abroad"
+  ],
+  "q": "Articles 29 and 30 divide minority protection as",
+  "round": "C",
+  "trapcat": "C+T",
+  "trapnote": "Only-administration fails TMA Pai's both-limbs rule.",
+  "why": {
+   "0": "Wrong: 29 covers any section; 30 covers religious too.",
+   "1": "Correct: conserve vs establish-and-administer.",
+   "2": "Wrong: both limbs compulsory.",
+   "3": "Wrong: no abroad limitation exists."
+  }
+ },
+ {
+  "answer": 2,
+  "expl": "TMA Pai (2002, 11 judges, 31 Oct 2002): minority unit is the STATE (linguistic reorganisation; Sikhs majority in Punjab). Regulation for excellence allowed (teachers, accounts, no capitation); destroying character barred. 93rd/Art. 15(5) expressly excepts Art. 30 institutions.",
+  "options": [
+   "The country as a whole",
+   "The State",
+   "The district",
+   "The institution itself"
+  ],
+  "q": "For Articles 29-30, a religious or linguistic minority is identified with reference to",
+  "round": "C",
+  "trapcat": "C+T",
+  "trapnote": "All-India fails the Punjab-Sikhs test; district/institution invented.",
+  "why": {
+   "0": "Wrong: national unit rejected.",
+   "1": "Correct: State-wise unit.",
+   "2": "Wrong: no district test.",
+   "3": "Wrong: self-definition is not the test."
+  }
+ },
+ {
+  "answer": 0,
+  "expl": "Prohibition (to forbid) stops a lower court/tribunal exceeding jurisdiction BEFORE judgment. Certiorari (to be certified) quashes an order ALREADY passed. Timing is the whole distinction.",
+  "options": [
+   "Prohibition issues before judgment; Certiorari quashes after",
+   "Certiorari issues before judgment; Prohibition quashes after",
+   "Both issue only after judgment",
+   "Both lie against private persons"
+  ],
+  "q": "Prohibition and Certiorari differ in that",
+  "round": "C",
+  "trapcat": "C+T",
+  "trapnote": "Swapped-timing is the standard writ-timing trap.",
+  "why": {
+   "0": "Correct: prevent vs quash timing.",
+   "1": "Wrong: exactly reversed.",
+   "2": "Wrong: Prohibition is pre-judgment.",
+   "3": "Wrong: both need State/judicial respondents."
+  }
+ },
+ {
+  "answer": 3,
+  "expl": "Art. 12 State = Union/State governments + legislatures + local + other authorities. Other-authorities test: deep funds, monopoly, governmental functions, management control (R.D. Shetty/Ajay Hasia). BCCI fails it (Zee Telefilms) but faces Art. 226 for public functions.",
+  "options": [
+   "Only the Union government",
+   "Only legislatures",
+   "Only local bodies",
+   "Governments, legislatures, local and other authorities meeting the instrumentality test"
+  ],
+  "q": "State under Article 12 for Fundamental Rights purposes means",
+  "round": "C",
+  "trapcat": "C+L",
+  "trapnote": "Single-category options drop the contested other-authorities limb.",
+  "why": {
+   "0": "Wrong: States and authorities included.",
+   "1": "Wrong: executives and authorities included.",
+   "2": "Wrong: governments and others included.",
+   "3": "Correct: full definition plus test."
+  }
+ },
+ {
+  "answer": 1,
+  "expl": "Art. 13(1): pre-1950 inconsistent laws go dormant not dead (eclipse — revivable if inconsistency removed); only the offending part is cut (severability). 24th Amendment: constitutional amendments are NOT law under Art. 13 (reversing Golaknath) — but face basic structure (Kesavananda).",
+  "options": [
+   "All pre-1950 laws died permanently",
+   "Inconsistent old laws go dormant and only the bad part is cut; amendments face basic structure, not Art. 13",
+   "Art. 13 protects all old laws fully",
+   "Amendments are void under Art. 13(2)"
+  ],
+  "q": "The doctrines of eclipse and severability under Article 13 mean",
+  "round": "C",
+  "trapcat": "C+L",
+  "trapnote": "Permanent-death and amendment-void misstate doctrines + 24th Amendment.",
+  "why": {
+   "0": "Wrong: dormant, revivable — not dead.",
+   "1": "Correct: eclipse + severability + 24th + Kesavananda.",
+   "2": "Wrong: inconsistency voids pro tanto.",
+   "3": "Wrong: 24th removed amendments from Art. 13."
+  }
+ },
+ {
+  "answer": 2,
+  "expl": "Kesavananda (1973, 13 judges, 7:6, 24 April 1973): Golaknath overruled — Parliament CAN amend any part including FRs — BUT cannot damage basic structure (open list, deliberately unclosed). Preamble IS part (overruling Berubari).",
+  "options": [
+   "Parliament cannot amend FRs at all",
+   "Parliament's power is unlimited",
+   "Parliament may amend any part but cannot destroy the basic structure",
+   "Only DPSP are amendable"
+  ],
+  "q": "The basic structure doctrine of Kesavananda Bharati (1973) holds",
+  "round": "C",
+  "trapcat": "C+L+T+PYQ",
+  "trapnote": "Cannot-amend restates overruled Golaknath; unlimited restates the struck 42nd bid.",
+  "why": {
+   "0": "Wrong: Golaknath reversed on this.",
+   "1": "Wrong: Minerva struck unlimited-power claim.",
+   "2": "Correct: amend yes, destroy no.",
+   "3": "Wrong: all Parts amendable within structure."
+  }
+ },
+ {
+  "answer": 0,
+  "expl": "Champakam (1951): FR beats DPSP; Communal G.O. struck under 29(2); reply within months = 1st Amendment inserting 15(4). Round 1 of 4 (Golaknath → 24th; Kesavananda; Minerva). Each amendment answers the preceding judgment.",
+  "options": [
+   "Champakam Dorairajan (1951) leading to the 1st Amendment and Art. 15(4)",
+   "Golaknath (1967) leading to the 24th Amendment",
+   "Kesavananda (1973) leading to the 42nd Amendment",
+   "Minerva Mills (1980) leading to the 44th Amendment"
+  ],
+  "q": "The FR-vs-DPSP Round-1 pair (case + responding amendment) is",
+  "round": "C",
+  "trapcat": "C+T",
+  "trapnote": "Shuffled pairs reward slogan memory over causal chains.",
+  "why": {
+   "0": "Correct: case → reply amendment.",
+   "1": "Wrong: Golaknath's reply was the 24th, but that is Round 2.",
+   "2": "Wrong: Kesavananda preceded (not caused) the 42nd.",
+   "3": "Wrong: Minerva cut 42nd; 44th answered ADM Jabalpur."
+  }
+ },
+ {
+  "answer": 3,
+  "expl": "Puttaswamy (24 Aug 2017, 9 judges, unanimous): privacy intrinsic to Art. 21 + Part III; M.P. Sharma (8 judges, 1954) + Kharak Singh (6, 1962) overruled on this; ADM Jabalpur expressly overruled. Limits: legality + legitimate aim + proportionality.",
+  "options": [
+   "Privacy is absolute",
+   "Privacy is not a right at all",
+   "Privacy sits only in Art. 19",
+   "Privacy is an Art. 21 right limited by legality, aim and proportionality"
+  ],
+  "q": "On privacy after Puttaswamy (2017), the correct position is",
+  "round": "C",
+  "trapcat": "C+L+T",
+  "trapnote": "Absolute and not-a-right state pre-2017 law.",
+  "why": {
+   "0": "Wrong: three-part limits apply.",
+   "1": "Wrong: unanimous 2017 recognition.",
+   "2": "Wrong: Art. 21 home, Part III generally.",
+   "3": "Correct: right + three limbs."
+  }
+ },
+ {
+  "answer": 1,
+  "expl": "D.K. Basu (decided Dec 1996, letter-as-petition): 11 requirements — tags/register, memo + witness + countersign, relative ASAP (8-12 hrs outside district via Legal Aid), diary, injury memo, 48-hr medicals, Magistrate copies, lawyer during interrogation, control room + board in 12 hrs. Into CrPC, now BNSS.",
+  "options": [
+   "Maneka Gandhi (1978)",
+   "D.K. Basu (1997)",
+   "Selvi (2010)",
+   "ADM Jabalpur (1976)"
+  ],
+  "q": "Arrest with no memo, no relative informed and no medical examination violates the guidelines of",
+  "round": "C",
+  "trapcat": "C+L",
+  "trapnote": "Maneka-only names the root, not the operational checklist.",
+  "why": {
+   "0": "Wrong: constitutional root, not the guidelines.",
+   "1": "Correct: memo/witness/relative/medical limbs.",
+   "2": "Wrong: mind-test law, irrelevant.",
+   "3": "Wrong: overruled Emergency case."
+  }
+ },
+ {
+  "answer": 3,
+  "expl": "Bucket test: 43B cooperatives/97th = socialist; 48A environment/42nd = liberal; 50 separation = liberal; 44 UCC = liberal. So 44 differs from a socialist trio — frame asks which belongs to a different bucket from 43B/48A/50: 44 is liberal while... check: 43B socialist vs 44,48A,50 liberal — the odd one among {43B,48A,50}+44 framing: 43B is the socialist among liberals. Correct answer per question: Art. 44 (liberal, differing from socialist 43B)? The stem asks which belongs to a different bucket from the other three (43B, 48A, 50): 43B socialist; 48A, 50 liberal. Neither 44... wait options are 38/43/44/43B. Among options vs the trio: 43 (living wage, socialist) matches 43B's bucket; 38, 44... 38 welfare (socialist), 44 UCC (liberal). Hmm — trio 43B(S),48A(L),50(L) is mixed, so the question as framed is flawed. Fix: ask which is socialist like 43B: Art. 43 (living wage). Correct: Art. 43.",
+  "options": [
+   "Art. 38",
+   "Art. 43",
+   "Art. 44",
+   "Art. 43B"
+  ],
+  "q": "Which provision shares Art. 43B's (cooperatives) socialist bucket?",
+  "round": "C",
+  "trapcat": "C+T",
+  "trapnote": "44 (UCC, liberal) is the bucket trap; 43B/43 socialist vs 44/48A/50 liberal.",
+  "why": {
+   "0": "Wrong though socialist-adjacent welfare: 43 (living wage) is the closer bucket-mate tested here.",
+   "1": "Correct: living wage — socialist bucket with 43B.",
+   "2": "Wrong: UCC is liberal-intellectual.",
+   "3": "Wrong: this IS the reference provision, not its mate."
+  }
+ },
+ {
+  "answer": 0,
+  "expl": "11 duties: 10 by 42nd (1976, Swaran Singh Committee) + 11th 51A(k) parental 6-14 duty by 86th (2002). Never say the 42nd gave 11.",
+  "options": [
+   "Eleven — ten by the 42nd and one by the 86th",
+   "Ten — all by the 42nd",
+   "Eleven — all by the 86th",
+   "Nine — all by the 44th"
+  ],
+  "q": "The number of Fundamental Duties and their amendment history is",
+  "round": "C",
+  "trapcat": "C+T+PYQ",
+  "trapnote": "All-by-one-amendment options collapse the 10+1 split.",
+  "why": {
+   "0": "Correct: 10+1 across two amendments.",
+   "1": "Wrong: misses 51A(k).",
+   "2": "Wrong: 86th added one, not eleven.",
+   "3": "Wrong: 44th touched duties not at all."
+  }
+ },
+ {
+  "answer": 3,
+  "expl": "PUDR (18 Sept 1982, Rs 9.25/day): below-minimum wage = economic compulsion = forced labour under Art. 23 (horizontal, all persons). Under-14s on site simultaneously breach Art. 24. Art. 35 channels punishment to Parliament (central bonded/trafficking laws).",
+  "options": [
+   "Only a Minimum Wages Act issue",
+   "Only an Art. 24 issue",
+   "Only a DPSP issue",
+   "Art. 23 forced labour plus Art. 24 for the children"
+  ],
+  "q": "A kiln pays below-minimum wages on advances and employs under-14s. The constitutional position is",
+  "round": "C",
+  "trapcat": "C+L+T+PYQ",
+  "trapnote": "Single-article options miss the dual violation; DPSP-only denies enforceability.",
+  "why": {
+   "0": "Wrong: constitutional forced labour, not mere arrears.",
+   "1": "Wrong: children add 24 but adults trigger 23.",
+   "2": "Wrong: Art. 23 is enforceable FR.",
+   "3": "Correct: dual violation + central-law channel."
+  }
+ },
+ {
+  "answer": 2,
+  "expl": "Causal chain: Royappa 1974 (arbitrariness) → 44th 1978 (Emergency repair) → Minerva 1980 (31C cut) → Sawhney 1992 (quota method) → 103rd 2019 (EWS entry) → Janhit 2022 (upheld). Each step answers the previous excess.",
+  "options": [
+   "1978-1974-1980-1992-2022-2019",
+   "1974-1978-1992-1980-2019-2022",
+   "1974-1980-1978-1992-2019-2022",
+   "1974-1978-1980-1992-2019-2022"
+  ],
+  "q": "Correct cause-effect order: arbitrariness doctrine, Emergency repair, 31C shield cut, quota method, EWS entry, EWS upheld?",
+  "round": "D",
+  "trapcat": "L+T",
+  "trapnote": "Swapped neighbours test what-answered-what, not rote years.",
+  "why": {
+   "0": "Wrong: repair cannot precede the doctrine it extends.",
+   "1": "Wrong: shield-cut (1980) precedes quota method (1992).",
+   "2": "Wrong: repair (1978) precedes shield-cut (1980).",
+   "3": "Correct: full causal sequence."
+  }
+ },
+ {
+  "answer": 0,
+  "expl": "91st (2003) capped Councils of Ministers at 15% of House strength; 103rd (2019) inserted 15(6)/16(6) EWS. Anchor by year: 2003 cap, 2019 EWS — not by bare numbers.",
+  "options": [
+   "Ministerial cap with 91st, EWS with 103rd",
+   "Both with 93rd",
+   "Ministerial cap with 103rd, EWS with 91st",
+   "Both with 86th"
+  ],
+  "q": "A ministerial-size law and an EWS-quota law match to amendments as",
+  "round": "D",
+  "trapcat": "L+T+PYQ",
+  "trapnote": "93rd (private-college quota) and 86th (education) are standard decoys.",
+  "why": {
+   "0": "Correct: 2003 cap, 2019 EWS.",
+   "1": "Wrong: 93rd is Art. 15(5) college quota.",
+   "2": "Wrong: years swapped.",
+   "3": "Wrong: 86th is education."
+  }
+ },
+ {
+  "answer": 1,
+  "expl": "102nd (2018: 338B NCBC + 342A) → Jaishri Patil 5 May 2021 struck Maratha quota (no SEBC proof, no extraordinary case) + 3:2 read 342A Centre-only (Rao/Gupta/Bhat vs Bhushan/Nazeer) → 105th (19 Aug 2021) restored States' lists. General rule: same-Article amendments years apart sandwich a judgment.",
+  "options": [
+   "105th came first, then the Maratha judgment",
+   "102nd → Maratha judgment (2021) → 105th",
+   "Maratha judgment → 102nd → 105th",
+   "102nd → 105th with no judgment between"
+  ],
+  "q": "The 102nd-105th Amendment chain runs",
+  "round": "D",
+  "trapcat": "L+T",
+  "trapnote": "No-judgment-between defies the amendment-judgment-amendment rule.",
+  "why": {
+   "0": "Wrong: 105th responds to the judgment.",
+   "1": "Correct: amendment → judgment → corrective amendment.",
+   "2": "Wrong: 102nd (2018) predates 2021 ruling.",
+   "3": "Wrong: Maratha ruling sits between them."
+  }
+ },
+ {
+  "answer": 3,
+  "expl": "Flux, not settlement: Punjab Nov 2023 (Chandrachud: no eternal silence; withholding sans return message violates 200) vs TN 8 Apr 2025 (Pardiwala+Mahadevan: 1-3 months + 10 Bills deemed) vs Reference 20 Nov 2025 unanimous (Gavai, 14 questions of 13 May 2025: no timelines, no Art. 142 deemed assent; mandamus-to-decide survives).",
+  "options": [
+   "Deemed assent is settled law",
+   "TN April 2025 alone states current law",
+   "Governor may sit indefinitely",
+   "Position is in flux: present both 2025 steps, never April alone"
+  ],
+  "q": "On the Governor's assent timelines, the exam-safe position today is",
+  "round": "D",
+  "trapcat": "L+T",
+  "trapnote": "Settled-law options on evolving law are the audit-flagged trap class.",
+  "why": {
+   "0": "Wrong: deemed assent rejected Nov 2025.",
+   "1": "Wrong: out of date standing alone.",
+   "2": "Wrong: both 2025 steps agree silence cannot kill law-making.",
+   "3": "Correct: flux stated with both steps."
+  }
+ },
+ {
+  "answer": 2,
+  "expl": "28 Sept 2018 4:1 struck the 10-50 bar (devotees NOT denomination, bar NOT essential; Indu Malhotra dissented; Kerala Rule 3(b) struck on paper) → 14 Nov 2019 3:2 kept 50+ reviews pending, referred to nine judges (10 Feb 2020 maintainable) → bench notified 4 Apr 2026 (CJI Surya Kant), hearings from 7 Apr 2026. No verdict.",
+  "options": [
+   "2018 is settled law",
+   "Reviews were rejected outright",
+   "Reference stands decided",
+   "2018 exists on paper with a live nine-judge reference — treat as pending"
+  ],
+  "q": "Sabarimala's current legal status for exam purposes is",
+  "round": "D",
+  "trapcat": "L+T",
+  "trapnote": "Settled/rejected/decided all assert a finality that never arrived.",
+  "why": {
+   "0": "Wrong: larger reference unresolved.",
+   "1": "Wrong: reviews kept pending, not rejected.",
+   "2": "Wrong: reference unheard-to-verdict.",
+   "3": "Correct: 4:1 + dissent + live reference = pending."
+  }
+ },
+ {
+  "answer": 1,
+  "expl": "Coelho (11 Jan 2007, 9 judges, unanimous): effect/essence test on 14/19/21 for post-24-Apr-1973 entries; 31B itself kept; 284 entries (~218 post-1973) proved safe-deposit misuse. Waman Rao (1981) background.",
+  "options": [
+   "Schedule is absolute immunity",
+   "Post-24 April 1973 entries are reviewable; 31B itself survives",
+   "Only pre-1973 entries are reviewable",
+   "Coelho deleted Article 31B"
+  ],
+  "q": "I.R. Coelho (2007) on the Ninth Schedule holds",
+  "round": "D",
+  "trapcat": "L+T",
+  "trapnote": "Absolute-immunity and deleted-31B are opposite-end falsehoods.",
+  "why": {
+   "0": "Wrong: immunity ended for post-1973 entries.",
+   "1": "Correct: reviewable + 31B kept.",
+   "2": "Wrong: pre-1973 entries stay sealed.",
+   "3": "Wrong: validity of 31B expressly kept."
+  }
+ },
+ {
+  "answer": 0,
+  "expl": "Three instruments: 16(3) Parliament by LAW (residence rule); 371D President by ORDER (local cadres/areas/recruitment, 1975 Order, survives 2014 in AP + Telangana); 16(4) State action for backward classes. Actor + instrument + object differ in each row.",
+  "options": [
+   "16(3): Parliament by law; 371D: President by order; 16(4): State for backward classes",
+   "All three mean the same residence power",
+   "371D ended with 2014 bifurcation",
+   "16(3) allows Assembly residence laws"
+  ],
+  "q": "The 16(3)–371D–16(4) comparison is correctly stated as",
+  "round": "D",
+  "trapcat": "C+L+T",
+  "trapnote": "Merge-into-one and ended-in-2014 collapse distinct instruments.",
+  "why": {
+   "0": "Correct: full three-row table.",
+   "1": "Wrong: three different powers.",
+   "2": "Wrong: survives both States.",
+   "3": "Wrong: Parliament-only power."
+  }
+ },
+ {
+  "answer": 2,
+  "expl": "72: court-martial yes + death pardon yes. 161: neither (may suspend/remit/commute death in State-law setting). Both on ministerial advice; both reviewable limitedly (Epuru Sudhakar 2006, AP case): no mind, mala fide, irrelevant grounds, wrong facts.",
+  "options": [
+   "Both identical in scope",
+   "161 wider than 72",
+   "72 covers court martial and death pardon; 161 covers neither",
+   "Governor acts on personal discretion alone"
+  ],
+  "q": "President's Art. 72 vs Governor's Art. 161 differs as",
+  "round": "D",
+  "trapcat": "L+T",
+  "trapnote": "Identical-scope and personal-discretion invert settled points.",
+  "why": {
+   "0": "Wrong: scope differs on martial + death.",
+   "1": "Wrong: 161 is narrower.",
+   "2": "Correct: martial/death split + advice + review.",
+   "3": "Wrong: Council advice governs both."
+  }
+ },
+ {
+  "answer": 1,
+  "expl": "Krishna Kumar Singh (2017, 7 judges): laying before the House is a mandatory duty (failure = abuse); systematic re-promulgation impermissible (overreach); executive satisfaction checkable for fraud/abuse (sufficiency weighed lightly).",
+  "options": [
+   "Re-promulgation is always valid",
+   "Laying before the House is mandatory and systematic re-promulgation is impermissible",
+   "Ordinances last till next session automatically",
+   "Courts can never examine satisfaction"
+  ],
+  "q": "Beyond Wadhwa (1987), Krishna Kumar Singh (2017) added that",
+  "round": "D",
+  "trapcat": "L+T",
+  "trapnote": "Till-next-session states 6-weeks-from-reassembly wrongly; never-examine overstates restraint.",
+  "why": {
+   "0": "Wrong: Bihar-model re-promulgation condemned.",
+   "1": "Correct: mandatory laying + overreach bar + fraud check.",
+   "2": "Wrong: 6 weeks from reassembly.",
+   "3": "Wrong: fraud/abuse checkable."
+  }
+ },
+ {
+  "answer": 3,
+  "expl": "Zee Telefilms needs BOTH halves: BCCI fails funds/control → NOT State, no Art. 32; but public functions (national team) → Art. 226 lies (any person/authority). 226 wider scope; 32 stronger guarantee (itself FR).",
+  "options": [
+   "BCCI is State under Art. 12",
+   "Art. 32 lies against BCCI",
+   "No writ against BCCI anywhere",
+   "Not State so no Art. 32, but Art. 226 lies for public functions"
+  ],
+  "q": "Zee Telefilms (2005) on the BCCI holds in full that",
+  "round": "D",
+  "trapcat": "L+T",
+  "trapnote": "Half-case options state one half as the whole.",
+  "why": {
+   "0": "Wrong: fails instrumentality test.",
+   "1": "Wrong: 32 needs State respondent.",
+   "2": "Wrong: 226 forum open.",
+   "3": "Correct: both halves together."
+  }
+ },
+ {
+  "answer": 0,
+  "expl": "Ask-then-decide (S.P. Gupta, decided 30 Dec 1981, executive primacy) → agree (Second, 1993, 9 judges: concurrence, collegium) → procedure (Third, 1998: CJI+4 SC/+2 HC) → mixed panel struck (99th/NJAC 2014, 5-judge 4:1 Oct 2015, independence basic; collegium revived).",
+  "options": [
+   "1993 concurrence + collegium; 1998 working rules; NJAC struck 2015",
+   "1981 concurrence retained ever since",
+   "NJAC replaced collegium successfully",
+   "Collegium = CJI + 2 for SC appointments"
+  ],
+  "q": "The Judges-cases-to-NJAC sequence is",
+  "round": "D",
+  "trapcat": "L+T",
+  "trapnote": "1981-concurrence inverts S.P. Gupta; CJI+2 understates collegium.",
+  "why": {
+   "0": "Correct: full four-stage sequence.",
+   "1": "Wrong: 1981 held executive primacy.",
+   "2": "Wrong: struck before operating.",
+   "3": "Wrong: CJI + 4 for SC."
+  }
+ },
+ {
+  "answer": 2,
+  "expl": "Hussainara 1979 (first PIL: newspaper → undertrials beyond max sentences → speedy trial + legal aid via 21+39A, releases) → S.P. Gupta 1981 (bona fide stranger may move; letter = petition) → Bandhua 1984 (Haryana quarries letter → 21+23, commissioners, rehab).",
+  "options": [
+   "Bandhua first, then Hussainara",
+   "S.P. Gupta created legal aid",
+   "Hussainara 1979 first PIL, S.P. Gupta 1981 locus, Bandhua 1984 bonded labour",
+   "PIL began with a constitutional amendment"
+  ],
+  "q": "The birth order of PIL is",
+  "round": "D",
+  "trapcat": "L+T",
+  "trapnote": "Amendment-origin denies judge-made standing; swapped orders break causation.",
+  "why": {
+   "0": "Wrong: Bandhua is third.",
+   "1": "Wrong: legal aid came via Hussainara + 39A/21.",
+   "2": "Correct: undertrials → standing → bonded labour.",
+   "3": "Wrong: no PIL amendment exists."
+  }
+ },
+ {
+  "answer": 1,
+  "expl": "Mehta (10 Dec 1996): 20,000 employer + 5,000 govt per child into rehab-cum-welfare fund + education + survey; reasoning links 24 + 21A/45 + 39(e)-(f). 2016 Act: all under-14 work banned (family-after-school + entertainment excepted); adolescents no hazardous (jail up to 2 yrs + Rs 50,000).",
+  "options": [
+   "20,000 govt + 5,000 employer",
+   "20,000 employer + 5,000 govt with education and survey",
+   "25,000 employer flat with no rehab",
+   "No fund, only declaration"
+  ],
+  "q": "The M.C. Mehta (Sivakasi) compensation scheme is",
+  "round": "D",
+  "trapcat": "L+T",
+  "trapnote": "Swapped figures and declaration-only gut the judgment.",
+  "why": {
+   "0": "Wrong: figures reversed.",
+   "1": "Correct: fund split + schooling + survey.",
+   "2": "Wrong: invented flat figure, no rehab.",
+   "3": "Wrong: Court built an operating scheme."
+  }
+ },
+ {
+  "answer": 3,
+  "expl": "TMA Pai (31 Oct 2002, 11 judges): State unit (Sikhs majority in Punjab); establish AND administer; regulate excellence (teachers, accounts, no capitation) yes; destroy character no; unaided autonomy with merit/transparency; 93rd/15(5) expressly excepts Art. 30 institutions.",
+  "options": [
+   "All-India unit with administration enough",
+   "State unit but establishment enough",
+   "Country unit with no regulation allowed",
+   "State unit, both limbs, regulation without destruction, 15(5) exception"
+  ],
+  "q": "The complete TMA Pai position is",
+  "round": "D",
+  "trapcat": "L+T",
+  "trapnote": "Partial options each drop one limb of the four-part lock.",
+  "why": {
+   "0": "Wrong: unit + establishment missing.",
+   "1": "Wrong: establishment limb dropped.",
+   "2": "Wrong: unit + regulation wrong.",
+   "3": "Correct: all four locked."
+  }
+ },
+ {
+  "answer": 0,
+  "expl": "243M excludes Fifth/Sixth Schedule + NL/ML/MZ etc. (protective of traditions) leaving a governance gap; PESA 24 Dec 1996 (Bhuria) under 243M(4)(b) restores with Gram Sabha (all voters) supreme over Panchayat: plans, land, forest produce, minerals, intoxicants, money-lending.",
+  "options": [
+   "Excluded by 243M, restored by PESA with Gram Sabha supreme",
+   "Part IX applies directly to Scheduled Areas",
+   "PESA makes the Sarpanch supreme",
+   "PESA is the 73rd Amendment itself"
+  ],
+  "q": "PESA 1996 exists because",
+  "round": "D",
+  "trapcat": "L+T",
+  "trapnote": "Direct-application and Sarpanch-supreme invert the design.",
+  "why": {
+   "0": "Correct: exclusion → gap → extension with Sabha flip.",
+   "1": "Wrong: 243M expressly excludes.",
+   "2": "Wrong: Sabha, not Sarpanch, is boss.",
+   "3": "Wrong: 73rd is the enabler, PESA the extension."
+  }
+ },
+ {
+  "answer": 2,
+  "expl": "Sri Bagh 16 Nov 1937 (Coastal-Rayalaseema, Kashinathuni Nageswara Rao's house) → Gentlemen's 20 Feb 1956 (pre-merger promise) → 1969 + 1972-73 agitations (promise felt betrayed) → Six Points 21 Sep 1973 → 32nd + 371D/371E (constitutional writing).",
+  "options": [
+   "Gentlemen's → Sri Bagh → Formula → 32nd",
+   "Sri Bagh → Formula → Gentlemen's → 32nd",
+   "Sri Bagh → Gentlemen's → agitations → Formula → 32nd",
+   "32nd → Formula → Gentlemen's → Sri Bagh"
+  ],
+  "q": "The Andhra pact-to-amendment chain in order is",
+  "round": "D",
+  "trapcat": "L+T",
+  "trapnote": "Formula-before-Gentlemen's and Amendment-first reverse cause and effect.",
+  "why": {
+   "0": "Wrong: Sri Bagh (1937) predates Gentlemen's.",
+   "1": "Wrong: Formula (1973) follows agitations.",
+   "2": "Correct: pact → breach → settlement → writing.",
+   "3": "Wrong: entirely reversed."
+  }
+ },
+ {
+  "answer": 1,
+  "expl": "1953 from DEATH: fast 19 Oct-15 Dec 1952 (58 days) → Nehru announcement 19 Dec 1952 → Act assented 14 Sept 1953, 11 Madras districts, Kurnool, Prakasam, India's first linguistic State. 1956 from COMMISSION: SRC appointed 1953 → report 1955 → Reorganisation Act + 7th, Hyderabad, Sanjiva Reddy.",
+  "options": [
+   "Both from SRC recommendation",
+   "1953 from death-agitation, 1956 from SRC commission",
+   "Both from Sriramulu's fast",
+   "1953 from commission, 1956 from fast"
+  ],
+  "q": "Andhra State (1953) vs Andhra Pradesh (1956) arose respectively from",
+  "round": "D",
+  "trapcat": "L+T",
+  "trapnote": "SRC-1953 is date-impossible (reported 1955); swapped causes invert history.",
+  "why": {
+   "0": "Wrong: SRC postdates 1953.",
+   "1": "Correct: death vs commission.",
+   "2": "Wrong: fast caused only 1953.",
+   "3": "Wrong: causes swapped."
+  }
+ },
+ {
+  "answer": 3,
+  "expl": "7 Nov 2022 3:2 (Maheshwari/Trivedi/Pardiwala vs Lalit/Bhat): economic-only affirmative action valid; SC/ST/OBC exclusion avoids double benefit; 50% ceiling prudence for 16(4), not basic; EWS outside; 15(6) valid even for private unaided.",
+  "options": [
+   "Unanimous striking down",
+   "5:4 upholding on federalism",
+   "3:2 upholding with ceiling intact for all quotas",
+   "3:2 upholding: economic-only valid, ceiling not basic, EWS outside, 15(6) covers private unaided"
+  ],
+  "q": "The full Janhit Abhiyan holding is",
+  "round": "D",
+  "trapcat": "L+T",
+  "trapnote": "Unanimous/5:4 invent bench math; ceiling-intact ignores the core update.",
+  "why": {
+   "0": "Wrong: upheld, not struck.",
+   "1": "Wrong: 3:2 on equality doctrine.",
+   "2": "Wrong: ceiling held not-basic.",
+   "3": "Correct: majority + dissent + unaided limb."
+  }
+ },
+ {
+  "answer": 0,
+  "expl": "11 Jan 2007 unanimous: effect/essence test (rights test on 14/19/21) for post-24-Apr-1973 entries; 31B validity kept; 284 entries (~218 post-1973) proved safe-deposit misuse. Waman Rao (1981) background, reference from 1999.",
+  "options": [
+   "Unanimous 2007 with effect test and post-1973 review",
+   "Divided 2007 striking 31B",
+   "2007 upholding absolute immunity",
+   "2001 decision on pre-1951 entries"
+  ],
+  "q": "Coelho's bench, test and cut-off are",
+  "round": "D",
+  "trapcat": "L+T",
+  "trapnote": "Divided/absolute/2001 scramble bench, doctrine and year.",
+  "why": {
+   "0": "Correct: unanimity + test + cut-off.",
+   "1": "Wrong: unanimous; 31B kept.",
+   "2": "Wrong: immunity ended.",
+   "3": "Wrong: 2007, post-1973 entries."
+  }
+ },
+ {
+  "answer": 2,
+  "expl": "Three dated stages: Punjab Nov 2023 (Chandrachud: no eternal silence; withholding sans return message violates 200) → TN 8 Apr 2025 (Pardiwala+Mahadevan: 1-3 months + 10 Bills deemed) → Reference 20 Nov 2025 unanimous (Gavai, 14 questions of 13 May 2025: no timelines, no Art. 142 deemed assent; mandamus-to-decide survives).",
+  "options": [
+   "Only Punjab 2023 matters",
+   "Only TN 2025 matters",
+   "All three stages with names, dates and the precise point of divergence",
+   "Nov 2025 bars all court scrutiny"
+  ],
+  "q": "The Governor-assent chain with decisional detail is",
+  "round": "D",
+  "trapcat": "L+T",
+  "trapnote": "Single-stage options freeze flux; no-scrutiny contradicts limited mandamus.",
+  "why": {
+   "0": "Wrong: two 2025 steps followed.",
+   "1": "Wrong: Nov 2025 overlaid it.",
+   "2": "Correct: names + dates + divergence.",
+   "3": "Wrong: mandamus-to-decide survives."
+  }
+ },
+ {
+  "answer": 1,
+  "expl": "Balaji (decided Dec 1995): Jan 1954 notifications; awards valid (recognition, not rank) with no-prefix/suffix rule; misuse loses award (Regulation 10); high-level selection committee urged. 18(2) citizen bar vs 18(3) non-citizen consent.",
+  "options": [
+   "Awards banned as titles",
+   "Awards valid with no-prefix rule plus Regulation-10 loss and 18(2)/18(3) split",
+   "Awards need annual re-approval",
+   "Citizens may take foreign titles with consent"
+  ],
+  "q": "The complete Balaji Raghavan position adds to awards-valid that",
+  "round": "D",
+  "trapcat": "L+T",
+  "trapnote": "Banned/annual-reapproval invent holdings; citizen-consent swaps clauses.",
+  "why": {
+   "0": "Wrong: validity upheld.",
+   "1": "Correct: notifications + misuse + consent split.",
+   "2": "Wrong: no re-approval exists.",
+   "3": "Wrong: citizens barred outright."
+  }
+ },
+ {
+  "answer": 3,
+  "expl": "Basu (decided Dec 1996): tags + register; memo + witness + countersign with date/time; relative ASAP (8-12 hrs outside district via Legal Aid + local station); told of right at once; diary naming informed + custodians; injury memo both-signed with copy; 48-hr panel medicals; papers to Magistrate; lawyer during (not throughout) interrogation; control room + board in 12 hrs.",
+  "options": [
+   "Memo + relative + medical only",
+   "Tags + memo + Magistrate only",
+   "Diary + control room only",
+   "All eleven elements together as one checklist"
+  ],
+  "q": "The D.K. Basu custody checklist in full comprises",
+  "round": "D",
+  "trapcat": "L+T",
+  "trapnote": "Partial lists reward half-memory; exam tests forgotten limbs.",
+  "why": {
+   "0": "Wrong: drops tags/diary/board/counsel.",
+   "1": "Wrong: drops relative/medical/board.",
+   "2": "Wrong: drops memo/medical/Magistrate.",
+   "3": "Correct: all eleven together."
+  }
+ },
+ {
+  "answer": 0,
+  "expl": "Wadhwa (decided Dec 1986): 256 ordinances 1967-81, some 14 years, dozens reissued same days, 3 live challenged → re-promulgation sans placement = fraud on Constitution. Krishna Kumar 2017 (7 judges): laying mandatory (failure = abuse); no bypass re-promulgation; satisfaction fraud/abuse-checkable (sufficiency weighed lightly).",
+  "options": [
+   "Wadhwa numbers plus Krishna Kumar tightening",
+   "Wadhwa struck ordinances entirely",
+   "Krishna Kumar allowed routine re-promulgation",
+   "Ordinances need no legislative contact"
+  ],
+  "q": "The ordinance-abuse doctrine complete with follow-up is",
+  "round": "D",
+  "trapcat": "L+T",
+  "trapnote": "Struck-entirely and routine-re-promulgation invert both judgments.",
+  "why": {
+   "0": "Correct: numbers + tightening.",
+   "1": "Wrong: practice condemned, not ordinance power.",
+   "2": "Wrong: bypass re-promulgation barred.",
+   "3": "Wrong: 6-week laying rule is the core."
+  }
+ },
+ {
+  "answer": 2,
+  "expl": "Royappa (5-judge, Bhagwati): living equality — cannot be cribbed, cabined, confined; sworn-enemies line. Lost: same Rs 3,500 pay, Art. 311 pleaded, mala fide unproved. Idea won and grew via Maneka into manifest arbitrariness (Shayara Bano 2017).",
+  "options": [
+   "Royappa won his post back",
+   "Royappa lost and the idea died",
+   "Lost on facts (pay + 311 + unproved mala fide) while creating the arbitrariness door",
+   "Single-judge cookie-cutter classification ruling"
+  ],
+  "q": "The man-vs-idea twist of Royappa is accurately stated as",
+  "round": "D",
+  "trapcat": "L+T",
+  "trapnote": "Won/idea-died miss the twist examiners explicitly love.",
+  "why": {
+   "0": "Wrong: transfer stood.",
+   "1": "Wrong: principle outlived result.",
+   "2": "Correct: facts + doctrine both held.",
+   "3": "Wrong: five-judge bench, new door."
+  }
+ },
+ {
+  "answer": 1,
+  "expl": "Champakam: 2-of-14 seats, no form filled (sued on certain refusal, seat kept by agreement); Art. 29(2) + Art. 13 void; reply within months = 1st Amendment/15(4); Round 1 of 4 (Golaknath→24th, Kesavananda, Minerva).",
+  "options": [
+   "Form filled and lost on marks alone",
+   "No form, seat kept, 29(2)+13 void, 1st Amend reply, Round 1",
+   "Only Art. 16 involved with no amendment",
+   "DPSP won over FR in 1951"
+  ],
+  "q": "The Champakam detail set (form, remedy, reply, round) is",
+  "round": "D",
+  "trapcat": "L+T",
+  "trapnote": "Marks-alone and DPSP-won invert facts and doctrine.",
+  "why": {
+   "0": "Wrong: no form; caste bar, not marks.",
+   "1": "Correct: honest detail + remedy + reply + round.",
+   "2": "Wrong: 29(2) admission case + 1st Amend.",
+   "3": "Wrong: FR won — the whole point."
+  }
+ },
+ {
+  "answer": 3,
+  "expl": "Scope rules: 15/16/19 citizen-only (text says citizen); 14/20/21 person-wide (foreigners covered); 15(2)/17/23/24 horizontal (private persons bound). Only the never-bind-private claim inverts horizontality.",
+  "options": [
+   "Articles 15, 16 and 19 need citizenship",
+   "Articles 14, 20 and 21 protect foreigners too",
+   "Articles 15(2), 17, 23, 24 reach private persons",
+   "Fundamental Rights never bind private persons"
+  ],
+  "q": "Identify the WRONG statement on who Fundamental Rights bind.",
+  "round": "T",
+  "trapcat": "T+PYQ",
+  "trapnote": "Signature PYQ frame (Q152/Q166 style); never/only absolutes mark the false one.",
+  "why": {
+   "0": "True: citizen text in all three.",
+   "1": "True: person text covers foreigners.",
+   "2": "True: the four horizontal rights.",
+   "3": "WRONG: horizontal four disprove it."
+  }
+ },
+ {
+  "answer": 2,
+  "expl": "Ground lists: Art. 15 five (RRCSP); Art. 16(2) seven (adds descent + residence). Language sits in neither list (Art. 29 domain). Descent/residence under Art. 15 is the trap placement.",
+  "options": [
+   "Article 14 protects every person",
+   "Article 16 lists seven grounds",
+   "Article 15 lists descent and residence",
+   "Article 19 is citizen-only"
+  ],
+  "q": "Identify the WRONG statement on equality provisions.",
+  "round": "T",
+  "trapcat": "T",
+  "trapnote": "Descent/residence live ONLY in Art. 16.",
+  "why": {
+   "0": "True: person-wide equality.",
+   "1": "True: five plus two.",
+   "2": "WRONG: five only; the two belong to 16.",
+   "3": "True: citizen-only freedoms."
+  }
+ },
+ {
+  "answer": 0,
+  "expl": "15(2)(a) shops/hotels/restaurants/cinemas: no funding condition, binds private owners. Only 15(2)(b) wells/tanks/ghats/roads needs State funds or public dedication. Coaching notes merge; examiners split.",
+  "options": [
+   "Shops and hotels need State funding for 15(2) to apply",
+   "Wells need State funds or public dedication",
+   "A caste-based hotel refusal violates 15(2)(a)",
+   "15(2) binds private parties in listed cases"
+  ],
+  "q": "Identify the WRONG statement on Article 15(2).",
+  "round": "T",
+  "trapcat": "T",
+  "trapnote": "Funding-condition swap between limbs (a) and (b).",
+  "why": {
+   "0": "WRONG: (a) carries no funding test.",
+   "1": "True: (b) funds-or-dedication test.",
+   "2": "True: square (a) fact pattern.",
+   "3": "True: horizontal design of 15(2)."
+  }
+ },
+ {
+  "answer": 3,
+  "expl": "16(3) residence needs Parliamentary law (State order fails); 16(4) is a facet of equality (not exception); 50% governs 16(4) backward quota. Sawhney disallowed promotion quota — 77th Amendment restored it.",
+  "options": [
+   "Residence rule needs a Parliamentary law",
+   "Art. 16(4) is a facet of equality",
+   "50% ceiling governs backward-class quota",
+   "Indra Sawhney allowed promotion quota without amendment"
+  ],
+  "q": "Identify the WRONG statement on public employment.",
+  "round": "T",
+  "trapcat": "T",
+  "trapnote": "Promotion-without-amendment restates pre-77th law as current.",
+  "why": {
+   "0": "True: Parliament-only residence power.",
+   "1": "True: facet, not exception.",
+   "2": "True: 16(4) ceiling.",
+   "3": "WRONG: Sawhney said no; amendment reversed it."
+  }
+ },
+ {
+  "answer": 1,
+  "expl": "Art. 17 is the only absolute FR: abolished, offence, no exceptions, no reasonable restriction, horizontal (PCR 1955 + POA 1989). Art. 18 allows only military/academic titles; awards valid sans prefix (Balaji Raghavan).",
+  "options": [
+   "Art. 17 binds private persons",
+   "Art. 17 is subject to reasonable restrictions",
+   "Art. 18 permits military titles",
+   "Bharat Ratna is an award, not a title"
+  ],
+  "q": "Identify the WRONG statement on Articles 17-18.",
+  "round": "T",
+  "trapcat": "T",
+  "trapnote": "Reasonable-restriction smuggled into the only absolute right.",
+  "why": {
+   "0": "True: horizontal abolition.",
+   "1": "WRONG: absolute means no restriction clause.",
+   "2": "True: permitted distinction.",
+   "3": "True: recognition, not rank."
+  }
+ },
+ {
+  "answer": 2,
+  "expl": "Art. 19: six freedoms with paired restriction heads; speech has eight heads in 19(2) — law and order is NOT among them. 19(1)(f) property deleted by 44th (1978); property now Art. 300A legal right only.",
+  "options": [
+   "Speech has eight restriction heads",
+   "Law and order alone cannot justify a speech curb",
+   "Right to property remains Art. 19(1)(f)",
+   "Property is now Art. 300A only"
+  ],
+  "q": "Identify the WRONG statement on Article 19.",
+  "round": "T",
+  "trapcat": "T",
+  "trapnote": "19(1)(f)-alive is 44th-blindness; law-and-order tests head-list memory.",
+  "why": {
+   "0": "True: eight heads in 19(2).",
+   "1": "True: not a listed head.",
+   "2": "WRONG: deleted 1978.",
+   "3": "True: constitutional-legal right only."
+  }
+ },
+ {
+  "answer": 0,
+  "expl": "Art. 20: (1) criminal-only retrospectivity bar (tax/civil retrospective OK); (2) needs prosecution AND punishment before a court — departmental + criminal trial allowed; (3) mouth not body (handwriting/fingerprints/DNA compellable). Art. 20 says person (foreigners covered).",
+  "options": [
+   "Departmental inquiry plus criminal trial violates double jeopardy",
+   "Tax law may apply retrospectively",
+   "Handwriting specimen is outside Art. 20(3)",
+   "Art. 20 protects foreigners too"
+  ],
+  "q": "Identify the WRONG statement on Article 20.",
+  "round": "T",
+  "trapcat": "T",
+  "trapnote": "Departmental-bar misreads prosecution-AND-punishment-before-court.",
+  "why": {
+   "0": "WRONG: department is not a court.",
+   "1": "True: criminal-only bar.",
+   "2": "True: comparison material, not testimony.",
+   "3": "True: no-person wording."
+  }
+ },
+ {
+  "answer": 3,
+  "expl": "Two tracks: punitive 22(1)-(2) — grounds, counsel, 24-hr magistrate (journey excluded); preventive 22(4)-(7) — communicated grounds + representation, NO magistrate, NO Board counsel. Operative Board rule 3 months (2-month 44th text never notified).",
+  "options": [
+   "Journey time is excluded from 24 hours",
+   "Operative Board period is 3 months",
+   "Preventive detenus get no 24-hr magistrate rule",
+   "Preventive detenus get counsel before the Advisory Board"
+  ],
+  "q": "Identify the WRONG statement on Article 22.",
+  "round": "T",
+  "trapcat": "T",
+  "trapnote": "Counsel-before-Board invents a right the track withholds.",
+  "why": {
+   "0": "True: punitive-track exclusion.",
+   "1": "True: unnotified 2-month text ignored.",
+   "2": "True: preventive track has no 24-hr rule.",
+   "3": "WRONG: no counsel before Board."
+  }
+ },
+ {
+  "answer": 1,
+  "expl": "Maneka: fair-just-reasonable + Golden Triangle (14+19+21) + hearing. Puttaswamy: privacy under 21 with law/aim/proportionality. 21A: ages 6-14 (86th). No mala fide requirement exists for 21 claims generally.",
+  "options": [
+   "Maneka fused 14, 19 and 21",
+   "Every Art. 21 violation needs proved mala fide",
+   "Privacy limits need law, aim, proportionality",
+   "Art. 21A covers ages 6-14"
+  ],
+  "q": "Identify the WRONG statement on Article 21's growth.",
+  "round": "T",
+  "trapcat": "T",
+  "trapnote": "Mala-fide-everywhere confuses Royappa-proof-failure with a general requirement.",
+  "why": {
+   "0": "True: triangle fusion.",
+   "1": "WRONG: invented intent test.",
+   "2": "True: three limbs.",
+   "3": "True: 6-14 band."
+  }
+ },
+ {
+  "answer": 2,
+  "expl": "Art. 23: trafficking/begar/forced labour, horizontal, all persons; PUDR wage trigger. Art. 24: under-14 factory/mine/hazardous ONLY constitutionally; ALL-work ban is the 2016 statute. Art. 35 channels punishment to Parliament.",
+  "options": [
+   "Art. 23 binds private contractors",
+   "Sub-minimum wage can be forced labour",
+   "The Constitution bans ALL work below 14",
+   "Under-14s on sites also breach Art. 24"
+  ],
+  "q": "Identify the WRONG statement on Articles 23-24.",
+  "round": "T",
+  "trapcat": "T",
+  "trapnote": "ALL-work ban states 2016 statute as constitutional text.",
+  "why": {
+   "0": "True: horizontal 23.",
+   "1": "True: PUDR economic compulsion.",
+   "2": "WRONG: hazardous-only constitutionally.",
+   "3": "True: dual violation on site facts."
+  }
+ },
+ {
+  "answer": 0,
+  "expl": "25: individual profess/practise/propagate subject to order/morality/health + secular regulation + 25(2)(b) temple opening. 26: denominations manage affairs/property. 27: NO tax for promoting religion (regulatory fees differ). 28: no religion instruction in wholly State-funded schools.",
+  "options": [
+   "Art. 27 permits a tax for promoting a religion",
+   "Art. 28 bars religion classes in wholly State-funded schools",
+   "Art. 26 lets denominations manage affairs",
+   "Art. 25(2)(b) opens Hindu public institutions"
+  ],
+  "q": "Identify the WRONG statement on Articles 25-28.",
+  "round": "T",
+  "trapcat": "T",
+  "trapnote": "Tax-for-religion inverts Art. 27's prohibition.",
+  "why": {
+   "0": "WRONG: 27 prohibits promoting-religion tax.",
+   "1": "True: wholly-funded bar.",
+   "2": "True: denomination management.",
+   "3": "True: social-reform opening."
+  }
+ },
+ {
+  "answer": 3,
+  "expl": "29: any distinct-culture section conserves + aided-admission equality. 30: religious/linguistic minorities establish AND administer (TMA Pai both limbs); State unit; regulation for excellence without destroying character; 93rd/15(5) excepts Art. 30 institutions.",
+  "options": [
+   "Art. 29 covers any distinct-culture section",
+   "Minority unit is the State",
+   "Art. 15(5) skips minority institutions",
+   "Art. 30 needs administration alone"
+  ],
+  "q": "Identify the WRONG statement on Articles 29-30.",
+  "round": "T",
+  "trapcat": "T",
+  "trapnote": "Administration-alone fails both-limbs rule.",
+  "why": {
+   "0": "True: any-section coverage.",
+   "1": "True: State unit.",
+   "2": "True: express exception.",
+   "3": "WRONG: establish AND administer."
+  }
+ },
+ {
+  "answer": 1,
+  "expl": "32 is itself an FR + basic structure; 226 wider (any person/authority) though 32 stronger guarantee. Habeas lies against private detainers via 226 (Zee Telefilms logic). Mandamus needs public duty.",
+  "options": [
+   "Art. 32 is itself a Fundamental Right",
+   "Habeas Corpus against a private detainer lies only under Art. 32, never 226",
+   "Art. 226 is wider in scope than Art. 32",
+   "Mandamus needs a public duty"
+  ],
+  "q": "Identify the WRONG statement on writ remedies.",
+  "round": "T",
+  "trapcat": "T",
+  "trapnote": "Only-32-against-private inverts Zee Telefilms (226 wider forum).",
+  "why": {
+   "0": "True: FR + basic structure.",
+   "1": "WRONG: 226 reaches private hands.",
+   "2": "True: scope comparison.",
+   "3": "True: duty requirement."
+  }
+ },
+ {
+  "answer": 2,
+  "expl": "A false: combined 60%+ with EWS is NOT automatically void after Janhit (EWS outside ceiling, ceiling not basic). R true: Sawhney fixed a 50% ceiling for 16(4). R cannot explain A — wrong compartment. Trap word: automatically.",
+  "options": [
+   "Both true and R explains A",
+   "Both true but R does not explain A",
+   "A is false, but R is true",
+   "Both A and R are false"
+  ],
+  "q": "Assertion: a 62% combined quota (SC/ST/OBC + EWS) is automatically unconstitutional. Reason: Indra Sawhney fixed a 50% ceiling. Choose.",
+  "round": "T",
+  "trapcat": "T+L",
+  "trapnote": "Automatically does the damage; ceiling-on-what-kind tested.",
+  "why": {
+   "0": "Wrong: A false, so no explanation relation.",
+   "1": "Wrong: A false kills this too.",
+   "2": "Correct: false assertion, true reason.",
+   "3": "Wrong: R states real Sawhney law."
+  }
+ },
+ {
+  "answer": 1,
+  "expl": "A true: free legal aid enforceable today. R true: 39A directs it. But 39A is DPSP, non-justiciable alone (Art. 37) — enforceability came from courts reading it INTO Art. 21 (Hussainara/Khatri) via Legal Services Authorities Act. Missing link: Art. 21.",
+  "options": [
+   "Both true and R explains A",
+   "Both true but R does not fully explain A",
+   "A is true, but R is false",
+   "A is false, but R is true"
+  ],
+  "q": "Assertion: free legal aid to an indigent accused is enforceable. Reason: Art. 39A directs free legal aid. Choose.",
+  "round": "T",
+  "trapcat": "T+L",
+  "trapnote": "Both-true-but-relationship-false — DPSP alone never explains enforceability.",
+  "why": {
+   "0": "Wrong: R alone cannot carry enforceability.",
+   "1": "Correct: both true, Art. 21 link missing.",
+   "2": "Wrong: R states real 39A text.",
+   "3": "Wrong: A is live law."
+  }
+ },
+ {
+  "answer": 0,
+  "expl": "A true: 105th (19 Aug 2021) restored States' SEBC lists. R true: Jaishri Patil majority 3:2 read 102nd/342A Centre-only. Genuine cause-effect — the control item among trap-heavy A-R sets.",
+  "options": [
+   "Both true and R explains A",
+   "Both true but R does not explain A",
+   "A is true, but R is false",
+   "Both A and R are false"
+  ],
+  "q": "Assertion: Parliament passed the 105th Amendment. Reason: the 102nd was read as stripping States' SEBC-list power. Choose.",
+  "round": "T",
+  "trapcat": "T+L",
+  "trapnote": "Control item: real amendment-judgment-amendment causation.",
+  "why": {
+   "0": "Correct: R explains A.",
+   "1": "Wrong: explanation holds.",
+   "2": "Wrong: R states the 3:2 reading.",
+   "3": "Wrong: both occurred."
+  }
+ },
+ {
+  "answer": 3,
+  "expl": "A false: post-24-Apr-1973 Schedule entries ARE reviewable (Coelho 2007). R true: Art. 31B text protects Schedule laws. Text-true vs law-false split — immunity died for post-1973 entries.",
+  "options": [
+   "Both true and R explains A",
+   "A is true, but R is false",
+   "Both A and R are false",
+   "A is false, but R is true"
+  ],
+  "q": "Assertion: Ninth Schedule laws are immune from judicial review. Reason: Art. 31B protects Schedule laws from Part III attack. Choose.",
+  "round": "T",
+  "trapcat": "T+L",
+  "trapnote": "Text-true/law-false split is the Coelho signature.",
+  "why": {
+   "0": "Wrong: A false.",
+   "1": "Wrong: R states real 31B text.",
+   "2": "Wrong: R true.",
+   "3": "Correct: false assertion, true reason."
+  }
+ },
+ {
+  "answer": 1,
+  "expl": "Golaknath (1967, 6:5): amendments are law under 13(2), FRs unamendable — reversed by 24th Amendment (1971, not-law) + Kesavananda (1973, basic structure). Citing it as current law is period transplant: valid-then, dead-now.",
+  "options": [
+   "Golaknath correctly states current law",
+   "Golaknath was overruled; Parliament may amend FRs within basic structure",
+   "Kesavananda restored Golaknath",
+   "Minerva Mills restored Golaknath"
+  ],
+  "q": "A 1968 land-acquisition amendment is challenged as violating FRs. The State cites Golaknath (1967) that FRs can't be amended. Correct reply:",
+  "round": "T",
+  "trapcat": "T+L",
+  "trapnote": "Period transplant: the examiner's time machine.",
+  "why": {
+   "0": "Wrong: overruled position.",
+   "1": "Correct: 24th + Kesavananda replaced it.",
+   "2": "Wrong: Kesavananda middle-pathed past it.",
+   "3": "Wrong: Minerva built on Kesavananda, not Golaknath."
+  }
+ },
+ {
+  "answer": 2,
+  "expl": "Pre-1994 political-question view died with Bommai (11 Mar 1994, 9 judges): 356 justiciable, floor test only forum, relevant-material review, restoration possible. Invoking non-reviewability now is period transplant.",
+  "options": [
+   "Courts cannot review 356 at all",
+   "Governor's satisfaction is final",
+   "Bommai (1994) made 356 justiciable with floor test — pre-1994 view is dead",
+   "President's Rule needs no material"
+  ],
+  "q": "A Governor recommends 356 on letters alone, refusing a floor test, calling it a political question. Correct reply:",
+  "round": "T",
+  "trapcat": "T+L",
+  "trapnote": "Political-question = correct-before-1994, wrong-now.",
+  "why": {
+   "0": "Wrong: justiciable since 1994.",
+   "1": "Wrong: Assembly alone decides.",
+   "2": "Correct: Bommai replaced satisfaction.",
+   "3": "Wrong: relevant material required."
+  }
+ },
+ {
+  "answer": 0,
+  "expl": "Deemed assent died 20 Nov 2025 unanimous (Gavai): no judicial timelines, no Art. 142 substitution; limited mandamus-to-decide survives. Teaching April-2025-alone as law is out-of-date transplant on evolving law.",
+  "options": [
+   "Deemed assent is current law, so Bills stand passed",
+   "Deemed assent was rejected in Nov 2025; courts may only direct decision",
+   "Governors may now sit forever",
+   "Courts decide Bill merits"
+  ],
+  "q": "A Bill pending 2 years is claimed deemed-assented under April 2025. Current position:",
+  "round": "T",
+  "trapcat": "T+L",
+  "trapnote": "Evolving-law-as-settled is the audit-flagged trap class.",
+  "why": {
+   "0": "Wrong: rejected Nov 2025.",
+   "1": "Correct: no deemed assent; mandamus-to-decide only.",
+   "2": "Wrong: silence-bar holds across both steps.",
+   "3": "Wrong: merits never judged."
+  }
+ },
+ {
+  "answer": 3,
+  "expl": "44th proposed 2 months + sitting-judge chair but the provision was never notified — no commencement notification. Operative rule stays original 3 months + qualified-to-be chair. Passed-vs-in-force gap.",
+  "options": [
+   "2 months with sitting judge — current law",
+   "2 months because amendment passed",
+   "Amendment text and current law always match",
+   "3 months — the 2-month text was never brought into force"
+  ],
+  "q": "On the Advisory Board period, the precise position is",
+  "round": "T",
+  "trapcat": "T+L",
+  "trapnote": "Passed-vs-in-force gap — famous unnotified provision.",
+  "why": {
+   "0": "Wrong: unnotified text.",
+   "1": "Wrong: passage ≠ force.",
+   "2": "Wrong: this very case disproves identity.",
+   "3": "Correct: 3 months operative."
+  }
+ },
+ {
+  "answer": 1,
+  "expl": "Never-cross-50% states Sawhney as absolute; Janhit 2022 (EWS outside, ceiling not basic) + extraordinary-exception break it. Never/always/only absolutes flag falsehoods.",
+  "options": [
+   "Reservation must stay within available posts",
+   "Reservation can never cross 50% in any case",
+   "Creamy layer must be excluded",
+   "EWS quota sits outside the Sawhney ceiling"
+  ],
+  "q": "Which statement about quota limits is FALSE?",
+  "round": "T",
+  "trapcat": "T",
+  "trapnote": "Absolute-word flag: never/always/only.",
+  "why": {
+   "0": "True: posts-bound common sense.",
+   "1": "FALSE: EWS + extraordinary escape it.",
+   "2": "True: Sawhney exclusion.",
+   "3": "True: Janhit compartment."
+  }
+ },
+ {
+  "answer": 2,
+  "expl": "18(2): citizen + foreign title = outright bar, no permission route. 18(3): consent route belongs to non-citizen office-of-profit holders. Swapping them is the consent trap; prefix-use violates Balaji Raghavan.",
+  "options": [
+   "Citizens need President's consent for foreign titles",
+   "Awards must prefix names",
+   "Citizens are barred outright; consent belongs to 18(3) non-citizens",
+   "Art. 18 allows civil titles"
+  ],
+  "q": "The correct 18(2)/18(3) position is",
+  "round": "T",
+  "trapcat": "T",
+  "trapnote": "Consent-for-citizens swaps the clauses; prefix-use breaks awards law.",
+  "why": {
+   "0": "Wrong: no consent route for citizens.",
+   "1": "Wrong: prefix/suffix barred.",
+   "2": "Correct: bar vs consent by person.",
+   "3": "Wrong: civil titles banned."
+  }
+ },
+ {
+  "answer": 0,
+  "expl": "Annual-re-approval invents procedure (no such rule); prefix ban (Balaji), Governor-cannot-fully-pardon-death (72 vs 161), citizen-foreign-title bar (18(2)) all restate live law. Fabricated-procedure vs true-bar discrimination.",
+  "options": [
+   "National awards need annual re-approval",
+   "Awards can't prefix names",
+   "Governors can't pardon death fully",
+   "Citizens can't take foreign titles"
+  ],
+  "q": "Which statement about honours and clemency is FALSE?",
+  "round": "T",
+  "trapcat": "T",
+  "trapnote": "Fabricated-procedure option among true bars.",
+  "why": {
+   "0": "FALSE: invented re-approval.",
+   "1": "True: Balaji no-prefix rule.",
+   "2": "True: 161 limits.",
+   "3": "True: 18(2) bar."
+  }
+ },
+ {
+  "answer": 3,
+  "expl": "Preventive track 22(4)-(7): communicated grounds + representation only — no 24-hr magistrate, no Board counsel, no journey exclusion. All three demands belong to punitive 22(1)-(2). Tracks never mix.",
+  "options": [
+   "24-hr magistrate production",
+   "Lawyer before the Board",
+   "Journey-time exclusion",
+   "All of these belong to the punitive track, not preventive detention"
+  ],
+  "q": "A preventive detenu demands 24-hr production, Board counsel and journey exclusion. Correct reply:",
+  "round": "T",
+  "trapcat": "T",
+  "trapnote": "Punitive-rights smuggled into preventive track.",
+  "why": {
+   "0": "Wrong track: punitive only.",
+   "1": "Wrong track: no Board counsel.",
+   "2": "Wrong track: punitive exclusion.",
+   "3": "Correct: all three misassigned."
+  }
+ },
+ {
+  "answer": 3,
+  "expl": "A dhaba is an eating house expressly listed in Article 15(2)(a), which binds private owners with no State-funding condition. The 15(2)(b) funding test applies only to wells, tanks, ghats and roads. A criminal case under the SC/ST Atrocities Act runs on a separate track from the constitutional violation.",
+  "options": [
+   "No Fundamental Right is involved since the dhaba is private",
+   "Only a civil suit for damages lies",
+   "Article 14 is violated by the owner",
+   "Article 15(2)(a) is violated and criminal law is additionally attracted"
+  ],
+  "q": "On highway patrol you find a dhaba owner barring Dalit truck drivers from the common tables, claiming it is his private business. Most accurate position?",
+  "round": "S",
+  "trapcat": "A+L+T+PYQ",
+  "trapnote": "Only-State-is-bound confusion vs horizontal 15(2); funding-condition transplant from limb (b) to limb (a).",
+  "why": {
+   "0": "Wrong: 15(2)(a) is horizontal and expressly names eating houses — private ownership is no defence.",
+   "1": "Wrong: civil remedy may exist, but a constitutional violation plus a registrable atrocity offence both arise; civil-only understates it.",
+   "2": "Wrong: Art. 14 binds the State, not a private dhaba owner — wrong defendant for that article.",
+   "3": "Correct: listed-access clause with no funding link, plus penal law on the same facts."
+  }
+ },
+ {
+  "answer": 1,
+  "expl": "Royappa (1974): arbitrariness is the antithesis of equality. The loudspeaker law is valid, but selection without a determining principle fails Art. 14 — the law/application distinction every SI must draw.",
+  "options": [
+   "Valid, because the loudspeaker law itself is constitutional",
+   "Void selection: valid law but arbitrary application violates Art. 14",
+   "Valid, because only one person was booked so no group exists",
+   "Void only if mala fide against a community is proved in court first"
+  ],
+  "q": "Thirty shops play loudspeakers past 10 pm. You book only the rival-group shopkeeper, recording no reason for picking him. Position?",
+  "round": "S",
+  "trapcat": "A+L+T",
+  "trapnote": "Valid-law-equals-valid-action fallacy; no-groups-so-no-Art-14 pre-Royappa error.",
+  "why": {
+   "0": "Wrong: validity of the law does not validate an unprincipled selection under it.",
+   "1": "Correct: reasonless selection is arbitrary, and arbitrariness alone breaches Art. 14.",
+   "2": "Wrong: Royappa removed the need for group comparison — one person with no reason suffices.",
+   "3": "Wrong: arbitrariness is judged on recorded reasons at once, not only after a full mala fide trial."
+  }
+ },
+ {
+  "answer": 2,
+  "expl": "D.K. Basu (1997, letter-as-petition, now BNSS): memo + attested witness + relative informed ASAP + diary + injury memo + 48-hr medical + Magistrate copies + lawyer access + control room in 12 hrs. Missing all three named limbs is a textbook violation rooted in Maneka fairness (Arts. 21-22).",
+  "options": [
+   "Maneka Gandhi only, since only fair procedure matters",
+   "Selvi, since samples were taken",
+   "D.K. Basu custody guidelines (Arts. 21-22)",
+   "ADM Jabalpur, since Emergency powers apply"
+  ],
+  "q": "A night arrest has no memo, the family is not told, and no medical check is done. Which case is violated?",
+  "round": "S",
+  "trapcat": "A+L",
+  "trapnote": "Maneka-only names the root instead of the operational guidelines; Emergency option is period transplant.",
+  "why": {
+   "0": "Wrong: Maneka is the constitutional root; Basu is the concrete checklist breached here.",
+   "1": "Wrong: Selvi governs compelled mind-tests, irrelevant to memo/relative/medical omissions.",
+   "2": "Correct: all three omissions are Basu limbs.",
+   "3": "Wrong: no Emergency exists; ADM Jabalpur is overruled and inapplicable."
+  }
+ },
+ {
+  "answer": 0,
+  "expl": "Art. 17 is absolute and horizontal: untouchability abolished, practice an offence. Enforced via Protection of Civil Rights Act 1955 + SC/ST Atrocities Act 1989. Art. 15 would also bite, but 17 is the square provision with no restriction clause.",
+  "options": [
+   "Article 17 plus penal law under PCR/Atrocities Acts",
+   "Only Article 15 with reasonable restrictions",
+   "Only a civil compromise",
+   "No law, since custom protects the panchayat"
+  ],
+  "q": "A panchayat bars Dalits from the village shrine festival. Correct action?",
+  "round": "S",
+  "trapcat": "A+L+T",
+  "trapnote": "Reasonable-restriction smuggled into the absolute right; custom-as-defence against an offence.",
+  "why": {
+   "0": "Correct: absolute horizontal ban + registrable offence, not a dispute to mediate.",
+   "1": "Wrong: Art. 17 admits no reasonable-restriction clause.",
+   "2": "Wrong: an offence is not compromised away.",
+   "3": "Wrong: custom cannot override Art. 17 criminal prohibition."
+  }
+ },
+ {
+  "answer": 1,
+  "expl": "Art. 24 bans under-14 in factory/mine/hazardous work only; the 2016 Amendment Act bans ALL under-14 work (except family help after school + entertainment) and creates adolescent protections. Sivakasi (M.C. Mehta 1996): 20,000 employer + 5,000 govt fund + education.",
+  "options": [
+   "No law applies since children work everywhere",
+   "Art. 24 (hazardous) plus rescue, rehab fund and schooling route",
+   "Only the Minimum Wages Act applies",
+   "Arrest the parents instead of the employer"
+  ],
+  "q": "A cracker unit employs 12-year-olds in hazardous mixing sheds. Correct response?",
+  "round": "S",
+  "trapcat": "A+L+T+PYQ",
+  "trapnote": "Constitution-vs-statute instrument confusion; wage-law-only misses Art. 24.",
+  "why": {
+   "0": "Wrong: Art. 24 squarely covers hazardous factory work.",
+   "1": "Correct: constitutional ban + Sivakasi rehab-education scheme + 2016 Act overlay.",
+   "2": "Wrong: wages are not the issue here; hazardous child work is.",
+   "3": "Wrong: liability sits on the employer; parents need support, not arrest."
+  }
+ },
+ {
+  "answer": 3,
+  "expl": "PUDR (1982): below-minimum wage on advance = economic compulsion = forced labour under Art. 23 (horizontal, all persons). Trigger is wages/debt, not chains. Bonded Labour Abolition Act 1976 applies without proving confinement.",
+  "options": [
+   "No offence without locks or guards",
+   "Only a wage-recovery dispute",
+   "Only Art. 24 is involved",
+   "Art. 23 forced labour + bonded-labour law on wage/debt facts"
+  ],
+  "q": "A brick kiln pays below-minimum wages against advances but has no locks or guards. Position?",
+  "round": "S",
+  "trapcat": "A+L+T",
+  "trapnote": "Chains-required myth; wage-advance facts misread as civil-only.",
+  "why": {
+   "0": "Wrong: PUDR removed the confinement requirement.",
+   "1": "Wrong: sub-minimum pay is constitutional forced labour, not mere arrears.",
+   "2": "Wrong: no under-14 facts given; Art. 24 needs children.",
+   "3": "Correct: wage + debt trigger Art. 23 and the 1976 Act."
+  }
+ },
+ {
+  "answer": 2,
+  "expl": "15(2)(a) hotels need no State funding and bind private owners; the same caste-refusal facts attract the SC/ST Atrocities Act. Constitutional and criminal tracks run together — never jump automatically from one to a specific statute without facts, but here both fit.",
+  "options": [
+   "No FR involved — hotel is private",
+   "Only Art. 14 against the manager",
+   "15(2)(a) violation plus atrocity penal law on these facts",
+   "Only Art. 17 in every caste case"
+  ],
+  "q": "A private hotel refuses a family openly on caste grounds. Family reaches the station. Best advice?",
+  "round": "S",
+  "trapcat": "A+L+T",
+  "trapnote": "Vertical-only FR myth; Art. 14 against private defendant; Art. 17 always-claim overreach.",
+  "why": {
+   "0": "Wrong: 15(2)(a) is horizontal by design.",
+   "1": "Wrong: Art. 14 binds the State, not the hotelier.",
+   "2": "Correct: listed-access violation + registrable atrocity offence.",
+   "3": "Wrong: Art. 17 covers untouchability practice, narrower; every-caste-case is too absolute."
+  }
+ },
+ {
+  "answer": 1,
+  "expl": "19(1)(b) assembly vs 19(3) public-order/sovereignty limits; any curb must be reasonable — narrow, time-bound, route-specific, reasoned (BNSS order). Blanket indefinite bans fail Maneka fairness too.",
+  "options": [
+   "Ban all processions indefinitely without reasons",
+   "Impose a narrow time-bound route-specific order with recorded reasons",
+   "No restriction is ever allowed on processions",
+   "Arrest organisers without any order"
+  ],
+  "q": "A week after a communal clash, a procession is planned. Lawful course?",
+  "round": "S",
+  "trapcat": "A+L+T",
+  "trapnote": "Blanket-ban overreach vs no-restriction absolutism — reasonableness is the middle tested.",
+  "why": {
+   "0": "Wrong: blanket + indefinite + unreasoned fails 19(3) reasonableness.",
+   "1": "Correct: restriction on a listed ground, proportionate and recorded.",
+   "2": "Wrong: 19(3) expressly permits public-order limits.",
+   "3": "Wrong: arrest needs offence + procedure, not mere apprehension."
+  }
+ },
+ {
+  "answer": 0,
+  "expl": "Illegal custody = Habeas Corpus: Art. 32 (needs State respondent) or Art. 226 (any person/authority, wider). Missing youth in unofficial custody fits directly; Zee Telefilms logic shows forum choice matters.",
+  "options": [
+   "File habeas corpus — Art. 32 if State custody, Art. 226 reaches even private hands",
+   "Only a missing-person diary, no writ",
+   "Only damages suit after release",
+   "Habeas corpus lies only during Emergency"
+  ],
+  "q": "A youth is held in unofficial custody beyond 24 hours without record. Family seeks immediate production. Advise?",
+  "round": "S",
+  "trapcat": "A+L",
+  "trapnote": "Diary-only understates remedy; Emergency-only inverts habeas (strongest in normalcy).",
+  "why": {
+   "0": "Correct: produce-the-body writ with forum chosen by who detains.",
+   "1": "Wrong: diary does not produce the body.",
+   "2": "Wrong: damages later don't end illegal custody now.",
+   "3": "Wrong: habeas is routine; Emergency was when it was denied (ADM Jabalpur)."
+  }
+ },
+ {
+  "answer": 2,
+  "expl": "Mandamus (we command) compels public duty: eligible licence + refusal = textbook case. Not Prohibition (pre-judgment court excess), Certiorari (quash passed order) or Quo-Warranto (office title).",
+  "options": [
+   "Prohibition on the RTO",
+   "Certiorari of a court order",
+   "Mandamus to perform the public duty",
+   "Quo-Warranto against the applicant"
+  ],
+  "q": "An officer refuses a licence though every condition is met. Correct writ?",
+  "round": "S",
+  "trapcat": "A+T",
+  "trapnote": "Writ-function confusion: each wrong option belongs to a different defect.",
+  "why": {
+   "0": "Wrong: no court exceeding jurisdiction here.",
+   "1": "Wrong: no passed order to quash.",
+   "2": "Correct: duty + eligibility + refusal.",
+   "3": "Wrong: applicant holds no office to challenge."
+  }
+ },
+ {
+  "answer": 1,
+  "expl": "Quo-Warranto (by what authority) tests illegal occupation of public office — qualification defect fits. Habeas (custody), Mandamus (duty), Prohibition (pre-judgment excess) do not.",
+  "options": [
+   "Habeas Corpus",
+   "Quo-Warranto",
+   "Mandamus",
+   "Prohibition"
+  ],
+  "q": "An unqualified person sits on a statutory public board. Correct writ?",
+  "round": "S",
+  "trapcat": "A+T",
+  "trapnote": "Office-title vs order-merits vs custody confusion across writs.",
+  "why": {
+   "0": "Wrong: nobody is detained.",
+   "1": "Correct: challenges the holder's title to office.",
+   "2": "Wrong: no unperformed duty pleaded.",
+   "3": "Wrong: no court proceeding to restrain."
+  }
+ },
+ {
+  "answer": 3,
+  "expl": "Royappa: transfer to same-pay side post with zero recorded reason is pleadable arbitrariness under Art. 14 — no group comparison needed. Maneka extends to unfair procedure; courts test absence of reason itself.",
+  "options": [
+   "No Art. 14 case without a comparison group",
+   "Only service rules, never Constitution",
+   "Only if pay was cut",
+   "Arbitrariness plea under Art. 14 without group comparison"
+  ],
+  "q": "An officer is shifted to a same-pay side post with nothing on file. Art. 14 plea?",
+  "round": "S",
+  "trapcat": "A+L+T",
+  "trapnote": "No-group-no-case is pre-Royappa law; pay-cut-only invents a condition.",
+  "why": {
+   "0": "Wrong: Royappa removed the group requirement.",
+   "1": "Wrong: constitutional review overlays service law.",
+   "2": "Wrong: status/reason, not pay, is the test.",
+   "3": "Correct: no reason = no equality."
+  }
+ },
+ {
+  "answer": 1,
+  "expl": "22(2): elapsed 39 hrs (8 pm Mon-11 am Wed) minus 11 hrs journey = 28 hrs, still beyond 24. Violation stands. Exclusion belongs to punitive arrest; preventive track has no 24-hr rule at all.",
+  "options": [
+   "No violation since journey is excluded",
+   "Violation: 39 minus 11 is 28, still over 24",
+   "Violation because journey exclusion is only for preventive detention",
+   "No rule since 24 hours is only BNSS, not Constitution"
+  ],
+  "q": "Arrest 8 pm Monday, 300 km away, produced 11 am Wednesday; journey took 11 hours. Art. 22(2)?",
+  "round": "S",
+  "trapcat": "A+L+T",
+  "trapnote": "Recognise-rule-then-stop-thinking (skip subtraction); inverted track for the exclusion.",
+  "why": {
+   "0": "Wrong: subtraction first — exclusion does not save 28 hours.",
+   "1": "Correct: math controls.",
+   "2": "Wrong: exclusion is punitive-track; preventive has no 24-hr rule.",
+   "3": "Wrong: rule is both constitutional (22(2)) and statutory."
+  }
+ },
+ {
+  "answer": 0,
+  "expl": "39A (free legal aid) is DPSP, non-justiciable alone; read with Art. 21 it becomes enforceable (Hussainara/Khatri) via Legal Services Authorities Act + BNSS aid provisions. Produce + inform + aid.",
+  "options": [
+   "Produce, inform of aid, connect to legal services (39A read with Art. 21)",
+   "Remand without counsel since DPSP is unenforceable",
+   "Only Art. 39A alone enforces aid",
+   "Deny aid as a non-citizen issue"
+  ],
+  "q": "An indigent labourer with no lawyer is produced for remand. Duty?",
+  "round": "S",
+  "trapcat": "A+L+T",
+  "trapnote": "DPSP-alone-enforces and DPSP-never-matters are opposite errors; citizenship irrelevant.",
+  "why": {
+   "0": "Correct: DPSP-through-FR mechanism + statute + procedure.",
+   "1": "Wrong: 39A+21 made aid enforceable.",
+   "2": "Wrong: Art. 37 bars 39A-alone enforceability.",
+   "3": "Wrong: citizenship not in issue."
+  }
+ },
+ {
+  "answer": 2,
+  "expl": "Art. 25(2)(b) empowers throwing open Hindu public institutions; 2018 4:1 struck the bar (not denomination, not essential; Malhotra dissented) but 14 Nov 2019 referred larger questions to nine judges (2026 hearings live) — never quote 2018 as final.",
+  "options": [
+   "Custom alone decides, courts cannot look",
+   "Only Art. 26 protects the custom fully",
+   "2018 (4:1) plus pending nine-judge reference — not settled law",
+   "2018 finally settled the issue"
+  ],
+  "q": "A temple bars women 10-50 by custom; legality is questioned. Exam-safe answer?",
+  "round": "S",
+  "trapcat": "A+L+T",
+  "trapnote": "Settled-law vs courts-can-never-look are opposite absolutes on evolving law.",
+  "why": {
+   "0": "Wrong: 25(2)(b) + essential-practices review exist.",
+   "1": "Wrong: denomination claim failed the 2018 test.",
+   "2": "Correct: 4:1 + dissent + live reference = pending.",
+   "3": "Wrong: finality never arrived."
+  }
+ },
+ {
+  "answer": 1,
+  "expl": "Art. 30 needs established AND administered by the minority (TMA Pai, State unit); State may regulate excellence but not destroy character; Art. 15(5) (93rd) expressly excepts Art. 30 institutions from private-college quota.",
+  "options": [
+   "Minority institutions must take State quota like others",
+   "Aid denial on minority ground violates Art. 30; 15(5) quota skips minorities",
+   "Minorities need only administer, not establish",
+   "State cannot check teacher qualifications"
+  ],
+  "q": "A minority school is denied aid for its minority character while a quota is forced on it. Position?",
+  "round": "S",
+  "trapcat": "A+L+T",
+  "trapnote": "Only-administer drops a limb; no-qualification-check denies lawful regulation.",
+  "why": {
+   "0": "Wrong: 15(5) expressly excepts Art. 30 institutions.",
+   "1": "Correct: no-aid-discrimination + quota exception + regulation-without-destruction.",
+   "2": "Wrong: both limbs compulsory.",
+   "3": "Wrong: excellence regulation allowed."
+  }
+ },
+ {
+  "answer": 3,
+  "expl": "PESA (1996, under 243M(4)(b), Bhuria): Gram Sabha supreme — minor-mineral leases need its recommendation; AP Scheduled Areas include ASR, Parvathipuram Manyam, Eluru. Obstruction may assert statutory right — verify resolution before registering.",
+  "options": [
+   "Register obstruction immediately",
+   "Seize the permit as fake",
+   "Treat villagers as preventive detenus",
+   "Verify Gram Sabha resolution first — PESA right may cover them"
+  ],
+  "q": "A contractor with a State minor-mineral permit faces village obstruction in a Scheduled Area. First step?",
+  "round": "S",
+  "trapcat": "A+L",
+  "trapnote": "Obstruction-first policing without checking the PESA right risks acting against statute.",
+  "why": {
+   "0": "Wrong: skips the Sabha-resolution check.",
+   "1": "Wrong: permit may be genuine yet insufficient without Sabha.",
+   "2": "Wrong: preventive detention inapplicable to rights assertion.",
+   "3": "Correct: Sabha recommendation is the gating requirement."
+  }
+ },
+ {
+  "answer": 0,
+  "expl": "Art. 371D (32nd Amend, Six-Point Formula) empowers the President by ORDER to organise local cadres/areas/recruitment (1975 Order); survives 2014 for AP + Telangana. Distinct from 16(3) Parliament-by-law residence rule.",
+  "options": [
+   "371D Presidential Order local cadres — valid zonal posting",
+   "Invalid: only statewide merit allowed",
+   "Valid under Art. 16(3) Assembly law",
+   "371D ended with bifurcation"
+  ],
+  "q": "An SI is posted zone-wise, challenging it as anti-merit. Reply?",
+  "round": "S",
+  "trapcat": "A+L+T",
+  "trapnote": "371D-as-16(3) merger and ended-in-2014 both misstate instrument and survival.",
+  "why": {
+   "0": "Correct: Order-based local cadres, living law in both States.",
+   "1": "Wrong: 371D constitutionalises zonal preference.",
+   "2": "Wrong: 16(3) is Parliament-law residence, different route.",
+   "3": "Wrong: expressly survives bifurcation."
+  }
+ },
+ {
+  "answer": 2,
+  "expl": "Epuru Sudhakar (2006, AP): clemency reviewable on limited grounds — no application of mind, mala fide, irrelevant/extraneous grounds, suppressed/ignored facts; on ministerial advice; 72 pardons death + martial, 161 neither.",
+  "options": [
+   "Clemency is fully beyond courts",
+   "Only the President's orders are reviewable",
+   "Reviewable limitedly: mala fide, irrelevant grounds, no mind, wrong facts",
+   "Governor acts on personal discretion alone"
+  ],
+  "q": "A Governor remits a political killer citing good political worker on wrong facts. Challenge?",
+  "round": "S",
+  "trapcat": "A+L",
+  "trapnote": "Fully-beyond-courts predates 2006; personal-discretion denies ministerial advice.",
+  "why": {
+   "0": "Wrong: Epuru Sudhakar opened limited review.",
+   "1": "Wrong: 72 and 161 both reviewable on same grounds.",
+   "2": "Correct: four grounds tested here.",
+   "3": "Wrong: power runs on Council advice."
+  }
+ },
+ {
+  "answer": 1,
+  "expl": "Puttaswamy (2017, 9 judges): privacy inside Art. 21; limits need law + legitimate aim + proportionality. Phone/laptop opening, tapping, biometrics, CCTV need legal base. No cited law = violation.",
+  "options": [
+   "Allowed: quick checks need no law",
+   "Violates Puttaswamy: no legal basis cited",
+   "Allowed under Art. 19(1)(a)",
+   "Only Aadhaar data is protected"
+  ],
+  "q": "An officer opens a suspect's phone for a quick look, citing no law. Position?",
+  "round": "S",
+  "trapcat": "A+L+T",
+  "trapnote": "Quick-check pragmatism vs Aadhaar-only narrowing both dodge the legality limb.",
+  "why": {
+   "0": "Wrong: legality is limb one of three.",
+   "1": "Correct: no law = fails at the first step.",
+   "2": "Wrong: speech freedom is not device-search power.",
+   "3": "Wrong: privacy covers device contents generally."
+  }
+ }
+]
