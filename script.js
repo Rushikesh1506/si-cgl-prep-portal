@@ -17,7 +17,38 @@ const NAV_TREE = [
           { label: "📖 FR Overview (Art. 12–13 + map)", topicId: "fr_overview" },
           { label: "🏛️ Case Files Library (29 cases)", topicId: "fr_cases_hub", gotoTab: "cases" },
         ]},
-        { label: "DPSP & Fundamental Duties", topicId: "polity_dpsp" },
+        { label: "DPSP (Art. 36-51)", topicId: "polity_dpsp", children: [
+          { label: "Foundations (Art. 36-38)", header: true, children: [
+            { label: "Article 36 — State", topicId: "dpsp_36" },
+            { label: "Article 37 — Nature", topicId: "dpsp_37" },
+            { label: "Article 38 — Welfare", topicId: "dpsp_38" },
+          ]},
+          { label: "Socialist (Art. 39-43A)", header: true, children: [
+            { label: "Article 39 — Economic justice", topicId: "dpsp_39" },
+            { label: "Article 39A — Legal aid", topicId: "dpsp_39A" },
+            { label: "Article 41 — Work/education/aid", topicId: "dpsp_41" },
+            { label: "Article 42 — Humane work", topicId: "dpsp_42" },
+            { label: "Article 43 — Living wage", topicId: "dpsp_43" },
+            { label: "Article 43A — Workers in mgmt", topicId: "dpsp_43A" },
+            { label: "Article 47 — Health/prohibition", topicId: "dpsp_47" },
+          ]},
+          { label: "Gandhian + Liberal (Art. 40-51)", header: true, children: [
+            { label: "Article 40 — Panchayats ★", topicId: "dpsp_40" },
+            { label: "Article 43B — Cooperatives", topicId: "dpsp_43B" },
+            { label: "Article 44 — UCC", topicId: "dpsp_44" },
+            { label: "Article 45 — Early childhood", topicId: "dpsp_45" },
+            { label: "Article 46 — SC/ST/weaker", topicId: "dpsp_46" },
+            { label: "Article 48 — Agri/cow", topicId: "dpsp_48" },
+            { label: "Article 48A — Environment", topicId: "dpsp_48A" },
+            { label: "Article 49 — Monuments", topicId: "dpsp_49" },
+            { label: "Article 50 — Judiciary/executive", topicId: "dpsp_50" },
+            { label: "Article 51 — Intl peace", topicId: "dpsp_51" },
+          ]},
+          { label: "📖 DPSP Overview (map)", topicId: "polity_dpsp" },
+          { label: "🛡 Art. 31C Shield", topicId: "dpsp_31C" },
+          { label: "📜 Duties 51A(a)-(k)", topicId: "duties_all" },
+        ]},
+        { label: "Fundamental Duties (Art. 51A)", topicId: "duties_all" },
         { label: "Executive & Union Parliament", topicId: "polity_exec" },
         { label: "Judiciary, CAG & PIL", topicId: "polity_judi" },
         { label: "Emergency & Local Bodies", topicId: "polity_emerg" },
@@ -47,7 +78,7 @@ const NAV_TREE = [
      so it is intentionally absent from this sidebar. */
 ];
 
-const FLAT_ORDER = ["fr_overview","fr_art14","fr_art15","fr_art16","fr_art17","fr_art18","fr_cases_hub","polity_dpsp","polity_exec","polity_judi","polity_emerg","polity_amend"];
+const FLAT_ORDER = ["fr_overview","fr_art14","fr_art15","fr_art16","fr_art17","fr_art18","fr_cases_hub","polity_dpsp","dpsp_36","dpsp_37","dpsp_38","dpsp_39","dpsp_39A","dpsp_40","dpsp_41","dpsp_42","dpsp_43","dpsp_43A","dpsp_43B","dpsp_44","dpsp_45","dpsp_46","dpsp_47","dpsp_48","dpsp_48A","dpsp_49","dpsp_50","dpsp_51","dpsp_31C","duties_all","polity_exec","polity_judi","polity_emerg","polity_amend"];
 
 /* ---------- STATE ---------- */
 const store = {
