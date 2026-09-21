@@ -22,6 +22,8 @@ code{background:#eef2ff;padding:1px 6px;border-radius:6px;font-size:.9em}
 .badge-si{background:#fef3c7;color:#92400e}
 .badge-cgl{background:#dbeafe;color:#1e40af}
 .badge-mock{background:#dcfce7;color:#166534}
+a.badge-link{text-decoration:none;cursor:pointer}
+a.badge-link:hover{filter:brightness(.93);box-shadow:0 1px 6px rgba(0,0,0,.25)}
 .menu-btn{display:none;background:rgba(255,255,255,.15);color:#fff;border:1px solid rgba(255,255,255,.3);
   border-radius:10px;font-size:20px;padding:6px 12px;cursor:pointer}
 
@@ -205,8 +207,12 @@ table.rev tr:nth-child(even) td{background:#f8fafc}
 @media (max-width:900px){
   .layout{grid-template-columns:1fr}
   .menu-btn{display:block}
-  .brand h1{font-size:1rem}
+  .topbar{flex-wrap:wrap;gap:8px;padding:10px 12px}
+  .brand{min-width:0}
+  .brand h1{font-size:1rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
   .subtitle{display:none}
+  .badges{order:3;flex-basis:100%;justify-content:flex-start;gap:6px}
+  .badge{font-size:.68rem;padding:4px 9px}
   .sidebar{position:fixed;left:0;top:0;height:100vh;width:min(320px,86vw);z-index:60;
     transform:translateX(-105%);transition:transform .25s ease;box-shadow:0 0 40px rgba(0,0,0,.25)}
   .sidebar.open{transform:none}
