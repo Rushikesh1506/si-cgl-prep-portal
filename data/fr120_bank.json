@@ -1,23 +1,23 @@
 [
  {
-  "answer": 2,
-  "expl": "Part III (Art. 12-35) is the Magna Carta of India: justiciable rights enforceable directly via Art. 32 (SC) and Art. 226 (HC). No other Part gives that direct court ticket.",
+  "q": "A State order denies admissions on caste lines, defending itself by citing Article 46's duty to weaker sections. A student challenges under Articles 15 and 29. Correct outcome?",
   "options": [
-   "Part IV — Directive Principles",
-   "Part IVA — Fundamental Duties",
-   "Part III — Fundamental Rights",
-   "Part IX — Panchayats"
+   "The order stands because a DPSP justifies it",
+   "The order falls: FRs prevail over DPSP; DPSP alone is unenforceable (Art. 37)",
+   "Both cancel out so no court can decide",
+   "Only Parliament can decide such clashes, not courts"
   ],
-  "q": "The part of the Constitution called the Magna Carta of India is",
-  "round": "B",
-  "trapcat": "F+PYQ",
-  "trapnote": "IVA (duties) and IX (panchayats) decoys; IV holds non-justiciable goals.",
+  "answer": 1,
+  "expl": "Champakam Dorairajan (1951): FR beats DPSP; Communal G.O. struck under Art. 29(2); reply = 1st Amendment inserting Art. 15(4). Art. 37 makes DPSP non-justiciable standing alone.",
   "why": {
-   "0": "Wrong: Part IV goals cannot be enforced through Art. 32 (Art. 37).",
-   "1": "Wrong: duties are obligations, not enforceable rights.",
-   "2": "Correct: Part III alone is justiciable via 32/226.",
-   "3": "Wrong: local governance, added by 73rd, no FR character."
-  }
+   "0": "Wrong: a goal cannot override an enforceable right — the State's exact losing argument.",
+   "1": "Correct: right wins; goal alone unenforceable.",
+   "2": "Wrong: courts decide FR violations directly under Art. 32/226.",
+   "3": "Wrong: Parliament replied by amendment, but courts rule on the clash."
+  },
+  "round": "B",
+  "trapcat": "F+C+L+PYQ",
+  "trapnote": "DPSP-as-justification vs FR enforceability; tests purpose of Art. 37."
  },
  {
   "answer": 2,
@@ -60,24 +60,24 @@
   }
  },
  {
-  "answer": 3,
-  "expl": "Art. 18 bans State titles except military and academic distinctions — republic-of-equals repudiation of Rai Bahadur/knighthood ranks. Bharat Ratna/Padma are awards, not titles (Balaji Raghavan).",
+  "q": "An Indian architect accepts a foreign knighthood without Rashtrapati Bhavan clearance, arguing awards are allowed. Position?",
   "options": [
-   "Sporting and film honours",
-   "Hereditary and business ranks",
-   "Revenue and police ranks",
-   "Military and academic distinctions"
+   "Valid, since national awards are allowed",
+   "Valid with retrospective President consent",
+   "Barred outright: citizens cannot take foreign titles; consent route is only Art. 18(3) for non-citizen office-holders",
+   "Valid for professionals over 60"
   ],
-  "q": "Under Article 18, the State may confer titles only in the form of",
-  "round": "B",
-  "trapcat": "F",
-  "trapnote": "Sporting/hereditary/revenue categories are invented; only two survive.",
+  "answer": 2,
+  "expl": "Art. 18(2): citizen + foreign title = outright bar, no permission route. Art. 18(3) consent belongs to non-citizens holding office of profit. Knighthood is a title, unlike excellence awards (Balaji Raghavan, 1996: valid, no prefix/suffix).",
   "why": {
-   "0": "Wrong: no such constitutional category exists.",
-   "1": "Wrong: hereditary ranks are exactly what Art. 18 kills.",
-   "2": "Wrong: invented category.",
-   "3": "Correct: the only two permitted distinctions."
-  }
+   "0": "Wrong: awards allowed, titles banned — knighthood is a title.",
+   "1": "Wrong: no consent route exists for citizens.",
+   "2": "Correct: outright bar vs 18(3) consent split.",
+   "3": "Wrong: invented age/profession exception."
+  },
+  "round": "B",
+  "trapcat": "F+C+T",
+  "trapnote": "Awards-vs-titles plus 18(2)/18(3) person swap in one scenario."
  },
  {
   "answer": 0,
@@ -100,44 +100,44 @@
   }
  },
  {
-  "answer": 2,
-  "expl": "Art. 21A (86th Amendment, 2002): free compulsory education ages 6-14 as FR. Same amendment reworded Art. 45 (below-6) and added 51A(k) parental duty.",
+  "q": "A 5-year-old is denied pre-school care, a 10-year-old denied schooling, and a parent ignores the child's education. Which provision trio applies in order?",
   "options": [
-   "Article 19(1)(a)",
-   "Article 20(1)",
-   "Article 21A",
-   "Article 24"
+   "Art. 21A + Art. 21A + Art. 21A",
+   "Art. 45 (below-6 care) + Art. 21A (6-14 right) + Art. 51A(k) (parental duty)",
+   "Art. 45 for all three",
+   "Art. 51A(k) for all three"
   ],
-  "q": "Free and compulsory education for children aged 6-14 is guaranteed under",
-  "round": "B",
-  "trapcat": "F",
-  "trapnote": "24 is the hazardous-work ban; adjacent numbers 20/21 as decoys.",
+  "answer": 1,
+  "expl": "86th Amendment (2002) split: 6-14 moved to Part III as Art. 21A (FR); Art. 45 reworded to below-6 care; Art. 51A(k) added parental duty. One amendment touched Parts III, IV and IVA.",
   "why": {
-   "0": "Wrong: speech freedom, unrelated to schooling.",
-   "1": "Wrong: conviction shields, unrelated.",
-   "2": "Correct: 86th-inserted FR for 6-14.",
-   "3": "Wrong: child-labour ban, not education right."
-  }
+   "0": "Wrong: 21A covers only 6-14.",
+   "1": "Correct: care + right + duty by age band.",
+   "2": "Wrong: 45 now covers below-6 only.",
+   "3": "Wrong: 51A(k) is the parental duty, not the child's right."
+  },
+  "round": "B",
+  "trapcat": "F+C+T",
+  "trapnote": "Age-band triple distinction from the 86th split — mirrors the setter benchmark."
  },
  {
-  "answer": 3,
-  "expl": "Art. 24 bans under-14 in factory/mine/hazardous work only — not all work. The ALL-work ban below 14 is the 2016 Amendment Act (family-help + entertainment excepted).",
+  "q": "A 12-year-old helps in the family shop after school hours. Under the Constitution and the 2016 law, position?",
   "options": [
-   "Article 21",
-   "Article 22",
-   "Article 23",
-   "Article 24"
+   "Violates Art. 24 (factory setting irrelevant)",
+   "Art. 24 not attracted (not factory/mine/hazardous); 2016 Act expressly excepts family help after school",
+   "Violates Art. 23 as forced labour",
+   "Allowed only with magistrate permission"
   ],
-  "q": "No child below 14 in a factory, mine or hazardous employment — this ban is in",
-  "round": "B",
-  "trapcat": "F+T",
-  "trapnote": "23 is trafficking/forced labour; ALL-work reading states statute as Constitution.",
+  "answer": 1,
+  "expl": "Art. 24 bans under-14 only in factory/mine/hazardous work. The 2016 Amendment Act bans ALL under-14 work EXCEPT family-enterprise help outside school hours + entertainment industry; adolescents 14-18 barred from hazardous (jail up to 2 yrs + Rs 50,000).",
   "why": {
-   "0": "Wrong: life/liberty, not child labour.",
-   "1": "Wrong: arrest/detention shields.",
-   "2": "Wrong: forced-labour ban, distinct article.",
-   "3": "Correct: narrow constitutional ban (hazardous only)."
-  }
+   "0": "Wrong: shop help is not factory/mine/hazardous.",
+   "1": "Correct: constitutional narrow ban + statutory exception.",
+   "2": "Wrong: no trafficking/begar facts.",
+   "3": "Wrong: invented permission requirement."
+  },
+  "round": "B",
+  "trapcat": "F+C+T",
+  "trapnote": "Constitution-vs-statute instrument test with the family-help exception."
  },
  {
   "answer": 1,
@@ -280,24 +280,24 @@
   }
  },
  {
-  "answer": 0,
-  "expl": "Mandamus (we command) compels a public authority to perform a public duty; never for private disputes. Eligible licence + refusal is textbook.",
+  "q": "A tribunal exceeds its jurisdiction but has NOT delivered judgment yet. The proper writ is",
   "options": [
-   "Mandamus",
-   "Prohibition",
-   "Habeas Corpus",
-   "Quo-Warranto"
+   "Prohibition — to forbid, before judgment",
+   "Certiorari — quashes the passed order",
+   "Habeas Corpus — custody remedy",
+   "Appeal to a higher tribunal on merits"
   ],
-  "q": "An officer refuses a licence though all conditions are met. The proper writ is",
-  "round": "B",
-  "trapcat": "F",
-  "trapnote": "Quo-Warranto tests office-holders; Prohibition stops courts pre-judgment.",
+  "answer": 0,
+  "expl": "Prohibition (to forbid) restrains a lower court/tribunal exceeding jurisdiction BEFORE judgment; Certiorari (to be certified) quashes AFTER. Timing is the whole distinction; appeal argues merits, writs police jurisdiction.",
   "why": {
-   "0": "Correct: duty + eligibility + refusal.",
-   "1": "Wrong: no court exceeding jurisdiction.",
-   "2": "Wrong: nobody detained.",
-   "3": "Wrong: no office title in dispute."
-  }
+   "0": "Correct: pre-judgment excess = Prohibition.",
+   "1": "Wrong: needs a passed order to quash.",
+   "2": "Wrong: custody remedy, irrelevant.",
+   "3": "Wrong: appeal ≠ writ; merits ≠ jurisdiction."
+  },
+  "round": "B",
+  "trapcat": "F+C+T",
+  "trapnote": "Pre- vs post-judgment timing plus writ-vs-appeal confusion."
  },
  {
   "answer": 2,
@@ -680,24 +680,24 @@
   }
  },
  {
-  "answer": 2,
-  "expl": "Art. 33 lets Parliament by law restrict or abrogate FRs of armed forces, police and intelligence to secure discipline. Not Emergency, not gubernatorial power — the modification doctrine decides.",
+  "q": "Three provisions: Parliament restricts police FRs by law; acts under martial law are indemnified; punishments for Part III offences are set only by Parliament. Map them.",
   "options": [
-   "Article 31",
-   "Article 32",
-   "Article 33",
-   "Article 34"
+   "Art. 33; Art. 34; Art. 35",
+   "Art. 34; Art. 33; Art. 31",
+   "Art. 35; Art. 34; Art. 33",
+   "Art. 31; Art. 35; Art. 34"
   ],
-  "q": "A soldier punished for joining a political union fails in court because Parliament may modify forces' rights under",
-  "round": "C",
-  "trapcat": "C+L",
-  "trapnote": "34 is martial-law indemnity; uniform-keeps-full-freedoms ignores modification.",
+  "answer": 0,
+  "expl": "Art. 33: Parliament may restrict FRs of forces/police/intelligence (Army/Air Force Acts 1950 — PYQ 2023 Q162). Art. 34: indemnity for martial-law acts. Art. 35: only Parliament prescribes Part III punishments (hence central bonded/trafficking laws). Art. 31 is repealed property.",
   "why": {
-   "0": "Wrong: repealed property article.",
-   "1": "Wrong: remedy article, unaffected.",
-   "2": "Correct: forces/police modification clause.",
-   "3": "Wrong: martial-law indemnity, different provision."
-  }
+   "0": "Correct: modify forces + indemnify martial acts + Parliament-only punishment.",
+   "1": "Wrong: 34/33 swapped; 31 repealed.",
+   "2": "Wrong: full rotation of the three.",
+   "3": "Wrong: 31 repealed; order scrambled."
+  },
+  "round": "C",
+  "trapcat": "C+T+PYQ",
+  "trapnote": "33/34/35 rotation — adjacent-article confusion on the most-mixed trio."
  },
  {
   "answer": 1,
@@ -780,7 +780,7 @@
   }
  },
  {
-  "answer": 2,
+  "answer": 1,
   "expl": "TMA Pai (2002, 11 judges, 31 Oct 2002): minority unit is the STATE (linguistic reorganisation; Sikhs majority in Punjab). Regulation for excellence allowed (teachers, accounts, no capitation); destroying character barred. 93rd/Art. 15(5) expressly excepts Art. 30 institutions.",
   "options": [
    "The country as a whole",
@@ -940,24 +940,24 @@
   }
  },
  {
-  "answer": 3,
-  "expl": "Bucket test: 43B cooperatives/97th = socialist; 48A environment/42nd = liberal; 50 separation = liberal; 44 UCC = liberal. So 44 differs from a socialist trio — frame asks which belongs to a different bucket from 43B/48A/50: 44 is liberal while... check: 43B socialist vs 44,48A,50 liberal — the odd one among {43B,48A,50}+44 framing: 43B is the socialist among liberals. Correct answer per question: Art. 44 (liberal, differing from socialist 43B)? The stem asks which belongs to a different bucket from the other three (43B, 48A, 50): 43B socialist; 48A, 50 liberal. Neither 44... wait options are 38/43/44/43B. Among options vs the trio: 43 (living wage, socialist) matches 43B's bucket; 38, 44... 38 welfare (socialist), 44 UCC (liberal). Hmm — trio 43B(S),48A(L),50(L) is mixed, so the question as framed is flawed. Fix: ask which is socialist like 43B: Art. 43 (living wage). Correct: Art. 43.",
+  "q": "Which pair are BOTH socialist-bucket Directive Principles?",
   "options": [
-   "Art. 38",
-   "Art. 43",
-   "Art. 44",
-   "Art. 43B"
+   "Art. 43 (living wage) + Art. 43B (cooperatives)",
+   "Art. 44 (UCC) + Art. 50 (separation)",
+   "Art. 48A (environment) + Art. 50 (separation)",
+   "Art. 44 (UCC) + Art. 43B (cooperatives)"
   ],
-  "q": "Which provision shares Art. 43B's (cooperatives) socialist bucket?",
+  "answer": 0,
+  "expl": "Socialist bucket: Art. 38 (welfare), 39 (six principles), 39A legal aid, 41-43 (work, maternity, living wage), 43A workers, 43B cooperatives. Liberal bucket: 44 UCC, 45 under-6, 48A environment, 49 monuments, 50 separation, 51 peace. Gandhian: 40 panchayats, 43 cottage, 46 SC/ST, 47 prohibition, 48 cow-slaughter.",
+  "why": {
+   "0": "Correct: living wage + cooperatives, both socialist.",
+   "1": "Wrong: both liberal-intellectual.",
+   "2": "Wrong: both liberal-intellectual.",
+   "3": "Wrong: liberal + socialist mix."
+  },
   "round": "C",
   "trapcat": "C+T",
-  "trapnote": "44 (UCC, liberal) is the bucket trap; 43B/43 socialist vs 44/48A/50 liberal.",
-  "why": {
-   "0": "Wrong though socialist-adjacent welfare: 43 (living wage) is the closer bucket-mate tested here.",
-   "1": "Correct: living wage — socialist bucket with 43B.",
-   "2": "Wrong: UCC is liberal-intellectual.",
-   "3": "Wrong: this IS the reference provision, not its mate."
-  }
+  "trapnote": "Bucket-membership tested by pairing, not single-article recall."
  },
  {
   "answer": 0,
@@ -1000,7 +1000,7 @@
   }
  },
  {
-  "answer": 2,
+  "answer": 3,
   "expl": "Causal chain: Royappa 1974 (arbitrariness) → 44th 1978 (Emergency repair) → Minerva 1980 (31C cut) → Sawhney 1992 (quota method) → 103rd 2019 (EWS entry) → Janhit 2022 (upheld). Each step answers the previous excess.",
   "options": [
    "1978-1974-1980-1992-2022-2019",
@@ -1020,24 +1020,24 @@
   }
  },
  {
-  "answer": 0,
-  "expl": "91st (2003) capped Councils of Ministers at 15% of House strength; 103rd (2019) inserted 15(6)/16(6) EWS. Anchor by year: 2003 cap, 2019 EWS — not by bare numbers.",
+  "q": "A State introduces a policy distributing a scarce economic resource, and a candidate argues Article 39(b) itself makes the policy immune from Fundamental Rights challenge. Most accurate?",
   "options": [
-   "Ministerial cap with 91st, EWS with 103rd",
-   "Both with 93rd",
-   "Ministerial cap with 103rd, EWS with 91st",
-   "Both with 86th"
+   "Art. 39(b) creates an enforceable FR, so the policy cannot be challenged",
+   "Art. 39(b) is a DPSP; immunity, if any, flows only via Art. 31C as interpreted (25th → Kesavananda → 42nd → Minerva → present + 2024 narrowing)",
+   "Art. 39(b) covers only State-owned resources",
+   "Any law claiming a DPSP goal automatically overrides all FRs"
   ],
-  "q": "A ministerial-size law and an EWS-quota law match to amendments as",
-  "round": "D",
-  "trapcat": "L+T+PYQ",
-  "trapnote": "93rd (private-college quota) and 86th (education) are standard decoys.",
+  "answer": 1,
+  "expl": "39(b) directs distribution of material resources for common good — a goal, not immunity. Shield history: 25th inserted 31C for 39(b)-(c) → Kesavananda upheld it → 42nd widened to all DPSP → Minerva cut back to 39(b)-(c) → Property Owners Assn (Nov 2024, 9 judges) kept unamended 31C but narrowed 39(b): not all private property is community resource.",
   "why": {
-   "0": "Correct: 2003 cap, 2019 EWS.",
-   "1": "Wrong: 93rd is Art. 15(5) college quota.",
-   "2": "Wrong: years swapped.",
-   "3": "Wrong: 86th is education."
-  }
+   "0": "Wrong: DPSP is not an enforceable FR.",
+   "1": "Correct: goal + 31C scheme + case-law evolution required.",
+   "2": "Wrong: ownership form is not the 39(b) test (2024 factors: nature, scarcity, concentration).",
+   "3": "Wrong: Minerva denied blanket DPSP primacy."
+  },
+  "round": "D",
+  "trapcat": "C+L+T",
+  "trapnote": "DPSP-as-automatic-immunity plus the 2024 narrowing of 39(b)."
  },
  {
   "answer": 1,
@@ -1080,7 +1080,7 @@
   }
  },
  {
-  "answer": 2,
+  "answer": 3,
   "expl": "28 Sept 2018 4:1 struck the 10-50 bar (devotees NOT denomination, bar NOT essential; Indu Malhotra dissented; Kerala Rule 3(b) struck on paper) → 14 Nov 2019 3:2 kept 50+ reviews pending, referred to nine judges (10 Feb 2020 maintainable) → bench notified 4 Apr 2026 (CJI Surya Kant), hearings from 7 Apr 2026. No verdict.",
   "options": [
    "2018 is settled law",
@@ -1880,7 +1880,7 @@
   }
  },
  {
-  "answer": 0,
+  "answer": 1,
   "expl": "Deemed assent died 20 Nov 2025 unanimous (Gavai): no judicial timelines, no Art. 142 substitution; limited mandamus-to-decide survives. Teaching April-2025-alone as law is out-of-date transplant on evolving law.",
   "options": [
    "Deemed assent is current law, so Bills stand passed",
