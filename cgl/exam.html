@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SSC CGL Tier-1 · Computer Based Examination</title>
+<style>
+/* ---- SSC CBT look-alike. Deliberately plain and slightly ugly: the real
+       interface is, and familiarity is the point of this exercise. ---- */
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{font:13px/1.45 Verdana,Arial,sans-serif;background:#f0f0f0;color:#111}
+button{font:inherit;cursor:pointer}
+
+/* ---------- shell ---------- */
+.hdr{background:#fff;border-bottom:2px solid #c9c9c9;padding:6px 10px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.hdr .logo{font-weight:bold;font-size:15px;color:#1b4a8a}
+.hdr .sub{color:#555;font-size:11px}
+.hdr .spacer{flex:1}
+.cand{display:flex;align-items:center;gap:8px;font-size:11px}
+.cand .av{width:34px;height:34px;background:#d9e2ef;border:1px solid #aaa;display:flex;align-items:center;justify-content:center;font-size:16px}
+
+.secbar{background:#e8eef6;border-bottom:1px solid #c9c9c9;padding:0 10px;display:flex;gap:2px;overflow-x:auto}
+.secbar button{background:#cfd9e6;border:1px solid #b3c0d1;border-bottom:none;padding:7px 16px;white-space:nowrap;color:#33475f}
+.secbar button.on{background:#fff;color:#1b4a8a;font-weight:bold;border-bottom:2px solid #fff;margin-bottom:-1px}
+.secbar button.done{background:#b9c4d2;color:#6b7686;text-decoration:line-through}
+.secbar button:disabled{cursor:not-allowed}
+
+.timerbar{background:#fff;border-bottom:1px solid #ddd;padding:6px 10px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.clock{font-family:Consolas,monospace;font-size:17px;font-weight:bold;background:#1b4a8a;color:#fff;padding:4px 12px;border-radius:3px}
+.clock.warn{background:#c47f00}
+.clock.crit{background:#b3261e;animation:pulse 1s infinite}
+@keyframes pulse{50%{opacity:.55}}
+.lang{margin-left:auto;font-size:11px;color:#555}
+
+.wrap{display:flex;align-items:flex-start;gap:0;max-width:1180px;margin:0 auto;padding:0 8px}
+.qpane{flex:1;background:#fff;border:1px solid #d0d0d0;min-height:430px;display:flex;flex-direction:column}
+.qhead{background:#f6f6f6;border-bottom:1px solid #e0e0e0;padding:6px 12px;display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:11px;color:#444}
+.qno{font-weight:bold;color:#111;font-size:13px}
+.marks{margin-left:auto;font-size:11px}
+.marks b{color:#1a7a36}.marks i{color:#b3261e;font-style:normal}
+.qbody{padding:14px 16px;flex:1}
+.passage{background:#fbfaf3;border:1px solid #e6e0c8;padding:10px 12px;margin-bottom:14px;line-height:1.7;font-size:13px}
+.passage h4{margin:0 0 6px;font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:#8a7a3d}
+.qtext{font-size:14px;line-height:1.65;margin-bottom:14px;white-space:pre-wrap}
+.fig{margin:0 0 14px;padding:12px;background:#fcfcfc;border:1px solid #e4e4e4;text-align:center;overflow-x:auto}
+.fig svg{max-width:100%;height:auto}
+.fig .figrow{display:flex;gap:18px;justify-content:center;align-items:flex-end;flex-wrap:wrap}
+.fig .figcap{font-size:10.5px;color:#666;margin-top:3px}
+.opts{list-style:none;margin:0;padding:0}
+.opts li{margin-bottom:8px}
+.opts label{display:flex;gap:9px;align-items:flex-start;padding:7px 9px;border:1px solid #e2e2e2;background:#fcfcfc;cursor:pointer}
+.opts label:hover{background:#f2f6fb;border-color:#b9cbe2}
+.opts input{margin-top:2px}
+.opts .ok{background:#eaf7ee;border-color:#8ccfa3}
+.opts .no{background:#fdeceb;border-color:#e8a6a1}
+
+.qfoot{border-top:1px solid #e0e0e0;padding:9px 12px;display:flex;gap:8px;flex-wrap:wrap;background:#fafafa}
+.btn{padding:7px 13px;border:1px solid #9aa7b6;background:#e4e9f0;color:#1d2b3a}
+.btn:hover{background:#d5dde8}
+.btn-p{background:#1b4a8a;border-color:#163c70;color:#fff}
+.btn-p:hover{background:#163c70}
+.btn-w{background:#6b3fa0;border-color:#57318280;color:#fff}
+.btn-w:hover{background:#573182}
+.grow{flex:1}
+
+/* ---------- palette ---------- */
+.side{width:250px;background:#fff;border:1px solid #d0d0d0;border-left:none}
+.legend{padding:8px 10px;border-bottom:1px solid #e6e6e6;font-size:10.5px;display:grid;grid-template-columns:1fr 1fr;gap:5px 6px}
+.legend span{display:flex;align-items:center;gap:5px}
+.sw{width:15px;height:15px;border:1px solid #888;display:inline-block;flex:none}
+.sw.nv{background:#d8d8d8}.sw.na{background:#e74c3c}.sw.an{background:#27ae60}
+.sw.mk{background:#8e44ad}.sw.am{background:#8e44ad;position:relative}
+.sw.am::after{content:"";position:absolute;right:1px;bottom:1px;width:5px;height:5px;background:#27ae60;border-radius:50%}
+.palhead{background:#e8eef6;padding:5px 10px;font-size:11px;font-weight:bold;color:#33475f}
+.pal{padding:10px;display:grid;grid-template-columns:repeat(5,1fr);gap:6px}
+.pal button{height:32px;border:1px solid #888;background:#d8d8d8;font-size:12px;font-weight:bold;color:#222;position:relative}
+.pal button.na{background:#e74c3c;color:#fff;border-color:#a93226}
+.pal button.an{background:#27ae60;color:#fff;border-color:#1c7a44}
+.pal button.mk{background:#8e44ad;color:#fff;border-color:#6c3483}
+.pal button.am{background:#8e44ad;color:#fff;border-color:#6c3483}
+.pal button.am::after{content:"";position:absolute;right:2px;bottom:2px;width:7px;height:7px;background:#27ae60;border-radius:50%;border:1px solid #fff}
+.pal button.cur{outline:3px solid #f0a500;outline-offset:-3px}
+.side .subbtn{padding:10px}
+.side .subbtn button{width:100%;padding:9px;background:#1a7a36;border:1px solid #145e29;color:#fff;font-weight:bold}
+
+/* ---------- start / result ---------- */
+.card{max-width:860px;margin:26px auto;background:#fff;border:1px solid #d0d0d0;padding:24px}
+.card h1{margin:0 0 4px;font-size:21px;color:#1b4a8a}
+.card h2{font-size:15px;margin:24px 0 8px;color:#1b4a8a;border-bottom:1px solid #e4e4e4;padding-bottom:4px}
+.card p{margin:8px 0}
+.rules{background:#fbfaf3;border:1px solid #e6e0c8;padding:12px 16px;margin:14px 0}
+.rules li{margin-bottom:5px}
+.big{font-size:30px;font-weight:bold;color:#1b4a8a}
+table{border-collapse:collapse;width:100%;font-size:12px;margin:8px 0}
+th,td{border:1px solid #ddd;padding:6px 8px;text-align:left}
+th{background:#eef2f7;font-weight:bold}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums}
+.pos{color:#1a7a36;font-weight:bold}.neg{color:#b3261e;font-weight:bold}
+.bar{height:9px;background:#e8e8e8;border-radius:5px;overflow:hidden;min-width:70px}
+.bar i{display:block;height:100%;background:#1b4a8a}
+.muted{color:#666;font-size:11.5px}
+.flag{background:#fdeceb;border-left:3px solid #b3261e;padding:8px 12px;margin:8px 0;font-size:12px}
+.good{background:#eaf7ee;border-left:3px solid #1a7a36;padding:8px 12px;margin:8px 0;font-size:12px}
+.rev{border:1px solid #e0e0e0;padding:10px 12px;margin-bottom:9px}
+.rev .rq{font-weight:bold;margin-bottom:5px}
+.rev .meta{font-size:10.5px;color:#666;margin-bottom:6px}
+.tag{display:inline-block;background:#eef2f7;border:1px solid #d5dde8;padding:1px 6px;margin-right:4px;font-size:10px;border-radius:2px}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.45);display:flex;align-items:center;justify-content:center;z-index:50;padding:16px}
+.modal .box{background:#fff;padding:20px 24px;max-width:430px;border:1px solid #999}
+.modal h3{margin:0 0 10px;color:#1b4a8a}
+[hidden]{display:none !important}
+
+@media print{
+  body{background:#fff}
+  .card{border:none;margin:0;padding:0;max-width:none}
+  .btn,#compact,.modal{display:none !important}
+  #fulljson{display:block !important;max-height:none !important;overflow:visible !important;
+            border:1px solid #ccc;font-size:8px;page-break-inside:auto}
+  table{page-break-inside:auto;font-size:10px}
+  tr{page-break-inside:avoid}
+  h2{page-break-after:avoid}
+  .rev{page-break-inside:avoid}
+  a[href]:after{content:""}
+}
+@media(max-width:820px){
+  .wrap{flex-direction:column;padding:0}
+  .side{width:100%;border-left:1px solid #d0d0d0;border-top:none}
+  .pal{grid-template-columns:repeat(8,1fr)}
+  .qpane{min-height:auto}
+  .hdr .sub{display:none}
+}
+</style>
+</head>
+<body>
+
+<!-- ================= START ================= -->
+<section id="scStart">
+  <div class="card">
+    <h1>Combined Graduate Level Examination, 2026</h1>
+    <p class="muted">Tier-I · Computer Based Examination · Diagnostic Paper 01</p>
+
+    <div class="rules">
+      <b>Read before you begin — this paper follows the 2026 pattern.</b>
+      <ul>
+        <li><b>100 questions · 200 marks · 60 minutes.</b></li>
+        <li><b>Sectional timer: 15 minutes for each section.</b> When the 15 minutes end, that
+            section closes and the next one opens automatically.</li>
+        <li><b>You cannot move time between sections</b>, and you cannot go back to a section you
+            have finished. Time left unused is lost.</li>
+        <li>Section order is fixed:
+            <b>General Intelligence &amp; Reasoning → General Awareness → Quantitative Aptitude → English Comprehension.</b></li>
+        <li><b>+2 for a correct answer. −0.50 for a wrong answer.</b> Unanswered questions score 0.</li>
+        <li>No calculator. Rough work on paper only.</li>
+      </ul>
+    </div>
+
+    <p><b>Sit this like the real thing.</b> One sitting, no phone, no notes, no pausing. A score you
+    inflate tonight costs you marks on 14 October, because the next three weeks get planned from
+    this data.</p>
+
+    <p style="margin-top:16px">
+      <label>Your name (optional): <input id="nm" type="text" style="padding:5px;border:1px solid #bbb;width:200px" placeholder="Candidate"></label>
+    </p>
+    <p id="resumeNote" hidden class="flag"></p>
+    <p style="margin-top:18px">
+      <button class="btn btn-p" style="padding:11px 26px;font-size:15px" id="btnStart">I am ready to begin</button>
+      <button class="btn" id="btnResume" hidden style="padding:11px 20px">Resume previous attempt</button>
+    </p>
+    <p class="muted" id="loadState"></p>
+  </div>
+</section>
+
+<!-- ================= EXAM ================= -->
+<section id="scExam" hidden>
+  <div class="hdr">
+    <div>
+      <div class="logo">SSC CGL Tier-I</div>
+      <div class="sub">Combined Graduate Level Examination, 2026</div>
+    </div>
+    <div class="spacer"></div>
+    <div class="cand"><div class="av">👤</div><div><b id="hdrName">Candidate</b><br><span class="muted">Diagnostic Paper 01</span></div></div>
+  </div>
+
+  <div class="secbar" id="secbar"></div>
+
+  <div class="timerbar">
+    <span><b>Section:</b> <span id="secName"></span></span>
+    <span class="muted" id="secProgress"></span>
+    <span class="clock" id="clock">15:00</span>
+    <span class="lang">Total remaining: <b id="totalClock">60:00</b></span>
+  </div>
+
+  <div class="wrap">
+    <div class="qpane">
+      <div class="qhead">
+        <span class="qno" id="qno">Question 1</span>
+        <span class="tag" id="qtypeTag"></span>
+        <span class="marks"><b>Marks +2</b> &nbsp; <i>Negative −0.50</i></span>
+      </div>
+      <div class="qbody">
+        <div class="passage" id="psg" hidden><h4 id="psgTitle">Passage</h4><div id="psgText"></div></div>
+        <div class="qtext" id="qtext"></div>
+        <div class="fig" id="fig" hidden></div>
+        <ul class="opts" id="opts"></ul>
+      </div>
+      <div class="qfoot">
+        <button class="btn btn-w" id="btnMark">Mark for Review &amp; Next</button>
+        <button class="btn" id="btnClear">Clear Response</button>
+        <span class="grow"></span>
+        <button class="btn" id="btnPrev">Previous</button>
+        <button class="btn btn-p" id="btnNext">Save &amp; Next</button>
+      </div>
+    </div>
+
+    <aside class="side">
+      <div class="legend">
+        <span><i class="sw nv"></i> Not Visited</span>
+        <span><i class="sw na"></i> Not Answered</span>
+        <span><i class="sw an"></i> Answered</span>
+        <span><i class="sw mk"></i> Marked</span>
+        <span style="grid-column:1/-1"><i class="sw am"></i> Answered &amp; Marked for Review</span>
+      </div>
+      <div class="palhead">Question Palette</div>
+      <div class="pal" id="pal"></div>
+      <div class="subbtn"><button id="btnSubmitSec">Submit Section</button></div>
+    </aside>
+  </div>
+</section>
+
+<!-- ================= RESULT ================= -->
+<section id="scResult" hidden><div id="resultBody"></div></section>
+
+<!-- ================= MODAL ================= -->
+<div class="modal" id="modal" hidden>
+  <div class="box">
+    <h3 id="mTitle"></h3>
+    <div id="mBody"></div>
+    <p style="margin-top:16px;text-align:right">
+      <button class="btn" id="mNo">Cancel</button>
+      <button class="btn btn-p" id="mYes">Confirm</button>
+    </p>
+  </div>
+</div>
+
+<!-- One file per section so they can be authored and reviewed in parallel.
+     Each defines a global: P01_REAS / P01_GA / P01_QUANT / P01_ENG. -->
+<script src="data/paper01-reas.js"></script>
+<script src="data/paper01-ga.js"></script>
+<script src="data/paper01-quant.js"></script>
+<script src="data/paper01-eng.js"></script>
+<script>
+"use strict";
+
+/* ===================================================================
+   CONFIG — the 2026 rules.
+   The 15-minute sectional timer and the fixed section order are stated
+   in the official notice (para 13.8). The lock / no-revisit /
+   no-auto-advance mechanics are NOT stated for Tier-1 anywhere in the
+   notification — they are inferred from the explicit Tier-II wording.
+   They live here so they can be corrected in one line once SSC's
+   official demo test settles the question.
+   =================================================================== */
+const CFG = {
+  perSectionMin: 15,
+  order: ["reas", "ga", "quant", "eng"],
+  lockOnExpiry: true,
+  allowRevisit: false,
+  autoAdvanceOnEarlyFinish: false,
+  correct: 2,
+  negative: 0.5
+};
+
+const SEC = {
+  reas:  { name: "General Intelligence & Reasoning", short: "Reasoning" },
+  ga:    { name: "General Awareness",                short: "Gen. Awareness" },
+  quant: { name: "Quantitative Aptitude",            short: "Quantitative" },
+  eng:   { name: "English Comprehension",            short: "English" }
+};
+
+const LS_KEY = "cgl_exam_paper01_v1";
+const $ = (s) => document.querySelector(s);
+
+/* Merge the four section packs. A missing pack degrades to an empty section
+   rather than killing the whole paper — so a late-arriving file never blocks
+   the exam from being sat. */
+let BANK = {}, PASSAGES = {}, LOAD_ERROR = null, MISSING = [];
+(function mergePacks() {
+  /* Referenced by identifier, not via window[...] — a top-level `const` in a
+     classic script does NOT become a property of window (only `var` does),
+     so a window lookup silently finds nothing. */
+  const packs = {
+    reas:  (typeof P01_REAS  !== "undefined") ? P01_REAS  : null,
+    ga:    (typeof P01_GA    !== "undefined") ? P01_GA    : null,
+    quant: (typeof P01_QUANT !== "undefined") ? P01_QUANT : null,
+    eng:   (typeof P01_ENG   !== "undefined") ? P01_ENG   : null
+  };
+  CFG.order.forEach(sid => {
+    const pack = packs[sid];
+    if (!pack || !Array.isArray(pack.questions)) { BANK[sid] = []; MISSING.push(SEC[sid].short); return; }
+    BANK[sid] = pack.questions.map(q => Object.assign({ sec: sid }, q));
+    if (pack.passages) Object.assign(PASSAGES, pack.passages);
+  });
+  if (MISSING.length === CFG.order.length) LOAD_ERROR = "No question packs loaded — check data/ files.";
+})();
+
+/* ===================================================================
+   STATE.  Timing uses absolute wall-clock timestamps, never an
+   incrementing counter — a backgrounded tab throttles setInterval and
+   the clock would silently drift.
+   =================================================================== */
+let S = null;
+
+function freshState(name) {
+  const st = {
+    v: 1,
+    name: name || "Candidate",
+    startedAt: Date.now(),
+    secIdx: 0,
+    qIdx: 0,
+    endsAt: {},          // sectionId -> absolute ms when it closes
+    finished: [],        // section ids already closed
+    ans: {},             // qId -> {chosen, marked, visits, changes, timeSec}
+    activeQ: null,
+    activeSince: null,
+    submittedAt: null
+  };
+  st.endsAt[CFG.order[0]] = Date.now() + CFG.perSectionMin * 60000;
+  return st;
+}
+
+function save() {
+  try { localStorage.setItem(LS_KEY, JSON.stringify(S)); } catch (e) { /* private mode */ }
+}
+function loadSaved() {
+  try { const r = localStorage.getItem(LS_KEY); return r ? JSON.parse(r) : null; }
+  catch (e) { return null; }
+}
+function clearSaved() { try { localStorage.removeItem(LS_KEY); } catch (e) {} }
+
+function curSec()  { return CFG.order[S.secIdx]; }
+function curList() { return BANK[curSec()] || []; }
+function curQ()    { return curList()[S.qIdx]; }
+
+function rec(qid) {
+  if (!S.ans[qid]) S.ans[qid] = { chosen: null, marked: false, visits: 0, changes: 0, timeSec: 0 };
+  return S.ans[qid];
+}
+
+/* ---------- per-question timing ---------- */
+function stampLeave() {
+  if (S.activeQ && S.activeSince) {
+    const dt = (Date.now() - S.activeSince) / 1000;
+    if (dt > 0 && dt < 3600) rec(S.activeQ).timeSec = +(rec(S.activeQ).timeSec + dt).toFixed(1);
+  }
+  S.activeQ = null; S.activeSince = null;
+}
+function stampEnter(qid) {
+  S.activeQ = qid; S.activeSince = Date.now();
+  const r = rec(qid); r.visits += 1;
+}
+
+/* ===================================================================
+   RENDER
+   =================================================================== */
+function fmt(ms) {
+  if (ms < 0) ms = 0;
+  const t = Math.floor(ms / 1000);
+  return String(Math.floor(t / 60)).padStart(2, "0") + ":" + String(t % 60).padStart(2, "0");
+}
+
+function paletteClass(q) {
+  const r = S.ans[q.id];
+  if (!r || r.visits === 0) return "";
+  if (r.marked && r.chosen != null) return "am";
+  if (r.marked) return "mk";
+  if (r.chosen != null) return "an";
+  return "na";
+}
+
+function renderSecBar() {
+  const bar = $("#secbar"); bar.innerHTML = "";
+  CFG.order.forEach((sid, i) => {
+    const b = document.createElement("button");
+    b.textContent = SEC[sid].short;
+    if (i === S.secIdx) b.className = "on";
+    else if (S.finished.indexOf(sid) >= 0) b.className = "done";
+    b.disabled = true;                      // sections are never candidate-selectable
+    b.title = i === S.secIdx ? "Current section"
+            : S.finished.indexOf(sid) >= 0 ? "Closed — cannot be reopened"
+            : "Opens automatically";
+    bar.appendChild(b);
+  });
+}
+
+function renderPalette() {
+  const p = $("#pal"); p.innerHTML = "";
+  curList().forEach((q, i) => {
+    const b = document.createElement("button");
+    b.textContent = i + 1;
+    b.className = paletteClass(q) + (i === S.qIdx ? " cur" : "");
+    b.onclick = () => { gotoQ(i); };
+    p.appendChild(b);
+  });
+}
+
+function renderQ() {
+  const list = curList();
+  if (!list.length) { $("#qtext").textContent = "No questions loaded for this section."; return; }
+  const q = list[S.qIdx];
+  if (S.activeQ !== q.id) { stampLeave(); stampEnter(q.id); }
+
+  $("#qno").textContent = "Question " + (S.qIdx + 1) + " of " + list.length;
+  $("#qtypeTag").textContent = q.qtype || "";
+  $("#secName").textContent = SEC[curSec()].name;
+  $("#secProgress").textContent = "(" + list.length + " questions)";
+
+  if (q.psg && PASSAGES[q.psg]) {
+    $("#psg").hidden = false;
+    $("#psgTitle").textContent = PASSAGES[q.psg].title || "Passage";
+    $("#psgText").innerHTML = PASSAGES[q.psg].text;
+  } else { $("#psg").hidden = true; }
+
+  $("#qtext").textContent = q.q;
+
+  /* Non-verbal reasoning figures ship as inline SVG in the question data —
+     drawn, not sourced, so there is no external dependency to break offline
+     and nothing to hotlink. */
+  const fw = $("#fig");
+  if (q.svg) { fw.hidden = false; fw.innerHTML = q.svg; } else { fw.hidden = true; fw.innerHTML = ""; }
+
+  const r = rec(q.id);
+  const ul = $("#opts"); ul.innerHTML = "";
+  q.opts.forEach((o, i) => {
+    const li = document.createElement("li");
+    const lb = document.createElement("label");
+    const inp = document.createElement("input");
+    inp.type = "radio"; inp.name = "opt"; inp.value = i;
+    inp.checked = r.chosen === i;
+    inp.onchange = () => {
+      if (r.chosen != null && r.chosen !== i) r.changes += 1;
+      r.chosen = i; save(); renderPalette();
+    };
+    lb.appendChild(inp);
+    const sp = document.createElement("span");
+    sp.textContent = String.fromCharCode(65 + i) + ".  " + o;
+    lb.appendChild(sp);
+    li.appendChild(lb); ul.appendChild(li);
+  });
+
+  $("#btnPrev").disabled = S.qIdx === 0;
+  renderPalette(); renderSecBar(); save();
+}
+
+function gotoQ(i) {
+  const list = curList();
+  if (i < 0 || i >= list.length) return;
+  stampLeave(); S.qIdx = i; renderQ();
+}
+
+/* ===================================================================
+   SECTION FLOW
+   =================================================================== */
+function closeSection(reason) {
+  const sid = curSec();
+  if (S.finished.indexOf(sid) < 0) S.finished.push(sid);
+  stampLeave();
+
+  if (S.secIdx >= CFG.order.length - 1) { finish(reason); return; }
+
+  S.secIdx += 1; S.qIdx = 0;
+  const next = curSec();
+  /* Each section gets its own fresh 15 minutes; unused time is NOT carried. */
+  if (!S.endsAt[next]) S.endsAt[next] = Date.now() + CFG.perSectionMin * 60000;
+  save();
+  renderQ();
+  toast("Section closed", "<p><b>" + SEC[sid].name + "</b> is now closed and cannot be reopened.</p>"
+      + "<p><b>" + SEC[next].name + "</b> has started. You have "
+      + CFG.perSectionMin + " minutes.</p>", true);
+}
+
+/* On resume, walk past any section whose deadline passed while away. */
+function catchUpExpiry() {
+  let guard = 0;
+  while (guard++ < 10) {
+    const sid = curSec();
+    const end = S.endsAt[sid];
+    if (!end) { S.endsAt[sid] = Date.now() + CFG.perSectionMin * 60000; break; }
+    if (Date.now() < end) break;
+    if (S.finished.indexOf(sid) < 0) S.finished.push(sid);
+    if (S.secIdx >= CFG.order.length - 1) { S.submittedAt = S.submittedAt || Date.now(); return true; }
+    S.secIdx += 1; S.qIdx = 0;
+    if (!S.endsAt[curSec()]) S.endsAt[curSec()] = Date.now() + CFG.perSectionMin * 60000;
+  }
+  return false;
+}
+
+let tick = null;
+function startClock() {
+  if (tick) clearInterval(tick);
+  tick = setInterval(() => {
+    if (!S || S.submittedAt) return;
+    const left = S.endsAt[curSec()] - Date.now();
+    const c = $("#clock");
+    c.textContent = fmt(left);
+    c.className = "clock" + (left <= 60000 ? " crit" : left <= 180000 ? " warn" : "");
+
+    const totalLeft = (CFG.order.length - S.secIdx - 1) * CFG.perSectionMin * 60000 + Math.max(0, left);
+    $("#totalClock").textContent = fmt(totalLeft);
+
+    if (left <= 0 && CFG.lockOnExpiry) closeSection("timer");
+  }, 250);
+}
+
+/* ===================================================================
+   SCORING
+   =================================================================== */
+function scoreAll() {
+  const out = { sections: [], total: { q: 0, att: 0, cor: 0, wrong: 0, skip: 0, net: 0, time: 0 } };
+  CFG.order.forEach(sid => {
+    const list = BANK[sid] || [];
+    let att = 0, cor = 0, time = 0;
+    list.forEach(q => {
+      const r = S.ans[q.id];
+      if (r) { time += r.timeSec || 0; if (r.chosen != null) { att++; if (r.chosen === q.ans) cor++; } }
+    });
+    const net = +(CFG.correct * cor - CFG.negative * (att - cor)).toFixed(2);
+    out.sections.push({
+      sid: sid, name: SEC[sid].name, total: list.length,
+      att: att, cor: cor, wrong: att - cor, skip: list.length - att,
+      net: net,
+      acc: att ? cor / att : 0,                       // guarded: no divide-by-zero
+      time: Math.round(time),
+      budget: CFG.perSectionMin * 60,
+      max: list.length * CFG.correct
+    });
+    out.total.q += list.length; out.total.att += att; out.total.cor += cor;
+    out.total.wrong += att - cor; out.total.skip += list.length - att;
+    out.total.net += net; out.total.time += time;
+  });
+  out.total.net = +out.total.net.toFixed(2);
+  out.total.time = Math.round(out.total.time);
+  out.total.acc = out.total.att ? out.total.cor / out.total.att : 0;
+  return out;
+}
+
+function groupBy(keyFn) {
+  const m = {};
+  CFG.order.forEach(sid => (BANK[sid] || []).forEach(q => {
+    const k = keyFn(q); if (!k && k !== 0) return;
+    const g = m[k] || (m[k] = { key: k, sec: q.sec, n: 0, att: 0, cor: 0, time: 0, exp: 0 });
+    const r = S.ans[q.id] || {};
+    g.n++; g.exp += (q.expSec || 0); g.time += (r.timeSec || 0);
+    if (r.chosen != null) { g.att++; if (r.chosen === q.ans) g.cor++; }
+  }));
+  return Object.values(m);
+}
+
+/* ===================================================================
+   RESULT
+   =================================================================== */
+function finish(reason) {
+  stampLeave();
+  S.submittedAt = Date.now();
+  if (tick) clearInterval(tick);
+  /* A section-close notice may still be open when the last section expires —
+     dismiss it, or it sits on top of the result. */
+  $("#modal").hidden = true; modalYes = null;
+  save();
+  $("#scStart").hidden = true;
+  $("#scExam").hidden = true;
+  $("#scResult").hidden = false;
+  window.scrollTo(0, 0);
+  renderResult(reason);
+}
+
+function pct(x) { return Math.round(x * 100) + "%"; }
+function mmss(s) { return Math.floor(s / 60) + "m " + String(Math.round(s % 60)).padStart(2, "0") + "s"; }
+
+function renderResult() {
+  const R = scoreAll();
+  const CUT = { "2023": 150.05, "2024": 153.19, "2025": 136.40 };
+  let h = "";
+
+  h += '<div class="card">';
+  h += '<h1>Diagnostic Paper 01 — Result</h1>';
+  h += '<p class="muted">' + S.name + " · " + new Date(S.startedAt).toLocaleString() + "</p>";
+
+  h += '<p style="margin:18px 0"><span class="big">' + R.total.net + '</span> <span class="muted">/ 200 net</span>'
+     + ' &nbsp;&nbsp; <span class="muted">Attempted ' + R.total.att + '/100 · Correct ' + R.total.cor
+     + ' · Wrong ' + R.total.wrong + ' · Skipped ' + R.total.skip + ' · Accuracy ' + pct(R.total.acc) + '</span></p>';
+
+  h += '<table><tr><th>Cut-off, "all other posts" (UR)</th><th class="n">2023</th><th class="n">2024</th><th class="n">2025</th></tr>'
+     + '<tr><td>Official</td><td class="n">150.05</td><td class="n">153.19</td><td class="n">136.40</td></tr>'
+     + '<tr><td>Your gap</td>'
+     + ['2023','2024','2025'].map(y => {
+         const d = +(R.total.net - CUT[y]).toFixed(1);
+         return '<td class="n ' + (d >= 0 ? 'pos' : 'neg') + '">' + (d >= 0 ? '+' : '') + d + '</td>';
+       }).join('')
+     + '</tr></table>';
+  h += '<div class="flag"><b>Read the gap carefully.</b> This paper is deliberately set '
+     + '<b>~8–10 marks harder</b> than a typical SSC shift, so a real paper should score higher than '
+     + 'this. Do not panic at a red number — but do not add more than 10 to it either. '
+     + 'Tier-1 is qualifying-only in 2026 (marks do not carry to the final merit list), and 2026 is a '
+     + 'pattern-change year, so treat these three cut-offs as a range, not a target.</div>';
+
+  /* ---- section table ---- */
+  h += '<h2>Section-wise</h2><table><tr><th>Section</th><th class="n">Att</th><th class="n">Cor</th>'
+     + '<th class="n">Wrong</th><th class="n">Skip</th><th class="n">Net /50</th><th class="n">Accuracy</th>'
+     + '<th class="n">Time used</th></tr>';
+  R.sections.forEach(s => {
+    h += '<tr><td><b>' + s.name + '</b></td><td class="n">' + s.att + '</td><td class="n">' + s.cor + '</td>'
+       + '<td class="n">' + s.wrong + '</td><td class="n">' + s.skip + '</td>'
+       + '<td class="n"><b>' + s.net + '</b></td><td class="n">' + (s.att ? pct(s.acc) : "—") + '</td>'
+       + '<td class="n">' + mmss(s.time) + ' / 15m</td></tr>';
+  });
+  h += '<tr><th>Total</th><th class="n">' + R.total.att + '</th><th class="n">' + R.total.cor + '</th>'
+     + '<th class="n">' + R.total.wrong + '</th><th class="n">' + R.total.skip + '</th>'
+     + '<th class="n">' + R.total.net + '</th><th class="n">' + pct(R.total.acc) + '</th>'
+     + '<th class="n">' + mmss(R.total.time) + '</th></tr></table>';
+
+  /* ---- negative marking cost ---- */
+  const lost = +(R.total.wrong * CFG.negative).toFixed(2);
+  h += '<h2>What the wrong answers cost</h2>';
+  h += '<p>' + R.total.wrong + ' wrong × 0.50 = <b class="neg">−' + lost + ' marks</b>. '
+     + 'Those questions also consumed time. A skipped question costs <b>0</b>.</p>';
+  h += '<p class="muted">Rule of thumb: attempt only if you can eliminate 2 of 4 options. '
+     + 'Blind guess expected value = −0.125. Two eliminated = +1.00.</p>';
+
+  /* ---- topic breakdown ---- */
+  h += '<h2>Topic-wise — where the marks went</h2>';
+  const topics = groupBy(q => q.topic).sort((a, b) => (a.cor / Math.max(a.n,1)) - (b.cor / Math.max(b.n,1)));
+  h += '<table><tr><th>Topic</th><th>Section</th><th class="n">Q</th><th class="n">Correct</th>'
+     + '<th class="n">Score rate</th><th class="n">Time</th><th class="n">vs expected</th></tr>';
+  topics.forEach(t => {
+    const rate = t.n ? t.cor / t.n : 0;
+    const slow = t.exp > 0 && t.time > t.exp * 1.3;
+    h += '<tr><td>' + t.key + '</td><td>' + SEC[t.sec].short + '</td><td class="n">' + t.n + '</td>'
+       + '<td class="n">' + t.cor + '</td>'
+       + '<td class="n"><div class="bar" style="display:inline-block;width:60px;vertical-align:middle"><i style="width:'
+       + Math.round(rate * 100) + '%"></i></div> ' + pct(rate) + '</td>'
+       + '<td class="n">' + mmss(t.time) + '</td>'
+       + '<td class="n ' + (slow ? 'neg' : '') + '">' + (t.exp ? mmss(t.exp) + (slow ? ' ⚠ slow' : '') : '—') + '</td></tr>';
+  });
+  h += '</table>';
+
+  /* ---- difficulty breakdown ---- */
+  h += '<h2>By difficulty</h2><table><tr><th>Level</th><th class="n">Q</th><th class="n">Attempted</th>'
+     + '<th class="n">Correct</th><th class="n">Accuracy</th></tr>';
+  const LV = { 1: "Easy", 2: "Medium", 3: "Hard" };
+  groupBy(q => q.lvl).sort((a, b) => a.key - b.key).forEach(g => {
+    h += '<tr><td>' + (LV[g.key] || g.key) + '</td><td class="n">' + g.n + '</td><td class="n">' + g.att + '</td>'
+       + '<td class="n">' + g.cor + '</td><td class="n">' + (g.att ? pct(g.cor / g.att) : "—") + '</td></tr>';
+  });
+  h += '</table>';
+  h += '<p class="muted">Easy questions missed are the cheapest marks on the table — they are a '
+     + 'concentration or speed problem, not a knowledge problem.</p>';
+
+  /* ---- time sinks: where the 15 minutes actually went ---- */
+  const allRows = [];
+  CFG.order.forEach(sid => (BANK[sid] || []).forEach((q, i) => {
+    const r = S.ans[q.id] || {};
+    const t = r.timeSec || 0;
+    allRows.push({
+      q: q, sid: sid, no: i + 1, r: r, t: t,
+      exp: q.expSec || 0,
+      over: (q.expSec ? t - q.expSec : 0),
+      status: r.chosen == null ? "skip" : (r.chosen === q.ans ? "ok" : "bad")
+    });
+  }));
+
+  const sinks = allRows.filter(x => x.t > 0).sort((a, b) => b.over - a.over).slice(0, 8);
+  if (sinks.length) {
+    h += '<h2>Where the clock went — the 8 biggest time sinks</h2>';
+    h += '<p class="muted">Under a 15-minute sectional wall, a question that runs 60 seconds over '
+       + 'does not just risk itself — it takes two other questions down with it.</p>';
+    h += '<table><tr><th>Q</th><th>Section</th><th>Topic</th><th class="n">Took</th>'
+       + '<th class="n">Should take</th><th class="n">Over by</th><th>Result</th></tr>';
+    sinks.forEach(x => {
+      const lost = x.over > 0 ? Math.floor(x.over / 36) : 0;
+      h += '<tr><td>' + x.no + '</td><td>' + SEC[x.sid].short + '</td><td>' + x.q.topic + '</td>'
+         + '<td class="n">' + Math.round(x.t) + 's</td><td class="n">' + (x.exp || "—") + 's</td>'
+         + '<td class="n ' + (x.over > 0 ? 'neg' : 'pos') + '">' + (x.over > 0 ? '+' : '') + Math.round(x.over) + 's'
+         + (lost >= 1 ? ' <span class="muted">(≈' + lost + ' Q)</span>' : '') + '</td>'
+         + '<td>' + (x.status === "ok" ? '<span class="pos">Correct</span>'
+                   : x.status === "bad" ? '<span class="neg">Wrong</span>'
+                   : '<span class="muted">Skipped</span>') + '</td></tr>';
+    });
+    h += '</table>';
+    const wastedOn = sinks.filter(x => x.status !== "ok").reduce((a, x) => a + x.t, 0);
+    if (wastedOn > 60) {
+      h += '<div class="flag"><b>' + mmss(wastedOn) + '</b> of that went into questions you did not '
+         + 'get right. That is the single most recoverable thing in this paper — not new topics, '
+         + 'just letting go earlier.</div>';
+    }
+  }
+
+  /* ---- full question-by-question analysis ---- */
+  h += '<h2>Question-by-question</h2>';
+  h += '<p class="muted">Every question, in the order you saw it. <b>Δ</b> is time taken minus time '
+     + 'it should take. <b>Rev</b> counts how many times you came back to it; <b>Chg</b> how many '
+     + 'times you changed your answer — a high Chg with a wrong result means second-guessing.</p>';
+  h += '<table><tr><th>#</th><th>Topic</th><th>Type</th><th>Lvl</th><th>You</th><th>Key</th>'
+     + '<th>Result</th><th class="n">Time</th><th class="n">Exp</th><th class="n">Δ</th>'
+     + '<th class="n">Rev</th><th class="n">Chg</th></tr>';
+  CFG.order.forEach(sid => {
+    h += '<tr><th colspan="12" style="background:#dde6f2;color:#1b4a8a">' + SEC[sid].name + '</th></tr>';
+    allRows.filter(x => x.sid === sid).forEach(x => {
+      const st = x.status === "ok" ? '<span class="pos">✓</span>'
+               : x.status === "bad" ? '<span class="neg">✗</span>'
+               : '<span class="muted">–</span>';
+      h += '<tr><td>' + x.no + '</td><td>' + x.q.topic + '</td><td class="muted">' + (x.q.qtype || "") + '</td>'
+         + '<td>' + (LV[x.q.lvl] || "") + '</td>'
+         + '<td>' + (x.r.chosen == null ? '<span class="muted">—</span>' : String.fromCharCode(65 + x.r.chosen)) + '</td>'
+         + '<td>' + String.fromCharCode(65 + x.q.ans) + '</td>'
+         + '<td>' + st + '</td>'
+         + '<td class="n">' + Math.round(x.t) + 's</td>'
+         + '<td class="n muted">' + (x.exp || "—") + '</td>'
+         + '<td class="n ' + (x.over > 5 ? 'neg' : x.over < -5 ? 'pos' : '') + '">'
+         + (x.exp ? (x.over > 0 ? '+' : '') + Math.round(x.over) : '—') + '</td>'
+         + '<td class="n">' + (x.r.visits || 0) + '</td>'
+         + '<td class="n ' + ((x.r.changes || 0) > 0 && x.status === "bad" ? 'neg' : '') + '">'
+         + (x.r.changes || 0) + '</td></tr>';
+    });
+  });
+  h += '</table>';
+
+  const changedWrong = allRows.filter(x => (x.r.changes || 0) > 0 && x.status === "bad").length;
+  if (changedWrong >= 3) {
+    h += '<div class="flag">You changed your answer on <b>' + changedWrong + '</b> questions and still '
+       + 'got them wrong. Track whether your first instinct was right — if it usually was, stop revising answers.</div>';
+  }
+
+  /* ---- diagnosis ---- */
+  h += '<h2>Read-out</h2>';
+  R.sections.forEach(s => {
+    const over = s.time > s.budget;
+    if (over) h += '<div class="flag"><b>' + SEC[s.sid].short + '</b> — ran over the 15-minute wall ('
+        + mmss(s.time) + '). In the real exam the section would have closed on you.</div>';
+  });
+  const worst = R.sections.slice().sort((a, b) => a.net - b.net)[0];
+  if (worst) h += '<div class="flag"><b>Weakest section: ' + worst.name + '</b> at ' + worst.net
+      + '/50. This is where the next three weeks should go first.</div>';
+  const best = R.sections.slice().sort((a, b) => b.net - a.net)[0];
+  if (best) h += '<div class="good"><b>Strongest: ' + best.name + '</b> at ' + best.net
+      + '/50. Defend this — do not let it slip while fixing the rest.</div>';
+  if (R.total.wrong >= 12) h += '<div class="flag">' + R.total.wrong + ' wrong answers is high. '
+      + 'Elimination discipline is worth more marks right now than new topics.</div>';
+  if (R.total.skip >= 25) h += '<div class="flag">' + R.total.skip + ' skipped. Some of those were '
+      + 'probably answerable — check the review below for skipped questions you knew.</div>';
+
+  /* ---- export ---- */
+  h += '<h2>Send this to Claude</h2>'
+     + '<p>This site is static — the data never leaves your browser. To get the study plan built '
+     + 'from it, copy the summary below and paste it into the chat.</p>'
+     + '<p><button class="btn btn-p" style="padding:10px 20px" onclick="copyForClaude(this)">📋 Copy result for Claude</button> '
+     + '<button class="btn" onclick="exportJSON()">Download full data (JSON)</button> '
+     + '<button class="btn" onclick="window.print()">Print / save as PDF</button> '
+     + '<button class="btn" onclick="restart()">Clear and retake</button></p>'
+     + '<textarea id="compact" readonly style="width:100%;height:150px;font:11px Consolas,monospace;'
+     + 'border:1px solid #ccc;padding:8px;margin-top:8px">' + esc(compactSummary()) + '</textarea>';
+
+  /* Full JSON printed on the page as well as offered as a download — on a
+     deployed site the download may land somewhere awkward, and this is the
+     record of the attempt. It survives a print-to-PDF too. */
+  h += '<h2>Full response data (JSON)</h2>'
+     + '<p class="muted">Everything captured, including per-question timing. '
+     + '<button class="btn" onclick="copyJSON(this)">Copy JSON</button> '
+     + '<button class="btn" onclick="toggleJSON(this)" id="jtog">Show full JSON</button></p>'
+     + '<pre id="fulljson" hidden style="max-height:380px;overflow:auto;font:10.5px Consolas,monospace;'
+     + 'border:1px solid #ccc;padding:10px;background:#fbfbfb;white-space:pre-wrap;word-break:break-word">'
+     + esc(buildJSON()) + '</pre>';
+
+  /* ---- full review ---- */
+  h += '<h2>Question review — all 100</h2>';
+  CFG.order.forEach(sid => {
+    h += '<h3 style="margin:16px 0 8px;font-size:13px;color:#1b4a8a">' + SEC[sid].name + '</h3>';
+    (BANK[sid] || []).forEach((q, i) => {
+      const r = S.ans[q.id] || { chosen: null, timeSec: 0 };
+      const ok = r.chosen === q.ans;
+      const state = r.chosen == null ? '<span class="muted">Skipped</span>'
+                  : ok ? '<span class="pos">Correct</span>' : '<span class="neg">Wrong</span>';
+      h += '<div class="rev"><div class="rq">Q' + (i + 1) + '. ' + esc(q.q) + '</div>'
+         + '<div class="meta"><span class="tag">' + (q.qtype || "") + '</span>'
+         + '<span class="tag">' + (LV[q.lvl] || "") + '</span>'
+         + '<span class="tag">' + mmss(r.timeSec || 0) + (q.expSec ? ' / ' + q.expSec + 's expected' : '') + '</span>'
+         + state + '</div>';
+      if (q.svg) h += '<div class="fig">' + q.svg + '</div>';
+      h += '<ul class="opts">';
+      q.opts.forEach((o, oi) => {
+        const cls = oi === q.ans ? "ok" : (oi === r.chosen ? "no" : "");
+        h += '<li><label class="' + cls + '"><span>' + String.fromCharCode(65 + oi) + '. ' + esc(o)
+           + (oi === q.ans ? '  ✓' : '') + (oi === r.chosen && !ok ? '  ← you' : '') + '</span></label></li>';
+      });
+      h += '</ul>';
+      if (q.exp) h += '<p style="margin:8px 0 0"><b>Why:</b> ' + esc(q.exp) + '</p>';
+      if (q.trick) h += '<p style="margin:4px 0 0;color:#6b3fa0"><b>Elimination:</b> ' + esc(q.trick) + '</p>';
+      h += '</div>';
+    });
+  });
+
+  h += '</div>';
+  $("#resultBody").innerHTML = h;
+}
+
+function esc(s) {
+  return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+}
+
+/* Compact, paste-into-chat summary. Deliberately small (~2 KB) — the full
+   JSON is 20 KB+ and awkward to paste. This carries everything needed to
+   build the study plan: per-section, per-topic, and every wrong/skipped
+   question with its timing. */
+function compactSummary() {
+  const R = scoreAll();
+  const L = { 1: "E", 2: "M", 3: "H" };
+  let o = "CGL TIER-1 DIAGNOSTIC 01 — " + (S.name || "Candidate")
+        + " — " + new Date(S.startedAt).toISOString().slice(0, 16).replace("T", " ") + "\n";
+  o += "PAPER CALIBRATION: set ~8-10 marks harder than a typical SSC shift.\n";
+  o += "TOTAL " + R.total.net + "/200 | att " + R.total.att + " cor " + R.total.cor
+     + " wrong " + R.total.wrong + " skip " + R.total.skip + " acc " + pct(R.total.acc)
+     + " time " + mmss(R.total.time) + "\n\nSECTIONS\n";
+  R.sections.forEach(s => {
+    o += "  " + SEC[s.sid].short.padEnd(14) + " net " + String(s.net).padStart(6)
+       + "/50  att " + String(s.att).padStart(2) + " cor " + String(s.cor).padStart(2)
+       + " wr " + String(s.wrong).padStart(2) + " sk " + String(s.skip).padStart(2)
+       + "  acc " + (s.att ? pct(s.acc) : "--").padStart(4)
+       + "  time " + mmss(s.time) + "/15m" + (s.time > s.budget ? " OVER" : "") + "\n";
+  });
+
+  o += "\nTOPICS (worst first)\n";
+  groupBy(q => q.topic).sort((a, b) => (a.cor / Math.max(a.n, 1)) - (b.cor / Math.max(b.n, 1)))
+    .forEach(t => {
+      o += "  " + String(t.key).padEnd(29).slice(0, 29) + " "
+         + (t.cor + "/" + t.n).padStart(5)
+         + "  " + mmss(t.time).padStart(7)
+         + (t.exp && t.time > t.exp * 1.3 ? "  SLOW" : "") + "\n";
+    });
+
+  o += "\nBY DIFFICULTY\n";
+  groupBy(q => q.lvl).sort((a, b) => a.key - b.key).forEach(g => {
+    o += "  " + (L[g.key] || g.key) + ": " + g.cor + "/" + g.n
+       + " (attempted " + g.att + ", acc " + (g.att ? pct(g.cor / g.att) : "--") + ")\n";
+  });
+
+  o += "\nWRONG + SKIPPED (qid | topic | lvl | your answer | correct | time)\n";
+  CFG.order.forEach(sid => (BANK[sid] || []).forEach((q, i) => {
+    const r = S.ans[q.id] || {};
+    if (r.chosen === q.ans) return;
+    o += "  " + q.id + " | " + q.topic + " | " + (L[q.lvl] || "?") + " | "
+       + (r.chosen == null ? "SKIP" : String.fromCharCode(65 + r.chosen)) + " | "
+       + String.fromCharCode(65 + q.ans) + " | " + Math.round(r.timeSec || 0) + "s"
+       + (r.changes ? " (changed " + r.changes + "x)" : "") + "\n";
+  }));
+  return o;
+}
+
+function copyForClaude(btn) {
+  const ok = copyText(document.getElementById("compact").value);
+  btn.textContent = ok ? "✓ Copied — paste it into the chat" : "Select the text below and copy it";
+  setTimeout(() => { btn.textContent = "📋 Copy result for Claude"; }, 3500);
+}
+
+function buildJSON() {
+  const R = scoreAll();
+  const rows = [];
+  CFG.order.forEach(sid => (BANK[sid] || []).forEach((q, i) => {
+    const r = S.ans[q.id] || {};
+    const t = +(r.timeSec || 0).toFixed(1);
+    rows.push({
+      qId: q.id, sec: q.sec, no: i + 1, topic: q.topic, qtype: q.qtype, lvl: q.lvl,
+      answer: q.ans, chosen: r.chosen == null ? null : r.chosen,
+      isCorrect: r.chosen === q.ans ? 1 : 0,
+      status: r.chosen == null ? "skipped" : (r.chosen === q.ans ? "correct" : "wrong"),
+      timeSec: t, expSec: q.expSec || null,
+      overSec: q.expSec ? +(t - q.expSec).toFixed(1) : null,
+      visits: r.visits || 0, answerChanges: r.changes || 0, markedForReview: !!r.marked
+    });
+  }));
+  return JSON.stringify({
+    paper: "CGL-Tier1-Diagnostic-01",
+    calibration: "Set roughly 8-10 marks harder than a typical SSC shift.",
+    candidate: S.name,
+    startedAt: new Date(S.startedAt).toISOString(),
+    submittedAt: new Date(S.submittedAt || Date.now()).toISOString(),
+    config: CFG, summary: R, responses: rows
+  }, null, 2);
+}
+
+function toggleJSON(btn) {
+  const ta = document.getElementById("fulljson");
+  ta.hidden = !ta.hidden;
+  btn.textContent = ta.hidden ? "Show full JSON" : "Hide full JSON";
+}
+
+/* Copy via a throwaway textarea so it works whether or not the <pre> is shown,
+   and on browsers where the async clipboard API is unavailable. */
+function copyText(txt) {
+  let ok = false;
+  const ta = document.createElement("textarea");
+  ta.value = txt;
+  ta.style.cssText = "position:fixed;left:-9999px;top:0";
+  document.body.appendChild(ta);
+  ta.select(); ta.setSelectionRange(0, 999999);
+  try { ok = document.execCommand("copy"); } catch (e) {}
+  document.body.removeChild(ta);
+  if (navigator.clipboard) { navigator.clipboard.writeText(txt).catch(() => {}); ok = true; }
+  return ok;
+}
+
+function copyJSON(btn) {
+  const ok = copyText(buildJSON());
+  if (!ok) { const p = document.getElementById("fulljson"); p.hidden = false; document.getElementById("jtog").textContent = "Hide full JSON"; }
+  btn.textContent = ok ? "✓ JSON copied" : "Copy blocked — select it below";
+  setTimeout(() => { btn.textContent = "Copy JSON"; }, 3000);
+}
+
+function exportJSON() {
+  const blob = new Blob([buildJSON()], { type: "application/json" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "cgl-diagnostic-" + new Date(S.startedAt).toISOString().slice(0, 10) + ".json";
+  a.click();
+}
+
+function restart() {
+  if (!confirm("Clear this attempt and start again? The result will be lost unless you exported it.")) return;
+  clearSaved(); location.reload();
+}
+
+/* ===================================================================
+   MODAL
+   =================================================================== */
+let modalYes = null;
+function toast(title, body, infoOnly) {
+  $("#mTitle").textContent = title;
+  $("#mBody").innerHTML = body;
+  $("#mNo").hidden = !!infoOnly;
+  $("#mYes").textContent = infoOnly ? "Continue" : "Confirm";
+  $("#modal").hidden = false;
+  modalYes = null;
+}
+function ask(title, body, onYes) {
+  toast(title, body, false);
+  modalYes = onYes;
+}
+$("#mNo").onclick = () => { $("#modal").hidden = true; modalYes = null; };
+$("#mYes").onclick = () => { $("#modal").hidden = true; const f = modalYes; modalYes = null; if (f) f(); };
+
+/* ===================================================================
+   WIRING
+   =================================================================== */
+$("#btnNext").onclick = () => {
+  if (S.qIdx < curList().length - 1) gotoQ(S.qIdx + 1);
+  else { save(); toast("End of section", "<p>This is the last question of <b>" + SEC[curSec()].name
+        + "</b>.</p><p>Use the palette to revisit questions, or press <b>Submit Section</b>.</p>", true); }
+};
+$("#btnPrev").onclick = () => gotoQ(S.qIdx - 1);
+$("#btnClear").onclick = () => {
+  const q = curQ(); if (!q) return;
+  rec(q.id).chosen = null; save(); renderQ();
+};
+$("#btnMark").onclick = () => {
+  const q = curQ(); if (!q) return;
+  const r = rec(q.id); r.marked = !r.marked; save();
+  if (S.qIdx < curList().length - 1) gotoQ(S.qIdx + 1); else renderQ();
+};
+$("#btnSubmitSec").onclick = () => {
+  const list = curList();
+  const un = list.filter(q => !S.ans[q.id] || S.ans[q.id].chosen == null).length;
+  const last = S.secIdx >= CFG.order.length - 1;
+  ask(last ? "Submit the paper?" : "Submit this section?",
+    "<p><b>" + SEC[curSec()].name + "</b> — " + (list.length - un) + " answered, " + un + " unanswered.</p>"
+    + "<p style='color:#b3261e'><b>You cannot return to this section.</b>"
+    + (last ? " This will end the exam." : " The next section will start immediately.") + "</p>"
+    + "<p class='muted'>Remaining time in this section is lost — it does not carry forward.</p>",
+    () => closeSection("manual"));
+};
+
+$("#btnStart").onclick = () => {
+  if (LOAD_ERROR) { alert("Question paper failed to load: " + LOAD_ERROR); return; }
+  S = freshState($("#nm").value.trim());
+  clearSaved(); save(); begin();
+};
+$("#btnResume").onclick = () => {
+  const saved = loadSaved(); if (!saved) return;
+  S = saved;
+  if (catchUpExpiry()) { $("#scStart").hidden = true; finish("resume-expired"); return; }
+  begin();
+};
+
+function begin() {
+  $("#scStart").hidden = true;
+  $("#scExam").hidden = false;
+  $("#hdrName").textContent = S.name;
+  renderQ(); startClock();
+}
+
+/* Warn on accidental navigation away mid-exam. */
+window.addEventListener("beforeunload", (e) => {
+  if (S && !S.submittedAt) { e.preventDefault(); e.returnValue = ""; }
+});
+/* Re-sync the clock the moment the tab is foregrounded again. */
+document.addEventListener("visibilitychange", () => {
+  if (!document.hidden && S && !S.submittedAt) { catchUpExpiry(); renderQ(); }
+});
+
+/* ---------- boot ---------- */
+(function boot() {
+  const counts = CFG.order.map(s => (BANK[s] || []).length);
+  const total = counts.reduce((a, b) => a + b, 0);
+  $("#loadState").textContent = LOAD_ERROR
+    ? "⚠ " + LOAD_ERROR
+    : "Loaded " + total + "/100 questions — " + CFG.order.map((s, i) => SEC[s].short + " " + counts[i]).join(" · ")
+      + (MISSING.length ? "   ⚠ missing pack: " + MISSING.join(", ") : "");
+  if (LOAD_ERROR) $("#btnStart").disabled = true;
+
+  const saved = loadSaved();
+  if (saved && !saved.submittedAt) {
+    $("#btnResume").hidden = false;
+    $("#resumeNote").hidden = false;
+    $("#resumeNote").innerHTML = "An unfinished attempt from "
+      + new Date(saved.startedAt).toLocaleString() + " was found. Resuming keeps the original "
+      + "section deadlines — time that passed while you were away is gone.";
+  } else if (saved && saved.submittedAt) {
+    S = saved;
+    $("#btnResume").hidden = false;
+    $("#btnResume").textContent = "View previous result";
+    $("#btnResume").onclick = () => { $("#scStart").hidden = true; $("#scResult").hidden = false; renderResult(); };
+  }
+})();
+</script>
+</body>
+</html>
