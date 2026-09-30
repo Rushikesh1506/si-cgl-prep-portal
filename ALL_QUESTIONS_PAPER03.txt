@@ -1,0 +1,613 @@
+SSC CGL TIER-1 — DIAGNOSTIC PAPER 03 (1 Oct) — ALL 100 QUESTIONS WITH ANSWER KEY
+================================================================================
+
+## REASONING  (25 questions)
+--------------------------------------------------------------------------------
+1. [Series / Number Series (2nd-order difference) / lvl3] Find the next term: 5, 11, 19, 29, 41, ?
+   A. 55  <-- ANSWER
+   B. 53
+   C. 57
+   D. 51
+
+2. [Series / Multiplicative Number Series / lvl3] Find the next term: 3, 4, 12, 48, ?
+   A. 576  <-- ANSWER
+   B. 480
+   C. 432
+   D. 384
+
+3. [Series / Multi-Operator Series (changing operator) / lvl3] Find the missing term: 3, 8, 26, 106, ?
+   A. 532  <-- ANSWER
+   B. 530
+   C. 536
+   D. 528
+
+4. [Analogy / Number Analogy / lvl3] 12 : 145 :: 15 : ?
+   A. 226  <-- ANSWER
+   B. 240
+   C. 210
+   D. 196
+
+5. [Classification / Odd Number Set / lvl3] Select the set that follows the same pattern as (9, 49, 25).
+   A. (16, 81, 36)  <-- ANSWER
+   B. (8, 64, 27)
+   C. (9, 100, 16)
+   D. (12, 45, 20)
+
+6. [Coding-Decoding / Reverse Alphabet Position / lvl3] In a certain code, each letter is written as (27 minus its position in the alphabet). What is the code for the word 'RAN'?
+   A. 9-26-13  <-- ANSWER
+   B. 9-26-14
+   C. 8-26-13
+   D. 9-25-13
+
+7. [Coding-Decoding / Cyclic Letter Shift / lvl3] If in a certain code BIRD is written as FMVH, how will FISH be written in the same code?
+   A. JMWL  <-- ANSWER
+   B. JMVL
+   C. ILWL
+   D. JLWL
+
+8. [Coding-Decoding / Double Transform (shift + reverse) / lvl3] In a certain code, PLAN is written as PCNR. How will STORM be written in the same code?
+   A. OTQVU  <-- ANSWER
+   B. UOTQV
+   C. OTVQU
+   D. UQTOV
+
+9. [Blood Relations / Family Tree / lvl3] Pointing to a boy in a photograph, a woman said, 'He is the son of my mother's only daughter.' If the woman herself is her mother's only daughter, how is the boy related to the woman?
+   A. Son  <-- ANSWER
+   B. Nephew
+   C. Brother
+   D. Grandson
+
+10. [Blood Relations / Coded Relations / lvl3] If A # B means A is mother of B, A @ B means A is husband of B. Which of the following shows P is grandfather of Q?
+   A. P @ S # R # Q  <-- ANSWER
+   B. P # S @ R # Q
+   C. P @ S # R @ Q
+   D. P # S # R @ Q
+
+11. [Direction Sense / Multi-Turn Net Displacement / lvl3] A woman, facing South, walks 12 km, turns left and walks 6 km, turns left again and walks 12 km, then turns right and walks 6 km. How far and in which direction is she from her starting point?
+   A. 12 km East  <-- ANSWER
+   B. 6 km West
+   C. 12 km West
+   D. 18 km East
+
+12. [Direction Sense / Direction & Distance (Pythagorean) / lvl3] A cyclist rides 9 km North, then turns and rides 12 km East. How far is she from her starting point, and in which general direction does that displacement lie?
+   A. 15 km, North-East  <-- ANSWER
+   B. 21 km, North-East
+   C. 15 km, North
+   D. 15 km, East
+
+13. [Ranking & Order / Total from Two Ranks / lvl3] Priya is 11th from the top and 18th from the bottom in a class. How many students are there in the class?
+   A. 28  <-- ANSWER
+   B. 29
+   C. 27
+   D. 26
+
+14. [Ranking & Order / Queue — Front and Back / lvl3] In a queue, Vikram is 12th from the front. There are 15 people standing behind him. How many people are in the queue in total, and what is Vikram's position from the back?
+   A. 27 total, 16th from back  <-- ANSWER
+   B. 26 total, 15th from back
+   C. 27 total, 15th from back
+   D. 28 total, 16th from back
+
+15. [Syllogism / Statement-Conclusion / lvl3] Statements: All pencils are erasers. Some erasers are sharpeners. Conclusions: I. Some pencils are sharpeners. II. All erasers are pencils.
+   A. Neither I nor II follows  <-- ANSWER
+   B. Only I follows
+   C. Only II follows
+   D. Both I and II follow
+
+16. [Syllogism / Statement-Conclusion / lvl3] Statements: All lamps are bulbs. No bulb is a switch. Conclusions: I. No lamp is a switch. II. Some bulbs are lamps.
+   A. Both I and II follow  <-- ANSWER
+   B. Only I follows
+   C. Only II follows
+   D. Neither follows
+
+17. [Mathematical Operations / Symbol Substitution / lvl3] If '+' means '×', '-' means '÷', '×' means '+', '÷' means '-', evaluate: 18 - 3 + 4 × 5 ÷ 2
+   A. 27  <-- ANSWER
+   B. 29
+   C. 25
+   D. 31
+
+18. [Verbal Reasoning / Letter-Position Invariance / lvl3] If the letters of the word 'WONDER' are rearranged in alphabetical order, how many letters will remain in the exact same position as in the original word?
+   A. 1  <-- ANSWER
+   B. 0
+   C. 2
+   D. 3
+
+19. [Coding-Decoding / Positional Word Coding / lvl3] If in a code, ROSE is written as WWW and TRAIN is written as ZZZ, how is DREAM written in the same code?
+   A. JJJ  <-- ANSWER
+   B. III
+   C. KKK
+   D. HHH
+
+20. [Age Problems / Ratio-based Age / lvl3] The present ages of P and Q are in the ratio 3:4. After 5 years, the ratio becomes 4:5. What is Q's present age?
+   A. 20 years  <-- ANSWER
+   B. 15 years
+   C. 24 years
+   D. 18 years
+
+21. [Seating Arrangement / Circular Arrangement / lvl3] Six friends J,K,L,M,N,O sit around a circular table facing the centre, equally spaced. J is second to the right of K. N is second to the left of K. L and M occupy the two remaining seats next to J and N. Who sits directly opposite K?
+   A. O  <-- ANSWER
+   B. L or M
+   C. J
+   D. N
+
+22. [Non-Verbal Reasoning / Dice (opposite face) / lvl3] Two positions of the same dice (faces numbered 1 to 6) are shown below. Position 1: Top=2, Front=1, Right=3. Position 2: Top=2, Front=4, Right=1. Find the number on the face opposite to the face showing 3.
+   A. 4  <-- ANSWER
+   B. 5
+   C. 1
+   D. 6
+
+23. [Non-Verbal Reasoning / Figure Counting / lvl3] Count the total number of triangles in the given figure (a rectangle with both diagonals drawn).
+   A. 8  <-- ANSWER
+   B. 4
+   C. 6
+   D. 12
+
+24. [Calendar / Day of the Week / lvl3] If 15th August 2023 was a Tuesday, what day of the week was 15th August 2024?
+   A. Thursday  <-- ANSWER
+   B. Wednesday
+   C. Friday
+   D. Tuesday
+
+25. [Non-Verbal Reasoning / Mirror Image of Clock Time / lvl3] A clock shows the time 8:10. What time will its mirror image (reflected in a mirror placed vertically, as if behind the clock face) show?
+   A. 3:50  <-- ANSWER
+   B. 4:10
+   C. 3:10
+   D. 4:50
+
+
+## GENERAL AWARENESS  (25 questions)
+--------------------------------------------------------------------------------
+1. [Polity / Emergency Provisions / lvl3] Which Article of the Constitution deals with the proclamation of Financial Emergency?
+   A. Article 360  <-- ANSWER
+   B. Article 352
+   C. Article 356
+   D. Article 358
+
+2. [Polity / Constitutional Amendments / lvl3] Which Constitutional Amendment reduced the voting age in India from 21 years to 18 years?
+   A. 61st Amendment (1989)  <-- ANSWER
+   B. 42nd Amendment (1976)
+   C. 44th Amendment (1978)
+   D. 52nd Amendment (1985)
+
+3. [Geography / Indian Rivers / lvl3] The Tehri Dam, one of the tallest dams in India, is built on which river?
+   A. Bhagirathi  <-- ANSWER
+   B. Alaknanda
+   C. Mandakini
+   D. Yamuna
+
+4. [History / Ancient India - Mauryan Administration / lvl3] In the Mauryan administration, the officer known as 'Antahpala' was responsible for:
+   A. Guarding the frontier provinces of the empire  <-- ANSWER
+   B. Collecting land revenue
+   C. Maintaining royal records
+   D. Supervising the royal treasury
+
+5. [History / Modern India - Socio-Religious Reform / lvl3] The Brahmo Samaj, founded in 1828, was established by:
+   A. Raja Ram Mohan Roy  <-- ANSWER
+   B. Swami Dayanand Saraswati
+   C. Ishwar Chandra Vidyasagar
+   D. Keshab Chandra Sen
+
+6. [Science / Physics - Units / lvl3] The SI unit of magnetic flux is the:
+   A. Weber  <-- ANSWER
+   B. Tesla
+   C. Henry
+   D. Farad
+
+7. [Science / Biology - Human Physiology / lvl3] Which part of the human brain is primarily responsible for maintaining balance and coordinating voluntary muscle movements?
+   A. Cerebellum  <-- ANSWER
+   B. Cerebrum
+   C. Medulla oblongata
+   D. Hypothalamus
+
+8. [Economy / Banking - Monetary Policy Tools / lvl3] 'Statutory Liquidity Ratio' (SLR) refers to the:
+   A. Minimum percentage of a bank's net demand and time liabilities that it must maintain in the form of liquid assets like cash, gold, or approved securities  <-- ANSWER
+   B. Minimum percentage of deposits banks must keep as cash reserves with the RBI
+   C. Rate at which RBI lends short-term funds to commercial banks
+   D. Rate at which RBI borrows funds from commercial banks overnight
+
+9. [Economy / Taxation History / lvl3] GST (Goods and Services Tax) was implemented in India with effect from which date?
+   A. 1 July 2017  <-- ANSWER
+   B. 1 April 2017
+   C. 1 January 2017
+   D. 1 July 2016
+
+10. [Static GK / National Symbols / lvl3] India's National Aquatic Animal, the Ganges River Dolphin, was declared so in which year?
+   A. 2009  <-- ANSWER
+   B. 2010
+   C. 2006
+   D. 2012
+
+11. [Static GK / Sports History / lvl3] India won its first-ever Olympic gold medal in an individual event through which athlete, and in which sport?
+   A. Abhinav Bindra, Shooting (2008)  <-- ANSWER
+   B. Neeraj Chopra, Javelin Throw (2021)
+   C. Leander Paes, Tennis (1996 Bronze)
+   D. K.D. Jadhav, Wrestling (1952 Bronze)
+
+12. [Polity / Panchayati Raj / lvl3] Which Constitutional Amendment gave constitutional status to Panchayati Raj Institutions (PRIs)?
+   A. 73rd Amendment (1992)  <-- ANSWER
+   B. 74th Amendment (1992)
+   C. 61st Amendment (1989)
+   D. 42nd Amendment (1976)
+
+13. [History / Freedom Movement - Sessions / lvl3] At which session of the Indian National Congress was the resolution for 'Purna Swaraj' (complete independence) passed?
+   A. Lahore Session, 1929  <-- ANSWER
+   B. Karachi Session, 1931
+   C. Calcutta Session, 1928
+   D. Lucknow Session, 1916
+
+14. [Science / Chemistry - Acids in Food / lvl3] Which acid is primarily responsible for the sour taste of yogurt (curd)?
+   A. Lactic acid  <-- ANSWER
+   B. Acetic acid
+   C. Citric acid
+   D. Tartaric acid
+
+15. [Geography / Indian Geography - Soils / lvl3] Regur soil (black cotton soil), ideal for cotton cultivation, is primarily formed from the weathering of which type of rock?
+   A. Deccan Trap (basaltic lava)  <-- ANSWER
+   B. Granite
+   C. Sandstone
+   D. Limestone
+
+16. [Static GK / International Organisations / lvl3] The headquarters of the World Trade Organization (WTO) is located in:
+   A. Geneva, Switzerland  <-- ANSWER
+   B. New York, USA
+   C. Vienna, Austria
+   D. Paris, France
+
+17. [Economy / Five Year Plans / lvl3] Between which two Five Year Plans was the 'Rolling Plan' concept adopted (1978-1980), replacing a fixed Five Year Plan with annually revised targets?
+   A. Between the Fifth and Sixth Plans  <-- ANSWER
+   B. Between the Third and Fourth Plans
+   C. Between the Sixth and Seventh Plans
+   D. Between the Eighth and Ninth Plans
+
+18. [Polity / Money Bills / lvl3] As per Article 110, who has the final authority to decide whether a Bill is a 'Money Bill'?
+   A. The Speaker of the Lok Sabha  <-- ANSWER
+   B. The President of India
+   C. The Chairman of the Rajya Sabha
+   D. The Finance Minister
+
+19. [History / Ancient India - Buddhist Councils / lvl3] The Fourth Buddhist Council, during which the Mahayana and Hinayana sects are traditionally said to have formally split, was held under the patronage of:
+   A. Kanishka  <-- ANSWER
+   B. Ashoka
+   C. Kalashoka
+   D. Ajatashatru
+
+20. [Geography / Climatology / lvl3] 'Mango showers', pre-monsoon showers that help ripen mangoes, are most associated with which part of India?
+   A. Karnataka and Kerala (South India)  <-- ANSWER
+   B. Punjab and Haryana (North India)
+   C. Rajasthan (West India)
+   D. Assam (Northeast India)
+
+21. [Static GK / Books & Authors / lvl3] The book 'Wings of Fire', an autobiography, was written by:
+   A. A.P.J. Abdul Kalam  <-- ANSWER
+   B. Sarojini Naidu
+   C. Rabindranath Tagore
+   D. Vikram Sarabhai
+
+22. [Economy / Industrial Policy / lvl3] The Industrial Policy Resolution of 1956 classified industries into how many categories (schedules) based on the role of the state?
+   A. Three (Schedule A, B, C)  <-- ANSWER
+   B. Two
+   C. Four
+   D. Five
+
+23. [Science / Physics - Optics / lvl3] A person who is short-sighted (myopic) has their eye's defect corrected using which type of lens?
+   A. Concave (diverging) lens  <-- ANSWER
+   B. Convex (converging) lens
+   C. Bifocal lens only
+   D. Cylindrical lens
+
+24. [History / Medieval India - Bhakti Saints / lvl3] Sant Kabir, a prominent Bhakti-era poet-saint known for blending Hindu and Islamic devotional ideas, was a disciple of:
+   A. Ramananda  <-- ANSWER
+   B. Chaitanya Mahaprabhu
+   C. Namdev
+   D. Ramanuja
+
+25. [Static GK / Government Schemes / lvl3] 'PM-KISAN' (Pradhan Mantri Kisan Samman Nidhi) provides direct income support of how much per year to eligible farmer families, and in how many installments?
+   A. Rs.6,000 per year, in 3 equal installments of Rs.2,000  <-- ANSWER
+   B. Rs.6,000 per year, in 2 equal installments
+   C. Rs.12,000 per year, in 4 installments
+   D. Rs.6,000 per year, in a single installment
+
+
+## QUANTITATIVE APTITUDE  (25 questions)
+--------------------------------------------------------------------------------
+1. [Profit & Loss / Dishonest Dealer (false weight) / lvl3] A dishonest shopkeeper professes to sell his goods at cost price, but he uses a weight of 750 g in place of 1000 g. Find his profit percentage.
+   A. 33 1/3 %  <-- ANSWER
+   B. 30%
+   C. 25%
+   D. 40%
+
+2. [Geometry / Direct Common Tangent / lvl3] The centres of two circles are 17 cm apart. Their radii are 10 cm and 2 cm. Find the length of their direct common tangent.
+   A. 15 cm  <-- ANSWER
+   B. 14 cm
+   C. 16 cm
+   D. 13 cm
+
+3. [Mensuration / Sphere Melted into Spheres (count) / lvl3] A solid sphere of radius 12 cm is melted and recast into small solid spheres each of radius 3 cm. How many small spheres are formed?
+   A. 64  <-- ANSWER
+   B. 48
+   C. 32
+   D. 72
+
+4. [Profit & Loss / Successive Discount + Reverse CP / lvl3] An item marked at Rs.2,500 is sold after two successive discounts of 20% and 15%. If this sale gives the shopkeeper a 25% profit, find the cost price.
+   A. Rs.1,360  <-- ANSWER
+   B. Rs.1,400
+   C. Rs.1,300
+   D. Rs.1,275
+
+5. [Compound Interest / CI with Different Yearly Rates / lvl3] Find the compound interest on Rs.15,000 for 2 years, if the rate of interest is 10% for the first year and 25% for the second year.
+   A. Rs.5,625  <-- ANSWER
+   B. Rs.5,250
+   C. Rs.5,900
+   D. Rs.5,500
+
+6. [Compound Interest / Reverse — Find Rate / lvl3] The compound interest on Rs.5,000 for 2 years is Rs.1,050. Find the rate of interest per annum (same rate both years).
+   A. 10%  <-- ANSWER
+   B. 8%
+   C. 12%
+   D. 9%
+
+7. [Pipes & Cisterns / Inlet + Inlet - Outlet / lvl3] Pipe A can fill a tank in 10 hours, Pipe B in 15 hours, while outlet Pipe C can empty the full tank in 30 hours. If all three are opened together, how long will it take to fill the tank?
+   A. 7.5 hours  <-- ANSWER
+   B. 8 hours
+   C. 9 hours
+   D. 6 hours
+
+8. [Partnership / Time-Weighted Capital / lvl3] A invests Rs.12,000 for 8 months, B invests Rs.15,000 for 6 months, and C invests Rs.9,000 for 10 months. If the total profit is Rs.9,660, find A's share.
+   A. Rs.3,360  <-- ANSWER
+   B. Rs.3,150
+   C. Rs.3,600
+   D. Rs.2,900
+
+9. [Time, Speed & Distance / Boats & Streams (reverse) / lvl3] The speed of a stream is 4 km/h. A boat takes a total of 8 hours to travel 24 km downstream and then return 24 km upstream. Find the boat's speed in still water.
+   A. 8 km/h  <-- ANSWER
+   B. 10 km/h
+   C. 6 km/h
+   D. 9 km/h
+
+10. [Time & Work / Three Workers, Staggered Exit / lvl3] A, B and C can complete a work in 20, 25 and 50 days respectively. All three start together. A leaves after 5 days. In how many more days will B and C together finish the remaining work?
+   A. 7.5 days  <-- ANSWER
+   B. 8 days
+   C. 6 days
+   D. 9 days
+
+11. [Geometry / Heron's Formula (right-triangle case) / lvl3] Find the area of a triangle whose sides are 7 cm, 24 cm and 25 cm.
+   A. 84 sq cm  <-- ANSWER
+   B. 91 sq cm
+   C. 78 sq cm
+   D. 96 sq cm
+
+12. [Mensuration / Cone-Cylinder Volume Ratio / lvl3] A cone and a cylinder have the same base radius and the same height. Find the ratio of the volume of the cylinder to the volume of the cone.
+   A. 3:1  <-- ANSWER
+   B. 1:3
+   C. 2:1
+   D. 3:2
+
+13. [Algebra / Difference of Cubes / lvl3] If a-b=3 and ab=10, find the value of a^3-b^3.
+   A. 117  <-- ANSWER
+   B. 90
+   C. 107
+   D. 127
+
+14. [Time, Speed & Distance / Train Crossing Pole then Platform / lvl3] A train running at 72 km/h crosses a pole in 15 seconds. It crosses a platform in 25 seconds. Find the length of the platform.
+   A. 200 m  <-- ANSWER
+   B. 180 m
+   C. 220 m
+   D. 250 m
+
+15. [Time, Speed & Distance / Average Speed (Harmonic Mean Trap) / lvl3] A cyclist travels from Town A to Town B at 20 km/h and returns the same distance at 30 km/h. Find the average speed for the entire journey.
+   A. 24 km/h  <-- ANSWER
+   B. 25 km/h
+   C. 26 km/h
+   D. 22 km/h
+
+16. [Number System / LCM Application / lvl3] Find the largest 4-digit number exactly divisible by 15, 20 and 25.
+   A. 9900  <-- ANSWER
+   B. 9800
+   C. 9750
+   D. 9600
+
+17. [Number System / Cyclicity of Remainders / lvl3] Find the remainder when 3^47 is divided by 7.
+   A. 5  <-- ANSWER
+   B. 3
+   C. 1
+   D. 6
+
+18. [Simplification / Surds / lvl3] Simplify: sqrt(20) + sqrt(45) - sqrt(80)
+   A. sqrt(5)  <-- ANSWER
+   B. 2 sqrt(5)
+   C. 3 sqrt(5)
+   D. 0
+
+19. [Trigonometry / Ratio Identity from tanA / lvl3] If tanA = 5/12 and A is acute, find the value of (sinA + cosA) / (sinA - cosA).
+   A. -17/7  <-- ANSWER
+   B. 17/7
+   C. -7/17
+   D. 7/17
+
+20. [Average / Consecutive Multiples (reverse) / lvl3] The average of 9 consecutive multiples of 3 is 51. Find the largest of these numbers.
+   A. 63  <-- ANSWER
+   B. 60
+   C. 66
+   D. 57
+
+21. [Mixture & Alligation / Combining Two Mixtures / lvl3] 25 litres of a mixture has milk and water in the ratio 4:1. 35 litres of another mixture has milk and water in the ratio 3:4. If both mixtures are combined, find the resulting ratio of milk to water.
+   A. 7:5  <-- ANSWER
+   B. 5:7
+   C. 3:2
+   D. 1:1
+
+22. [Mixture & Alligation / Dilution / lvl3] In a mixture of 80 litres, the ratio of milk to water is 3:1. How much water must be added to make the ratio 3:5?
+   A. 80 litres  <-- ANSWER
+   B. 60 litres
+   C. 70 litres
+   D. 90 litres
+
+23. [Number System / HCF-LCM / lvl3] The HCF of two numbers is 15 and their LCM is 180. If one number is 45, find the other.
+   A. 60  <-- ANSWER
+   B. 54
+   C. 72
+   D. 48
+
+24. [Data Interpretation / Table — Percentage Growth Comparison / lvl3] Study the table of sales (in units) for three products across 2 years: Product | 2021 | 2022 ; A | 50 | 65 ; B | 70 | 77 ; C | 40 | 56 . Which product showed the highest PERCENTAGE increase in sales from 2021 to 2022?
+   A. C  <-- ANSWER
+   B. A
+   C. B
+   D. A and C equally
+
+25. [Geometry / Right Triangle Inradius / lvl3] Find the inradius of a right-angled triangle with sides 7 cm, 24 cm and 25 cm (hypotenuse 25 cm).
+   A. 3 cm  <-- ANSWER
+   B. 4 cm
+   C. 3.5 cm
+   D. 2.5 cm
+
+
+## ENGLISH  (25 questions)
+--------------------------------------------------------------------------------
+1. [Error Spotting / Error Spotting / lvl3] Select the part with an error: Each of the two candidates / have submitted / their application forms / before the deadline.
+   A. Each of the two candidates
+   B. have submitted  <-- ANSWER
+   C. their application forms
+   D. No error
+
+2. [Error Spotting / Error Spotting / lvl3] Select the part with an error: Hardly had the plane taken off / when it developed / a technical snag / mid-air.
+   A. Hardly had the plane taken off
+   B. when it developed
+   C. a technical snag
+   D. No error  <-- ANSWER
+
+3. [Error Spotting / Error Spotting / lvl3] Select the part with an error: The committee have reached / a unanimous decision / regarding the new policy / after long deliberation.
+   A. The committee have reached  <-- ANSWER
+   B. a unanimous decision
+   C. regarding the new policy
+   D. No error
+
+4. [Sentence Improvement / Sentence Improvement (relative clause agreement) / lvl3] Improve: He is one of those employees who always meets the deadline.
+   A. who always meet the deadline  <-- ANSWER
+   B. who always meets deadline
+   C. which always meets the deadline
+   D. who has always met the deadline
+
+5. [Fill in the Blanks / Preposition (less common pairs) / lvl3] After much persuasion, the manager finally consented ___ the proposal, having initially been averse ___ any change in procedure.
+   A. to, to  <-- ANSWER
+   B. to, from
+   C. of, to
+   D. with, from
+
+6. [Fill in the Blanks / Conjunction (close pair) / lvl3] ___ the storm was severe, the fishermen managed to bring their boats safely to shore.
+   A. Although  <-- ANSWER
+   B. Because
+   C. Unless
+   D. So that
+
+7. [Fill in the Blanks / Double Blank (less common) / lvl3] The professor's argument was so compelling that even his harshest critics had to concede ___ its validity, though they remained sceptical ___ its practical application.
+   A. to, of  <-- ANSWER
+   B. of, to
+   C. to, about
+   D. with, of
+
+8. [Cloze Test / Cloze / lvl3] Select the best word for blank (1).
+   A. navigate  <-- ANSWER
+   B. navigating
+   C. navigated
+   D. navigates
+
+9. [Cloze Test / Cloze / lvl3] Select the best word for blank (2).
+   A. keep  <-- ANSWER
+   B. kept
+   C. keeping
+   D. keeps
+
+10. [Cloze Test / Cloze / lvl3] Select the best word for blank (3).
+   A. little  <-- ANSWER
+   B. few
+   C. a few
+   D. many
+
+11. [Cloze Test / Cloze / lvl3] Select the best word for blank (4).
+   A. rendered  <-- ANSWER
+   B. rendering
+   C. render
+   D. renders
+
+12. [Cloze Test / Cloze / lvl3] Select the best word for blank (5).
+   A. disrepair  <-- ANSWER
+   B. disrepute
+   C. distrust
+   D. dismay
+
+13. [Para Jumble / Sentence Rearrangement / lvl3] Rearrange: P. This eventually forced the company to declare bankruptcy. Q. The startup grew rapidly on borrowed capital. R. But mounting debt began to outpace its revenue. S. Investors grew wary and withdrew their support.
+   A. Q,R,S,P  <-- ANSWER
+   B. Q,S,R,P
+   C. R,Q,S,P
+   D. Q,R,P,S
+
+14. [Synonym / Vocabulary (rarer word) / lvl3] Synonym of TACITURN:
+   A. Reticent  <-- ANSWER
+   B. Talkative
+   C. Cheerful
+   D. Anxious
+
+15. [Antonym / Vocabulary (close synonym traps) / lvl3] Antonym of MAGNANIMOUS:
+   A. Petty  <-- ANSWER
+   B. Generous
+   C. Noble
+   D. Forgiving
+
+16. [One Word Substitution / OWS (rarer word) / lvl3] A statement that seems self-contradictory but may in fact be true:
+   A. Paradox  <-- ANSWER
+   B. Oxymoron
+   C. Euphemism
+   D. Anachronism
+
+17. [One Word Substitution / OWS (close literary terms) / lvl3] A word formed by imitating the sound associated with what it names (e.g. 'buzz', 'hiss'):
+   A. Onomatopoeia  <-- ANSWER
+   B. Alliteration
+   C. Assonance
+   D. Personification
+
+18. [Idioms / Idiom Meaning / lvl3] Meaning of 'to read between the lines':
+   A. To understand a hidden or implied meaning  <-- ANSWER
+   B. To read very carefully word by word
+   C. To skip unimportant parts while reading
+   D. To read something out loud
+
+19. [Idioms / Idiom Meaning / lvl3] Meaning of 'to bite the bullet':
+   A. To face a difficult situation with courage  <-- ANSWER
+   B. To act cowardly under pressure
+   C. To argue aggressively
+   D. To break a promise
+
+20. [Spelling / Correct Spelling (close pairs) / lvl3] Choose the correctly spelt word.
+   A. Embarrassment  <-- ANSWER
+   B. Embarassment
+   C. Embarrasment
+   D. Embarrassement
+
+21. [Active-Passive / Voice Conversion (modal + negative) / lvl3] Convert to passive voice: You should not ignore the safety instructions.
+   A. The safety instructions should not be ignored  <-- ANSWER
+   B. The safety instructions should not ignore
+   C. The safety instructions should not being ignored
+   D. The safety instructions should not have ignored
+
+22. [Direct-Indirect / Narration (Yes/No question) / lvl3] Convert to indirect speech: The officer asked the applicant, "Do you have all the required documents?"
+   A. The officer asked the applicant if he had all the required documents  <-- ANSWER
+   B. The officer asked the applicant that he had all the required documents
+   C. The officer asked to the applicant if he has all the required documents
+   D. The officer asked the applicant if did he have all the required documents
+
+23. [Sentence Improvement / Redundancy / lvl3] Select the part with an error: The final outcome / of the negotiations / surprised everyone / present at the meeting.
+   A. The final outcome  <-- ANSWER
+   B. of the negotiations
+   C. surprised everyone
+   D. No error
+
+24. [Error Spotting / Error Spotting (subtle inversion) / lvl3] Select the part with an error: Scarcely he had finished his speech / when the audience / erupted into applause.
+   A. Scarcely he had finished his speech  <-- ANSWER
+   B. when the audience
+   C. erupted into applause
+   D. No error
+
+25. [Error Spotting / Error Spotting / lvl3] Select the part with an error: Despite of the heavy traffic, / we managed to reach / the venue on time.
+   A. Despite of the heavy traffic  <-- ANSWER
+   B. we managed to reach
+   C. the venue on time
+   D. No error

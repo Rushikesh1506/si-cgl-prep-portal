@@ -8,21 +8,46 @@
   :root { --bg:#f6f7fb; --card:#fff; --ink:#1c2333; --muted:#6b7280; --line:#e5e7eb; --accent:#2563eb; --good:#16a34a; --warn:#d97706; --bad:#dc2626; }
   * { box-sizing:border-box; }
   body { margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif; background:var(--bg); color:var(--ink); padding:24px 16px 60px; }
-  .wrap { max-width:920px; margin:0 auto; }
+  .wrap { max-width:960px; margin:0 auto; }
   h1 { font-size:22px; margin:0 0 4px; }
   p.sub { color:var(--muted); margin:0 0 16px; font-size:14px; }
   .note { background:#fffbeb; border:1px solid #fde68a; border-radius:10px; padding:12px 14px; font-size:13px; color:#92400e; margin-bottom:20px; line-height:1.5; }
   .note a { color:#92400e; font-weight:600; }
-  .pill.diff { background:#fef2f2; color:#991b1b; }
-  .pill.new { background:#ecfdf5; color:#065f46; }
+
+  .layout { display:grid; grid-template-columns:1fr; gap:20px; }
+  @media (min-width:760px) { .layout { grid-template-columns:320px 1fr; align-items:start; } }
+
+  .cal { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:16px; }
+  .cal-head { display:flex; align-items:center; justify-content:space-between; margin-bottom:10px; }
+  .cal-head b { font-size:14px; }
+  .cal-nav { display:flex; gap:4px; }
+  .cal-nav button { border:1px solid var(--line); background:#fff; border-radius:6px; width:28px; height:28px; cursor:pointer; font-size:14px; color:var(--ink); }
+  .cal-nav button:hover { background:#f3f4f6; }
+  .cal-grid { display:grid; grid-template-columns:repeat(7,1fr); gap:4px; text-align:center; }
+  .cal-dow { font-size:11px; color:var(--muted); font-weight:600; padding:4px 0; }
+  .cal-day { position:relative; padding:8px 0; border-radius:8px; font-size:13px; cursor:default; color:var(--ink); }
+  .cal-day.empty { visibility:hidden; }
+  .cal-day.has-exams { cursor:pointer; background:#eef2ff; color:#3730a3; font-weight:600; }
+  .cal-day.has-exams:hover { background:#e0e7ff; }
+  .cal-day.selected { background:var(--accent) !important; color:#fff !important; }
+  .cal-day.today { box-shadow:inset 0 0 0 2px var(--accent); }
+  .cal-day .dot { position:absolute; bottom:2px; left:50%; transform:translateX(-50%); width:4px; height:4px; border-radius:50%; background:var(--accent); }
+  .cal-day.selected .dot { background:#fff; }
+  .cal-legend { margin-top:10px; font-size:11px; color:var(--muted); display:flex; align-items:center; gap:6px; }
+  .cal-legend .swatch { width:10px; height:10px; border-radius:3px; background:#eef2ff; border:1px solid #c7d2fe; display:inline-block; }
+
+  .day-panel h2 { font-size:16px; margin:0 0 2px; }
+  .day-panel .sub2 { color:var(--muted); font-size:13px; margin:0 0 16px; }
   .grid { display:grid; grid-template-columns:1fr; gap:14px; }
-  @media (min-width:640px) { .grid { grid-template-columns:1fr 1fr; } }
+  @media (min-width:520px) and (max-width:759px) { .grid { grid-template-columns:1fr 1fr; } }
+  @media (min-width:1000px) { .grid { grid-template-columns:1fr 1fr; } }
   .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:18px; display:flex; flex-direction:column; gap:10px; }
   .card .num { font-size:12px; font-weight:700; color:var(--accent); letter-spacing:.04em; }
   .card h3 { margin:0; font-size:16px; }
   .card p { margin:0; font-size:13px; color:var(--muted); line-height:1.4; }
   .meta { display:flex; gap:8px; flex-wrap:wrap; font-size:12px; color:var(--muted); }
   .pill { background:#eef2ff; color:#3730a3; padding:2px 8px; border-radius:999px; }
+  .pill.new { background:#ecfdf5; color:#065f46; }
   .status { font-size:13px; font-weight:600; padding:6px 10px; border-radius:8px; background:#f3f4f6; color:var(--muted); }
   .status.done { background:#ecfdf5; color:var(--good); }
   .status.partial { background:#fffbeb; color:var(--warn); }
@@ -30,36 +55,80 @@
   .btn { display:inline-block; text-decoration:none; text-align:center; padding:9px 14px; border-radius:8px; font-size:13px; font-weight:600; border:1px solid transparent; }
   .btn-primary { background:var(--accent); color:#fff; }
   .btn-ghost { background:#fff; border-color:var(--line); color:var(--ink); }
-  footer { max-width:920px; margin:24px auto 0; font-size:12px; color:var(--muted); text-align:center; }
+  .empty-state { background:var(--card); border:1px dashed var(--line); border-radius:12px; padding:28px; text-align:center; color:var(--muted); font-size:13px; }
+  footer { max-width:960px; margin:24px auto 0; font-size:12px; color:var(--muted); text-align:center; }
 </style>
 </head>
 <body>
 <div class="wrap">
   <h1>🎯 SSC CGL Prep — Exam Dashboard</h1>
-  <p class="sub">All 5 mock/diagnostic exams for local testing before going live. Scores below are read from this browser's saved progress.</p>
-  <div class="note">📋 Calibration standard: <a href="cgl/QUESTION_STANDARDS.md">cgl/QUESTION_STANDARDS.md</a> — tough-shift difficulty, PYQ-grounded construction (verified against real 2024 shift analyses), every answer independently re-computed. Test 5's Reasoning section adds non-verbal items (dice, figure-counting, mirror-of-clock) verified by simulation/formula, not guessed.</div>
-  <div class="grid" id="grid"></div>
+  <p class="sub">Pick a day on the calendar to see that day's exams. Scores are read from this browser's saved progress.</p>
+  <div class="note">📋 Calibration standard: <a href="cgl/QUESTION_STANDARDS.md">cgl/QUESTION_STANDARDS.md</a> — tough-shift difficulty, PYQ-grounded construction (verified against real 2024 shift analyses), every answer independently re-computed.</div>
+
+  <div class="layout">
+    <div class="cal">
+      <div class="cal-head">
+        <div class="cal-nav"><button id="prevM">‹</button></div>
+        <b id="calTitle"></b>
+        <div class="cal-nav"><button id="nextM">›</button></div>
+      </div>
+      <div class="cal-grid" id="calGrid"></div>
+      <div class="cal-legend"><span class="swatch"></span> Day has exams — click to open</div>
+    </div>
+
+    <div class="day-panel">
+      <h2 id="dayTitle">—</h2>
+      <p class="sub2" id="daySub"></p>
+      <div class="grid" id="grid"></div>
+    </div>
+  </div>
 </div>
 <footer>Run a local server (e.g. <code>python -m http.server 8000</code>) from the repo root, then open this page over http:// — not file://.</footer>
 
 <script>
-const EXAMS = [
-  { n: 1, title: "Morning Full English Mock", desc: "25Q · 20 min · Error spotting, cloze, vocab, voice, narration. Rarer-vocab pass applied (parsimonious/obstinate/fastidious replace basic words).",
-    tags: ["English","25Q","20 min","v2"], href: "english/index.html?mock=sept30_m1", launch: "Start exam now",
-    score: () => bestFor("daily_sept30_m1") },
-  { n: 2, title: "Evening Full English Mock", desc: "25Q · 20 min · Fresh set, no repeats from morning. 3 weak single-word prepositions replaced with less-common multi-blank pairs (dispense with, prevail upon).",
-    tags: ["English","25Q","20 min","v2"], href: "english/index.html?mock=sept30_m2", launch: "Start exam now",
-    score: () => bestFor("daily_sept30_m2") },
-  { n: 3, title: "Maths Mock", desc: "21Q · 25 min · Percentage, ratio, SI/CI, time-work, TSD. 3 broken answer keys found and fixed this round (numbers didn't match any option — now exact).",
-    tags: ["Quant","21Q","25 min","bug-fixed"], href: "english/index.html?mock=sept30_m3", launch: "Start exam now",
-    score: () => bestFor("daily_sept30_m3") },
-  { n: 4, title: "Extreme GS Mock", desc: "24Q · 30 min · Statement-based, chronology, matching, assertion-reason. 9 answer-index bugs found and fixed (coded answer contradicted the question's own explanation).",
-    tags: ["GS","24Q","30 min","bug-fixed"], href: "english/index.html?mock=sept30_m4", launch: "Start exam now",
-    score: () => bestFor("daily_sept30_m4") },
-  { n: 5, title: "Full CGL Diagnostic — Paper 02", desc: "100Q · 200 marks · 60 min · PYQ-grounded rewrite verified against real 2024 shift analyses. Reasoning now includes dice, figure-counting, and mirror-of-clock (non-verbal).",
-    tags: ["Full paper","100Q","60 min","PYQ-grounded"], href: "cgl/exam2.html", launch: "Start full exam",
-    score: () => paper02Status() },
-];
+/* ---------- Exam calendar data: one entry per date, 5 exams each ---------- */
+const EXAM_CALENDAR = {
+  "2026-09-30": {
+    label: "30 Sep 2026",
+    exams: [
+      { n: 1, title: "Morning Full English Mock", desc: "25Q · 20 min · Error spotting, cloze, vocab, voice, narration.",
+        tags: ["English","25Q","20 min"], href: "english/index.html?mock=sept30_m1", launch: "Start exam now",
+        score: () => bestFor("daily_sept30_m1") },
+      { n: 2, title: "Evening Full English Mock", desc: "25Q · 20 min · Fresh set, no repeats from morning.",
+        tags: ["English","25Q","20 min"], href: "english/index.html?mock=sept30_m2", launch: "Start exam now",
+        score: () => bestFor("daily_sept30_m2") },
+      { n: 3, title: "Maths Mock", desc: "21Q · 25 min · Percentage, ratio, SI/CI, time-work, TSD.",
+        tags: ["Quant","21Q","25 min"], href: "english/index.html?mock=sept30_m3", launch: "Start exam now",
+        score: () => bestFor("daily_sept30_m3") },
+      { n: 4, title: "Extreme GS Mock", desc: "24Q · 30 min · Statement-based, chronology, matching, assertion-reason.",
+        tags: ["GS","24Q","30 min"], href: "english/index.html?mock=sept30_m4", launch: "Start exam now",
+        score: () => bestFor("daily_sept30_m4") },
+      { n: 5, title: "Full CGL Diagnostic — Paper 02", desc: "100Q · 200 marks · 60 min · PYQ-grounded, tough-shift. Reasoning includes dice, figure-counting, mirror-of-clock.",
+        tags: ["Full paper","100Q","60 min"], href: "cgl/exam2.html", launch: "Start full exam",
+        score: () => examStatus("cgl_exam_paper02_v1") },
+    ]
+  },
+  "2026-10-01": {
+    label: "1 Oct 2026",
+    exams: [
+      { n: 1, title: "Morning Full English Mock", desc: "25Q · 20 min · Fresh set for tomorrow — error spotting, cloze, vocab, voice, narration.",
+        tags: ["English","25Q","20 min","new"], href: "english/index.html?mock=oct1_m1", launch: "Start exam now",
+        score: () => bestFor("daily_oct1_m1") },
+      { n: 2, title: "Evening Full English Mock", desc: "25Q · 20 min · Fresh set, no repeats from the morning mock.",
+        tags: ["English","25Q","20 min","new"], href: "english/index.html?mock=oct1_m2", launch: "Start exam now",
+        score: () => bestFor("daily_oct1_m2") },
+      { n: 3, title: "Maths Mock", desc: "25Q · 25 min · Percentage, SI/CI, algebra, geometry, time-work, TSD, DI.",
+        tags: ["Quant","25Q","25 min","new"], href: "english/index.html?mock=oct1_m3", launch: "Start exam now",
+        score: () => bestFor("daily_oct1_m3") },
+      { n: 4, title: "GS Mock", desc: "25Q · 30 min · Polity, history, geography, economy, science — statement & matching style.",
+        tags: ["GS","25Q","30 min","new"], href: "english/index.html?mock=oct1_m4", launch: "Start exam now",
+        score: () => bestFor("daily_oct1_m4") },
+      { n: 5, title: "Full CGL Diagnostic — Paper 03", desc: "100Q · 200 marks · 60 min · Fresh PYQ-grounded paper for tomorrow. Same tough-shift calibration as Paper 02.",
+        tags: ["Full paper","100Q","60 min","new"], href: "cgl/exam3.html", launch: "Start full exam",
+        score: () => examStatus("cgl_exam_paper03_v1") },
+    ]
+  },
+};
 
 function bestFor(key) {
   try {
@@ -69,10 +138,9 @@ function bestFor(key) {
     return b ? { s: b.s, t: b.t } : null;
   } catch (e) { return null; }
 }
-
-function paper02Status() {
+function examStatus(lsKey) {
   try {
-    const raw = localStorage.getItem("cgl_exam_paper02_v1");
+    const raw = localStorage.getItem(lsKey);
     if (!raw) return null;
     const s = JSON.parse(raw);
     if (s.submittedAt || s.finished) return { submitted: true };
@@ -80,7 +148,6 @@ function paper02Status() {
     return null;
   } catch (e) { return null; }
 }
-
 function statusHTML(exam) {
   const r = exam.score();
   if (!r) return `<span class="status">Not attempted</span>`;
@@ -94,22 +161,87 @@ function statusHTML(exam) {
   return `<span class="status">Not attempted</span>`;
 }
 
-const grid = document.getElementById("grid");
-EXAMS.forEach(exam => {
-  const el = document.createElement("div");
-  el.className = "card";
-  el.innerHTML = `
-    <div class="num">TEST ${exam.n}</div>
-    <h3>${exam.title}</h3>
-    <p>${exam.desc}</p>
-    <div class="meta">${exam.tags.map(t => `<span class="pill${/v2|bug-fixed|PYQ-grounded/.test(t) ? " new" : ""}">${t}</span>`).join("")}</div>
-    <div id="status-${exam.n}"></div>
-    <div class="actions">
-      <a class="btn btn-primary" href="${exam.href}">${exam.launch}</a>
-    </div>`;
-  grid.appendChild(el);
-  document.getElementById(`status-${exam.n}`).innerHTML = statusHTML(exam);
-});
+/* ---------- Calendar rendering ---------- */
+const DOW = ["Su","Mo","Tu","We","Th","Fr","Sa"];
+const MONTH_NAMES = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+
+function todayISO() {
+  const d = new Date();
+  return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
+}
+function isoOf(y,m,day) { return y+"-"+String(m+1).padStart(2,"0")+"-"+String(day).padStart(2,"0"); }
+
+// Default view: the month containing the earliest calendar date with entries (so navigating here always shows real content first)
+const allDates = Object.keys(EXAM_CALENDAR).sort();
+const initialDate = allDates.length ? new Date(allDates[0]+"T00:00:00") : new Date();
+let viewYear = initialDate.getFullYear();
+let viewMonth = initialDate.getMonth();
+let selectedISO = allDates.includes(todayISO()) ? todayISO() : (allDates[0] || null);
+
+function renderCalendar() {
+  document.getElementById("calTitle").textContent = MONTH_NAMES[viewMonth] + " " + viewYear;
+  const grid = document.getElementById("calGrid");
+  grid.innerHTML = "";
+  DOW.forEach(d => { const el = document.createElement("div"); el.className = "cal-dow"; el.textContent = d; grid.appendChild(el); });
+
+  const firstDow = new Date(viewYear, viewMonth, 1).getDay();
+  const daysInMonth = new Date(viewYear, viewMonth+1, 0).getDate();
+  const today = todayISO();
+
+  for (let i=0;i<firstDow;i++) { const el = document.createElement("div"); el.className="cal-day empty"; grid.appendChild(el); }
+
+  for (let day=1; day<=daysInMonth; day++) {
+    const iso = isoOf(viewYear, viewMonth, day);
+    const el = document.createElement("div");
+    const has = !!EXAM_CALENDAR[iso];
+    el.className = "cal-day" + (has ? " has-exams" : "") + (iso===today ? " today" : "") + (iso===selectedISO ? " selected" : "");
+    el.textContent = day;
+    if (has) {
+      const dot = document.createElement("div"); dot.className="dot"; el.appendChild(dot);
+      el.onclick = () => { selectedISO = iso; renderCalendar(); renderDay(); };
+    }
+    grid.appendChild(el);
+  }
+}
+
+function renderDay() {
+  const dayTitle = document.getElementById("dayTitle");
+  const daySub = document.getElementById("daySub");
+  const grid = document.getElementById("grid");
+  grid.innerHTML = "";
+
+  const entry = selectedISO ? EXAM_CALENDAR[selectedISO] : null;
+  if (!entry) {
+    dayTitle.textContent = "No exams on this day";
+    daySub.textContent = "Pick a highlighted date on the calendar.";
+    grid.innerHTML = `<div class="empty-state">Select a highlighted date to see its exams.</div>`;
+    return;
+  }
+  dayTitle.textContent = entry.label;
+  daySub.textContent = entry.exams.length + " exams scheduled for this day.";
+
+  entry.exams.forEach(exam => {
+    const el = document.createElement("div");
+    el.className = "card";
+    el.innerHTML = `
+      <div class="num">TEST ${exam.n}</div>
+      <h3>${exam.title}</h3>
+      <p>${exam.desc}</p>
+      <div class="meta">${exam.tags.map(t => `<span class="pill${t==="new" ? " new" : ""}">${t}</span>`).join("")}</div>
+      <div id="status-${selectedISO}-${exam.n}"></div>
+      <div class="actions">
+        <a class="btn btn-primary" href="${exam.href}">${exam.launch}</a>
+      </div>`;
+    grid.appendChild(el);
+    document.getElementById(`status-${selectedISO}-${exam.n}`).innerHTML = statusHTML(exam);
+  });
+}
+
+document.getElementById("prevM").onclick = () => { viewMonth--; if (viewMonth<0){viewMonth=11;viewYear--;} renderCalendar(); };
+document.getElementById("nextM").onclick = () => { viewMonth++; if (viewMonth>11){viewMonth=0;viewYear++;} renderCalendar(); };
+
+renderCalendar();
+renderDay();
 </script>
 </body>
 </html>
