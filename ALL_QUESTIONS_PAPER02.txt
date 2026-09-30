@@ -1,0 +1,713 @@
+SSC CGL TIER-1 — DIAGNOSTIC PAPER 02 — v4 (PYQ-grounded rewrite: GA + Quant fully redone)
+================================================================================
+
+## REASONING  (25 questions)
+--------------------------------------------------------------------------------
+1. [Series / Number Series (2nd-order difference) / lvl3] Find the next term: 3, 7, 13, 21, 31, ?
+   A. 43  <-- ANSWER
+   B. 41
+   C. 45
+   D. 39
+   Why: Differences: 4,6,8,10 — each difference itself increases by 2 (a 2nd-order arithmetic series). Next difference = 12, so next term = 31+12 = 43.
+
+2. [Series / Alpha-Numeric Series / lvl3] Find the next term: Z3Y, X6W, V12U, T24S, ?
+   A. R48Q  <-- ANSWER
+   B. R45Q
+   C. Q48R
+   D. R48S
+   Why: Letters: Z,X,V,T,R (skip one, -2 each, alternating positions). Numbers: 3,6,12,24,48 (double each time). So R48Q.
+
+3. [Series / Multiplicative Number Series / lvl3] Find the next term: 2, 3, 6, 18, 108, ?
+   A. 1944  <-- ANSWER
+   B. 1080
+   C. 648
+   D. 216
+   Why: From the third term onward, each term = product of the previous two terms: 2x3=6, 3x6=18, 6x18=108, so 18x108=1944.
+
+4. [Analogy / Number Analogy / lvl2] 12 : 156 :: 15 : ?
+   A. 225
+   B. 240
+   C. 210  <-- ANSWER
+   D. 195
+   Why: Pattern: n x (n+1) = 12x13=156. So 15x14=210.
+
+5. [Classification / Odd Number Set / lvl3] Select the set that follows the same pattern as (16, 25, 4).
+   A. (9, 16, 25)
+   B. (8, 27, 64)
+   C. (9, 49, 36)  <-- ANSWER
+   D. (12, 18, 24)
+   Why: 16=4^2, 25=5^2, 4=2^2 — three perfect squares in any order. (9,49,36) = 3^2,7^2,6^2 also all perfect squares.
+
+6. [Coding-Decoding / Reverse Alphabet Position / lvl3] In a certain code, each letter is written as (27 minus its position in the alphabet) — so A(1) becomes 26, B(2) becomes 25, and so on. What is the code for the word 'BAT'?
+   A. 25-26-7  <-- ANSWER
+   B. 25-26-8
+   C. 26-25-7
+   D. 24-26-7
+   Why: B is position 2 -> 27-2=25. A is position 1 -> 27-1=26. T is position 20 -> 27-20=7. Code = 25-26-7.
+
+7. [Coding-Decoding / Cyclic Letter Shift / lvl3] If in a certain code DOG is written as GRJ, how will CAT be written in the same code?
+   A. FDW  <-- ANSWER
+   B. FDV
+   C. EDW
+   D. FDX
+   Why: Each letter shifts forward by 3: D->G, O->R, G->J (confirms the rule). Applying the same +3 shift to CAT: C->F, A->D, T->W. Code = FDW.
+
+8. [Coding-Decoding / Letter-Digit Substitution Cipher / lvl3] In a certain code, ROSE is written as 6821 and MINT is written as 5493. Using the digit assigned to each letter, what is the code for STONE?
+   A. 23891  <-- ANSWER
+   B. 28391
+   C. 23819
+   D. 23981
+   Why: From ROSE=6821: R=6, O=8, S=2, E=1. From MINT=5493: M=5, I=4, N=9, T=3. STONE needs S,T,O,N,E in that order: S=2, T=3, O=8, N=9, E=1, giving 23891.
+
+9. [Blood Relations / Family Tree / lvl3] Pointing to a photograph, Ravi said, 'She is the daughter of my grandfather's only son.' How is the woman related to Ravi?
+   A. Sister  <-- ANSWER
+   B. Cousin
+   C. Mother
+   D. Aunt
+   Why: Grandfather's only son = Ravi's father (since only son). Father's daughter = Ravi's sister.
+
+10. [Blood Relations / Coded Relations / lvl3] If A + B means A is father of B, A - B means A is wife of B, A x B means A is brother of B. Which of the following shows P is grandmother of Q?
+   A. P - R + Q  <-- ANSWER
+   B. P + R x Q
+   C. P x R - Q
+   D. P - R x Q
+   Why: P - R (P is wife of R) + Q (R is father of Q) => R is Q's father, P is R's wife => P is Q's grandmother.
+
+11. [Direction Sense / Multi-Turn Net Displacement / lvl3] A man, facing North, walks 10 km, turns right and walks 5 km, turns right again and walks 10 km, then turns left and walks 5 km. How far and in which direction is he from his starting point?
+   A. 10 km East  <-- ANSWER
+   B. 5 km East
+   C. 10 km West
+   D. 15 km East
+   Why: North 10 km (facing N). Turn right -> facing East, walk 5 km. Turn right again -> facing South, walk 10 km (cancels the first North 10 km). Turn left from South -> facing East, walk 5 km more East. Net: vertical cancels to 0; horizontal = 5+5 = 10 km East.
+
+12. [Direction Sense / Direction & Distance (Pythagorean) / lvl3] A man walks 8 km East, then turns and walks 6 km North. How far is he from his starting point, and in which general direction does that displacement lie?
+   A. 10 km, North-East  <-- ANSWER
+   B. 14 km, North-East
+   C. 10 km, East
+   D. 10 km, North
+   Why: The two legs (8 km East, 6 km North) are perpendicular, so the straight-line distance = sqrt(8^2+6^2) = sqrt(100) = 10 km. Since the net displacement has both an Eastward and a Northward component, its direction is North-East.
+
+13. [Ranking & Order / Total from Two Ranks / lvl2] Arjun is 9th from the top and 14th from the bottom in a class. How many students are there in the class?
+   A. 22  <-- ANSWER
+   B. 23
+   C. 21
+   D. 20
+   Why: Total = (Rank from top) + (Rank from bottom) - 1, because Arjun himself is counted in both ranks. So Total = 9+14-1 = 22.
+
+14. [Ranking & Order / Queue — Front and Back / lvl3] In a queue, Rohit is 15th from the front. There are 10 people standing behind him. How many people are in the queue in total, and what is Rohit's position from the back?
+   A. 25 total, 11th from back  <-- ANSWER
+   B. 24 total, 10th from back
+   C. 25 total, 10th from back
+   D. 26 total, 11th from back
+   Why: Total = (position from front - 1) + 1 (Rohit) + people behind = 14+1+10 = 25. Position from back = people behind + 1 (Rohit himself) = 10+1 = 11th.
+
+15. [Syllogism / Statement-Conclusion / lvl3] Statements: All roses are flowers. Some flowers are red. Conclusions: I. Some roses are red. II. All flowers are roses.
+   A. Neither I nor II follows  <-- ANSWER
+   B. Only I follows
+   C. Only II follows
+   D. Both I and II follow
+   Why: All roses are flowers just places roses inside the flower group; the 'red' flowers in the second statement could be entirely outside the rose subgroup, so I is not guaranteed. II reverses the first statement's scope illegitimately, since flowers is the larger group.
+
+16. [Syllogism / Statement-Conclusion / lvl3] Statements: All keys are locks. No lock is a door. Conclusions: I. No key is a door. II. Some locks are keys.
+   A. Both I and II follow  <-- ANSWER
+   B. Only I follows
+   C. Only II follows
+   D. Neither follows
+   Why: All keys are locks + no lock is a door => no key is a door (I follows, by chain rule). Since all keys are locks and keys exist, some locks are definitely keys (II follows by conversion).
+
+17. [Syllogism / Statement-Conclusion / lvl3] Statements: Some pens are pencils. All pencils are erasers. Conclusions: I. Some pens are erasers. II. No pen is an eraser.
+   A. Only I follows  <-- ANSWER
+   B. Only II follows
+   C. Both follow
+   D. Neither follows
+   Why: Some pens are pencils + all pencils are erasers => some pens are erasers (I follows, chain of 'some...all'). II directly contradicts I — once I is established as definitely true, its outright denial (II) cannot also follow.
+
+18. [Mathematical Operations / Symbol Substitution / lvl3] If '+' means '÷', '-' means '×', '×' means '-', '÷' means '+', evaluate: 20 + 4 - 3 × 6 ÷ 2
+   A. 11  <-- ANSWER
+   B. 13
+   C. 9
+   D. 15
+   Why: Replace symbols with their real meaning first: 20÷4×3-6+2. Apply BODMAS left to right: 20÷4=5, 5×3=15, 15-6=9, 9+2=11.
+
+19. [Missing Number / Matrix (two-step rule) / lvl3] Find the missing number: Row1: 3,4,5 -> 35 ; Row2: 2,6,3 -> 24 ; Row3: 4,5,2 -> ?
+   A. 18  <-- ANSWER
+   B. 20
+   C. 16
+   D. 22
+   Why: Rule: (first + second) x third. Row1: (3+4)x5=35. Row2: (2+6)x3=24. Row3: (4+5)x2=18.
+
+20. [Classification / Structural Odd One Out (palindromes) / lvl3] Select the word that does NOT belong with the others, based on the structural pattern the rest share.
+   A. APPLE  <-- ANSWER
+   B. LEVEL
+   C. CIVIC
+   D. RADAR
+   Why: LEVEL, CIVIC and RADAR are all palindromes (read the same forwards and backwards). APPLE is not a palindrome (reversed: ELPPA).
+
+21. [Calendar / Day of the Week / lvl3] If 1st January 2024 was a Monday, what day was 1st January 2025?
+   A. Wednesday  <-- ANSWER
+   B. Tuesday
+   C. Monday
+   D. Thursday
+   Why: 2024 is a leap year (366 days). 366 mod 7 = 2, so the day advances by 2: Monday + 2 = Wednesday.
+
+22. [Age Problems / Ratio-based Age / lvl3] The present ages of A and B are in the ratio 4:5. After 6 years, the ratio becomes 5:6. What is A's present age?
+   A. 24 years  <-- ANSWER
+   B. 20 years
+   C. 28 years
+   D. 18 years
+   Why: Let ages be 4x, 5x. (4x+6)/(5x+6)=5/6 => 6(4x+6)=5(5x+6) => 24x+36=25x+30 => x=6. A's age=4x=24.
+
+23. [Seating Arrangement / Circular Arrangement / lvl3] Six people P,Q,R,S,T,U sit around a circular table facing the centre, equally spaced. P is second to the right of Q. T is second to the left of Q. R and S occupy the two remaining seats next to P and T. Who sits directly opposite Q?
+   A. U  <-- ANSWER
+   B. R or S
+   C. P
+   D. T
+   Why: Seat Q, then place P two seats clockwise and T two seats anticlockwise from Q — this fixes 3 of the 6 seats (Q, P, T) with one empty seat between Q-P and one empty seat between Q-T. The seat directly opposite Q (3 seats away) is the one remaining seat not adjacent to Q, P or T, which is occupied by U.
+
+24. [Word Formation / Dictionary Order (long shared prefix) / lvl3] Arrange in the order they appear in a dictionary: 1. Strategy 2. Strait 3. Straight 4. Strategic
+   A. 3,2,4,1  <-- ANSWER
+   B. 2,3,4,1
+   C. 3,2,1,4
+   D. 2,3,1,4
+   Why: All four share the prefix 'STRA'. Straight and Strait continue 'STRAI-' (5th letter I); Strategic and Strategy continue 'STRAT-' (5th letter T) — I comes before T, so Straight/Strait precede Strategic/Strategy. Within the first pair, 'STRAIG' vs 'STRAIT' (6th letter G before T) puts Straight before Strait. Within the second pair, 'STRATEGI' vs 'STRATEGY' (8th letter I before Y) puts Strategic before Strategy. Final order: Straight, Strait, Strategic, Strategy = 3,2,4,1.
+
+25. [Series / Alpha-Numeric Series (triple track) / lvl3] Find the next term: AB1, DE4, GH9, JK16, ?
+   A. MN25  <-- ANSWER
+   B. MN20
+   C. LM25
+   D. MN24
+   Why: First letters: A,D,G,J (+3 each) -> next M. Second letters: B,E,H,K (+3 each) -> next N. Numbers: 1,4,9,16 are 1^2,2^2,3^2,4^2 -> next is 5^2=25. Term = MN25.
+
+
+## GENERAL AWARENESS  (25 questions)
+--------------------------------------------------------------------------------
+1. [Polity / Centre-State Relations / lvl3] Which Article of the Indian Constitution empowers the Union to give directions to a State regarding the exercise of its executive power, to ensure compliance with laws made by Parliament?
+   A. Article 257  <-- ANSWER
+   B. Article 356
+   C. Article 352
+   D. Article 249
+   Why: Article 257 allows the Union to direct a State's executive to ensure compliance with central laws, and to protect railways/means of communication of national importance.
+
+2. [Polity / Executive Provisions / lvl3] Which Article of the Constitution deals with the 'Conduct of Business of the Government of India'?
+   A. Article 77  <-- ANSWER
+   B. Article 75
+   C. Article 74
+   D. Article 78
+   Why: Article 77 lays down rules for the conduct of business of the Government of India, including that all executive action is taken in the name of the President.
+
+3. [Polity / Judiciary / lvl3] Which Article of the Constitution provides for the salaries and allowances of the Judges of the Supreme Court?
+   A. Article 125  <-- ANSWER
+   B. Article 124
+   C. Article 126
+   D. Article 128
+   Why: Article 125 provides for the salaries, allowances, and pension of Supreme Court Judges, charged on the Consolidated Fund of India.
+
+4. [Geography / Physical Geography Terminology / lvl3] The term 'Doab' refers to:
+   A. The land lying between two converging rivers  <-- ANSWER
+   B. A hot, dry local wind of North India
+   C. A type of alluvial soil found near river deltas
+   D. A seasonal reversal of wind direction
+   Why: 'Doab' (do-ab = two waters) refers to the tract of land lying between two converging rivers, e.g. the Ganga-Yamuna Doab.
+
+5. [Geography / Indian Climate / lvl3] 'Loo', the hot and dry local wind that blows over the Indo-Gangetic plains, is most prominent during which months?
+   A. May-June  <-- ANSWER
+   B. January-February
+   C. September-October
+   D. July-August
+   Why: Loo blows during the peak summer months of May-June, just before the onset of the monsoon, across North and Northwest India.
+
+6. [History / Medieval India - Delhi Sultanate / lvl3] Alauddin Khilji's expeditions into the Deccan and South India were primarily led by which of his generals?
+   A. Malik Kafur  <-- ANSWER
+   B. Zafar Khan
+   C. Ulugh Khan
+   D. Nusrat Khan
+   Why: Malik Kafur led Alauddin Khilji's major military campaigns into the Deccan and South India (against Devagiri, Warangal, Dwarasamudra, and the Pandyas).
+
+7. [History / Medieval India - Mughal Administration / lvl3] Raja Todar Mal, who served as Akbar's finance minister and introduced the 'Zabti' (Dahsala) land revenue system, held which title?
+   A. Diwan  <-- ANSWER
+   B. Wazir
+   C. Mir Bakshi
+   D. Sadr-us-Sudur
+   Why: Todar Mal served as Diwan (revenue minister) under Akbar, and designed the Dahsala/Zabti system of land revenue assessment based on a 10-year average.
+
+8. [History / Freedom Movement - Revolutionary Activities / lvl3] The Chittagong Armoury Raid of 1930 was led by:
+   A. Surya Sen  <-- ANSWER
+   B. Bhagat Singh
+   C. Khudiram Bose
+   D. Rash Behari Bose
+   Why: Surya Sen ('Masterda') led the Chittagong Armoury Raid (April 1930), a major armed revolutionary action against British armouries in Bengal.
+
+9. [History / Ancient India - Sangam Literature / lvl3] The Tamil Sangam-era epic 'Silappadikaram' was authored by:
+   A. Ilango Adigal  <-- ANSWER
+   B. Sattanar
+   C. Tolkappiyar
+   D. Thiruvalluvar
+   Why: 'Silappadikaram' ('The Tale of an Anklet') was composed by Ilango Adigal, considered one of the 'Five Great Epics' of Tamil literature.
+
+10. [Science / Chemistry - Redox / lvl3] In the reaction Zn + CuSO4 -> ZnSO4 + Cu, which statement correctly describes what happens to zinc?
+   A. Zinc is oxidised, as it loses electrons  <-- ANSWER
+   B. Zinc is reduced, as it gains electrons
+   C. Zinc acts as the oxidising agent
+   D. Zinc's oxidation state decreases
+   Why: Zinc goes from oxidation state 0 to +2 (in ZnSO4), losing 2 electrons — this is oxidation. Since zinc itself gets oxidised, it acts as the REDUCING agent (not oxidising agent) in this reaction.
+
+11. [Science / Chemistry - IUPAC Nomenclature / lvl3] What is the IUPAC name of the compound commonly known as Tertiary Butyl Alcohol, (CH3)3C-OH?
+   A. 2-Methylpropan-2-ol  <-- ANSWER
+   B. Butan-1-ol
+   C. 2-Methylpropan-1-ol
+   D. Butan-2-ol
+   Why: (CH3)3C-OH has the -OH group on a carbon attached to three methyl groups; its IUPAC name is 2-Methylpropan-2-ol (a 3-carbon propane chain with a methyl branch and -OH both at carbon 2).
+
+12. [Science / Biology - Cell Structure / lvl3] Which cell organelle is correctly described as the 'powerhouse of the cell' because it generates ATP through cellular respiration?
+   A. Mitochondria  <-- ANSWER
+   B. Ribosome
+   C. Golgi apparatus
+   D. Endoplasmic reticulum
+   Why: Mitochondria carry out aerobic respiration and generate most of the cell's ATP, earning the nickname 'powerhouse of the cell'.
+
+13. [Static GK / Sports Regulations / lvl3] As per official ITTF rules, what is the standard weight of a table tennis ball?
+   A. 2.7 grams  <-- ANSWER
+   B. 3.5 grams
+   C. 5 grams
+   D. 1.5 grams
+   Why: The official ITTF (International Table Tennis Federation) table tennis ball weighs 2.7 grams, with a diameter of 40 mm.
+
+14. [History / Judiciary History / lvl3] Which was the first High Court to be established in India, in 1862?
+   A. Calcutta High Court  <-- ANSWER
+   B. Bombay High Court
+   C. Madras High Court
+   D. Allahabad High Court
+   Why: The Calcutta High Court, established in 1862 under the Indian High Courts Act 1861, was the first High Court in India (Bombay and Madras High Courts were also established the same year, but Calcutta is recorded as the first).
+
+15. [Economy / Banking History / lvl3] Who was the first Governor of the Reserve Bank of India?
+   A. Sir Osborne Smith  <-- ANSWER
+   B. C.D. Deshmukh
+   C. Benegal Rama Rau
+   D. James Braid Taylor
+   Why: Sir Osborne Smith was the first Governor of the RBI (1935-1937). C.D. Deshmukh later became the first INDIAN Governor (1943), a commonly confused distinction.
+
+16. [Static GK / Conservation Schemes / lvl3] In which year was 'Project Tiger' launched in India?
+   A. 1973  <-- ANSWER
+   B. 1980
+   C. 1966
+   D. 1985
+   Why: Project Tiger was launched in 1973 at Jim Corbett National Park, to protect the declining tiger population in India.
+
+17. [Economy / GST Council / lvl3] In the GST Council, what is the voting weightage split between the Centre and the States (collectively) for any decision?
+   A. Centre 1/3rd, States (together) 2/3rd  <-- ANSWER
+   B. Centre 1/2, States (together) 1/2
+   C. Centre 2/3rd, States (together) 1/3rd
+   D. Each member (Centre + every state) has an equal single vote
+   Why: In the GST Council, the Centre's vote carries a weightage of one-third of the total votes cast, while all States together carry two-thirds — a decision requires a three-fourths majority of votes cast.
+
+18. [Static GK / Sports Championships / lvl3] The Asia Cup (Hockey) tournament is organised by which body?
+   A. Asian Hockey Federation  <-- ANSWER
+   B. International Hockey Federation
+   C. Hockey India
+   D. Olympic Council of Asia
+   Why: The Asian Hockey Federation (AHF) organises the Asia Cup and other continental hockey championships in Asia.
+
+19. [Polity / National Human Rights Commission / lvl3] The Chairperson of the National Human Rights Commission (NHRC) should ordinarily have held which position?
+   A. Chief Justice of India  <-- ANSWER
+   B. Chief Justice of a High Court
+   C. Judge of the Supreme Court
+   D. Attorney General of India
+   Why: As per the Protection of Human Rights Act, 1993 (as amended), the NHRC Chairperson should ordinarily be a person who has been Chief Justice of India (the Act was later amended to also allow a Supreme Court judge to be eligible).
+
+20. [Static GK / Culture - Festivals / lvl3] 'Nuakhai', a harvest festival marking the eating of the new rice of the season, is predominantly celebrated in which state?
+   A. Odisha  <-- ANSWER
+   B. West Bengal
+   C. Assam
+   D. Bihar
+   Why: Nuakhai is a major agricultural/harvest festival of Odisha (especially the western Odisha region), celebrated by offering the season's first rice harvest to the deity.
+
+21. [Economy / Agricultural History / lvl3] The Green Revolution in India during the 1960s had its strongest initial impact in which two states?
+   A. Punjab and Haryana  <-- ANSWER
+   B. West Bengal and Odisha
+   C. Kerala and Tamil Nadu
+   D. Maharashtra and Gujarat
+   Why: Punjab and Haryana, with their assured irrigation and adoption of High-Yielding Variety (HYV) wheat seeds, were the earliest and strongest beneficiaries of the Green Revolution.
+
+22. [Economy / Social Security Schemes / lvl3] The 'Indira Gandhi National Old Age Pension Scheme' (IGNOAPS) provides pension assistance to elderly citizens belonging to which category of households?
+   A. Below Poverty Line (BPL) households  <-- ANSWER
+   B. All households regardless of income
+   C. Only households with a government pensioner
+   D. Only urban BPL households
+   Why: IGNOAPS (part of the National Social Assistance Programme) provides a monthly pension specifically to elderly persons (60+) belonging to Below Poverty Line households.
+
+23. [Static GK / Awards / lvl3] Ustad Zakir Hussain, the renowned tabla player, was awarded the Padma Vibhushan in which year (his second-highest Padma award before his eventual Padma Vibhushan progression)?
+   A. 2002 (Padma Bhushan)  <-- ANSWER
+   B. 1988 (Padma Shri)
+   C. 2023 (Padma Vibhushan)
+   D. 1999 (Padma Bhushan)
+   Why: Zakir Hussain received the Padma Shri in 1988, the Padma Bhushan in 2002, and the Padma Vibhushan in 2023 — a progression through all three Padma award tiers.
+
+24. [Polity / Fundamental Duties / lvl3] Which of the following statements about Fundamental Duties (Article 51A) is correct?
+   A. Added by the 42nd Amendment on the Swaran Singh Committee's recommendation; originally 10 duties, an 11th was added later by the 86th Amendment; they are not directly enforceable by courts  <-- ANSWER
+   B. Added by the 44th Amendment on the Sarkaria Commission's recommendation; originally 11 duties; not enforceable by courts
+   C. Added by the 42nd Amendment on the Swaran Singh Committee's recommendation; originally 10 duties, now 11; legally enforceable in court like Fundamental Rights
+   D. Added by the 42nd Amendment; originally 10 duties, now 11; placed in Part IV of the Constitution
+   Why: The 42nd Amendment (1976) added Part IVA (Article 51A) with 10 Fundamental Duties on the Swaran Singh Committee's recommendation; the 86th Amendment (2002) added an 11th duty (regarding education for children 6-14). Fundamental Duties are NOT directly enforceable in court, and sit in Part IVA, not Part IV (Directive Principles).
+
+25. [History / Modern India - Constitutional Missions / lvl3] Which mission-outcome pair is CORRECTLY matched?
+   A. Cripps Mission (1942) - offered Dominion Status after the war; rejected by Congress as a 'post-dated cheque'  <-- ANSWER
+   B. Cabinet Mission (1946) - offered the same Dominion Status proposal as the Cripps Mission
+   C. Wavell Plan (1945) - proposed the same three-tier federal grouping scheme as the Cabinet Mission
+   D. August Offer (1940) - was identical in content to the Cripps Mission proposals
+   Why: The Cripps Mission (March 1942) offered Dominion Status after the war; Gandhi famously called it a 'post-dated cheque on a crashing bank'. The Cabinet Mission (1946) instead proposed a three-tier federal structure with provincial groupings — a distinct proposal. The Wavell Plan (1945) was about reconstituting the Viceroy's Executive Council. The August Offer (1940) was an earlier, vaguer dominion-status promise, distinct from Cripps' formal proposal.
+
+
+## QUANTITATIVE APTITUDE  (25 questions)
+--------------------------------------------------------------------------------
+1. [Profit & Loss / Dishonest Dealer (false weight) / lvl3] A dishonest shopkeeper professes to sell his goods at cost price, but he uses a weight of 800 g in place of 1000 g. Find his profit percentage.
+   A. 25%  <-- ANSWER
+   B. 20%
+   C. 22.5%
+   D. 30%
+   Why: He gives only 800 g but charges for 1000 g. Profit% = (1000-800)/800 x 100 = 200/800 x 100 = 25%.
+
+2. [Geometry / Direct Common Tangent / lvl3] The centres of two circles are 25 cm apart. Their radii are 9 cm and 2 cm. Find the length of their direct common tangent.
+   A. 24 cm  <-- ANSWER
+   B. 23 cm
+   C. 20 cm
+   D. 21 cm
+   Why: Length of direct common tangent = sqrt(d^2 - (r1-r2)^2) = sqrt(25^2 - 7^2) = sqrt(625-49) = sqrt(576) = 24 cm.
+
+3. [Mensuration / Sphere Melted into Spheres (count) / lvl3] A solid sphere of radius 10 cm is melted and recast into small solid spheres each of radius 2.5 cm. How many small spheres are formed?
+   A. 64  <-- ANSWER
+   B. 32
+   C. 48
+   D. 80
+   Why: Volume is conserved. Number of small spheres = (Big radius / Small radius)^3 = (10/2.5)^3 = 4^3 = 64.
+
+4. [Geometry / Parallel Chords (reverse for radius) / lvl3] Two parallel chords of lengths 16 cm and 12 cm lie on opposite sides of the centre of a circle, 14 cm apart. Find the radius of the circle.
+   A. 10 cm  <-- ANSWER
+   B. 9 cm
+   C. 12 cm
+   D. 11 cm
+   Why: Let the chords' distances from the centre be d1 and d2, with d1+d2=14. From the chord-radius relation: r^2 = 8^2+d1^2 = 6^2+d2^2. Subtracting: d2^2-d1^2=28, and since d2+d1=14, (d2-d1)=28/14=2. So d1=6, d2=8. r^2 = 8^2+6^2 = 100, r = 10 cm.
+
+5. [Algebra / Cube Identity (x - 1/x) / lvl3] If x - 1/x = 4, find the value of x^3 - 1/x^3.
+   A. 76  <-- ANSWER
+   B. 64
+   C. 72
+   D. 80
+   Why: x^3 - 1/x^3 = (x-1/x)^3 + 3(x-1/x) = 4^3 + 3(4) = 64+12 = 76.
+
+6. [Geometry / Right Isosceles Triangle (area to hypotenuse) / lvl3] The area of a right-angled isosceles triangle is 32 sq cm. Find the length of its hypotenuse.
+   A. 8 sqrt(2) cm  <-- ANSWER
+   B. 8 cm
+   C. 16 cm
+   D. 4 sqrt(2) cm
+   Why: For a right isosceles triangle with equal legs a: Area = a^2/2 = 32, so a^2=64, a=8. Hypotenuse = a x sqrt(2) = 8 sqrt(2) cm.
+
+7. [Time, Speed & Distance / Circular Track (opposite directions) / lvl3] Two runners start from the same point on a circular track of length 1200 m and run in opposite directions at 20 m/s and 30 m/s. After how many seconds will they meet for the first time?
+   A. 24 seconds  <-- ANSWER
+   B. 20 seconds
+   C. 30 seconds
+   D. 40 seconds
+   Why: Running in opposite directions on a circular track, the two runners' relative speed adds: 20+30=50 m/s. Time to meet = track length / relative speed = 1200/50 = 24 seconds.
+
+8. [Percentage / Savings % Change (income & expenditure) / lvl3] A person's income is 20% more than his expenditure. If both his income and expenditure increase, respectively, by 20% and 10%, find the percentage change in his savings.
+   A. 70% increase  <-- ANSWER
+   B. 50% increase
+   C. 40% increase
+   D. 30% increase
+   Why: Let expenditure=100, income=120 (20% more). Old savings=120-100=20. New income=120x1.20=144. New expenditure=100x1.10=110. New savings=144-110=34. Percentage change = (34-20)/20 x 100 = 70%.
+
+9. [Geometry / Incenter Angle / lvl3] In triangle ABC, O is the incenter. If angle A = 64 degrees, find angle BOC.
+   A. 122 degrees  <-- ANSWER
+   B. 116 degrees
+   C. 128 degrees
+   D. 90 degrees
+   Why: The incenter angle formula: angle BOC = 90 + A/2 = 90 + 32 = 122 degrees.
+
+10. [Time, Speed & Distance / Pursuit (thief and police) / lvl3] A thief is spotted by a policeman from a distance of 300 m. The thief runs at 10 km/h and the policeman chases at 12 km/h. In how many minutes will the policeman catch the thief?
+   A. 9 minutes  <-- ANSWER
+   B. 8 minutes
+   C. 10 minutes
+   D. 7.5 minutes
+   Why: Relative speed = 12-10 = 2 km/h = 2000/60 m/min = 100/3 m/min. Time = 300 / (100/3) = 900/100 = 9 minutes.
+
+11. [Mensuration / Sector Perimeter (reverse, pi=22/7) / lvl3] Find the perimeter of a sector of a circle with radius 21 cm and central angle 60 degrees. (Use pi = 22/7)
+   A. 64 cm  <-- ANSWER
+   B. 58 cm
+   C. 70 cm
+   D. 55 cm
+   Why: Arc length = 2 x pi x r x (theta/360) = 2 x (22/7) x 21 x (60/360) = 22 cm. Perimeter of sector = 2r + arc = 42+22 = 64 cm.
+
+12. [Geometry / Right Triangle Inradius / lvl3] Find the inradius of a right-angled triangle with sides 9 cm, 12 cm and 15 cm (hypotenuse 15 cm).
+   A. 3 cm  <-- ANSWER
+   B. 4 cm
+   C. 2.5 cm
+   D. 6 cm
+   Why: For a right triangle, inradius r = (leg1 + leg2 - hypotenuse)/2 = (9+12-15)/2 = 6/2 = 3 cm.
+
+13. [Simple & Compound Interest / CI vs SI Difference (3 yr) / lvl3] The difference between CI and SI on a sum for 3 years at 10% per annum is Rs.31. Find the sum. (The 2-year shortcut P(r/100)^2 does NOT apply here.)
+   A. Rs.1,000  <-- ANSWER
+   B. Rs.1,033
+   C. Rs.3,100
+   D. Rs.310
+   Why: For 3 years, CI-SI difference = P x (r/100)^2 x (3 + r/100) = P x (1/100) x 3.1 = 0.031P. So 0.031P = 31 => P = 1000.
+
+14. [Partnership / Time-Weighted Capital / lvl3] A invests Rs.8,000 for 12 months, B invests Rs.10,000 for 8 months, and C invests Rs.6,000 for 6 months in a business. If the total profit is Rs.10,600, find B's share.
+   A. Rs.4,000  <-- ANSWER
+   B. Rs.4,800
+   C. Rs.1,800
+   D. Rs.5,000
+   Why: Effective capital: A=8000x12=96000, B=10000x8=80000, C=6000x6=36000, total=212000. B's share = 10600 x (80000/212000) = 4,000.
+
+15. [Pipes & Cisterns / Inlet + Inlet - Outlet / lvl3] Pipe A can fill a tank in 12 hours, Pipe B in 15 hours, while outlet Pipe C can empty the full tank in 20 hours. If all three pipes are opened together, how long will it take to fill the tank?
+   A. 10 hours  <-- ANSWER
+   B. 9 hours
+   C. 11 hours
+   D. 12 hours
+   Why: Combined rate = 1/12 + 1/15 - 1/20. LCM 60: 5/60 + 4/60 - 3/60 = 6/60 = 1/10. Time = 10 hours.
+
+16. [Time, Speed & Distance / Boats & Streams (reverse) / lvl3] The speed of a stream is 5 km/h. A boat takes a total of 8 hours to travel 30 km downstream and then return 30 km upstream. Find the boat's speed in still water.
+   A. 10 km/h  <-- ANSWER
+   B. 12 km/h
+   C. 8 km/h
+   D. 15 km/h
+   Why: Let boat speed = x. 30/(x+5) + 30/(x-5) = 8. Cross-multiplying: 30(x-5)+30(x+5) = 8(x^2-25) => 60x = 8x^2-200 => 2x^2-15x-50=0. Discriminant = 225+400=625=25^2. x = (15+25)/4 = 10 km/h.
+
+17. [Time & Work / Three Workers, Staggered Exit / lvl3] A, B and C can complete a work in 15, 20 and 30 days respectively. All three start together. A leaves after 4 days, and B leaves 3 days after that (i.e. on day 7). In how many more days will C alone finish the remaining work?
+   A. 4.5 days  <-- ANSWER
+   B. 5 days
+   C. 4 days
+   D. 6 days
+   Why: Total work = LCM(15,20,30) = 60 units. Rates: A=4/day, B=3/day, C=2/day. First 4 days (all three): (4+3+2)x4=36 units. Next 3 days (B and C only): (3+2)x3=15 units. Total done = 51 units, remaining = 9 units. C alone at 2 units/day takes 9/2 = 4.5 days.
+
+18. [Mixture & Alligation / Combining Two Mixtures / lvl3] 20 litres of a mixture has milk and water in the ratio 3:1. 30 litres of another mixture has milk and water in the ratio 2:3. If both mixtures are combined, find the resulting ratio of milk to water.
+   A. 27:23  <-- ANSWER
+   B. 23:27
+   C. 3:2
+   D. 25:25
+   Why: Mixture 1: milk=15L, water=5L. Mixture 2: milk=12L, water=18L. Combined: milk=15+12=27L, water=5+18=23L. Ratio = 27:23.
+
+19. [Number System / LCM Application / lvl3] Find the largest 4-digit number exactly divisible by 18, 24 and 32.
+   A. 9792  <-- ANSWER
+   B. 9856
+   C. 9720
+   D. 9684
+   Why: LCM(18,24,32) = 288. Largest 4-digit multiple of 288: 9999 ÷ 288 = 34 remainder 207, so 9999-207 = 9792.
+
+20. [Number System / Cyclicity of Remainders / lvl3] Find the remainder when 7^91 is divided by 5.
+   A. 3  <-- ANSWER
+   B. 1
+   C. 2
+   D. 4
+   Why: Powers of 7 mod 5 cycle as: 7^1=2, 7^2=4, 7^3=3, 7^4=1, then repeat (cycle length 4). 91 mod 4 = 3, so 7^91 mod 5 = 7^3 mod 5 = 3.
+
+21. [Simplification / Surds / lvl3] Simplify: sqrt(12) + sqrt(27) - sqrt(48)
+   A. sqrt(3)  <-- ANSWER
+   B. 2 sqrt(3)
+   C. 3 sqrt(3)
+   D. 0
+   Why: sqrt(12)=2sqrt(3), sqrt(27)=3sqrt(3), sqrt(48)=4sqrt(3). So 2sqrt(3)+3sqrt(3)-4sqrt(3) = 1 x sqrt(3) = sqrt(3).
+
+22. [Trigonometry / Ratio Identity from tanA / lvl3] If tanA = 3/4 and A is acute, find the value of (sinA + cosA) / (sinA - cosA).
+   A. -7  <-- ANSWER
+   B. 7
+   C. -1/7
+   D. 1/7
+   Why: From tanA=3/4 (a 3-4-5 right triangle), sinA=3/5, cosA=4/5. (sinA+cosA)/(sinA-cosA) = (3/5+4/5)/(3/5-4/5) = (7/5)/(-1/5) = -7.
+
+23. [Average / Consecutive Multiples (reverse) / lvl3] The average of 7 consecutive multiples of 4 is 44. Find the smallest of these numbers.
+   A. 32  <-- ANSWER
+   B. 28
+   C. 36
+   D. 24
+   Why: For 7 evenly-spaced terms, the average equals the 4th (middle) term: 44. The terms, spaced by 4, are 32,36,40,44,48,52,56 — smallest is 32.
+
+24. [Algebra / Sum of Cubes / lvl3] If a+b=7 and ab=10, find the value of a^3+b^3.
+   A. 133  <-- ANSWER
+   B. 343
+   C. 210
+   D. 123
+   Why: a^3+b^3 = (a+b)^3 - 3ab(a+b) = 7^3 - 3(10)(7) = 343-210 = 133.
+
+25. [Data Interpretation / Table — Percentage Growth Comparison / lvl3] Study the table of students enrolled in 3 courses across 2 years: Course | 2021 | 2022 ; Maths | 40 | 55 ; Science | 60 | 65 ; Arts | 30 | 40. Which course showed the highest PERCENTAGE increase in enrollment from 2021 to 2022?
+   A. Maths  <-- ANSWER
+   B. Science
+   C. Arts
+   D. Both Maths and Arts equally
+   Why: Percentage increase: Maths = (15/40)x100 = 37.5%. Science = (5/60)x100 = 8.33%. Arts = (10/30)x100 = 33.33%. Maths has the highest percentage increase.
+
+
+## ENGLISH  (25 questions)
+--------------------------------------------------------------------------------
+1. [Error Spotting / Error Spotting / lvl3] Select the part with an error: Each of the players / have been given / a new kit / for the tournament.
+   A. Each of the players
+   B. have been given  <-- ANSWER
+   C. a new kit
+   D. No error
+   Why: 'Each' is always singular, regardless of the plural noun that follows it ('of the players') — so it must be 'has been given', not 'have been given'.
+
+2. [Error Spotting / Error Spotting / lvl3] Select the part with an error: The number of road accidents on this highway / have increased / considerably over the past few years / due to reckless driving.
+   A. The number of road accidents on this highway
+   B. have increased  <-- ANSWER
+   C. considerably over the past few years
+   D. No error
+   Why: 'The number of X' is a singular subject (the head noun is 'number'), so it needs 'has increased', not 'have increased'. (Contrast this with 'A number of X', which takes a plural verb — a different fixed phrase entirely.)
+
+3. [Error Spotting / Error Spotting / lvl3] Select the part with an error: The jury has given / their verdict / after long deliberation / last evening.
+   A. The jury has given
+   B. their verdict  <-- ANSWER
+   C. after long deliberation
+   D. No error
+   Why: Jury (collective noun acting as one unit) takes 'its', not 'their'. Should be 'its verdict'.
+
+4. [Error Spotting / Error Spotting / lvl3] Select the part with an error: Notwithstanding of the heavy rain, / the match continued / without any interruption / whatsoever.
+   A. Notwithstanding of the heavy rain  <-- ANSWER
+   B. the match continued
+   C. without any interruption
+   D. No error
+   Why: 'Notwithstanding' (like 'despite') is never followed by 'of' — it takes a noun directly ('notwithstanding the heavy rain'). The error is the added 'of'.
+
+5. [Sentence Improvement / Sentence Improvement (relative clause agreement) / lvl3] Improve: She is one of those students who has always topped the class.
+   A. who have always topped the class  <-- ANSWER
+   B. who has always been topping the class
+   C. who had always topped the class
+   D. No improvement
+   Why: In 'one of those X who...', the relative pronoun 'who' refers back to 'those students' (plural), so the verb must be plural: 'who have always topped', not 'who has'.
+
+6. [Fill in the Blanks / Preposition (less common pairs) / lvl3] After years of conflict, the two nations finally agreed to reconcile their differences and dispense ___ the need for further negotiation, having grown weary ___ endless disputes.
+   A. with, of  <-- ANSWER
+   B. with, with
+   C. of, with
+   D. from, of
+   Why: 'Dispense with' means to do away with/no longer need something. 'Weary of' is the fixed pairing for being tired of something.
+
+7. [Fill in the Blanks / Conjunction (close pair) / lvl3] ___ he wins the election, he has promised to continue serving the community as a volunteer.
+   A. Unless
+   B. Even if  <-- ANSWER
+   C. As though
+   D. Provided that
+   Why: 'Even if' introduces a hypothetical condition where the outcome (continuing to serve) stays the same either way — the sentence means 'whether or not he wins, he will still serve'. 'Unless' would wrongly reverse the logic (implying he serves ONLY if he does NOT win).
+
+8. [Fill in the Blanks / Double Blank (less common pair) / lvl3] Many members chose to ___ voting ___ the controversial bill, unwilling to publicly declare a position.
+   A. abstain from, on  <-- ANSWER
+   B. refrain from, in
+   C. abstain for, at
+   D. desist from, over
+   Why: 'Abstain from' + gerund is the fixed pattern for deliberately not participating; 'vote on a bill' is the standard collocation for the second blank.
+
+9. [Cloze Test / Cloze / lvl3] Select the best word for blank (1).
+   A. consume  <-- ANSWER
+   B. consuming
+   C. consumed
+   D. consumes
+   Why: The blank's verb belongs to the plural subject 'humans' ('food...that humans ___'), so it needs the plain present-tense form 'consume', not the singular 'consumes'.
+
+10. [Cloze Test / Cloze / lvl3] Select the best word for blank (2).
+   A. rising
+   B. declining  <-- ANSWER
+   C. expanding
+   D. stabilizing
+   Why: The passage describes bee populations dropping 'at an alarming rate' — this matches 'declining', not rising/expanding/stabilizing.
+
+11. [Cloze Test / Cloze / lvl3] Select the best word for blank (3).
+   A. nowhere
+   B. somewhat  <-- ANSWER
+   C. all
+   D. none
+   Why: 'Somewhat to blame' fits the tone of scientific uncertainty ('scientists still debate which factor matters most') better than an absolute word like 'all' or 'none'.
+
+12. [Cloze Test / Cloze / lvl3] Select the best word for blank (4).
+   A. get
+   B. are  <-- ANSWER
+   C. being
+   D. was
+   Why: 'So that crops (4) pollinated on schedule' needs a passive present form — 'are pollinated' fits the purpose clause correctly.
+
+13. [Cloze Test / Cloze / lvl3] Select the best word for blank (5).
+   A. disappear
+   B. vanish
+   C. continue  <-- ANSWER
+   D. reverse
+   Why: 'Unless wildflower habitats are restored...the underlying pressure will (5) regardless of how many hives are trucked in' — logically the pressure CONTINUES if the root cause (habitat loss) is not fixed.
+
+14. [Para Jumble / Sentence Rearrangement / lvl3] Rearrange: P. This eventually led to the fall of the empire. Q. The empire grew rich through trade. R. But excessive spending drained its treasury. S. Wealth attracted invaders from all sides.
+   A. Q,S,R,P  <-- ANSWER
+   B. Q,R,S,P
+   C. S,Q,R,P
+   D. Q,S,P,R
+   Why: Logical chain: Empire grows rich (Q) -> wealth attracts invaders (S) -> spending drains treasury (R) -> empire falls (P).
+
+15. [Synonym / Vocabulary (rarer word) / lvl3] Synonym of OBSEQUIOUS:
+   A. Servile  <-- ANSWER
+   B. Arrogant
+   C. Honest
+   D. Generous
+   Why: Obsequious = excessively eager to please or flatter someone, to an ingratiating degree; closest in meaning to 'servile'.
+
+16. [Antonym / Vocabulary (close synonym traps) / lvl3] Antonym of PARSIMONIOUS:
+   A. Frugal
+   B. Generous  <-- ANSWER
+   C. Thrifty
+   D. Economical
+   Why: Parsimonious = excessively unwilling to spend money; stingy. Its opposite is 'generous' (freely giving). Frugal, Thrifty and Economical are all near-SYNONYMS of parsimonious, not opposites.
+
+17. [One Word Substitution / OWS (rarer word) / lvl3] A person who has a strong hatred or dislike of mankind in general:
+   A. Misanthrope  <-- ANSWER
+   B. Philanthropist
+   C. Cosmopolitan
+   D. Anthropologist
+   Why: Misanthrope = one who hates/distrusts humankind. Philanthropist (opposite meaning - one who helps mankind), Cosmopolitan (at home in many countries/cultures) and Anthropologist (one who studies humankind academically) are all unrelated, despite the shared '-anthrop-' root.
+
+18. [One Word Substitution / OWS (close literary terms) / lvl3] A statement or phrase with a double meaning, especially one that is risqué or suggestive:
+   A. Double entendre  <-- ANSWER
+   B. Euphemism
+   C. Oxymoron
+   D. Paradox
+   Why: Double entendre = a phrase with two meanings, one often risqué. Euphemism is a MILD substitute for a harsh term (not a double meaning). Oxymoron combines contradictory terms (e.g. 'deafening silence'). Paradox is a statement that seems self-contradictory but may be true.
+
+19. [Idioms / Idiom Meaning / lvl3] Meaning of 'to throw in the towel':
+   A. To give up or concede defeat  <-- ANSWER
+   B. To start a physical fight
+   C. To celebrate a victory
+   D. To clean up after a mess
+   Why: 'Throw in the towel' (from boxing, where a trainer throws a towel into the ring to stop the fight) means to give up or concede defeat.
+
+20. [Idioms / Idiom Meaning / lvl3] Meaning of 'to be in the doldrums':
+   A. To feel low, stagnant, and lacking enthusiasm or progress  <-- ANSWER
+   B. To be extremely busy with work
+   C. To celebrate an achievement
+   D. To travel across the sea
+   Why: 'In the doldrums' means feeling low, stuck, or lacking energy/progress (originally a nautical term for a windless ocean zone where ships got stranded).
+
+21. [Spelling / Correct Spelling (close pairs) / lvl3] Choose the correctly spelt word.
+   A. Consciencious
+   B. Conscientious  <-- ANSWER
+   C. Concientious
+   D. Consciencous
+   Why: 'Conscientious' (meaning diligent/careful) is correctly spelt: c-o-n-s-c-i-e-n-t-i-o-u-s. It is commonly confused with and misspelt as a blend of 'conscience' and 'conscious', which is exactly what the wrong options do.
+
+22. [Active-Passive / Voice Conversion (modal + negative) / lvl3] Convert to passive voice: You must not waste your time on trivial matters.
+   A. Your time must not be wasted on trivial matters  <-- ANSWER
+   B. Your time should not be wasted on trivial matters
+   C. Your time was not to be wasted on trivial matters
+   D. Your time must not have been wasted on trivial matters
+   Why: Modal + negative passive: 'must not' stays exactly as 'must not' in the passive, followed by 'be + past participle' — 'must not be wasted'.
+
+23. [Direct-Indirect / Narration (Yes/No question) / lvl3] Convert to indirect speech: The interviewer asked me, "Have you completed your assignment?"
+   A. The interviewer asked me if I had completed my assignment  <-- ANSWER
+   B. The interviewer asked me that I had completed my assignment
+   C. The interviewer asked to me if I have completed my assignment
+   D. The interviewer asked me if had I completed my assignment
+   Why: A Yes/No question in direct speech converts using 'if' or 'whether' (never 'that'), keeps STATEMENT word order (no inversion: 'I had completed', not 'had I completed'), and backshifts the tense (have completed -> had completed).
+
+24. [Error Spotting / Error Spotting (subtle redundancy) / lvl3] Select the part with an error: The two twins / were both born / on the exact same day / and shared an uncanny resemblance.
+   A. The two twins  <-- ANSWER
+   B. were both born
+   C. on the exact same day
+   D. No error
+   Why: 'Twins' already means two — 'two twins' is redundant. It should simply be 'The twins'.
+
+25. [Error Spotting / Error Spotting / lvl3] Select the part with an error: Scarcely he had reached the station / when the train / left the platform.
+   A. Scarcely he had reached the station  <-- ANSWER
+   B. when the train
+   C. left the platform
+   D. No error
+   Why: 'Scarcely' requires INVERSION: 'Scarcely had he reached', not 'Scarcely he had reached'.

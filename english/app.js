@@ -448,6 +448,40 @@ function goMock() {
   window.scrollTo({ top: 0 });
 }
 
+/* ---------- DAILY MOCKS (full 25Q timed papers, dated) ---------- */
+function goDailyMockPicker() {
+  stopTimer();
+  state.topic = null;
+  renderRoad($("#roadSearch").value || "");
+  crumb(["Home", "Daily Mocks"]);
+  const rows = (typeof DAILY_MOCKS !== "undefined" ? DAILY_MOCKS : []).map(m => {
+    const b = store.best["daily_" + m.id];
+    return `<button class="tcard" data-id="${m.id}" style="width:100%;text-align:left;margin-bottom:10px">
+      <span class="dot"></span><span>${m.label} · ${m.questions.length}Q · ${m.timeLimitMin} min</span>
+      <span class="best">${b ? b.s + "/" + b.t : "Not attempted"}</span></button>`;
+  }).join("");
+  $("#view").innerHTML = `<h2>🗓️ Daily Mocks</h2><p class="lvl">Full-length, timed, exam mode — negative marking off, review after submit.</p>${rows || "<p>No daily mocks loaded.</p>"}`;
+  document.querySelectorAll("#view .tcard").forEach(btn => { btn.onclick = () => goDailyMock(btn.dataset.id); });
+  window.scrollTo({ top: 0 });
+}
+function goDailyMock(id) {
+  const m = DAILY_MOCKS.find(x => x.id === id);
+  if (!m) return;
+  stopTimer();
+  const list = shuffle(m.questions);
+  quiz = { list, qi: 0, answers: [], mode: "mock", exam: true, submitted: false, label: m.label, storeKey: "daily_" + m.id, t0: Date.now(), deadline: Date.now() + m.timeLimitMin * 60 * 1000, lastPsg: null };
+  crumb(["Home", "Daily Mocks", m.label]);
+  timerInt = setInterval(() => {
+    const e = $("#qtimer");
+    if (!e || !quiz || quiz.mode !== "mock" || quiz.submitted) return;
+    const left = quiz.deadline - Date.now();
+    if (left <= 0) { quiz.qi = quiz.list.length; renderExam(); return; }
+    e.textContent = "⏱ " + fmtT(left) + " left";
+  }, 1000);
+  renderExam();
+  window.scrollTo({ top: 0 });
+}
+
 /* ---------- FINISH + TEACHER ANALYSIS ---------- */
 function finishQuiz() {
   stopTimer();
@@ -540,6 +574,7 @@ function goRevise(id) {
 
 /* ---------- wiring + init ---------- */
 $("#mockBtn").onclick = () => goMock();
+$("#dailyMocksBtn").onclick = () => goDailyMockPicker();
 $("#paperBtn").onclick = () => goAnalysis();
 $("#roadSearch").addEventListener("input", e => renderRoad(e.target.value));
 const roadEl = $("#road"), scrimEl = $("#scrim"), menuEl = $("#menuBtn");
@@ -547,4 +582,9 @@ function closeMobile2() { roadEl.classList.remove("open"); scrimEl.hidden = true
 menuEl.onclick = () => { const o = roadEl.classList.toggle("open"); scrimEl.hidden = !o; };
 scrimEl.onclick = closeMobile2;
 renderRoad();
-goHome();
+const _deepLinkMock = new URLSearchParams(location.search).get("mock");
+if (_deepLinkMock && typeof DAILY_MOCKS !== "undefined" && DAILY_MOCKS.some(m => m.id === _deepLinkMock)) {
+  goDailyMock(_deepLinkMock);
+} else {
+  goHome();
+}
