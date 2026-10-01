@@ -92,16 +92,16 @@ const EXAM_CALENDAR = {
     label: "30 Sep 2026",
     exams: [
       { n: 1, title: "Morning Full English Mock", desc: "25Q · 20 min · Error spotting, cloze, vocab, voice, narration.",
-        tags: ["English","25Q","20 min"], href: "english/index.html?mock=sept30_m1", launch: "Start exam now",
+        tags: ["English","25Q","20 min"], href: "cgl/daily-exam.html?mock=sept30_m1", launch: "Start exam now",
         score: () => bestFor("daily_sept30_m1") },
       { n: 2, title: "Evening Full English Mock", desc: "25Q · 20 min · Fresh set, no repeats from morning.",
-        tags: ["English","25Q","20 min"], href: "english/index.html?mock=sept30_m2", launch: "Start exam now",
+        tags: ["English","25Q","20 min"], href: "cgl/daily-exam.html?mock=sept30_m2", launch: "Start exam now",
         score: () => bestFor("daily_sept30_m2") },
       { n: 3, title: "Maths Mock", desc: "21Q · 25 min · Percentage, ratio, SI/CI, time-work, TSD.",
-        tags: ["Quant","21Q","25 min"], href: "english/index.html?mock=sept30_m3", launch: "Start exam now",
+        tags: ["Quant","21Q","25 min"], href: "cgl/daily-exam.html?mock=sept30_m3", launch: "Start exam now",
         score: () => bestFor("daily_sept30_m3") },
       { n: 4, title: "Extreme GS Mock", desc: "24Q · 30 min · Statement-based, chronology, matching, assertion-reason.",
-        tags: ["GS","24Q","30 min"], href: "english/index.html?mock=sept30_m4", launch: "Start exam now",
+        tags: ["GS","24Q","30 min"], href: "cgl/daily-exam.html?mock=sept30_m4", launch: "Start exam now",
         score: () => bestFor("daily_sept30_m4") },
       { n: 5, title: "Full CGL Diagnostic — Paper 02", desc: "100Q · 200 marks · 60 min · PYQ-grounded, tough-shift. Reasoning includes dice, figure-counting, mirror-of-clock.",
         tags: ["Full paper","100Q","60 min"], href: "cgl/exam2.html", launch: "Start full exam",
@@ -112,20 +112,40 @@ const EXAM_CALENDAR = {
     label: "1 Oct 2026",
     exams: [
       { n: 1, title: "Morning Full English Mock", desc: "25Q · 20 min · Fresh set for tomorrow — error spotting, cloze, vocab, voice, narration.",
-        tags: ["English","25Q","20 min","new"], href: "english/index.html?mock=oct1_m1", launch: "Start exam now",
+        tags: ["English","25Q","20 min","new"], href: "cgl/daily-exam.html?mock=oct1_m1", launch: "Start exam now",
         score: () => bestFor("daily_oct1_m1") },
       { n: 2, title: "Evening Full English Mock", desc: "25Q · 20 min · Fresh set, no repeats from the morning mock.",
-        tags: ["English","25Q","20 min","new"], href: "english/index.html?mock=oct1_m2", launch: "Start exam now",
+        tags: ["English","25Q","20 min","new"], href: "cgl/daily-exam.html?mock=oct1_m2", launch: "Start exam now",
         score: () => bestFor("daily_oct1_m2") },
       { n: 3, title: "Maths Mock", desc: "25Q · 25 min · Percentage, SI/CI, algebra, geometry, time-work, TSD, DI.",
-        tags: ["Quant","25Q","25 min","new"], href: "english/index.html?mock=oct1_m3", launch: "Start exam now",
+        tags: ["Quant","25Q","25 min","new"], href: "cgl/daily-exam.html?mock=oct1_m3", launch: "Start exam now",
         score: () => bestFor("daily_oct1_m3") },
       { n: 4, title: "GS Mock", desc: "25Q · 30 min · Polity, history, geography, economy, science — statement & matching style.",
-        tags: ["GS","25Q","30 min","new"], href: "english/index.html?mock=oct1_m4", launch: "Start exam now",
+        tags: ["GS","25Q","30 min","new"], href: "cgl/daily-exam.html?mock=oct1_m4", launch: "Start exam now",
         score: () => bestFor("daily_oct1_m4") },
       { n: 5, title: "Full CGL Diagnostic — Paper 03", desc: "100Q · 200 marks · 60 min · Fresh PYQ-grounded paper for tomorrow. Same tough-shift calibration as Paper 02.",
         tags: ["Full paper","100Q","60 min","new"], href: "cgl/exam3.html", launch: "Start full exam",
         score: () => examStatus("cgl_exam_paper03_v1") },
+    ]
+  },
+  "2026-10-02": {
+    label: "2 Oct 2026",
+    exams: [
+      { n: 1, title: "Morning English Mock (Deep)", desc: "25Q · 25 min · Embedded-clause grammar, dangling modifiers, subjunctive mood — requires real scratch-work, not one-liners.",
+        tags: ["English","25Q","25 min","deep"], href: "cgl/daily-exam.html?mock=oct2_m1", launch: "Start exam now",
+        score: () => bestFor("daily_oct2_m1") },
+      { n: 2, title: "Evening English Mock (Deep)", desc: "25Q · 25 min · Fresh set — same embedded-clause depth, no repeats from morning.",
+        tags: ["English","25Q","25 min","deep"], href: "cgl/daily-exam.html?mock=oct2_m2", launch: "Start exam now",
+        score: () => bestFor("daily_oct2_m2") },
+      { n: 3, title: "Maths Mock (Deep)", desc: "25Q · 30 min · Every question is genuinely multi-step (2-4 chained calculations) — DI ranking, staggered work/partnership, compound geometry.",
+        tags: ["Quant","25Q","30 min","deep"], href: "cgl/daily-exam.html?mock=oct2_m3", launch: "Start exam now",
+        score: () => bestFor("daily_oct2_m3") },
+      { n: 4, title: "GS Mock (Statement-based)", desc: "25Q · 30 min · Real PYQ format — evaluate 2-3 simultaneous statements together, not single-fact recall.",
+        tags: ["GS","25Q","30 min","deep"], href: "cgl/daily-exam.html?mock=oct2_m4", launch: "Start exam now",
+        score: () => bestFor("daily_oct2_m4") },
+      { n: 5, title: "Full CGL Diagnostic — Paper 04", desc: "100Q · 200 marks · 60 min · Depth upgrade: full seating/family-tree puzzles requiring a worked grid, genuine RC passage, multi-step Quant throughout.",
+        tags: ["Full paper","100Q","60 min","deep"], href: "cgl/exam4.html", launch: "Start full exam",
+        score: () => examStatus("cgl_exam_paper04_v1") },
     ]
   },
 };
@@ -227,7 +247,7 @@ function renderDay() {
       <div class="num">TEST ${exam.n}</div>
       <h3>${exam.title}</h3>
       <p>${exam.desc}</p>
-      <div class="meta">${exam.tags.map(t => `<span class="pill${t==="new" ? " new" : ""}">${t}</span>`).join("")}</div>
+      <div class="meta">${exam.tags.map(t => `<span class="pill${(t==="new"||t==="deep") ? " new" : ""}">${t}</span>`).join("")}</div>
       <div id="status-${selectedISO}-${exam.n}"></div>
       <div class="actions">
         <a class="btn btn-primary" href="${exam.href}">${exam.launch}</a>

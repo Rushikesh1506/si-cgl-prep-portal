@@ -1,0 +1,613 @@
+SSC CGL TIER-1 — DIAGNOSTIC PAPER 04 (2 Oct) — DEPTH UPGRADE — ALL 100 QUESTIONS WITH ANSWER KEY
+================================================================================
+
+## REASONING  (25 questions)
+--------------------------------------------------------------------------------
+1. [Seating Arrangement / Linear — Full Grid Required / lvl3] Five friends P, Q, R, S, T sit in a row facing North. R sits exactly in the middle (3rd from either end). T sits immediately to the left of R. P sits immediately to the right of R. S sits at the extreme right end. Q sits at the extreme left end. Who sits to the immediate left of P?
+   A. R  <-- ANSWER
+   B. T
+   C. S
+   D. Q
+
+2. [Seating Arrangement / Floor Arrangement — Full Grid Required / lvl3] Five people P, Q, R, S, T live on 5 different floors of a building (floor 1 = ground, floor 5 = top). Q lives on floor 2. R lives immediately above P. T lives on the ground floor. S lives on the topmost floor. Exactly one person lives between Q and R (in terms of floor number). On which floor does P live?
+   A. 3  <-- ANSWER
+   B. 4
+   C. 1
+   D. 5
+
+3. [Blood Relations / Three-Generation Family Tree / lvl3] In a family, M and N are a married couple. They have two children: X (a son) and Y (a daughter). X is married to A. Y is married to B. X and A have two children: C (a son) and D (a daughter). Y and B have one child: E (a son). How is A related to E?
+   A. Aunt (by marriage)  <-- ANSWER
+   B. Grandmother
+   C. Sister-in-law of E's father
+   D. Mother
+
+4. [Direction Sense / Four-Leg Journey (net displacement) / lvl3] A man walks 8 km North, then 5 km East, then 8 km South, then 3 km West. How far and in which direction is he from his starting point?
+   A. 2 km East  <-- ANSWER
+   B. 2 km West
+   C. 16 km East
+   D. 5 km East
+
+5. [Syllogism / Three-Statement Chain / lvl3] Statements: All artists are dreamers. All dreamers are thinkers. Some thinkers are writers. Conclusions: I. All artists are thinkers. II. Some writers are artists.
+   A. Only I follows  <-- ANSWER
+   B. Only II follows
+   C. Both I and II follow
+   D. Neither follows
+
+6. [Age Problems / Multi-Condition Age (reverse) / lvl3] A father's present age is 3 times his son's present age. After 5 years, the father's age will be 2.5 times the son's age at that time. Find the son's present age.
+   A. 15 years  <-- ANSWER
+   B. 12 years
+   C. 18 years
+   D. 20 years
+
+7. [Coding-Decoding / Double Transform (shift + reverse) / lvl3] In a certain code, CLOUD is written as GPSYH. How will BRAVE be written in the same code?
+   A. FVEZI  <-- ANSWER
+   B. FVZEI
+   C. EVFZI
+   D. FVEIZ
+
+8. [Series / Multi-Operator Series (changing operator) / lvl3] Find the missing term: 4, 15, 63, 318, ?
+   A. 1911  <-- ANSWER
+   B. 1908
+   C. 1920
+   D. 1900
+
+9. [Verbal Reasoning / Letter-Position Invariance / lvl3] If the letters of the word 'TEACHER' are rearranged in alphabetical order, how many letters will remain in the exact same position as in the original word?
+   A. 1  <-- ANSWER
+   B. 0
+   C. 2
+   D. 3
+
+10. [Ranking & Order / Total from Two Ranks / lvl3] In a competition, Ananya ranks 14th from the top and 9th from the bottom. How many participants took part in the competition?
+   A. 22  <-- ANSWER
+   B. 23
+   C. 21
+   D. 24
+
+11. [Non-Verbal Reasoning / Dice (opposite face) / lvl3] Two positions of the same dice (faces numbered 1 to 6) are shown below. Position 1: Top=3, Front=6, Right=2. Position 2: Top=3, Front=5, Right=6. Find the number on the face opposite to the face showing 2.
+   A. 5  <-- ANSWER
+   B. 4
+   C. 1
+   D. 6
+
+12. [Non-Verbal Reasoning / Mirror Image of Clock Time / lvl3] A clock shows the time 5:35. What time will its mirror image (reflected in a mirror placed vertically, as if behind the clock face) show?
+   A. 6:25  <-- ANSWER
+   B. 5:25
+   C. 6:35
+   D. 7:25
+
+13. [Non-Verbal Reasoning / Figure Counting / lvl3] A triangle's three sides are each divided at their midpoints, and the three midpoints are joined to form a smaller triangle inside (the medial triangle), as shown. Count the total number of triangles in the figure.
+   A. 5  <-- ANSWER
+   B. 4
+   C. 6
+   D. 8
+
+14. [Classification / Odd One Out (structural) / lvl3] Select the word that does NOT belong with the others, based on the structural pattern the rest share.
+   A. PYTHON  <-- ANSWER
+   B. MALAYALAM
+   C. ROTATOR
+   D. REVIVER
+
+15. [Mathematical Operations / Symbol Substitution / lvl3] If 'A' means '+', 'B' means '-', 'C' means '×', 'D' means '÷', evaluate: 20 C 3 D 6 A 15 B 5
+   A. 20  <-- ANSWER
+   B. 22
+   C. 18
+   D. 24
+
+16. [Blood Relations / Coded Relations (three-link chain) / lvl3] If A # B means A is the father of B, A @ B means A is the wife of B, which of the following means P is the paternal grandmother of Q?
+   A. P @ S # R # Q  <-- ANSWER
+   B. P # S @ R # Q
+   C. P @ S # R @ Q
+   D. S @ P # R # Q
+
+17. [Analogy / Number Analogy (two-step rule) / lvl3] 8 : 65 :: 11 : ?
+   A. 122  <-- ANSWER
+   B. 121
+   C. 120
+   D. 144
+
+18. [Calendar / Day of the Week (multi-step) / lvl3] If 1st January 2023 was a Sunday, what day of the week was 1st January 2026?
+   A. Thursday  <-- ANSWER
+   B. Wednesday
+   C. Friday
+   D. Tuesday
+
+19. [Missing Number / Matrix (two-step rule) / lvl3] Find the missing number: Row1: 5,3,4 -> 32 ; Row2: 7,2,5 -> 45 ; Row3: 6,4,3 -> ?
+   A. 30  <-- ANSWER
+   B. 28
+   C. 32
+   D. 34
+
+20. [Direction Sense / Bearing with Turn / lvl3] A man starts walking facing East. He turns 135 degrees clockwise. Which direction is he now facing?
+   A. South-West  <-- ANSWER
+   B. South-East
+   C. North-West
+   D. West
+
+21. [Syllogism / Statement-Conclusion (either-or case) / lvl3] Statements: All rivers are streams. No stream is stagnant. Conclusions: I. No river is stagnant. II. Some streams are rivers.
+   A. Both I and II follow  <-- ANSWER
+   B. Only I follows
+   C. Only II follows
+   D. Neither follows
+
+22. [Ranking & Order / Comparative Ranking (multi-person) / lvl3] In a group of friends, Kabir is taller than Aman but shorter than Divya. Esha is taller than Divya. Farid is shorter than Aman. Who is the shortest among all five?
+   A. Farid  <-- ANSWER
+   B. Aman
+   C. Kabir
+   D. Esha
+
+23. [Coding-Decoding / Positional Word Coding / lvl3] If in a code, RIVER is written as YYY and CLOUD is written as JJJ, how is STORM written in the same code?
+   A. ZZZ  <-- ANSWER
+   B. YYY
+   C. AAA
+   D. XXX
+
+24. [Series / Number Series (2nd-order difference) / lvl3] Find the next term: 6, 13, 24, 39, 58, ?
+   A. 81  <-- ANSWER
+   B. 79
+   C. 83
+   D. 77
+
+25. [Classification / Odd Number Set / lvl3] Select the set that follows the same pattern as (27, 64, 125).
+   A. (8, 216, 343)  <-- ANSWER
+   B. (9, 100, 121)
+   C. (16, 49, 81)
+   D. (12, 30, 48)
+
+
+## GENERAL AWARENESS  (25 questions)
+--------------------------------------------------------------------------------
+1. [Polity / Statement-based — Fundamental Rights / lvl3] Consider the following statements: 1. The Right to Property was a Fundamental Right under the original 1950 Constitution. 2. The 44th Amendment (1978) removed the Right to Property from Part III and made it a legal right under Article 300A. 3. Article 300A allows the State to deprive a person of property without any legal procedure. Which of the above is/are correct?
+   A. 1 and 2 only  <-- ANSWER
+   B. 1, 2 and 3
+   C. 2 and 3 only
+   D. 1 and 3 only
+
+2. [Polity / Statement-based — Parliament Sessions / lvl3] Consider the following statements: 1. The gap between two sessions of Parliament cannot exceed 6 months. 2. The President can summon and prorogue either House of Parliament. 3. A 'joint sitting' of both Houses is presided over by the Chief Justice of India. Which of the above is/are correct?
+   A. 1 and 2 only  <-- ANSWER
+   B. 1, 2 and 3
+   C. 2 and 3 only
+   D. 1 only
+
+3. [History / Statement-based — Revolt of 1857 / lvl3] Consider the following statements about the Revolt of 1857: 1. It began at Meerut on 10 May 1857. 2. Bahadur Shah II was declared the symbolic leader of the revolt in Delhi. 3. The revolt was equally strong and widespread across all parts of India, including Punjab and Bengal. Which of the above is/are correct?
+   A. 1 and 2 only  <-- ANSWER
+   B. 1, 2 and 3
+   C. 2 and 3 only
+   D. 1 only
+
+4. [Geography / Statement-based — Indian Rivers / lvl3] Consider the following statements: 1. The Narmada and Tapi rivers flow westward into the Arabian Sea. 2. The Narmada flows through a rift valley between the Vindhya and Satpura ranges. 3. The Tapi is the longest west-flowing river of the Peninsula. Which of the above is/are correct?
+   A. 1 and 2 only  <-- ANSWER
+   B. 1, 2 and 3
+   C. 2 and 3 only
+   D. 1 only
+
+5. [Economy / Statement-based — Inflation Measures / lvl3] Consider the following statements: 1. The Consumer Price Index (CPI) is used by the RBI as the key inflation target under the flexible inflation targeting framework. 2. The Wholesale Price Index (WPI) includes services in its basket. 3. CPI captures price changes at the retail/consumer level, while WPI captures them at the wholesale/producer level. Which of the above is/are correct?
+   A. 1 and 3 only  <-- ANSWER
+   B. 1, 2 and 3
+   C. 2 and 3 only
+   D. 1 only
+
+6. [Science / Statement-based — Human Physiology / lvl3] Consider the following statements: 1. Insulin is secreted by the beta cells of the pancreas. 2. Insulin increases blood glucose levels. 3. Glucagon, secreted by alpha cells, works to increase blood glucose levels. Which of the above is/are correct?
+   A. 1 and 3 only  <-- ANSWER
+   B. 1, 2 and 3
+   C. 2 and 3 only
+   D. 1 only
+
+7. [History / Statement-based — Gupta Period / lvl3] Consider the following statements: 1. Aryabhata, the mathematician-astronomer, lived during the Gupta period. 2. The Gupta period saw the composition of the 'Panchatantra' fables. 3. The Nalanda University was established during the Gupta period and continued to flourish into later centuries. Which of the above is/are correct?
+   A. 1, 2 and 3  <-- ANSWER
+   B. 1 and 2 only
+   C. 2 and 3 only
+   D. 1 only
+
+8. [Polity / Statement-based — Election Commission / lvl3] Consider the following statements: 1. The Election Commission of India is a permanent, independent constitutional body. 2. The Chief Election Commissioner can be removed only through a process similar to the impeachment of a Supreme Court judge. 3. The other Election Commissioners enjoy the exact same removal protection as the Chief Election Commissioner. Which of the above is/are correct?
+   A. 1 and 2 only  <-- ANSWER
+   B. 1, 2 and 3
+   C. 2 and 3 only
+   D. 1 only
+
+9. [Geography / Statement-based — Monsoon Mechanics / lvl3] Consider the following statements: 1. The Southwest Monsoon splits into the Arabian Sea branch and the Bay of Bengal branch upon reaching India. 2. The Bay of Bengal branch causes early rainfall in Kerala before the Arabian Sea branch arrives. 3. Mawsynram and Cherrapunji in Meghalaya receive extremely heavy rainfall due to the funnel-shaped terrain intercepting the Bay of Bengal branch. Which of the above is/are correct?
+   A. 1 and 3 only  <-- ANSWER
+   B. 1, 2 and 3
+   C. 2 and 3 only
+   D. 1 only
+
+10. [Economy / Statement-based — Banking Structure / lvl3] Consider the following statements: 1. NABARD was established in 1982 to promote agricultural and rural development credit. 2. SIDBI was established as a subsidiary of NABARD to specifically finance micro, small and medium enterprises. 3. Both NABARD and SIDBI function as apex refinancing institutions in their respective domains. Which of the above is/are correct?
+   A. 1 and 3 only  <-- ANSWER
+   B. 1, 2 and 3
+   C. 2 and 3 only
+   D. 1 only
+
+11. [Science / Statement-based — States of Matter / lvl3] Consider the following statements: 1. Sublimation is the direct transition of a substance from solid to gas without passing through the liquid state. 2. Dry ice (solid carbon dioxide) sublimates at room temperature and atmospheric pressure. 3. Deposition is the reverse of sublimation — gas directly converting to solid. Which of the above is/are correct?
+   A. 1, 2 and 3  <-- ANSWER
+   B. 1 and 2 only
+   C. 2 and 3 only
+   D. 1 only
+
+12. [History / Statement-based — Non-Cooperation Movement / lvl3] Consider the following statements: 1. The Non-Cooperation Movement was launched in 1920 in response to the Jallianwala Bagh massacre and the Khilafat issue. 2. Gandhi suspended the movement after the Chauri Chaura incident in 1922. 3. The movement was suspended because the Chauri Chaura incident involved a violent clash between the British Indian Army and Congress volunteers in Delhi. Which of the above is/are correct?
+   A. 1 and 2 only  <-- ANSWER
+   B. 1, 2 and 3
+   C. 2 and 3 only
+   D. 1 only
+
+13. [Polity / Statement-based — Directive Principles / lvl3] Consider the following statements: 1. Directive Principles of State Policy (DPSP) are enforceable in a court of law. 2. Article 44 recommends a Uniform Civil Code for citizens. 3. Article 39A directs the State to provide free legal aid to ensure justice is not denied due to economic disability. Which of the above is/are correct?
+   A. 2 and 3 only  <-- ANSWER
+   B. 1, 2 and 3
+   C. 1 and 2 only
+   D. 1 only
+
+14. [Geography / Statement-based — Soil Types / lvl3] Consider the following statements: 1. Laterite soil forms in regions of high rainfall through intense leaching. 2. Laterite soil is rich in nitrogen and is highly fertile for most crops. 3. Laterite soil is commonly found in parts of Kerala, Karnataka, and Odisha. Which of the above is/are correct?
+   A. 1 and 3 only  <-- ANSWER
+   B. 1, 2 and 3
+   C. 2 and 3 only
+   D. 1 only
+
+15. [Economy / Statement-based — Fiscal Policy Terms / lvl3] Consider the following statements: 1. Fiscal deficit is the difference between total expenditure and total receipts excluding borrowings. 2. Revenue deficit occurs when revenue expenditure exceeds revenue receipts. 3. A primary deficit is the fiscal deficit minus interest payments. Which of the above is/are correct?
+   A. 1, 2 and 3  <-- ANSWER
+   B. 1 and 2 only
+   C. 2 and 3 only
+   D. 1 only
+
+16. [Science / Statement-based — Sound Waves / lvl3] Consider the following statements: 1. Sound cannot travel through a vacuum. 2. The speed of sound is faster in solids than in liquids, and faster in liquids than in gases. 3. Sound waves are transverse waves, similar to light waves. Which of the above is/are correct?
+   A. 1 and 2 only  <-- ANSWER
+   B. 1, 2 and 3
+   C. 2 and 3 only
+   D. 1 only
+
+17. [History / Statement-based — INA and Bose / lvl3] Consider the following statements: 1. Subhas Chandra Bose escaped from house arrest in Calcutta in 1941. 2. Bose formed the Provisional Government of Free India ('Azad Hind') in Singapore in 1943. 3. The Indian National Army under Bose successfully liberated Delhi in 1944, ending British rule that year. Which of the above is/are correct?
+   A. 1 and 2 only  <-- ANSWER
+   B. 1, 2 and 3
+   C. 2 and 3 only
+   D. 1 only
+
+18. [Polity / Statement-based — Writs / lvl3] Consider the following statements about constitutional writs: 1. 'Habeas Corpus' is issued to produce a person who has been unlawfully detained before the court. 2. 'Mandamus' commands a public authority to perform a duty it has failed to perform. 3. 'Quo Warranto' can be issued against any private citizen questioning their personal conduct. Which of the above is/are correct?
+   A. 1 and 2 only  <-- ANSWER
+   B. 1, 2 and 3
+   C. 2 and 3 only
+   D. 1 only
+
+19. [Geography / Statement-based — Mountain Passes and Peaks / lvl3] Consider the following statements: 1. Kanchenjunga, the third-highest peak in the world, is located in Sikkim. 2. K2 (Godwin Austen), the second-highest peak in the world, is located within Indian-administered territory. 3. Nanda Devi is the highest peak located entirely within India. Which of the above is/are correct?
+   A. 1 and 3 only  <-- ANSWER
+   B. 1, 2 and 3
+   C. 2 and 3 only
+   D. 1 only
+
+20. [Economy / Statement-based — Foreign Trade Policy / lvl3] Consider the following statements: 1. A Special Economic Zone (SEZ) is treated as foreign territory for trade and duty purposes. 2. Goods moving from a Domestic Tariff Area (DTA) into an SEZ are treated as exports. 3. SEZs were introduced in India for the first time through the SEZ Act, 2005, with no such zones existing before that year. Which of the above is/are correct?
+   A. 1 and 2 only  <-- ANSWER
+   B. 1, 2 and 3
+   C. 2 and 3 only
+   D. 1 only
+
+21. [Science / Statement-based — Light and Vision / lvl3] Consider the following statements: 1. The human eye's near point (least distance of distinct vision) for a normal eye is about 25 cm. 2. A person with myopia can see distant objects clearly but has trouble seeing nearby objects. 3. Presbyopia is an age-related condition where the eye's accommodation power decreases. Which of the above is/are correct?
+   A. 1 and 3 only  <-- ANSWER
+   B. 1, 2 and 3
+   C. 2 and 3 only
+   D. 1 only
+
+22. [History / Statement-based — Ashoka's Dhamma / lvl3] Consider the following statements: 1. Ashoka's 'Dhamma' was a code of moral conduct, not a new religion. 2. Ashoka appointed special officers called 'Dhamma Mahamatras' to propagate and oversee Dhamma. 3. Ashoka's Dhamma explicitly mandated that all his subjects must convert to Buddhism. Which of the above is/are correct?
+   A. 1 and 2 only  <-- ANSWER
+   B. 1, 2 and 3
+   C. 2 and 3 only
+   D. 1 only
+
+23. [Polity / Statement-based — Comptroller and Auditor General / lvl3] Consider the following statements: 1. The CAG audits the accounts of the Union and State governments. 2. The CAG's reports on Union finances are submitted directly to the Prime Minister. 3. The CAG holds office for a term of 6 years or until the age of 65, whichever is earlier. Which of the above is/are correct?
+   A. 1 and 3 only  <-- ANSWER
+   B. 1, 2 and 3
+   C. 2 and 3 only
+   D. 1 only
+
+24. [Geography / Statement-based — Indian Agriculture / lvl3] Consider the following statements: 1. Kharif crops are sown at the onset of the Southwest Monsoon (June-July) and harvested in autumn (September-October). 2. Rabi crops are sown in winter (October-December) and harvested in spring (March-April). 3. Rice is typically classified as a Rabi crop in India. Which of the above is/are correct?
+   A. 1 and 2 only  <-- ANSWER
+   B. 1, 2 and 3
+   C. 2 and 3 only
+   D. 1 only
+
+25. [Economy / Statement-based — Cooperative Federalism / lvl3] Consider the following statements: 1. The GST Council was constituted under Article 279A of the Constitution. 2. The GST Council is chaired by the Union Finance Minister. 3. Decisions of the GST Council are taken only if there is complete unanimity among all members, with no provision for voting. Which of the above is/are correct?
+   A. 1 and 2 only  <-- ANSWER
+   B. 1, 2 and 3
+   C. 2 and 3 only
+   D. 1 only
+
+
+## QUANTITATIVE APTITUDE  (25 questions)
+--------------------------------------------------------------------------------
+1. [Data Interpretation / Table — Ranked Growth (multi-step) / lvl3] Revenue (in Rs. crore) of five companies in 2022 and 2023: A: 120,150 | B: 200,230 | C: 80,96 | D: 300,330 | E: 150,210. Which company had the SECOND HIGHEST percentage growth in revenue?
+   A. A  <-- ANSWER
+   B. C
+   C. B
+   D. E
+
+2. [Mensuration / Hemisphere from Surface Area (two-step) / lvl3] The total surface area of a sphere is 5544 sq cm. If this sphere is cut exactly in half, find the volume of one hemisphere. (Use pi = 22/7)
+   A. 19404 cubic cm  <-- ANSWER
+   B. 18500 cubic cm
+   C. 19800 cubic cm
+   D. 19040 cubic cm
+
+3. [Time & Work / Efficiency Change Mid-Work (multi-step) / lvl3] A can complete a work alone in 20 days. He works alone for the first 10 days, after which he becomes 25% more efficient and is joined by B, who can complete the same work alone in 48 days. In how many MORE days (after the first 10) will the work be completed?
+   A. 6 days  <-- ANSWER
+   B. 8 days
+   C. 5 days
+   D. 7 days
+
+4. [Percentage / Chained 3-Stage Change (reverse) / lvl3] A quantity increases by 10% in the first year, decreases by 5% in the second year, and increases by 20% in the third year. If its value at the end of the third year is 12,540, find its original value.
+   A. 10,000  <-- ANSWER
+   B. 10,500
+   C. 9,800
+   D. 10,200
+
+5. [Geometry / Square Diagonal to Inscribed Circle (two-step) / lvl3] The diagonal of a square is 14 sqrt(2) cm. Find the area of the largest circle that can be inscribed within this square. (Use pi = 22/7)
+   A. 154 sq cm  <-- ANSWER
+   B. 144 sq cm
+   C. 160 sq cm
+   D. 150 sq cm
+
+6. [Simple & Compound Interest / Half-Yearly CI vs SI (multi-step) / lvl3] Find the difference between the compound interest (compounded half-yearly) and the simple interest on Rs.8,000 for 1 year at 20% per annum.
+   A. Rs.80  <-- ANSWER
+   B. Rs.100
+   C. Rs.60
+   D. Rs.120
+
+7. [Time, Speed & Distance / Staggered Start — Two Trains / lvl3] Two stations are 610 km apart. A train leaves Station X at 60 km/h. One hour later, another train leaves Station Y (moving towards X) at 50 km/h. How many hours after the FIRST train's departure will they meet?
+   A. 6 hours  <-- ANSWER
+   B. 5 hours
+   C. 7 hours
+   D. 5.5 hours
+
+8. [Mensuration / Rectangle Inscribed in Circle (two-step) / lvl3] A rectangle is inscribed in a circle of diameter 26 cm. If the length of the rectangle is 24 cm, find its area.
+   A. 240 sq cm  <-- ANSWER
+   B. 250 sq cm
+   C. 230 sq cm
+   D. 260 sq cm
+
+9. [Percentage / Election — Reverse from Margin / lvl3] In an election with only two candidates and no invalid votes, the winner received 60% of the votes and won by a margin of 4,800 votes. Find the total number of votes cast.
+   A. 24,000  <-- ANSWER
+   B. 20,000
+   C. 22,000
+   D. 25,000
+
+10. [Partnership / Staggered Entry, Three Partners / lvl3] A starts a business with Rs.10,000. After 4 months, B joins with Rs.15,000. After a further 2 months (i.e. from month 6), C joins with Rs.20,000. At the end of the year (12 months from A's start), the total profit is Rs.4,800. Find C's share.
+   A. Rs.1,600  <-- ANSWER
+   B. Rs.1,800
+   C. Rs.1,400
+   D. Rs.2,000
+
+11. [Algebra / Sum of Cubes from Sum & Product / lvl3] If x+y=12 and xy=27, find the value of x^3+y^3.
+   A. 756  <-- ANSWER
+   B. 864
+   C. 702
+   D. 810
+
+12. [Number System / Count of Multiples in a Range / lvl3] How many numbers between 100 and 500 (both exclusive of numbers outside this range, inclusive of 100 and 500 themselves if they qualify) are divisible by BOTH 6 and 8?
+   A. 16  <-- ANSWER
+   B. 17
+   C. 15
+   D. 18
+
+13. [Trigonometry / Multi-Angle Identity (two equations) / lvl3] If sinA + sinB = 1 and cosA + cosB = 0, find the value of cos(A-B).
+   A. -1/2  <-- ANSWER
+   B. 1/2
+   C. 0
+   D. -1
+
+14. [Mensuration / Cube Minus Inscribed Cylinder (compound solid) / lvl3] A cylinder of radius 7 cm and height 14 cm is carved out from a solid cube of edge 14 cm. Find the volume of the remaining solid. (Use pi = 22/7)
+   A. 588 cubic cm  <-- ANSWER
+   B. 600 cubic cm
+   C. 576 cubic cm
+   D. 612 cubic cm
+
+15. [Number System / HCF with Remainder Condition / lvl3] Find the largest number that divides both 245 and 1029, leaving a remainder of 5 in each case.
+   A. 16  <-- ANSWER
+   B. 12
+   C. 20
+   D. 24
+
+16. [Boats & Streams / Indirect Speed Derivation (two-step) / lvl3] A boat covers 105 km downstream in 3 hours. In the same time it would take to cover 84 km downstream, the boat covers 42 km upstream. Find the speed of the stream.
+   A. 8.75 km/h  <-- ANSWER
+   B. 8 km/h
+   C. 9 km/h
+   D. 7.5 km/h
+
+17. [Percentage / Successive Population Change / lvl3] The population of a town is 25,000. It increases by 8% in the first year and decreases by 5% in the second year. Find the population at the end of the second year.
+   A. 25,650  <-- ANSWER
+   B. 25,500
+   C. 25,800
+   D. 25,400
+
+18. [Geometry / Sliding Ladder (two-step Pythagoras) / lvl3] A 25 m ladder is placed against a wall with its foot 7 m from the wall's base. The foot of the ladder is then pulled further out to 15 m from the wall (the ladder length stays 25 m). By how much does the top of the ladder slide down the wall?
+   A. 4 m  <-- ANSWER
+   B. 5 m
+   C. 3 m
+   D. 6 m
+
+19. [Number System / Two-Digit Number from Digit Conditions / lvl3] In a two-digit number, the sum of the digits is 11. If the digits are reversed, the new number is 27 more than the original. Find the original number.
+   A. 47  <-- ANSWER
+   B. 38
+   C. 29
+   D. 56
+
+20. [Profit & Loss / Two Items, Same Selling Price / lvl3] A man sells two items, each for Rs.990. On the first, he makes a 10% profit; on the second, he incurs a 10% loss. Find his overall profit or loss percentage on the whole transaction.
+   A. 1% loss  <-- ANSWER
+   B. No profit no loss
+   C. 1% profit
+   D. 2% loss
+
+21. [Time & Work / Combined Work then Wage Split / lvl3] A can complete a work in 18 days and B in 24 days. They work together for 6 days, after which B leaves and A alone finishes the remaining work. If the total wage for the whole work is Rs.3,600, paid in proportion to the work each person actually completed, find B's share of the wage.
+   A. Rs.900  <-- ANSWER
+   B. Rs.800
+   C. Rs.1,000
+   D. Rs.750
+
+22. [Geometry / Incenter Angle (verify from triangle sum) / lvl3] In triangle PQR, the incenter is O. If angle Q = 70 degrees and angle R = 50 degrees, find angle POQ.
+   A. 115 degrees  <-- ANSWER
+   B. 120 degrees
+   C. 130 degrees
+   D. 125 degrees
+
+23. [Ratio & Proportion / Remove-then-Add Mixture (two-step) / lvl3] A container holds 40 litres of a milk-water mixture in the ratio 5:3. 8 litres of this mixture is removed and replaced with 8 litres of pure water. Find the new ratio of milk to water.
+   A. 1:1  <-- ANSWER
+   B. 5:4
+   C. 4:3
+   D. 6:5
+
+24. [Time, Speed & Distance / Train Overtaking then Platform Crossing / lvl3] A 300 m train running at 54 km/h is overtaking a 200 m train running at 36 km/h in the same direction. After completing the overtake, the faster train (300 m) then crosses a platform of length 150 m. Find the total time taken to cross the platform (from the moment the train's front enters the platform).
+   A. 30 seconds  <-- ANSWER
+   B. 25 seconds
+   C. 35 seconds
+   D. 28 seconds
+
+25. [Number System / Digit-based Divisibility (unknown digit) / lvl3] Find the value of the digit k, if the 6-digit number 4k1758 is divisible by 9.
+   A. 2  <-- ANSWER
+   B. 3
+   C. 1
+   D. 4
+
+
+## ENGLISH  (25 questions)
+--------------------------------------------------------------------------------
+1. [Reading Comprehension / RC - Main Idea / lvl3] According to the passage, what is the central premise behind 'shared space' traffic design?
+   A. Removing certainty about right-of-way forces road users to pay closer attention to each other  <-- ANSWER
+   B. Traffic signals are outdated technology that should be replaced everywhere
+   C. Cyclists and pedestrians should always have priority over drivers
+   D. Accidents are caused primarily by traffic signs, not driver behaviour
+
+2. [Reading Comprehension / RC - Inference / lvl3] Based on the passage, in which setting would 'shared space' be LEAST likely to succeed?
+   A. A six-lane high-speed highway  <-- ANSWER
+   B. A quiet residential street
+   C. A small town square
+   D. A low-traffic pedestrian crossing
+
+3. [Reading Comprehension / RC - Vocabulary in Context / lvl3] In the passage, the word 'breeds' (as in 'breeds inattention') most nearly means:
+   A. Produces or causes  <-- ANSWER
+   B. Raises animals for reproduction
+   C. Classifies or categorizes
+   D. Restrains or controls
+
+4. [Reading Comprehension / RC - Author's Tone/Purpose / lvl3] What is the author's primary purpose in the final sentence of the passage?
+   A. To broaden the specific traffic debate into a more general question about safety and human behaviour  <-- ANSWER
+   B. To conclusively prove that all traffic signals should be removed
+   C. To criticize the city in the Netherlands for its policy decision
+   D. To summarize the history of traffic sign development
+
+5. [Reading Comprehension / RC - Detail / lvl3] According to the passage, what happened to accidents after the traffic signs were removed at the Dutch intersection?
+   A. They fell sharply  <-- ANSWER
+   B. They increased slightly
+   C. They remained unchanged
+   D. The passage does not specify
+
+6. [Cloze Test / Cloze / lvl3] Select the best word for blank (1).
+   A. flourished  <-- ANSWER
+   B. flourishing
+   C. flourish
+   D. flourishes
+
+7. [Cloze Test / Cloze / lvl3] Select the best word for blank (2).
+   A. regarded  <-- ANSWER
+   B. regarding
+   C. regard
+   D. regards
+
+8. [Cloze Test / Cloze / lvl3] Select the best word for blank (3).
+   A. provide  <-- ANSWER
+   B. provides
+   C. providing
+   D. provided
+
+9. [Cloze Test / Cloze / lvl3] Select the best word for blank (4).
+   A. because of  <-- ANSWER
+   B. because
+   C. due to the fact
+   D. owing
+
+10. [Cloze Test / Cloze / lvl3] Select the best word for blank (5).
+   A. sustained  <-- ANSWER
+   B. sustaining
+   C. sustain
+   D. sustains
+
+11. [Error Spotting / Error Spotting (embedded clause) / lvl3] Select the part with an error: The report, which was compiled by a team of independent auditors over several months, have raised serious concerns about the company's accounting practices.
+   A. The report, which was compiled
+   B. by a team of independent auditors over several months,
+   C. have raised serious concerns  <-- ANSWER
+   D. about the company's accounting practices
+
+12. [Sentence Improvement / Sentence Improvement (relative clause + tense) / lvl3] Improve: The scientists who has been studying the glacier for a decade have concluded that it is retreating faster than previously estimated.
+   A. who have been studying  <-- ANSWER
+   B. who has been study
+   C. who had been studying
+   D. who is studying
+
+13. [Fill in the Blanks / Preposition (less common, in context) / lvl3] The committee's recommendations, though well-intentioned, were largely at variance ___ the ground realities faced by frontline workers.
+   A. with  <-- ANSWER
+   B. from
+   C. to
+   D. against
+
+14. [Synonym / Vocabulary (rarer word, in context) / lvl3] In the sentence 'The negotiations remained at an impasse for weeks, with neither side willing to concede ground', the word 'impasse' most nearly means:
+   A. A deadlock or standstill  <-- ANSWER
+   B. A sudden breakthrough
+   C. A formal agreement
+   D. A minor disagreement
+
+15. [Antonym / Vocabulary (close synonym traps) / lvl3] Antonym of CANDOUR:
+   A. Duplicity  <-- ANSWER
+   B. Honesty
+   C. Frankness
+   D. Openness
+
+16. [One Word Substitution / OWS (rarer word, precise definition) / lvl3] A remark that indicates or warns that something important (often unpleasant) is about to happen:
+   A. Portentous  <-- ANSWER
+   B. Redundant
+   C. Superfluous
+   D. Perfunctory
+
+17. [Idioms / Idiom Meaning (in context) / lvl3] In the sentence 'After years of quiet preparation, her promotion came out of the blue to her colleagues', the idiom 'out of the blue' means:
+   A. Completely unexpected  <-- ANSWER
+   B. Long anticipated
+   C. Gradually developing
+   D. Officially announced
+
+18. [Spelling / Correct Spelling (close pairs) / lvl3] Choose the correctly spelt word.
+   A. Occurrence  <-- ANSWER
+   B. Occurence
+   C. Occurrance
+   D. Occurrenc
+
+19. [Active-Passive / Voice Conversion (embedded clause) / lvl3] Convert to passive voice: The auditors, after examining the accounts thoroughly, submitted their final report to the board.
+   A. The final report was submitted to the board by the auditors, after examining the accounts thoroughly  <-- ANSWER
+   B. The final report submitted to the board by the auditors, after examining the accounts thoroughly
+   C. The board was submitted the final report by the auditors
+   D. The final report has been submitted to the board by the auditors, after examining the accounts thoroughly
+
+20. [Direct-Indirect / Narration (embedded question) / lvl3] Convert to indirect speech: The interviewer asked, "What difficulties did you face while leading this project, and how did you overcome them?"
+   A. The interviewer asked what difficulties I had faced while leading that project, and how I had overcome them  <-- ANSWER
+   B. The interviewer asked that what difficulties did I face while leading this project, and how did I overcome them
+   C. The interviewer asked what difficulties I faced while leading this project, and how I overcame them
+   D. The interviewer asked what difficulties had I faced while leading that project, and how had I overcome them
+
+21. [Sentence Improvement / Redundancy (embedded) / lvl3] Select the part with an error: The final and ultimate decision on the merger rests solely with the board of directors, who will meet next week.
+   A. The final and ultimate decision  <-- ANSWER
+   B. on the merger rests solely
+   C. with the board of directors,
+   D. who will meet next week
+
+22. [Error Spotting / Error Spotting (correlative + tense) / lvl3] Select the part with an error: Not only did the company miss its quarterly targets, but it also failed to retained several key clients.
+   A. Not only did the company miss
+   B. its quarterly targets,
+   C. but it also failed to retained  <-- ANSWER
+   D. several key clients
+
+23. [Para Jumble / Sentence Rearrangement (4-sentence logic) / lvl3] Rearrange: P. Regulators eventually stepped in to cap interest rates on such loans. Q. Many borrowers found themselves trapped in a cycle of renewing loans they could not repay. R. Short-term lenders began offering loans with very high interest rates to those with poor credit. S. Consumer advocacy groups raised alarms about the resulting debt spiral.
+   A. R,Q,S,P  <-- ANSWER
+   B. R,S,Q,P
+   C. Q,R,S,P
+   D. R,Q,P,S
+
+24. [Error Spotting / Error Spotting (subtle preposition) / lvl3] Select the part with an error: She is quite capable to handle the additional responsibilities that come with the promotion.
+   A. She is quite capable  <-- ANSWER
+   B. to handle the additional responsibilities
+   C. that come with
+   D. the promotion
+
+25. [Sentence Improvement / Sentence Improvement (formal register) / lvl3] Improve: The manager told that the deadline could not be extended under any circumstances.
+   A. The manager said that  <-- ANSWER
+   B. The manager told to us that
+   C. The manager was telling that
+   D. No improvement
