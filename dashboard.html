@@ -126,6 +126,9 @@ const EXAM_CALENDAR = {
       { n: 5, title: "Full CGL Diagnostic — Paper 03", desc: "100Q · 200 marks · 60 min · Fresh PYQ-grounded paper for tomorrow. Same tough-shift calibration as Paper 02.",
         tags: ["Full paper","100Q","60 min","new"], href: "cgl/exam3.html", launch: "Start full exam",
         score: () => examStatus("cgl_exam_paper03_v1") },
+      { n: "Bonus", title: "Weak-Topics Drill (from 30 Sep attempt)", desc: "38Q · 45 min · Targets exactly what the 30 Sep score revealed: Mixture/Trig/Average/DI/Geometry/Number-System/Algebra, Classification/Seating/Blood Relations/Coding, weak Polity/Geography/History/Economy facts, and the fast-wrong English pattern (Sentence Improvement, Synonym, Fill-in-Blanks, Cloze, Idioms).",
+        tags: ["Mixed review","38Q","45 min","drill"], href: "cgl/daily-exam.html?mock=weak_drill_1", launch: "Start drill now",
+        score: () => bestFor("daily_weak_drill_1") },
     ]
   },
   "2026-10-02": {
@@ -244,10 +247,10 @@ function renderDay() {
     const el = document.createElement("div");
     el.className = "card";
     el.innerHTML = `
-      <div class="num">TEST ${exam.n}</div>
+      <div class="num">${typeof exam.n === "number" ? "TEST " + exam.n : exam.n.toUpperCase()}</div>
       <h3>${exam.title}</h3>
       <p>${exam.desc}</p>
-      <div class="meta">${exam.tags.map(t => `<span class="pill${(t==="new"||t==="deep") ? " new" : ""}">${t}</span>`).join("")}</div>
+      <div class="meta">${exam.tags.map(t => `<span class="pill${(t==="new"||t==="deep"||t==="drill") ? " new" : ""}">${t}</span>`).join("")}</div>
       <div id="status-${selectedISO}-${exam.n}"></div>
       <div class="actions">
         <a class="btn btn-primary" href="${exam.href}">${exam.launch}</a>

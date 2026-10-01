@@ -1,0 +1,303 @@
+REVIEW SHEET — Paper 02, 30 Sep attempt — every wrong/skipped question
+================================================================================
+
+[r2_05] Classification / Odd Number Set
+Select the set that follows the same pattern as (16, 25, 4).
+  A. (9, 16, 25)
+  B. (8, 27, 64)
+  C. (9, 49, 36) <-- CORRECT
+  D. (12, 18, 24)
+  (He skipped this one)
+Why: 16=4^2, 25=5^2, 4=2^2 — three perfect squares in any order. (9,49,36) = 3^2,7^2,6^2 also all perfect squares.
+Trick: Confirm ALL three numbers must be perfect squares, not just two. (8,27,64) are perfect CUBES — a deliberate near-miss trap, not squares.
+
+[r2_10] Blood Relations / Coded Relations
+If A + B means A is father of B, A - B means A is wife of B, A x B means A is brother of B. Which of the following shows P is grandmother of Q?
+  A. P - S + R + Q <-- CORRECT
+  B. P - R + Q
+  C. P + S + R x Q
+  D. P x S - R + Q
+  (He skipped this one)
+Why: P - S (P is wife of S) + R (S is father of R) + Q (R is father of Q) => S is father of R, R is father of Q, so S is Q's grandfather; P is S's wife, so P is Q's grandmother.
+Trick: Grandmother needs a THREE-link chain (wife of [father of [father of Q]]) — a shorter 'P - R + Q' only reaches Q's MOTHER (wife of Q's own father), not grandmother. Count the generations the chain actually spans before picking an answer.
+
+[r2_19] Coding-Decoding / Positional Word Coding
+If in a code, SUN is written as VV and STAR is written as WW, how is MOON written in the same code?
+  A. QQ <-- CORRECT
+  B. PP
+  C. RR
+  D. NN
+  (He skipped this one)
+Why: Rule: take the word's first letter, shift it forward by the word's LENGTH, then double it. SUN: S(19)+3=22=V -> VV. STAR: S(19)+4=23=W -> WW. MOON: M(13)+4=17=Q -> QQ.
+Trick: Derive the exact rule from BOTH given examples first (first-letter shifted by word-length, then doubled) — a rule based on only one example could be coincidental; confirming it against two independent words makes it reliable.
+
+[r2_22] Seating Arrangement / Circular Arrangement
+Six people P,Q,R,S,T,U sit around a circular table facing the centre, equally spaced. P is second to the right of Q. T is second to the left of Q. R and S occupy the two remaining seats next to P and T. Who sits directly opposite Q?
+  A. U <-- CORRECT
+  B. R or S <-- HIS ANSWER (WRONG)
+  C. P
+  D. T
+Why: Seat Q, then place P two seats clockwise and T two seats anticlockwise from Q — this fixes 3 of the 6 seats (Q, P, T) with one empty seat between each pair. The seat directly opposite Q (3 seats away) is the one remaining seat, occupied by U.
+Trick: In a 6-seat circle, 'opposite' always means exactly 3 seats away. Fix the three named positions first — only one seat is then left for the last unplaced person.
+
+[r2_25] Non-Verbal Reasoning / Mirror Image of Clock Time
+A clock shows the time 4:20. What time will its mirror image (reflected in a mirror placed vertically, as if behind the clock face) show?
+  A. 7:40 <-- CORRECT
+  B. 8:20
+  C. 7:20 <-- HIS ANSWER (WRONG)
+  D. 4:40
+Why: Mirror image of a clock time uses the formula: Mirror time = 11:60 minus the actual time. 11:60 - 4:20 = 7:40.
+Trick: Always apply the fixed formula (11:60 - actual time), never try to visualize the reflected hands directly — subtract hours and minutes from 11:60 (not 12:00) to get the correct mirrored reading.
+
+[ga2_01] Polity / Centre-State Relations
+Which Article of the Indian Constitution empowers the Union to give directions to a State regarding the exercise of its executive power, to ensure compliance with laws made by Parliament?
+  A. Article 257 <-- CORRECT
+  B. Article 356
+  C. Article 352
+  D. Article 249 <-- HIS ANSWER (WRONG)
+Why: Article 257 allows the Union to direct a State's executive to ensure compliance with central laws, and to protect railways/means of communication of national importance.
+Trick: Article 356 is President's Rule, Article 352 is National Emergency, Article 249 is Parliament legislating on a State subject 'in national interest' — all in the same neighbourhood of Centre-State provisions but each with a distinct trigger.
+
+[ga2_03] Polity / Judiciary
+Which Article of the Constitution provides for the salaries and allowances of the Judges of the Supreme Court?
+  A. Article 125 <-- CORRECT
+  B. Article 124
+  C. Article 126 <-- HIS ANSWER (WRONG)
+  D. Article 128
+Why: Article 125 provides for the salaries, allowances, and pension of Supreme Court Judges, charged on the Consolidated Fund of India.
+Trick: Article 124 establishes the Supreme Court and judge appointment; Article 126 is about an acting Chief Justice; Article 128 allows retired judges to sit — all clustered near 125, easy to mix up under time pressure.
+
+[ga2_05] Geography / Indian Climate
+'Loo', the hot and dry local wind that blows over the Indo-Gangetic plains, is most prominent during which months?
+  A. May-June <-- CORRECT
+  B. January-February
+  C. September-October
+  D. July-August
+  (He skipped this one)
+Why: Loo blows during the peak summer months of May-June, just before the onset of the monsoon, across North and Northwest India.
+Trick: Anchor Loo to the pre-monsoon summer peak (May-June) — not the monsoon months themselves (July-August), which bring rain-bearing winds instead of hot dry ones.
+
+[ga2_07] History / Medieval India - Mughal Administration
+Raja Todar Mal, who served as Akbar's finance minister and introduced the 'Zabti' (Dahsala) land revenue system, held which title?
+  A. Diwan <-- CORRECT
+  B. Wazir <-- HIS ANSWER (WRONG)
+  C. Mir Bakshi
+  D. Sadr-us-Sudur
+Why: Todar Mal served as Diwan (revenue minister) under Akbar, and designed the Dahsala/Zabti system of land revenue assessment based on a 10-year average.
+Trick: Wazir was the Prime Minister-equivalent overall head, Mir Bakshi handled military/payroll affairs, and Sadr-us-Sudur handled religious/charitable grants — Diwan is specifically the REVENUE post that matches Todar Mal's famous reform.
+
+[ga2_13] Static GK / Sports Regulations
+As per official ITTF rules, what is the standard weight of a table tennis ball?
+  A. 2.7 grams <-- CORRECT
+  B. 3.5 grams
+  C. 5 grams
+  D. 1.5 grams
+  (He skipped this one)
+Why: The official ITTF (International Table Tennis Federation) table tennis ball weighs 2.7 grams, with a diameter of 40 mm.
+Trick: This is a pure specification-recall fact with no logical shortcut — SSC often tests exact equipment specifications (weight, size, distance) across different sports as a way to test rote preparation depth.
+
+[ga2_14] History / Judiciary History
+Which was the first High Court to be established in India, in 1862?
+  A. Calcutta High Court <-- CORRECT
+  B. Bombay High Court <-- HIS ANSWER (WRONG)
+  C. Madras High Court
+  D. Allahabad High Court
+Why: The Calcutta High Court, established in 1862 under the Indian High Courts Act 1861, was the first High Court in India (Bombay and Madras High Courts were also established the same year, but Calcutta is recorded as the first).
+Trick: Bombay and Madras High Courts were established in the SAME year (1862) as Calcutta, making this a genuinely close call — the standard SSC-accepted answer is Calcutta, based on order of formal establishment.
+
+[ga2_17] Economy / GST Council
+In the GST Council, what is the voting weightage split between the Centre and the States (collectively) for any decision?
+  A. Centre 1/3rd, States (together) 2/3rd <-- CORRECT
+  B. Centre 1/2, States (together) 1/2
+  C. Centre 2/3rd, States (together) 1/3rd <-- HIS ANSWER (WRONG)
+  D. Each member (Centre + every state) has an equal single vote
+Why: In the GST Council, the Centre's vote carries a weightage of one-third of the total votes cast, while all States together carry two-thirds — a decision requires a three-fourths majority of votes cast.
+Trick: Do not assume a simple 'one member one vote' system (like the Lok Sabha) — the GST Council uses a WEIGHTED voting system where the Centre alone holds a fixed 1/3rd share regardless of how many states vote.
+
+[ga2_19] Polity / National Human Rights Commission
+The Chairperson of the National Human Rights Commission (NHRC) should ordinarily have held which position?
+  A. Chief Justice of India <-- CORRECT
+  B. Chief Justice of a High Court <-- HIS ANSWER (WRONG)
+  C. Judge of the Supreme Court
+  D. Attorney General of India
+Why: As per the Protection of Human Rights Act, 1993 (as amended), the NHRC Chairperson should ordinarily be a person who has been Chief Justice of India (the Act was later amended to also allow a Supreme Court judge to be eligible).
+Trick: Do not confuse the top eligibility criterion with a MEMBER's eligibility (a sitting/retired Supreme Court judge or High Court Chief Justice can be a MEMBER, not necessarily the Chairperson) — the Chairperson's post specifically points to the CJI level.
+
+[ga2_20] Static GK / Culture - Festivals
+'Nuakhai', a harvest festival marking the eating of the new rice of the season, is predominantly celebrated in which state?
+  A. Odisha <-- CORRECT
+  B. West Bengal
+  C. Assam <-- HIS ANSWER (WRONG)
+  D. Bihar
+Why: Nuakhai is a major agricultural/harvest festival of Odisha (especially the western Odisha region), celebrated by offering the season's first rice harvest to the deity.
+Trick: Do not confuse with other regional harvest festivals from nearby eastern states (Bengal's Nabanna, Assam's Bihu) — Nuakhai by name is specifically an Odisha festival.
+
+[ga2_22] Economy / Social Security Schemes
+The 'Indira Gandhi National Old Age Pension Scheme' (IGNOAPS) provides pension assistance to elderly citizens belonging to which category of households?
+  A. Below Poverty Line (BPL) households <-- CORRECT
+  B. All households regardless of income
+  C. Only households with a government pensioner
+  D. Only urban BPL households
+  (He skipped this one)
+Why: IGNOAPS (part of the National Social Assistance Programme) provides a monthly pension specifically to elderly persons (60+) belonging to Below Poverty Line households.
+Trick: The scheme is explicitly BPL-targeted, not universal — do not confuse it with a universal old-age pension scheme; the BPL eligibility criterion is the specific fact SSC tests here.
+
+[ga2_23] Static GK / Awards
+Ustad Zakir Hussain, the renowned tabla player, was awarded the Padma Vibhushan in which year (his second-highest Padma award before his eventual Padma Vibhushan progression)?
+  A. 2002 (Padma Bhushan) <-- CORRECT
+  B. 1988 (Padma Shri)
+  C. 2023 (Padma Vibhushan)
+  D. 1999 (Padma Bhushan)
+  (He skipped this one)
+Why: Zakir Hussain received the Padma Shri in 1988, the Padma Bhushan in 2002, and the Padma Vibhushan in 2023 — a progression through all three Padma award tiers.
+Trick: SSC often tests the SPECIFIC YEAR of a specific tier of a multi-award recipient's honours — track each award tier (Shri -> Bhushan -> Vibhushan) to its own distinct year rather than recalling just one general 'award year'.
+
+[q2_04] Geometry / Parallel Chords (reverse for radius)
+Two parallel chords of lengths 16 cm and 12 cm lie on opposite sides of the centre of a circle, 14 cm apart. Find the radius of the circle.
+  A. 10 cm <-- CORRECT
+  B. 9 cm
+  C. 12 cm
+  D. 11 cm
+  (He skipped this one)
+Why: Let the chords' distances from the centre be d1 and d2, with d1+d2=14. From the chord-radius relation: r^2 = 8^2+d1^2 = 6^2+d2^2. Subtracting: d2^2-d1^2=28, and since d2+d1=14, (d2-d1)=28/14=2. So d1=6, d2=8. r^2 = 8^2+6^2 = 100, r = 10 cm.
+Trick: With chords on OPPOSITE sides, their distances from the centre ADD to the given gap (not subtract) — set up two simultaneous equations in d1 and d2 rather than guessing a single distance for both chords.
+
+[q2_18] Mixture & Alligation / Combining Two Mixtures
+20 litres of a mixture has milk and water in the ratio 3:1. 30 litres of another mixture has milk and water in the ratio 2:3. If both mixtures are combined, find the resulting ratio of milk to water.
+  A. 27:23 <-- CORRECT
+  B. 23:27
+  C. 3:2
+  D. 25:25
+  (He skipped this one)
+Why: Mixture 1: milk=15L, water=5L. Mixture 2: milk=12L, water=18L. Combined: milk=15+12=27L, water=5+18=23L. Ratio = 27:23.
+Trick: Add milk-to-milk and water-to-water SEPARATELY across both mixtures before forming the new ratio — never average the two given ratios (3:1 and 2:3) directly, since the mixtures have different total volumes.
+
+[q2_20] Number System / Cyclicity of Remainders
+Find the remainder when 7^91 is divided by 5.
+  A. 3 <-- CORRECT
+  B. 1
+  C. 2 <-- HIS ANSWER (WRONG)
+  D. 4
+Why: Powers of 7 mod 5 cycle as: 7^1=2, 7^2=4, 7^3=3, 7^4=1, then repeat (cycle length 4). 91 mod 4 = 3, so 7^91 mod 5 = 7^3 mod 5 = 3.
+Trick: Never compute 7^91 directly — find the cycle length of the units pattern under mod 5 (here 4), reduce the exponent modulo that cycle length, and read off the corresponding cycle value.
+
+[q2_22] Trigonometry / Ratio Identity from tanA
+If tanA = 3/4 and A is acute, find the value of (sinA + cosA) / (sinA - cosA).
+  A. -7 <-- CORRECT
+  B. 7
+  C. -1/7
+  D. 1/7
+  (He skipped this one)
+Why: From tanA=3/4 (a 3-4-5 right triangle), sinA=3/5, cosA=4/5. (sinA+cosA)/(sinA-cosA) = (3/5+4/5)/(3/5-4/5) = (7/5)/(-1/5) = -7.
+Trick: Build sinA and cosA from the 3-4-5 triangle implied by tanA=3/4 FIRST, then substitute — watch the sign: cosA is larger than sinA here, making the denominator negative.
+
+[q2_23] Average / Consecutive Multiples (reverse)
+The average of 7 consecutive multiples of 4 is 44. Find the smallest of these numbers.
+  A. 32 <-- CORRECT
+  B. 28
+  C. 36
+  D. 24
+  (He skipped this one)
+Why: For 7 evenly-spaced terms, the average equals the 4th (middle) term: 44. The terms, spaced by 4, are 32,36,40,44,48,52,56 — smallest is 32.
+Trick: The average of an odd count of evenly-spaced terms is always the MIDDLE term — from there, step backward by (spacing x number of steps to the start).
+
+[q2_24] Algebra / Sum of Cubes
+If a+b=7 and ab=10, find the value of a^3+b^3.
+  A. 133 <-- CORRECT
+  B. 343
+  C. 210
+  D. 123
+  (He skipped this one)
+Why: a^3+b^3 = (a+b)^3 - 3ab(a+b) = 7^3 - 3(10)(7) = 343-210 = 133.
+Trick: Use the identity directly on (a+b) and ab — do not try to solve for a and b individually (which needs a quadratic and irrational-looking intermediate values here).
+
+[q2_25] Data Interpretation / Table — Percentage Growth Comparison
+Study the table of students enrolled in 3 courses across 2 years: Course | 2021 | 2022 ; Maths | 40 | 55 ; Science | 60 | 65 ; Arts | 30 | 40. Which course showed the highest PERCENTAGE increase in enrollment from 2021 to 2022?
+  A. Maths <-- CORRECT
+  B. Science
+  C. Arts
+  D. Both Maths and Arts equally
+  (He skipped this one)
+Why: Percentage increase: Maths = (15/40)x100 = 37.5%. Science = (5/60)x100 = 8.33%. Arts = (10/30)x100 = 33.33%. Maths has the highest percentage increase.
+Trick: Compute the percentage increase for EACH course separately (increase/original x100) rather than comparing raw increases (15 vs 5 vs 10) — Arts (33.33%) is deliberately close to Maths (37.5%).
+
+[e2_03] Error Spotting / Error Spotting
+Select the part with an error: The jury has given / their verdict / after long deliberation / last evening.
+  A. The jury has given
+  B. their verdict <-- CORRECT
+  C. after long deliberation
+  D. No error <-- HIS ANSWER (WRONG)
+Why: Jury (collective noun acting as one unit) takes 'its', not 'their'. Should be 'its verdict'.
+Trick: Once a collective noun is treated as singular ('has given'), stay consistent — the possessive pronoun later in the sentence must also be singular ('its'), not 'their'.
+
+[e2_05] Sentence Improvement / Sentence Improvement (relative clause agreement)
+Improve: She is one of those students who has always topped the class.
+  A. who have always topped the class <-- CORRECT
+  B. who has always been topping the class <-- HIS ANSWER (WRONG)
+  C. who had always topped the class
+  D. No improvement
+Why: In 'one of those X who...', the relative pronoun 'who' refers back to 'those students' (plural), so the verb must be plural: 'who have always topped', not 'who has'.
+Trick: Distinguish this from 'She is the only one of the students who HAS...' (singular, because 'the only one' restricts it to just her) — 'one of those X who' without 'only' always takes a plural verb agreeing with X, not with 'one'.
+
+[e2_06] Fill in the Blanks / Preposition (less common pairs)
+After years of conflict, the two nations finally agreed to reconcile their differences and dispense ___ the need for further negotiation, having grown weary ___ endless disputes.
+  A. with, of <-- CORRECT
+  B. with, with <-- HIS ANSWER (WRONG)
+  C. of, with
+  D. from, of
+Why: 'Dispense with' means to do away with/no longer need something. 'Weary of' is the fixed pairing for being tired of something.
+Trick: 'Dispense with' (not 'dispense of' or 'dispense from') and 'weary of' (not 'weary with') are both less-common fixed pairs — do not default to 'of' everywhere just because the first blank happens to need 'with'.
+
+[e2_07] Fill in the Blanks / Conjunction (close pair)
+___ he wins the election, he has promised to continue serving the community as a volunteer.
+  A. Unless <-- HIS ANSWER (WRONG)
+  B. Even if <-- CORRECT
+  C. As though
+  D. Provided that
+Why: 'Even if' introduces a hypothetical condition where the outcome (continuing to serve) stays the same either way — the sentence means 'whether or not he wins, he will still serve'. 'Unless' would wrongly reverse the logic (implying he serves ONLY if he does NOT win).
+Trick: 'Even if' vs 'if' vs 'unless' hinge on whether the result changes with the condition — since the promise holds REGARDLESS of the election result, only 'even if' captures that; 'unless' introduces a real exception, which does not fit the sentence's meaning.
+
+[e2_12] Cloze Test / Cloze
+Select the best word for blank (4).
+  A. get <-- HIS ANSWER (WRONG)
+  B. are <-- CORRECT
+  C. being
+  D. was
+Why: 'So that crops (4) pollinated on schedule' needs a passive present form — 'are pollinated' fits the purpose clause correctly.
+Trick: Purpose clauses with 'so that' commonly need a simple present passive form here — 'are' + past participle (pollinated, implied) is the standard pattern.
+
+[e2_13] Cloze Test / Cloze
+Select the best word for blank (5).
+  A. disappear <-- HIS ANSWER (WRONG)
+  B. vanish
+  C. continue <-- CORRECT
+  D. reverse
+Why: 'Unless wildflower habitats are restored...the underlying pressure will (5) regardless of how many hives are trucked in' — logically the pressure CONTINUES if the root cause (habitat loss) is not fixed.
+Trick: Read the whole conditional clause ('unless X, then Y') — since X (restoration) is the unmet condition, Y must express the negative outcome persisting, i.e. 'continue'.
+
+[e2_15] Synonym / Vocabulary (rarer word)
+Synonym of OBSEQUIOUS:
+  A. Servile <-- CORRECT
+  B. Arrogant <-- HIS ANSWER (WRONG)
+  C. Honest
+  D. Generous
+Why: Obsequious = excessively eager to please or flatter someone, to an ingratiating degree; closest in meaning to 'servile'.
+Trick: Obsequious is often confused with positive politeness — but it specifically implies EXCESSIVE, fawning flattery (a negative trait), which is why 'servile' (not 'honest' or 'generous') is the match.
+
+[e2_19] Idioms / Idiom Meaning
+Meaning of 'to throw in the towel':
+  A. To give up or concede defeat <-- CORRECT
+  B. To start a physical fight
+  C. To celebrate a victory
+  D. To clean up after a mess <-- HIS ANSWER (WRONG)
+Why: 'Throw in the towel' (from boxing, where a trainer throws a towel into the ring to stop the fight) means to give up or concede defeat.
+Trick: The boxing origin is the key — a towel thrown INTO the match signals surrender, not the start of a fight or a celebration, which are the tempting literal-sounding distractors.
+
+[e2_24] Error Spotting / Error Spotting (subtle redundancy)
+Select the part with an error: The two twins / were both born / on the exact same day / and shared an uncanny resemblance.
+  A. The two twins <-- CORRECT
+  B. were both born <-- HIS ANSWER (WRONG)
+  C. on the exact same day
+  D. No error
+Why: 'Twins' already means two — 'two twins' is redundant. It should simply be 'The twins'.
+Trick: Some words carry a built-in number or meaning ('twins'=two, 'return'=come back, 'surround'=on all sides) — pairing them with a redundant number or qualifier ('two twins', 'returned back', 'surrounded on all sides') is a recurring SSC trap; the redundancy is often buried in the first segment, not the more 'complex-looking' later ones.
