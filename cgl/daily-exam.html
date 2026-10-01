@@ -281,6 +281,8 @@ let BANK = {}, PASSAGES = {}, LOAD_ERROR = null, MISSING = [];
   BANK.main = MOCK.questions.map((q, i) => ({
     sec: "main",
     id: MOCK.id + "_q" + (i + 1),
+    topic: q.trapcat || q.rule || "General",
+    qtype: q.trapcat || "",
     q: q.q,
     opts: q.options,
     ans: q.answer,
