@@ -106,6 +106,12 @@ td.n,th.n{text-align:right;font-variant-numeric:tabular-nums}
 .rev .rq{font-weight:bold;margin-bottom:5px}
 .rev .meta{font-size:10.5px;color:#666;margin-bottom:6px}
 .tag{display:inline-block;background:#eef2f7;border:1px solid #d5dde8;padding:1px 6px;margin-right:4px;font-size:10px;border-radius:2px}
+.trickbox{margin-top:8px}
+.trick-section{background:#f7f2fb;border-left:3px solid #6b3fa0;padding:7px 10px;margin-bottom:6px;border-radius:2px}
+.trick-h{font-weight:bold;color:#6b3fa0;font-size:11px;text-transform:uppercase;letter-spacing:.3px;margin-bottom:4px}
+.trick-list{margin:0;padding-left:18px}
+.trick-list li{margin-bottom:3px;font-size:12px;line-height:1.5}
+.trick-list sup{font-size:0.75em}
 .modal{position:fixed;inset:0;background:rgba(0,0,0,.45);display:flex;align-items:center;justify-content:center;z-index:50;padding:16px}
 .modal .box{background:#fff;padding:20px 24px;max-width:430px;border:1px solid #999}
 .modal h3{margin:0 0 10px;color:#1b4a8a}
@@ -775,8 +781,8 @@ function renderResult() {
            + (oi === q.ans ? '  ✓' : '') + (oi === r.chosen && !ok ? '  ← you' : '') + '</span></label></li>';
       });
       h += '</ul>';
-      if (q.exp) h += '<p style="margin:8px 0 0"><b>Why:</b> ' + esc(q.exp) + '</p>';
-      if (q.trick) h += '<p style="margin:4px 0 0;color:#6b3fa0"><b>Elimination:</b> ' + esc(q.trick) + '</p>';
+      if (q.exp) h += '<p style="margin:8px 0 0"><b>Why:</b> ' + prettyMath(esc(q.exp)) + '</p>';
+      if (q.trick) h += renderTrickHTML(q.trick);
       h += '</div>';
     });
   });
@@ -787,6 +793,53 @@ function renderResult() {
 
 function esc(s) {
   return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+}
+
+/* Lightweight math-notation cleanup for display: turns keyboard-typed
+   formulas (sqrt(x), x^2, pi) into proper symbols without needing images.
+   Call this on already-esc()'d text. */
+function prettyMath(s) {
+  s = String(s);
+  s = s.replace(/sqrt\(/g, "√(");
+  s = s.replace(/\^(-?\d+(?:\.\d+)?)/g, "<sup>$1</sup>");
+  s = s.replace(/\^([a-zA-Z])\b/g, "<sup>$1</sup>");
+  s = s.replace(/\bpi\b/g, "π");
+  s = s.replace(/(\d+)\s*degrees\b/gi, "$1°");
+  return s;
+}
+
+/* The `trick` field packs two things separated by " || ": the
+   question-specific elimination trick, then (optionally) a full
+   topic brush-up pack whose individual facts are separated by " | ".
+   Render each as its own labelled, bulleted section instead of one
+   run-on paragraph. */
+function renderTrickHTML(trickRaw) {
+  if (!trickRaw) return "";
+  const parts = String(trickRaw).split(" || ").map(s => s.trim()).filter(Boolean);
+  let out = '<div class="trickbox">';
+  parts.forEach((part, idx) => {
+    // split on " | " first, then further split each chunk right before
+    // "Name: ..." sub-items (e.g. "Square: Area=... . Rectangle: Area=...")
+    // so a dense formula block becomes one bullet per shape/fact, not one run-on line.
+    const SUBSPLIT = /\.\s+(?=[A-Z][A-Za-z0-9()\/\- ]{1,40}:)/g;
+    const LABELSPLIT = /\s*(?=\b(?:ELIMINATION TRICK|MNEMONIC|TRAP|WARNING|SHORTCUT)S?:)/g;
+    const bullets = part.split(" | ")
+      .flatMap(s => s.split(SUBSPLIT))
+      .flatMap(s => s.split(LABELSPLIT))
+      .map(s => s.trim().replace(/\.$/, ""))
+      .filter(Boolean);
+    const heading = idx === 0 ? "Elimination trick" : "Full concept brush-up";
+    out += '<div class="trick-section"><div class="trick-h">' + heading + '</div><ul class="trick-list">';
+    bullets.forEach(raw => {
+      const m = raw.match(/^([A-Z][A-Za-z0-9 _\-\/]{2,45}?):\s*(.*)$/s);
+      const label = m ? m[1] : null;
+      const body = m ? m[2] : raw;
+      out += "<li>" + (label ? "<b>" + prettyMath(esc(label)) + ":</b> " : "") + prettyMath(esc(body)) + "</li>";
+    });
+    out += "</ul></div>";
+  });
+  out += "</div>";
+  return out;
 }
 
 /* Compact, paste-into-chat summary. Deliberately small (~2 KB) — the full
