@@ -823,7 +823,9 @@ function renderTrickHTML(trickRaw) {
     // so a dense formula block becomes one bullet per shape/fact, not one run-on line.
     const SUBSPLIT = /\.\s+(?=[A-Z][A-Za-z0-9()\/\- ]{1,40}:)/g;
     const LABELSPLIT = /\s*(?=\b(?:ELIMINATION TRICK|MNEMONIC|TRAP|WARNING|SHORTCUT)S?:)/g;
+    const NUMSPLIT = /\s*(?=\(\d+\)\s)/g;
     const bullets = part.split(" | ")
+      .flatMap(s => s.split(NUMSPLIT))
       .flatMap(s => s.split(SUBSPLIT))
       .flatMap(s => s.split(LABELSPLIT))
       .map(s => s.trim().replace(/\.$/, ""))
