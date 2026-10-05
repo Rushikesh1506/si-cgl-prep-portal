@@ -112,6 +112,16 @@ td.n,th.n{text-align:right;font-variant-numeric:tabular-nums}
 .trick-list{margin:0;padding-left:18px}
 .trick-list li{margin-bottom:3px;font-size:12px;line-height:1.5}
 .trick-list sup{font-size:0.75em}
+.trick-section.rich h3,.trick-section.rich h4{margin:10px 0 6px;font-size:13px;color:#1b4a8a}
+.trick-section.rich h3:first-child,.trick-section.rich h4:first-child{margin-top:2px}
+.trick-section.rich p{margin:4px 0;font-size:12px;line-height:1.55}
+.trick-section.rich ul,.trick-section.rich ol{margin:4px 0;padding-left:20px}
+.trick-section.rich li{margin-bottom:3px;font-size:12px;line-height:1.5}
+.trick-section.rich table{border-collapse:collapse;margin:6px 0 10px;font-size:12px;width:100%}
+.trick-section.rich table th,.trick-section.rich table td{border:1px solid #d5dde8;padding:4px 8px;text-align:left}
+.trick-section.rich table th{background:#eef2f7}
+.trick-section.rich blockquote{margin:6px 0;padding:6px 10px;background:#fff;border-left:3px solid #6b3fa0;font-size:12px}
+.trick-section.rich .chain{font-weight:bold;color:#6b3fa0}
 .modal{position:fixed;inset:0;background:rgba(0,0,0,.45);display:flex;align-items:center;justify-content:center;z-index:50;padding:16px}
 .modal .box{background:#fff;padding:20px 24px;max-width:430px;border:1px solid #999}
 .modal h3{margin:0 0 10px;color:#1b4a8a}
@@ -818,8 +828,15 @@ function renderTrickHTML(trickRaw) {
   const parts = String(trickRaw).split(" || ").map(s => s.trim()).filter(Boolean);
   let out = '<div class="trickbox">';
   parts.forEach((part, idx) => {
-    // split on " | " first, then further split each chunk right before
-    // "Name: ..." sub-items (e.g. "Square: Area=... . Rectangle: Area=...")
+    const heading = idx === 0 ? "Elimination trick" : "Full concept brush-up";
+    // Authored rich content (headings/tables/bold/emoji) is inserted as-is —
+    // recognizable by containing real HTML tags like <h4>/<table>/<strong>.
+    if (/<(h[1-6]|table|div|strong|p)\b/i.test(part)) {
+      out += '<div class="trick-section rich"><div class="trick-h">' + heading + '</div>' + part + '</div>';
+      return;
+    }
+    // Plain-text pack: split on " | " first, then further split each chunk right
+    // before "Name: ..." sub-items (e.g. "Square: Area=... . Rectangle: Area=...")
     // so a dense formula block becomes one bullet per shape/fact, not one run-on line.
     const SUBSPLIT = /\.\s+(?=[A-Z][A-Za-z0-9()\/\- ]{1,40}:)/g;
     const LABELSPLIT = /\s*(?=\b(?:ELIMINATION TRICK|MNEMONIC|TRAP|WARNING|SHORTCUT)S?:)/g;
@@ -830,7 +847,6 @@ function renderTrickHTML(trickRaw) {
       .flatMap(s => s.split(LABELSPLIT))
       .map(s => s.trim().replace(/\.$/, ""))
       .filter(Boolean);
-    const heading = idx === 0 ? "Elimination trick" : "Full concept brush-up";
     out += '<div class="trick-section"><div class="trick-h">' + heading + '</div><ul class="trick-list">';
     bullets.forEach(raw => {
       const m = raw.match(/^([A-Z][A-Za-z0-9 _\-\/]{2,45}?):\s*(.*)$/s);
