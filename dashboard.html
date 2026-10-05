@@ -151,6 +151,17 @@ const EXAM_CALENDAR = {
         score: () => examStatus("cgl_exam_paper04_v1") },
     ]
   },
+  "2026-10-06": {
+    label: "6 Oct 2026",
+    exams: [
+      { n: 1, title: "Extreme GS Test 1 — Dances/Festivals/Sports/Culture", desc: "25Q · 25 min · PYQ-grounded extreme difficulty: classical dances, folk forms, festivals, sports trivia, art & culture. Every wrong option explained, with mnemonics and SSC twist-patterns noted.",
+        tags: ["GS","25Q","25 min","extreme"], href: "cgl/daily-exam.html?mock=oct6_gs1", launch: "Start exam now",
+        score: () => bestFor("daily_oct6_gs1") },
+      { n: 2, title: "Extreme Maths Test 1 — Full Syllabus Brush-up", desc: "25Q · 30 min · Super-extreme, multi-step problems spanning CI/SI, percentage, profit-loss, time-work, pipes, partnership, mixture, TSD, algebra, mensuration, trigonometry, number system — with fastest shortcuts in every explanation.",
+        tags: ["Quant","25Q","30 min","extreme"], href: "cgl/daily-exam.html?mock=oct6_m1", launch: "Start exam now",
+        score: () => bestFor("daily_oct6_m1") },
+    ]
+  },
 };
 
 function bestFor(key) {
