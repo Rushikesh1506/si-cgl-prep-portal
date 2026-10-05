@@ -211,12 +211,14 @@ function todayISO() {
 }
 function isoOf(y,m,day) { return y+"-"+String(m+1).padStart(2,"0")+"-"+String(day).padStart(2,"0"); }
 
-// Default view: the month containing the earliest calendar date with entries (so navigating here always shows real content first)
+// Default view: today's date if it has exams, otherwise the most RECENT calendar
+// date with entries (so opening the dashboard always lands on "today" or the
+// closest thing to it, not the oldest test from days ago).
 const allDates = Object.keys(EXAM_CALENDAR).sort();
-const initialDate = allDates.length ? new Date(allDates[0]+"T00:00:00") : new Date();
+let selectedISO = allDates.includes(todayISO()) ? todayISO() : (allDates[allDates.length - 1] || null);
+const initialDate = selectedISO ? new Date(selectedISO+"T00:00:00") : new Date();
 let viewYear = initialDate.getFullYear();
 let viewMonth = initialDate.getMonth();
-let selectedISO = allDates.includes(todayISO()) ? todayISO() : (allDates[0] || null);
 
 function renderCalendar() {
   document.getElementById("calTitle").textContent = MONTH_NAMES[viewMonth] + " " + viewYear;
