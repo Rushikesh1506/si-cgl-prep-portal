@@ -531,6 +531,7 @@ function scoreAll() {
     out.total.q += list.length; out.total.att += att; out.total.cor += cor;
     out.total.wrong += att - cor; out.total.skip += list.length - att;
     out.total.net += net; out.total.time += time;
+    out.total.max = (out.total.max || 0) + list.length * CFG.correct;
   });
   out.total.net = +out.total.net.toFixed(2);
   out.total.time = Math.round(out.total.time);
@@ -573,40 +574,25 @@ function mmss(s) { return Math.floor(s / 60) + "m " + String(Math.round(s % 60))
 
 function renderResult() {
   const R = scoreAll();
-  const CUT = { "2023": 150.05, "2024": 153.19, "2025": 136.40 };
   let h = "";
 
   h += '<div class="card">';
   h += '<h1>' + esc(SEC.main.name) + ' — Result</h1>';
   h += '<p class="muted">' + S.name + " · " + new Date(S.startedAt).toLocaleString() + "</p>";
 
-  h += '<p style="margin:18px 0"><span class="big">' + R.total.net + '</span> <span class="muted">/ 200 net</span>'
-     + ' &nbsp;&nbsp; <span class="muted">Attempted ' + R.total.att + '/100 · Correct ' + R.total.cor
+  h += '<p style="margin:18px 0"><span class="big">' + R.total.net + '</span> <span class="muted">/ ' + R.total.max + ' net</span>'
+     + ' &nbsp;&nbsp; <span class="muted">Attempted ' + R.total.att + '/' + R.total.q + ' · Correct ' + R.total.cor
      + ' · Wrong ' + R.total.wrong + ' · Skipped ' + R.total.skip + ' · Accuracy ' + pct(R.total.acc) + '</span></p>';
-
-  h += '<table><tr><th>Cut-off, "all other posts" (UR)</th><th class="n">2023</th><th class="n">2024</th><th class="n">2025</th></tr>'
-     + '<tr><td>Official</td><td class="n">150.05</td><td class="n">153.19</td><td class="n">136.40</td></tr>'
-     + '<tr><td>Your gap</td>'
-     + ['2023','2024','2025'].map(y => {
-         const d = +(R.total.net - CUT[y]).toFixed(1);
-         return '<td class="n ' + (d >= 0 ? 'pos' : 'neg') + '">' + (d >= 0 ? '+' : '') + d + '</td>';
-       }).join('')
-     + '</tr></table>';
-  h += '<div class="flag"><b>Read the gap carefully.</b> This paper is deliberately set '
-     + '<b>~8–10 marks harder</b> than a typical SSC shift, so a real paper should score higher than '
-     + 'this. Do not panic at a red number — but do not add more than 10 to it either. '
-     + 'Tier-1 is qualifying-only in 2026 (marks do not carry to the final merit list), and 2026 is a '
-     + 'pattern-change year, so treat these three cut-offs as a range, not a target.</div>';
 
   /* ---- section table ---- */
   h += '<h2>Section-wise</h2><table><tr><th>Section</th><th class="n">Att</th><th class="n">Cor</th>'
-     + '<th class="n">Wrong</th><th class="n">Skip</th><th class="n">Net /50</th><th class="n">Accuracy</th>'
+     + '<th class="n">Wrong</th><th class="n">Skip</th><th class="n">Net /Max</th><th class="n">Accuracy</th>'
      + '<th class="n">Time used</th></tr>';
   R.sections.forEach(s => {
     h += '<tr><td><b>' + s.name + '</b></td><td class="n">' + s.att + '</td><td class="n">' + s.cor + '</td>'
        + '<td class="n">' + s.wrong + '</td><td class="n">' + s.skip + '</td>'
-       + '<td class="n"><b>' + s.net + '</b></td><td class="n">' + (s.att ? pct(s.acc) : "—") + '</td>'
-       + '<td class="n">' + mmss(s.time) + ' / 15m</td></tr>';
+       + '<td class="n"><b>' + s.net + '</b> / ' + s.max + '</td><td class="n">' + (s.att ? pct(s.acc) : "—") + '</td>'
+       + '<td class="n">' + mmss(s.time) + ' / ' + Math.round(s.budget/60) + 'm</td></tr>';
   });
   h += '<tr><th>Total</th><th class="n">' + R.total.att + '</th><th class="n">' + R.total.cor + '</th>'
      + '<th class="n">' + R.total.wrong + '</th><th class="n">' + R.total.skip + '</th>'
@@ -729,18 +715,20 @@ function renderResult() {
   h += '<h2>Read-out</h2>';
   R.sections.forEach(s => {
     const over = s.time > s.budget;
-    if (over) h += '<div class="flag"><b>' + SEC[s.sid].short + '</b> — ran over the 15-minute wall ('
+    if (over) h += '<div class="flag"><b>' + SEC[s.sid].short + '</b> — ran over the ' + Math.round(s.budget/60) + '-minute wall ('
         + mmss(s.time) + '). In the real exam the section would have closed on you.</div>';
   });
-  const worst = R.sections.slice().sort((a, b) => a.net - b.net)[0];
-  if (worst) h += '<div class="flag"><b>Weakest section: ' + worst.name + '</b> at ' + worst.net
-      + '/50. This is where the next three weeks should go first.</div>';
-  const best = R.sections.slice().sort((a, b) => b.net - a.net)[0];
-  if (best) h += '<div class="good"><b>Strongest: ' + best.name + '</b> at ' + best.net
-      + '/50. Defend this — do not let it slip while fixing the rest.</div>';
-  if (R.total.wrong >= 12) h += '<div class="flag">' + R.total.wrong + ' wrong answers is high. '
+  if (R.sections.length > 1) {
+    const worst = R.sections.slice().sort((a, b) => a.net - b.net)[0];
+    if (worst) h += '<div class="flag"><b>Weakest section: ' + worst.name + '</b> at ' + worst.net
+        + '/' + worst.max + '. This is where the next three weeks should go first.</div>';
+    const best = R.sections.slice().sort((a, b) => b.net - a.net)[0];
+    if (best) h += '<div class="good"><b>Strongest: ' + best.name + '</b> at ' + best.net
+        + '/' + best.max + '. Defend this — do not let it slip while fixing the rest.</div>';
+  }
+  if (R.total.wrong >= Math.round(R.total.q * 0.12)) h += '<div class="flag">' + R.total.wrong + ' wrong answers is high. '
       + 'Elimination discipline is worth more marks right now than new topics.</div>';
-  if (R.total.skip >= 25) h += '<div class="flag">' + R.total.skip + ' skipped. Some of those were '
+  if (R.total.skip >= Math.round(R.total.q * 0.25)) h += '<div class="flag">' + R.total.skip + ' skipped. Some of those were '
       + 'probably answerable — check the review below for skipped questions you knew.</div>';
 
   /* ---- export ---- */
@@ -810,16 +798,15 @@ function compactSummary() {
   const L = { 1: "E", 2: "M", 3: "H" };
   let o = "SSC CGL DAILY MOCK — " + SEC.main.name + " — " + (S.name || "Candidate")
         + " — " + new Date(S.startedAt).toISOString().slice(0, 16).replace("T", " ") + "\n";
-  o += "PAPER CALIBRATION: set ~8-10 marks harder than a typical SSC shift.\n";
-  o += "TOTAL " + R.total.net + "/200 | att " + R.total.att + " cor " + R.total.cor
+  o += "TOTAL " + R.total.net + "/" + R.total.max + " | att " + R.total.att + " cor " + R.total.cor
      + " wrong " + R.total.wrong + " skip " + R.total.skip + " acc " + pct(R.total.acc)
      + " time " + mmss(R.total.time) + "\n\nSECTIONS\n";
   R.sections.forEach(s => {
     o += "  " + SEC[s.sid].short.padEnd(14) + " net " + String(s.net).padStart(6)
-       + "/50  att " + String(s.att).padStart(2) + " cor " + String(s.cor).padStart(2)
+       + "/" + s.max + "  att " + String(s.att).padStart(2) + " cor " + String(s.cor).padStart(2)
        + " wr " + String(s.wrong).padStart(2) + " sk " + String(s.skip).padStart(2)
        + "  acc " + (s.att ? pct(s.acc) : "--").padStart(4)
-       + "  time " + mmss(s.time) + "/15m" + (s.time > s.budget ? " OVER" : "") + "\n";
+       + "  time " + mmss(s.time) + "/" + Math.round(s.budget/60) + "m" + (s.time > s.budget ? " OVER" : "") + "\n";
   });
 
   o += "\nTOPICS (worst first)\n";
