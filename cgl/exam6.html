@@ -138,13 +138,13 @@ td.n,th.n{text-align:right;font-variant-numeric:tabular-nums}
 <section id="scStart">
   <div class="card">
     <h1>Combined Graduate Level Examination, 2026</h1>
-    <p class="muted">Tier-I · Computer Based Examination · Full-Length Mock — 12 Oct 2026 (Exact PYQ Paper)</p>
+    <p class="muted">Tier-I · Computer Based Examination · Mock Paper 1 (30 Sep 2026 Shift)</p>
 
     <div class="rules">
       <b>Read before you begin — this paper follows the 2026 pattern.</b>
       <ul>
-        <li><b>96 questions · 192 marks · 60 minutes.</b> This is a verbatim previous-year paper —
-            4 questions were dropped because the source PDF itself was missing that option's figure
+        <li><b>97 questions · 194 marks · 60 minutes.</b> This is a verbatim previous-year paper —
+            3 questions were dropped because the source PDF itself was missing that option's figure
             (not something we could reconstruct without guessing).</li>
         <li><b>Sectional timer: 15 minutes for each section.</b> When the 15 minutes end, that
             section closes and the next one opens automatically.</li>
@@ -181,7 +181,7 @@ td.n,th.n{text-align:right;font-variant-numeric:tabular-nums}
       <div class="sub">Combined Graduate Level Examination, 2026</div>
     </div>
     <div class="spacer"></div>
-    <div class="cand"><div class="av">👤</div><div><b id="hdrName">Candidate</b><br><span class="muted">Full-Length Mock — 12 Oct 2026 (Exact PYQ Paper)</span></div></div>
+    <div class="cand"><div class="av">👤</div><div><b id="hdrName">Candidate</b><br><span class="muted">Mock Paper 1 (30 Sep 2026 Shift)</span></div></div>
   </div>
 
   <div class="secbar" id="secbar"></div>
@@ -246,11 +246,11 @@ td.n,th.n{text-align:right;font-variant-numeric:tabular-nums}
 </div>
 
 <!-- One file per section so they can be authored and reviewed in parallel.
-     Each defines a global: PTODAY_REAS / PTODAY_GA / PTODAY_QUANT / PTODAY_ENG. -->
-<script src="data/today-reas.js"></script>
-<script src="data/today-ga.js"></script>
-<script src="data/today-quant.js"></script>
-<script src="data/today-eng.js"></script>
+     Each defines a global: P1_REAS / P1_GA / P1_QUANT / P1_ENG. -->
+<script src="data/mock1-reas.js"></script>
+<script src="data/mock1-ga.js"></script>
+<script src="data/mock1-quant.js"></script>
+<script src="data/mock1-eng.js"></script>
 <script>
 "use strict";
 
@@ -280,7 +280,7 @@ const SEC = {
   eng:   { name: "English Comprehension",            short: "English" }
 };
 
-const LS_KEY = "cgl_exam_today1012_v1";
+const LS_KEY = "cgl_exam_mock1_v1";
 const $ = (s) => document.querySelector(s);
 
 /* Merge the four section packs. A missing pack degrades to an empty section
@@ -292,10 +292,10 @@ let BANK = {}, PASSAGES = {}, LOAD_ERROR = null, MISSING = [];
      classic script does NOT become a property of window (only `var` does),
      so a window lookup silently finds nothing. */
   const packs = {
-    reas:  (typeof PTODAY_REAS  !== "undefined") ? PTODAY_REAS  : null,
-    ga:    (typeof PTODAY_GA    !== "undefined") ? PTODAY_GA    : null,
-    quant: (typeof PTODAY_QUANT !== "undefined") ? PTODAY_QUANT : null,
-    eng:   (typeof PTODAY_ENG   !== "undefined") ? PTODAY_ENG   : null
+    reas:  (typeof P1_REAS  !== "undefined") ? P1_REAS  : null,
+    ga:    (typeof P1_GA    !== "undefined") ? P1_GA    : null,
+    quant: (typeof P1_QUANT !== "undefined") ? P1_QUANT : null,
+    eng:   (typeof P1_ENG   !== "undefined") ? P1_ENG   : null
   };
   CFG.order.forEach(sid => {
     const pack = packs[sid];
@@ -600,7 +600,7 @@ function renderResult() {
   let h = "";
 
   h += '<div class="card">';
-  h += '<h1>Full-Length Mock — 12 Oct 2026 (Exact PYQ Paper) — Result</h1>';
+  h += '<h1>Mock Paper 1 (30 Sep 2026 Shift) — Result</h1>';
   h += '<p class="muted">' + S.name + " · " + new Date(S.startedAt).toLocaleString() + "</p>";
 
   h += '<p style="margin:18px 0"><span class="big">' + R.total.net + '</span> <span class="muted">/ ' + (R.total.q * CFG.correct) + ' net</span>'
@@ -617,7 +617,7 @@ function renderResult() {
      + '</tr></table>';
   h += '<div class="flag"><b>Read the gap carefully.</b> This is a <b>verbatim real exam-day paper</b> '
      + '(not a synthetically toughened set), scored out of ' + (R.total.q * CFG.correct) + ' instead of 200 '
-     + 'because 4 of the original 100 questions were dropped — their source PDF was missing that option\'s '
+     + 'because 3 of the original 100 questions were dropped — their source PDF was missing that option\'s '
      + 'figure, so compare your net score against the cut-offs loosely, not literally mark-for-mark. '
      + 'Tier-1 is qualifying-only in 2026 (marks do not carry to the final merit list), and 2026 is a '
      + 'pattern-change year, so treat these three cut-offs as a range, not a target.</div>';
@@ -835,7 +835,7 @@ function esc(s) {
 function compactSummary() {
   const R = scoreAll();
   const L = { 1: "E", 2: "M", 3: "H" };
-  let o = "CGL TIER-1 FULL-LENGTH MOCK (12 OCT 2026, EXACT PYQ PAPER) — " + (S.name || "Candidate")
+  let o = "CGL TIER-1 MOCK PAPER 1 (30 SEP 2026 SHIFT) — " + (S.name || "Candidate")
         + " — " + new Date(S.startedAt).toISOString().slice(0, 16).replace("T", " ") + "\n";
   o += "PAPER: verbatim previous-year paper (not synthetic) — 96 of 100 Qs, 4 dropped for a missing source-PDF option figure.\n";
   o += "TOTAL " + R.total.net + "/" + (R.total.q * CFG.correct) + " | att " + R.total.att + " cor " + R.total.cor
@@ -899,7 +899,7 @@ function buildJSON() {
     });
   }));
   return JSON.stringify({
-    paper: "CGL-Tier1-Today-1012",
+    paper: "CGL-Tier1-Mock1",
     calibration: "Set roughly 8-10 marks harder than a typical SSC shift.",
     candidate: S.name,
     startedAt: new Date(S.startedAt).toISOString(),

@@ -226,9 +226,18 @@ const EXAM_CALENDAR = {
   "2026-10-12": {
     label: "12 Oct 2026",
     exams: [
-      { n: 1, title: "Full-Length Mock — Exact Previous-Year Paper", desc: "96Q · ~192 marks · 60 min · Verbatim questions transcribed from 4 real SSC CGL exam-day papers (30 Sep – 05 Oct 2026 shifts): Reasoning from Paper 1, GA from Paper 2, Quant from Paper 3, English from Paper 4 — nothing rewritten or regenerated. Includes the original figures/diagrams rendered as images and a reading-comprehension cloze passage. 4 questions (1 Reasoning answer-figure, 3 Reasoning/Quant option-figures) were dropped because the source PDF itself was missing that option's image.",
-        tags: ["Full paper","96Q","60 min","exact PYQ"], href: "cgl/exam6.html", launch: "Start full exam",
-        score: () => examStatus("cgl_exam_today1012_v1") },
+      { n: 1, title: "Mock Paper 1 — Exact SSC CGL Exam-Day Paper (30 Sep 2026)", desc: "97Q · 194 marks · 60 min · Verbatim transcription of the real exam-day paper, all 4 sections, nothing rewritten. Figures (seating diagrams, mirror-image/pattern options) rendered as pixel-cropped images from the source PDF. 3 questions dropped — the source PDF itself was missing that option's figure.",
+        tags: ["Full paper","97Q","60 min","exact PYQ"], href: "cgl/exam6.html", launch: "Start full exam",
+        score: () => examStatus("cgl_exam_mock1_v1") },
+      { n: 2, title: "Mock Paper 2 — Exact SSC CGL Exam-Day Paper (01 Oct 2026)", desc: "95Q · 190 marks · 60 min · Verbatim transcription of the real exam-day paper, all 4 sections, nothing rewritten. Figures rendered as pixel-cropped images from the source PDF. 5 questions dropped — the source PDF itself was missing that option's figure.",
+        tags: ["Full paper","95Q","60 min","exact PYQ"], href: "cgl/exam7.html", launch: "Start full exam",
+        score: () => examStatus("cgl_exam_mock2_v1") },
+      { n: 3, title: "Mock Paper 3 — Exact SSC CGL Exam-Day Paper (01 Oct 2026, Shift 3)", desc: "96Q · 192 marks · 60 min · Verbatim transcription of the real exam-day paper, all 4 sections, nothing rewritten. Includes a reading-comprehension cloze passage, figures rendered as pixel-cropped images from the source PDF. 4 questions dropped — the source PDF itself was missing that option's figure.",
+        tags: ["Full paper","96Q","60 min","exact PYQ"], href: "cgl/exam8.html", launch: "Start full exam",
+        score: () => examStatus("cgl_exam_mock3_v1") },
+      { n: 4, title: "Mock Paper 4 — Exact SSC CGL Exam-Day Paper (05 Oct 2026)", desc: "96Q · 192 marks · 60 min · Verbatim transcription of the real exam-day paper, all 4 sections, nothing rewritten. Includes a reading-comprehension cloze passage, figures rendered as pixel-cropped images from the source PDF. 4 questions dropped — the source PDF itself was missing that option's figure.",
+        tags: ["Full paper","96Q","60 min","exact PYQ"], href: "cgl/exam9.html", launch: "Start full exam",
+        score: () => examStatus("cgl_exam_mock4_v1") },
     ]
   },
 };
