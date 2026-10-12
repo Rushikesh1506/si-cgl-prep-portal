@@ -645,23 +645,6 @@ function renderResult() {
   h += '<p class="muted">Rule of thumb: attempt only if you can eliminate 2 of 4 options. '
      + 'Blind guess expected value = −0.125. Two eliminated = +1.00.</p>';
 
-  /* ---- topic breakdown ---- */
-  h += '<h2>Topic-wise — where the marks went</h2>';
-  const topics = groupBy(q => q.topic).sort((a, b) => (a.cor / Math.max(a.n,1)) - (b.cor / Math.max(b.n,1)));
-  h += '<table><tr><th>Topic</th><th>Section</th><th class="n">Q</th><th class="n">Correct</th>'
-     + '<th class="n">Score rate</th><th class="n">Time</th><th class="n">vs expected</th></tr>';
-  topics.forEach(t => {
-    const rate = t.n ? t.cor / t.n : 0;
-    const slow = t.exp > 0 && t.time > t.exp * 1.3;
-    h += '<tr><td>' + t.key + '</td><td>' + SEC[t.sec].short + '</td><td class="n">' + t.n + '</td>'
-       + '<td class="n">' + t.cor + '</td>'
-       + '<td class="n"><div class="bar" style="display:inline-block;width:60px;vertical-align:middle"><i style="width:'
-       + Math.round(rate * 100) + '%"></i></div> ' + pct(rate) + '</td>'
-       + '<td class="n">' + mmss(t.time) + '</td>'
-       + '<td class="n ' + (slow ? 'neg' : '') + '">' + (t.exp ? mmss(t.exp) + (slow ? ' ⚠ slow' : '') : '—') + '</td></tr>';
-  });
-  h += '</table>';
-
   /* ---- difficulty breakdown ---- */
   h += '<h2>By difficulty</h2><table><tr><th>Level</th><th class="n">Q</th><th class="n">Attempted</th>'
      + '<th class="n">Correct</th><th class="n">Accuracy</th></tr>';
@@ -768,15 +751,11 @@ function renderResult() {
       + 'probably answerable — check the review below for skipped questions you knew.</div>';
 
   /* ---- export ---- */
-  h += '<h2>Send this to Claude</h2>'
-     + '<p>This site is static — the data never leaves your browser. To get the study plan built '
-     + 'from it, copy the summary below and paste it into the chat.</p>'
-     + '<p><button class="btn btn-p" style="padding:10px 20px" onclick="copyForClaude(this)">📋 Copy result for Claude</button> '
-     + '<button class="btn" onclick="exportJSON()">Download full data (JSON)</button> '
+  h += '<h2>Export</h2>'
+     + '<p>This site is static — the data never leaves your browser.</p>'
+     + '<p><button class="btn" onclick="exportJSON()">Download full data (JSON)</button> '
      + '<button class="btn" onclick="window.print()">Print / save as PDF</button> '
-     + '<button class="btn" onclick="restart()">Clear and retake</button></p>'
-     + '<textarea id="compact" readonly style="width:100%;height:150px;font:11px Consolas,monospace;'
-     + 'border:1px solid #ccc;padding:8px;margin-top:8px">' + esc(compactSummary()) + '</textarea>';
+     + '<button class="btn" onclick="restart()">Clear and retake</button></p>';
 
   /* Full JSON printed on the page as well as offered as a download — on a
      deployed site the download may land somewhere awkward, and this is the
@@ -826,60 +805,6 @@ function renderResult() {
 
 function esc(s) {
   return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
-}
-
-/* Compact, paste-into-chat summary. Deliberately small (~2 KB) — the full
-   JSON is 20 KB+ and awkward to paste. This carries everything needed to
-   build the study plan: per-section, per-topic, and every wrong/skipped
-   question with its timing. */
-function compactSummary() {
-  const R = scoreAll();
-  const L = { 1: "E", 2: "M", 3: "H" };
-  let o = "CGL TIER-1 MOCK PAPER 4 (05 OCT 2026 SHIFT) — " + (S.name || "Candidate")
-        + " — " + new Date(S.startedAt).toISOString().slice(0, 16).replace("T", " ") + "\n";
-  o += "PAPER: verbatim previous-year paper (not synthetic) — 96 of 100 Qs, 4 dropped for a missing source-PDF option figure.\n";
-  o += "TOTAL " + R.total.net + "/" + (R.total.q * CFG.correct) + " | att " + R.total.att + " cor " + R.total.cor
-     + " wrong " + R.total.wrong + " skip " + R.total.skip + " acc " + pct(R.total.acc)
-     + " time " + mmss(R.total.time) + "\n\nSECTIONS\n";
-  R.sections.forEach(s => {
-    o += "  " + SEC[s.sid].short.padEnd(14) + " net " + String(s.net).padStart(6)
-       + "/" + s.max + "  att " + String(s.att).padStart(2) + " cor " + String(s.cor).padStart(2)
-       + " wr " + String(s.wrong).padStart(2) + " sk " + String(s.skip).padStart(2)
-       + "  acc " + (s.att ? pct(s.acc) : "--").padStart(4)
-       + "  time " + mmss(s.time) + "/15m" + (s.time > s.budget ? " OVER" : "") + "\n";
-  });
-
-  o += "\nTOPICS (worst first)\n";
-  groupBy(q => q.topic).sort((a, b) => (a.cor / Math.max(a.n, 1)) - (b.cor / Math.max(b.n, 1)))
-    .forEach(t => {
-      o += "  " + String(t.key).padEnd(29).slice(0, 29) + " "
-         + (t.cor + "/" + t.n).padStart(5)
-         + "  " + mmss(t.time).padStart(7)
-         + (t.exp && t.time > t.exp * 1.3 ? "  SLOW" : "") + "\n";
-    });
-
-  o += "\nBY DIFFICULTY\n";
-  groupBy(q => q.lvl).sort((a, b) => a.key - b.key).forEach(g => {
-    o += "  " + (L[g.key] || g.key) + ": " + g.cor + "/" + g.n
-       + " (attempted " + g.att + ", acc " + (g.att ? pct(g.cor / g.att) : "--") + ")\n";
-  });
-
-  o += "\nWRONG + SKIPPED (qid | topic | lvl | your answer | correct | time)\n";
-  CFG.order.forEach(sid => (BANK[sid] || []).forEach((q, i) => {
-    const r = S.ans[q.id] || {};
-    if (r.chosen === q.ans) return;
-    o += "  " + q.id + " | " + q.topic + " | " + (L[q.lvl] || "?") + " | "
-       + (r.chosen == null ? "SKIP" : String.fromCharCode(65 + r.chosen)) + " | "
-       + String.fromCharCode(65 + q.ans) + " | " + Math.round(r.timeSec || 0) + "s"
-       + (r.changes ? " (changed " + r.changes + "x)" : "") + "\n";
-  }));
-  return o;
-}
-
-function copyForClaude(btn) {
-  const ok = copyText(document.getElementById("compact").value);
-  btn.textContent = ok ? "✓ Copied — paste it into the chat" : "Select the text below and copy it";
-  setTimeout(() => { btn.textContent = "📋 Copy result for Claude"; }, 3500);
 }
 
 function buildJSON() {
