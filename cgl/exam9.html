@@ -696,36 +696,6 @@ function renderResult() {
     }
   }
 
-  /* ---- full question-by-question analysis ---- */
-  h += '<h2>Question-by-question</h2>';
-  h += '<p class="muted">Every question, in the order you saw it. <b>Δ</b> is time taken minus time '
-     + 'it should take. <b>Rev</b> counts how many times you came back to it; <b>Chg</b> how many '
-     + 'times you changed your answer — a high Chg with a wrong result means second-guessing.</p>';
-  h += '<table><tr><th>#</th><th>Topic</th><th>Type</th><th>Lvl</th><th>You</th><th>Key</th>'
-     + '<th>Result</th><th class="n">Time</th><th class="n">Exp</th><th class="n">Δ</th>'
-     + '<th class="n">Rev</th><th class="n">Chg</th></tr>';
-  CFG.order.forEach(sid => {
-    h += '<tr><th colspan="12" style="background:#dde6f2;color:#1b4a8a">' + SEC[sid].name + '</th></tr>';
-    allRows.filter(x => x.sid === sid).forEach(x => {
-      const st = x.status === "ok" ? '<span class="pos">✓</span>'
-               : x.status === "bad" ? '<span class="neg">✗</span>'
-               : '<span class="muted">–</span>';
-      h += '<tr><td>' + x.no + '</td><td>' + x.q.topic + '</td><td class="muted">' + (x.q.qtype || "") + '</td>'
-         + '<td>' + (LV[x.q.lvl] || "") + '</td>'
-         + '<td>' + (x.r.chosen == null ? '<span class="muted">—</span>' : String.fromCharCode(65 + x.r.chosen)) + '</td>'
-         + '<td>' + String.fromCharCode(65 + x.q.ans) + '</td>'
-         + '<td>' + st + '</td>'
-         + '<td class="n">' + Math.round(x.t) + 's</td>'
-         + '<td class="n muted">' + (x.exp || "—") + '</td>'
-         + '<td class="n ' + (x.over > 5 ? 'neg' : x.over < -5 ? 'pos' : '') + '">'
-         + (x.exp ? (x.over > 0 ? '+' : '') + Math.round(x.over) : '—') + '</td>'
-         + '<td class="n">' + (x.r.visits || 0) + '</td>'
-         + '<td class="n ' + ((x.r.changes || 0) > 0 && x.status === "bad" ? 'neg' : '') + '">'
-         + (x.r.changes || 0) + '</td></tr>';
-    });
-  });
-  h += '</table>';
-
   const changedWrong = allRows.filter(x => (x.r.changes || 0) > 0 && x.status === "bad").length;
   if (changedWrong >= 3) {
     h += '<div class="flag">You changed your answer on <b>' + changedWrong + '</b> questions and still '
