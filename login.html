@@ -5,10 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Sign in — AP SI Prep Portal</title>
 <style>
-  :root{ --ink:#eef2fb; --muted:#9aa7c7; --line:rgba(255,255,255,.14);
-    --navy:#070b18; --navy2:#0d1530; --azure:#3b6bff; --violet:#8b5cf6; --amber:#ffb84d;
+  :root{ --ink:#f6f0e6; --muted:#b7a996; --line:rgba(255,255,255,.14);
+    --base:#19120d; --base2:#241a12; --amber:#f0a93d; --copper:#d9713c;
     --green:#34d399; --red:#f87171; --radius:18px;
-    --glass:rgba(16,22,46,.55); --glass-line:rgba(255,255,255,.12); }
+    --glass:rgba(36,26,19,.58); --glass-line:rgba(255,255,255,.12); }
   *{box-sizing:border-box}
   html,body{height:100%}
   body{margin:0;min-height:100vh;overflow:hidden;font-family:"Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-serif;
@@ -18,16 +18,16 @@
   @media (max-width:900px){ .split{grid-template-columns:1fr} }
 
   /* ================= LEFT: photo pane ================= */
-  .illus-pane{position:relative;overflow:hidden;background:#0a0e1c;
+  .illus-pane{position:relative;overflow:hidden;background:#140e0a;
     background-image:
-      linear-gradient(100deg, rgba(7,11,24,.55) 0%, rgba(7,11,24,.15) 45%, rgba(7,11,24,.75) 100%),
+      linear-gradient(100deg, rgba(20,14,10,.55) 0%, rgba(20,14,10,.12) 45%, rgba(20,14,10,.75) 100%),
       url("assets/study-room.jpg?v=1");
     background-size:cover;background-position:center}
   @media (max-width:900px){ .illus-pane{min-height:30vh} }
 
   /* ================= RIGHT: form pane ================= */
   .form-pane{position:relative;display:grid;place-items:center;padding:28px 20px;
-    background:radial-gradient(900px 600px at 80% 20%, rgba(59,107,255,.14), transparent 60%), var(--navy2)}
+    background:radial-gradient(900px 600px at 80% 20%, rgba(240,169,61,.13), transparent 60%), var(--base2)}
 
   .onboard{width:100%;max-width:380px;margin-bottom:14px;padding:14px 16px;border-radius:14px;
     background:rgba(255,184,77,.1);border:1px solid rgba(255,184,77,.3);
@@ -46,9 +46,9 @@
     box-shadow:0 30px 80px rgba(0,0,0,.55), 0 0 0 1px rgba(255,255,255,.03) inset;
     padding:34px 30px;width:100%;max-width:380px}
   .brand{display:flex;align-items:center;gap:12px;margin-bottom:22px}
-  .brand-mark{font-size:24px;background:linear-gradient(135deg,var(--azure),var(--violet));
+  .brand-mark{font-size:24px;background:linear-gradient(135deg,var(--copper),var(--amber));
     color:#fff;border-radius:12px;width:44px;height:44px;display:grid;place-items:center;
-    box-shadow:0 8px 24px rgba(59,107,255,.4)}
+    box-shadow:0 8px 24px rgba(240,169,61,.4)}
   h1{font-size:1.15rem;margin:0;letter-spacing:.2px}
   p.sub{margin:4px 0 0;font-size:.82rem;color:var(--muted)}
   .profiles{display:flex;flex-direction:column;gap:10px;margin:18px 0}
@@ -56,9 +56,9 @@
     background:rgba(255,255,255,.04);cursor:pointer;font-weight:700;font-size:.95rem;color:var(--ink);
     transition:.15s}
   .profile-btn small{display:block;font-weight:500;font-size:.74rem;color:var(--muted);margin-top:2px}
-  .profile-btn:hover{border-color:var(--azure);background:rgba(59,107,255,.1)}
-  .profile-btn.active{border-color:var(--azure);background:rgba(59,107,255,.16);
-    box-shadow:0 0 0 3px rgba(59,107,255,.18)}
+  .profile-btn:hover{border-color:var(--amber);background:rgba(240,169,61,.1)}
+  .profile-btn.active{border-color:var(--amber);background:rgba(240,169,61,.16);
+    box-shadow:0 0 0 3px rgba(240,169,61,.18)}
   .step2{display:none;margin-top:4px}
   .step2.show{display:block}
   .back-link{background:none;border:none;color:var(--muted);font-size:.8rem;cursor:pointer;padding:0;margin-bottom:10px}
@@ -68,11 +68,11 @@
   input[type=password],input[type=text]{width:100%;padding:12px 14px;border:1.5px solid var(--line);
     border-radius:10px;font-size:1.3rem;letter-spacing:6px;text-align:center;
     background:rgba(255,255,255,.05);color:var(--ink)}
-  input[type=password]:focus,input[type=text]:focus{outline:none;border-color:var(--azure);
-    box-shadow:0 0 0 3px rgba(59,107,255,.22)}
+  input[type=password]:focus,input[type=text]:focus{outline:none;border-color:var(--amber);
+    box-shadow:0 0 0 3px rgba(240,169,61,.22)}
   .btn{width:100%;margin-top:18px;padding:12px;border:none;border-radius:10px;
-    background:linear-gradient(135deg,var(--azure),var(--violet));color:#fff;font-weight:700;
-    font-size:.95rem;cursor:pointer;box-shadow:0 10px 26px rgba(59,107,255,.35)}
+    background:linear-gradient(135deg,var(--copper),var(--amber));color:#fff;font-weight:700;
+    font-size:.95rem;cursor:pointer;box-shadow:0 10px 26px rgba(240,169,61,.35)}
   .btn:disabled{opacity:.4;cursor:not-allowed;box-shadow:none}
   .msg{margin-top:12px;font-size:.82rem;min-height:18px}
   .msg.err{color:var(--red)}
