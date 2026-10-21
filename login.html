@@ -213,10 +213,15 @@ async function doLogin() {
   try {
     const sess = await Supa.login(chosen, pinEl.value, chosenRole);
     localStorage.setItem("si_seen_onboarding", "1");
-    setMsg("Signed in as " + sess.name + " — redirecting…", "ok");
-    setTimeout(() => {
-      window.location.href = sess.role === "developer" ? "mentor.html" : "welcome.html";
-    }, 350);
+    const firstLoginKey = "si_first_login_" + sess.name;
+    const isFirstLogin = !localStorage.getItem(firstLoginKey);
+    localStorage.setItem(firstLoginKey, "1");
+    let dest = "welcome.html";
+    if (sess.role === "developer") dest = "mentor.html";
+    else if (isFirstLogin) dest = "ap-mains-diagnostic.html?mock=mains2023_gs";
+    setMsg("Signed in as " + sess.name + (isFirstLogin && sess.role !== "developer"
+      ? " — let's see where you stand first…" : " — redirecting…"), "ok");
+    setTimeout(() => { window.location.href = dest; }, 350);
   } catch (e) {
     setMsg(e.message || "Sign-in failed", "err");
     pinEl.value = "";
