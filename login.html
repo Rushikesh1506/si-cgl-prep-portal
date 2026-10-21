@@ -17,60 +17,28 @@
   .split{display:grid;grid-template-columns:1.15fr 1fr;min-height:100vh}
   @media (max-width:900px){ .split{grid-template-columns:1fr} }
 
-  /* ================= LEFT: illustrated night-skyline scene ================= */
-  .illus-pane{position:relative;overflow:hidden;
-    background:linear-gradient(180deg,#040611 0%,#0a1230 42%,#162659 78%,#1d3272 100%)}
-  @media (max-width:900px){ .illus-pane{min-height:34vh} }
-
-  .sky{position:absolute;inset:0}
-  .spark{position:absolute;width:2.5px;height:2.5px;border-radius:50%;background:#fff;opacity:0;
-    animation:twinkle linear infinite}
-  @keyframes twinkle{0%{opacity:0}10%{opacity:.95}90%{opacity:.25}100%{opacity:0}}
-
-  .cloud{position:absolute;border-radius:50%;filter:blur(30px);opacity:.18;background:#6d93ff;
-    animation:cloud-drift ease-in-out infinite}
-  @keyframes cloud-drift{0%,100%{transform:translateX(0)}50%{transform:translateX(5vw)}}
-
-  /* Glowing badge-moon with pulsing "radar" rings */
-  .badge-wrap{position:absolute;top:13%;right:16%;width:150px;height:150px}
-  .badge-glow{position:absolute;inset:-60px;border-radius:50%;
-    background:radial-gradient(circle,rgba(255,184,77,.35),transparent 65%);filter:blur(4px)}
-  .ping{position:absolute;inset:0;border-radius:50%;border:1.5px solid rgba(255,184,77,.5);
-    animation:ping 3.6s cubic-bezier(.3,.6,.4,1) infinite}
-  .ping2{animation-delay:1.2s} .ping3{animation-delay:2.4s}
-  @keyframes ping{0%{transform:scale(.55);opacity:.9}100%{transform:scale(1.9);opacity:0}}
-  .badge{position:absolute;inset:28px;border-radius:50%;
-    background:radial-gradient(circle at 35% 30%,#fff6e6,#ffcf7a 45%,#e9a53d 100%);
-    box-shadow:0 0 50px 10px rgba(255,184,77,.55), inset -8px -8px 18px rgba(170,100,0,.35);
-    display:grid;place-items:center;font-size:30px}
-
-  /* Skyline silhouette, two depth layers, built in JS */
-  .skyline{position:absolute;left:0;right:0;bottom:0;height:46%}
-  .skyline .layer{position:absolute;left:0;right:0;bottom:0;display:flex;align-items:flex-end}
-  .skyline .back{height:100%;opacity:.55}
-  .skyline .back .b{background:#13214a}
-  .skyline .front{height:100%}
-  .skyline .front .b{background:#070a16}
-  .b{position:relative;flex-shrink:0}
-  .b .win{position:absolute;width:3px;height:4px;background:rgba(255,200,110,.85)}
-  .tower{position:relative}
-  .tower::before{content:"";position:absolute;left:50%;top:-16px;width:2px;height:16px;background:#070a16;transform:translateX(-50%)}
-  .tower::after{content:"";position:absolute;left:50%;top:-20px;width:5px;height:5px;border-radius:50%;
-    background:var(--red);transform:translateX(-50%);box-shadow:0 0 6px 2px rgba(248,113,113,.8);
-    animation:beacon 1.6s ease-in-out infinite}
-  @keyframes beacon{0%,100%{opacity:1}50%{opacity:.25}}
-
-  .tagline{position:absolute;left:7%;bottom:50%;max-width:420px;z-index:2}
-  .tagline .kicker{font-size:.78rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;
-    color:var(--amber);margin:0 0 10px}
-  .tagline h2{font-family:Georgia,"Times New Roman",serif;font-size:clamp(1.6rem,1.1rem + 2vw,2.4rem);
-    line-height:1.18;margin:0 0 12px;color:#fff}
-  .tagline p{font-size:.92rem;color:#c7d2f0;margin:0;line-height:1.6}
-  @media (max-width:900px){ .tagline{display:none} }
+  /* ================= LEFT: photo pane ================= */
+  .illus-pane{position:relative;overflow:hidden;background:#0a0e1c;
+    background-image:
+      linear-gradient(100deg, rgba(7,11,24,.55) 0%, rgba(7,11,24,.15) 45%, rgba(7,11,24,.75) 100%),
+      url("assets/study-room.avif");
+    background-size:cover;background-position:center}
+  @media (max-width:900px){ .illus-pane{min-height:30vh} }
 
   /* ================= RIGHT: form pane ================= */
   .form-pane{position:relative;display:grid;place-items:center;padding:28px 20px;
     background:radial-gradient(900px 600px at 80% 20%, rgba(59,107,255,.14), transparent 60%), var(--navy2)}
+
+  .onboard{width:100%;max-width:380px;margin-bottom:14px;padding:14px 16px;border-radius:14px;
+    background:rgba(255,184,77,.1);border:1px solid rgba(255,184,77,.3);
+    display:none;gap:10px;align-items:flex-start;position:relative}
+  .onboard.show{display:flex}
+  .onboard .ic{font-size:18px;line-height:1.3}
+  .onboard p{margin:0;font-size:.82rem;color:#ffe3b0;line-height:1.5}
+  .onboard b{color:#fff}
+  .onboard .close{position:absolute;top:8px;right:10px;background:none;border:none;color:#ffe3b0;
+    opacity:.7;cursor:pointer;font-size:14px;padding:4px}
+  .onboard .close:hover{opacity:1}
 
   .stage{position:relative;z-index:1;transform-style:preserve-3d;transition:transform .12s ease-out}
   .card{background:var(--glass);backdrop-filter:blur(22px) saturate(140%);-webkit-backdrop-filter:blur(22px) saturate(140%);
@@ -111,7 +79,6 @@
   .msg.ok{color:var(--green)}
 
   @media (prefers-reduced-motion: reduce){
-    .spark,.cloud,.ping,.tower::after{animation:none !important}
     .stage{transform:none !important}
   }
 </style>
@@ -120,33 +87,17 @@
 
 <div class="split">
 
-  <div class="illus-pane" id="illusPane" aria-hidden="true">
-    <div class="sky" id="sky"></div>
-    <div class="cloud" style="width:260px;height:90px;left:8%;top:22%;animation-duration:18s"></div>
-    <div class="cloud" style="width:200px;height:70px;left:55%;top:14%;animation-duration:22s;animation-delay:2s"></div>
-
-    <div class="badge-wrap">
-      <div class="badge-glow"></div>
-      <div class="ping"></div>
-      <div class="ping ping2"></div>
-      <div class="ping ping3"></div>
-      <div class="badge">🛡️</div>
-    </div>
-
-    <div class="tagline">
-      <p class="kicker">AP Police SI · Mains Track</p>
-      <h2>Discipline today.<br>Badge tomorrow.</h2>
-      <p>Sign in to pick up exactly where you left off — notes, diagnostics and
-        focus ratings, synced the moment you come back.</p>
-    </div>
-
-    <div class="skyline" id="skyline">
-      <div class="layer back" id="backLayer"></div>
-      <div class="layer front" id="frontLayer"></div>
-    </div>
-  </div>
+  <div class="illus-pane" aria-hidden="true"></div>
 
   <div class="form-pane">
+    <div class="onboard" id="onboard">
+      <span class="ic">📊</span>
+      <p><b>First time here?</b> Sign in, then take the <b>Diagnostic Mock</b> from the
+        home page — it's built from a real previous-year paper and is the fastest way
+        to see exactly where you stand before planning anything.</p>
+      <button type="button" class="close" id="onboardClose" aria-label="Dismiss">✕</button>
+    </div>
+
     <div class="stage" id="stage">
     <div class="card">
       <div class="brand">
@@ -177,57 +128,25 @@
 </div>
 
 <script>
-/* Decorative only: stars + procedural skyline silhouette + mouse-tracked 3D
-   card tilt. No effect on the login logic below, and mostly disabled under
-   prefers-reduced-motion (the skyline itself, being static once built, stays). */
+/* First-visit nudge toward the diagnostic assessment - shown once per
+   browser until dismissed or until the person signs in. */
 (function () {
   "use strict";
-  const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-
-  const sky = document.getElementById("sky");
-  for (let i = 0; i < 70; i++) {
-    const s = document.createElement("div");
-    s.className = "spark";
-    s.style.left = Math.random() * 100 + "%";
-    s.style.top = Math.random() * 55 + "%";
-    if (!reduceMotion) {
-      s.style.animationDuration = 4 + Math.random() * 8 + "s";
-      s.style.animationDelay = Math.random() * 8 + "s";
-    } else {
-      s.style.opacity = ".6";
-    }
-    sky.appendChild(s);
+  const KEY = "si_seen_onboarding";
+  if (!localStorage.getItem(KEY)) {
+    document.getElementById("onboard").classList.add("show");
   }
+  document.getElementById("onboardClose").addEventListener("click", () => {
+    localStorage.setItem(KEY, "1");
+    document.getElementById("onboard").classList.remove("show");
+  });
+})();
 
-  /* Procedural building silhouette - deterministic (not Math.random) so the
-     skyline composition is stable across reloads. */
-  function buildSkyline(el, heights, widths, withWindows, towerIndex) {
-    heights.forEach((h, i) => {
-      const b = document.createElement("div");
-      b.className = "b" + (i === towerIndex ? " tower" : "");
-      b.style.width = widths[i % widths.length] + "px";
-      b.style.height = h + "%";
-      if (withWindows) {
-        const rows = Math.floor(h / 9), cols = Math.max(1, Math.floor(widths[i % widths.length] / 10));
-        for (let r = 0; r < rows; r++) for (let c = 0; c < cols; c++) {
-          if ((r + c * 3 + i) % 4 !== 0) continue;
-          const w = document.createElement("div");
-          w.className = "win";
-          w.style.left = 5 + c * 10 + "px";
-          w.style.bottom = 6 + r * 9 + "px";
-          b.appendChild(w);
-        }
-      }
-      el.appendChild(b);
-    });
-  }
-  buildSkyline(document.getElementById("backLayer"),
-    [40, 55, 35, 62, 48, 70, 44, 58, 38, 50, 64, 42, 56, 46], [26, 34, 22, 30, 24], false, -1);
-  buildSkyline(document.getElementById("frontLayer"),
-    [58, 80, 46, 68, 100, 54, 72, 60, 42, 66, 50], [30, 40, 26, 36, 32], true, 4);
-
-  if (reduceMotion) return;
-
+/* Decorative only: mouse-tracked 3D card tilt. No effect on the login logic
+   below, disabled under prefers-reduced-motion. */
+(function () {
+  "use strict";
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
   const stage = document.getElementById("stage");
   let raf = null;
   window.addEventListener("mousemove", (e) => {
@@ -293,6 +212,7 @@ async function doLogin() {
   setMsg("Checking with Supabase…");
   try {
     const sess = await Supa.login(chosen, pinEl.value, chosenRole);
+    localStorage.setItem("si_seen_onboarding", "1");
     setMsg("Signed in as " + sess.name + " — redirecting…", "ok");
     setTimeout(() => {
       window.location.href = sess.role === "developer" ? "mentor.html" : "welcome.html";
