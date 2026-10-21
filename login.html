@@ -5,25 +5,71 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Sign in — AP SI Prep Portal</title>
 <style>
-  :root{ --bg:#f6f7fb; --card:#ffffff; --ink:#1a2332; --muted:#667085;
-    --line:#e6e9f0; --navy:#16295c; --navy2:#1e3a8a; --saffron:#f59e0b;
-    --green:#16a34a; --red:#dc2626; --radius:14px; --shadow:0 6px 24px rgba(22,41,92,.08); }
+  :root{ --ink:#eef2fb; --muted:#9aa7c7; --line:rgba(255,255,255,.14);
+    --navy:#0a1024; --saffron:#f6a723; --azure:#3b6bff; --violet:#8b5cf6;
+    --green:#34d399; --red:#f87171; --radius:18px;
+    --glass:rgba(16,22,46,.55); --glass-line:rgba(255,255,255,.12); }
   *{box-sizing:border-box}
-  body{margin:0;min-height:100vh;display:grid;place-items:center;background:var(--bg);
-    font-family:"Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-serif;color:var(--ink);padding:20px}
-  .card{background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);
-    padding:32px 28px;width:100%;max-width:380px}
+  html,body{height:100%}
+  body{margin:0;min-height:100vh;display:grid;place-items:center;overflow:hidden;
+    background:radial-gradient(1200px 800px at 20% 15%, #15224a 0%, transparent 60%),
+               radial-gradient(1100px 760px at 85% 85%, #231446 0%, transparent 55%),
+               var(--navy);
+    font-family:"Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-serif;color:var(--ink);padding:20px;
+    perspective:1400px}
+
+  /* ---------- 3D animated backdrop ---------- */
+  .scene{position:fixed;inset:0;z-index:0;overflow:hidden;pointer-events:none}
+  .orb{position:absolute;border-radius:50%;filter:blur(60px);opacity:.55;will-change:transform}
+  .orb1{width:46vw;height:46vw;left:-10vw;top:-12vw;background:radial-gradient(circle,var(--azure),transparent 70%);
+    animation:drift1 22s ease-in-out infinite}
+  .orb2{width:40vw;height:40vw;right:-12vw;top:10vh;background:radial-gradient(circle,var(--violet),transparent 70%);
+    animation:drift2 26s ease-in-out infinite}
+  .orb3{width:38vw;height:38vw;left:18vw;bottom:-16vw;background:radial-gradient(circle,var(--saffron),transparent 72%);
+    opacity:.35;animation:drift3 30s ease-in-out infinite}
+  @keyframes drift1{0%,100%{transform:translate3d(0,0,0) scale(1)}50%{transform:translate3d(6vw,8vh,0) scale(1.15)}}
+  @keyframes drift2{0%,100%{transform:translate3d(0,0,0) scale(1)}50%{transform:translate3d(-7vw,6vh,0) scale(1.1)}}
+  @keyframes drift3{0%,100%{transform:translate3d(0,0,0) scale(1)}50%{transform:translate3d(4vw,-6vh,0) scale(1.2)}}
+
+  .rig{position:absolute;left:50%;top:50%;width:1px;height:1px;transform-style:preserve-3d;
+    animation:rig-spin 40s linear infinite}
+  @keyframes rig-spin{from{transform:translate(-50%,-50%) rotateZ(0deg)}to{transform:translate(-50%,-50%) rotateZ(360deg)}}
+  .ring{position:absolute;left:50%;top:50%;border-radius:50%;border:1.5px solid rgba(255,255,255,.14);
+    transform-style:preserve-3d;box-shadow:0 0 40px rgba(59,107,255,.15) inset}
+  .ring1{width:62vmin;height:62vmin;margin:-31vmin 0 0 -31vmin;border-color:rgba(59,107,255,.28);
+    animation:spin1 18s linear infinite}
+  .ring2{width:46vmin;height:46vmin;margin:-23vmin 0 0 -23vmin;border-color:rgba(246,167,35,.26);
+    animation:spin2 24s linear infinite reverse}
+  .ring3{width:32vmin;height:32vmin;margin:-16vmin 0 0 -16vmin;border-color:rgba(139,92,246,.3);
+    animation:spin3 14s linear infinite}
+  @keyframes spin1{from{transform:rotateX(68deg) rotateZ(0deg)}to{transform:rotateX(68deg) rotateZ(360deg)}}
+  @keyframes spin2{from{transform:rotateX(70deg) rotateY(14deg) rotateZ(0deg)}to{transform:rotateX(70deg) rotateY(14deg) rotateZ(360deg)}}
+  @keyframes spin3{from{transform:rotateX(66deg) rotateY(-10deg) rotateZ(0deg)}to{transform:rotateX(66deg) rotateY(-10deg) rotateZ(360deg)}}
+
+  .spark{position:absolute;width:3px;height:3px;border-radius:50%;background:#fff;opacity:0;
+    animation:twinkle linear infinite}
+  @keyframes twinkle{0%{opacity:0;transform:translateY(0)}10%{opacity:.9}90%{opacity:.2}100%{opacity:0;transform:translateY(-40vh)}}
+
+  /* ---------- Card ---------- */
+  .stage{position:relative;z-index:1;transform-style:preserve-3d;transition:transform .12s ease-out}
+  .card{background:var(--glass);backdrop-filter:blur(22px) saturate(140%);-webkit-backdrop-filter:blur(22px) saturate(140%);
+    border:1px solid var(--glass-line);border-radius:var(--radius);
+    box-shadow:0 30px 80px rgba(0,0,0,.55), 0 0 0 1px rgba(255,255,255,.03) inset;
+    padding:34px 30px;width:100%;max-width:380px}
   .brand{display:flex;align-items:center;gap:12px;margin-bottom:22px}
-  .brand-mark{font-size:26px;background:linear-gradient(135deg,var(--navy),var(--navy2));
-    color:#fff;border-radius:12px;width:44px;height:44px;display:grid;place-items:center}
-  h1{font-size:1.15rem;margin:0}
+  .brand-mark{font-size:24px;background:linear-gradient(135deg,var(--azure),var(--violet));
+    color:#fff;border-radius:12px;width:44px;height:44px;display:grid;place-items:center;
+    box-shadow:0 8px 24px rgba(59,107,255,.4)}
+  h1{font-size:1.15rem;margin:0;letter-spacing:.2px}
   p.sub{margin:4px 0 0;font-size:.82rem;color:var(--muted)}
   .profiles{display:flex;flex-direction:column;gap:10px;margin:18px 0}
-  .profile-btn{padding:14px 16px;border:2px solid var(--line);border-radius:12px;text-align:left;
-    background:#fff;cursor:pointer;font-weight:700;font-size:.95rem;color:var(--ink);transition:.15s}
+  .profile-btn{padding:14px 16px;border:1.5px solid var(--line);border-radius:12px;text-align:left;
+    background:rgba(255,255,255,.04);cursor:pointer;font-weight:700;font-size:.95rem;color:var(--ink);
+    transition:.15s}
   .profile-btn small{display:block;font-weight:500;font-size:.74rem;color:var(--muted);margin-top:2px}
-  .profile-btn:hover{border-color:var(--navy2)}
-  .profile-btn.active{border-color:var(--navy2);background:#eef2ff;color:var(--navy)}
+  .profile-btn:hover{border-color:var(--azure);background:rgba(59,107,255,.1)}
+  .profile-btn.active{border-color:var(--azure);background:rgba(59,107,255,.16);
+    box-shadow:0 0 0 3px rgba(59,107,255,.18)}
   .step2{display:none;margin-top:4px}
   .step2.show{display:block}
   .back-link{background:none;border:none;color:var(--muted);font-size:.8rem;cursor:pointer;padding:0;margin-bottom:10px}
@@ -31,18 +77,38 @@
   .who{font-size:.95rem;font-weight:700;margin-bottom:2px}
   label{display:block;font-size:.82rem;color:var(--muted);margin:14px 0 6px}
   input[type=password],input[type=text]{width:100%;padding:12px 14px;border:1.5px solid var(--line);
-    border-radius:10px;font-size:1.3rem;letter-spacing:6px;text-align:center}
+    border-radius:10px;font-size:1.3rem;letter-spacing:6px;text-align:center;
+    background:rgba(255,255,255,.05);color:var(--ink)}
+  input[type=password]:focus,input[type=text]:focus{outline:none;border-color:var(--azure);
+    box-shadow:0 0 0 3px rgba(59,107,255,.22)}
   .btn{width:100%;margin-top:18px;padding:12px;border:none;border-radius:10px;
-    background:var(--navy2);color:#fff;font-weight:700;font-size:.95rem;cursor:pointer}
-  .btn:disabled{opacity:.5;cursor:not-allowed}
+    background:linear-gradient(135deg,var(--azure),var(--violet));color:#fff;font-weight:700;
+    font-size:.95rem;cursor:pointer;box-shadow:0 10px 26px rgba(59,107,255,.35)}
+  .btn:disabled{opacity:.4;cursor:not-allowed;box-shadow:none}
   .msg{margin-top:12px;font-size:.82rem;min-height:18px}
   .msg.err{color:var(--red)}
   .msg.ok{color:var(--green)}
-  .hint{margin-top:18px;font-size:.74rem;color:var(--muted);line-height:1.5}
+
+  @media (prefers-reduced-motion: reduce){
+    .orb,.rig,.ring1,.ring2,.ring3,.spark{animation:none !important}
+    .stage{transform:none !important}
+  }
 </style>
 </head>
 <body>
 
+<div class="scene" id="scene" aria-hidden="true">
+  <div class="orb orb1"></div>
+  <div class="orb orb2"></div>
+  <div class="orb orb3"></div>
+  <div class="rig">
+    <div class="ring ring1"></div>
+    <div class="ring ring2"></div>
+    <div class="ring ring3"></div>
+  </div>
+</div>
+
+<div class="stage" id="stage">
 <div class="card">
   <div class="brand">
     <div class="brand-mark">🎯</div>
@@ -66,11 +132,44 @@
     <p class="msg" id="msg"></p>
   </div>
 
-  <p class="hint">This portal requires sign-in — your PIN is checked against Supabase before you
-    can reach any page. First time signing in as a profile sets that PIN; there's no reset flow
-    in the UI yet, so remember it.</p>
+</div>
 </div>
 
+<script>
+/* Decorative only: drifting star particles + mouse-tracked 3D card tilt.
+   No effect on the login logic below, and fully disabled under
+   prefers-reduced-motion. */
+(function () {
+  "use strict";
+  const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (reduceMotion) return;
+
+  const scene = document.getElementById("scene");
+  const n = 26;
+  for (let i = 0; i < n; i++) {
+    const s = document.createElement("div");
+    s.className = "spark";
+    s.style.left = Math.random() * 100 + "vw";
+    s.style.top = 60 + Math.random() * 40 + "vh";
+    s.style.animationDuration = 6 + Math.random() * 10 + "s";
+    s.style.animationDelay = Math.random() * 10 + "s";
+    scene.appendChild(s);
+  }
+
+  const stage = document.getElementById("stage");
+  let raf = null;
+  window.addEventListener("mousemove", (e) => {
+    if (raf) return;
+    raf = requestAnimationFrame(() => {
+      const dx = (e.clientX / window.innerWidth - 0.5) * 2;
+      const dy = (e.clientY / window.innerHeight - 0.5) * 2;
+      stage.style.transform = `rotateY(${dx * 5}deg) rotateX(${-dy * 5}deg)`;
+      raf = null;
+    });
+  });
+  window.addEventListener("mouseleave", () => { stage.style.transform = "rotateY(0) rotateX(0)"; });
+})();
+</script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js"></script>
 <script src="supa-config.js"></script>
 <script src="supa.js"></script>
