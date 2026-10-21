@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>AP SI Prep — Command Center</title>
+<meta name="description" content="Everything for AP-SI Mains prep in one place: the full course catalog, a diagnostic mock built from a real previous-year paper, a self-rated focus survey, and your live progress." />
+<meta name="color-scheme" content="light dark" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="welcome.css?v=1" />
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="welcome.html"><span class="brand-mark">🎯</span> AP SI Prep</a>
+    <nav class="topnav">
+      <a href="welcome.html">Home</a>
+      <a href="notes.html">Study Notes</a>
+      <a href="focus.html">Focus Survey</a>
+      <a href="ap-mains-diagnostic.html?mock=mains2023_gs">Diagnostic</a>
+      <a href="index.html">Practice Portal</a>
+    </nav>
+    <div class="top-actions">
+      <button id="themeBtn" class="icon-btn" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">☾</button>
+      <a id="sessionChip" class="session-chip signed-out" href="login.html">Sign in</a>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="hero">
+    <div class="hero-grid">
+      <div class="hero-card">
+        <span class="eyebrow">AP Police SI · Mains track</span>
+        <h1 id="heroTitle">Everything you need for <em>Mains</em>, in one command center.</h1>
+        <p class="lead" id="heroLead">The full subject-wise syllabus, a diagnostic built from a real
+          previous-year paper, and a self-rated focus survey — all feeding one view of where you
+          actually stand.</p>
+        <div class="hero-ctas">
+          <a class="btn btn-primary" href="ap-mains-diagnostic.html?mock=mains2023_gs">Take the diagnostic →</a>
+          <a class="btn btn-ghost" href="#catalog">Browse all courses</a>
+          <a class="btn btn-ghost" href="focus.html">Rate your topics</a>
+        </div>
+      </div>
+      <div class="hero-side">
+        <h3 id="sideHeading">Your progress</h3>
+        <div class="ring-row">
+          <div class="ring">
+            <svg viewBox="0 0 80 80">
+              <circle class="bg" cx="40" cy="40" r="34"></circle>
+              <circle class="fg" id="heroRing" cx="40" cy="40" r="34" stroke-dasharray="214" stroke-dashoffset="214"></circle>
+            </svg>
+            <div class="ring-label" id="heroRingLabel">0%</div>
+          </div>
+          <div class="rs-text">
+            <b id="heroRingHeadline">Sign in to sync</b>
+            <span id="heroRingSub">Progress stays on this device until then</span>
+          </div>
+        </div>
+        <div class="hero-mini-stats">
+          <div><b id="statLessonsDone">0</b><span>Lessons marked done</span></div>
+          <div><b id="statTopicsRated">0</b><span>Topics self-rated</span></div>
+          <div><b id="statDiagScore">—</b><span>Latest diagnostic score</span></div>
+          <div><b id="statWeakCount">0</b><span>Flagged weak subjects</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="stat-strip" id="statStrip" aria-label="Portal totals"></section>
+
+  <section id="catalog">
+    <div class="section-head">
+      <div>
+        <h2>Full Mains syllabus, by subject</h2>
+        <p>Every subject the exam actually tests — rate your confidence or jump into notes where they exist.</p>
+      </div>
+    </div>
+    <div class="catalog" id="catalogGrid"></div>
+  </section>
+
+  <section>
+    <div class="section-head">
+      <div>
+        <h2>Jump in</h2>
+        <p>The four things worth doing today.</p>
+      </div>
+    </div>
+    <div class="action-grid">
+      <a class="action-card" href="ap-mains-diagnostic.html?mock=mains2023_gs">
+        <span class="ic">🧪</span>
+        <h3>Diagnostic mock</h3>
+        <p>196 verified questions from the real Mains 2023 GS paper — find out where you actually stand before you plan anything.</p>
+        <span class="go">Start the diagnostic →</span>
+      </a>
+      <a class="action-card" href="focus.html">
+        <span class="ic">🎯</span>
+        <h3>Focus survey</h3>
+        <p>Rate every syllabus subtopic Weak / Medium / Strong so study time goes where it's actually needed, not where it feels productive.</p>
+        <span class="go">Rate your topics →</span>
+      </a>
+      <a class="action-card" href="notes.html">
+        <span class="ic">📖</span>
+        <h3>Study notes</h3>
+        <p>Subject-wise notes, organised Subject › Unit › Lesson. Indian Polity (Fundamental Rights, DPSP, Duties) is live now.</p>
+        <span class="go">Open notes →</span>
+      </a>
+      <a class="action-card" href="index.html">
+        <span class="ic">📝</span>
+        <h3>Practice portal</h3>
+        <p>The original question-bank portal — 12-day Polity bank, 29 case files, and SSC CGL English practice.</p>
+        <span class="go">Open practice portal →</span>
+      </a>
+      <a class="action-card" id="devCard" href="login.html" hidden>
+        <span class="ic">🛠️</span>
+        <h3>Developer view</h3>
+        <p>Sign in as the developer to see study progress, diagnostic trends, and weak-topic analysis.</p>
+        <span class="go">Open developer view →</span>
+      </a>
+      <a class="action-card" href="login.html" id="signInCard">
+        <span class="ic">🔑</span>
+        <h3>Sign in</h3>
+        <p>Sync your progress, ratings and diagnostic results so they're there next time, on any device.</p>
+        <span class="go">Sign in →</span>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    AP SI Prep Portal · static site, no backend lock-in · progress syncs via <a href="login.html">sign-in</a>
+    when available, and always keeps working offline in this browser.
+  </div>
+</footer>
+
+<script src="notes-data.js?v=2"></script>
+<script src="notes-content.js?v=1"></script>
+<script src="syllabus-focus-data.js"></script>
+<script src="data/ap_mains2023_gs.js?v=1"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js"></script>
+<script src="supa-config.js"></script>
+<script src="supa.js"></script>
+<script src="welcome.js"></script>
+</body>
+</html>

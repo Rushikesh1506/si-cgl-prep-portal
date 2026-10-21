@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Focus Survey — Full Mains Syllabus</title>
+<meta name="description" content="The complete AP-SI Mains syllabus, subtopic by subtopic — rate how confident you feel on each so study time goes where it's needed." />
+<style>
+  :root{ --bg:#f6f7fb; --card:#ffffff; --ink:#1a2332; --muted:#667085;
+    --line:#e6e9f0; --navy:#16295c; --navy2:#1e3a8a; --saffron:#f59e0b;
+    --green:#16a34a; --amber:#d97706; --red:#dc2626; --radius:14px; --shadow:0 6px 24px rgba(22,41,92,.08); }
+  *{box-sizing:border-box}
+  body{margin:0;min-height:100vh;background:var(--bg);font-family:"Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-serif;color:var(--ink)}
+  header.topbar{position:sticky;top:0;z-index:50;display:flex;align-items:center;gap:14px;
+    background:linear-gradient(90deg,var(--navy),var(--navy2));color:#fff;padding:14px 20px;box-shadow:0 2px 12px rgba(0,0,0,.2)}
+  header.topbar h1{font-size:1.1rem;margin:0}
+  header.topbar p{margin:2px 0 0;font-size:.78rem;opacity:.85}
+  header.topbar a{color:#fff;text-decoration:none;font-size:.82rem;background:rgba(255,255,255,.15);
+    padding:6px 12px;border-radius:999px;margin-left:auto}
+  .wrap{max-width:960px;margin:0 auto;padding:22px 16px 60px}
+  .summary{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:20px}
+  .sum-chip{flex:1;min-width:120px;background:#fff;border-radius:12px;padding:12px 14px;box-shadow:var(--shadow);text-align:center}
+  .sum-chip b{display:block;font-size:1.5rem}
+  .sum-chip.weak b{color:var(--red)} .sum-chip.medium b{color:var(--amber)}
+  .sum-chip.strong b{color:var(--green)} .sum-chip.unrated b{color:var(--muted)}
+  .sum-chip span{font-size:.72rem;color:var(--muted)}
+  .subject{background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);margin-bottom:14px;overflow:hidden}
+  .subject-head{display:flex;align-items:center;gap:10px;padding:14px 18px;cursor:pointer;user-select:none}
+  .subject-head h2{font-size:1rem;margin:0;flex:1}
+  .subject-head .stage{font-size:.72rem;color:var(--muted)}
+  .subject-head .caret{transition:.15s}
+  .subject.open .caret{transform:rotate(90deg)}
+  .subject-head .mini-bar{display:flex;height:6px;width:90px;border-radius:4px;overflow:hidden;background:var(--line)}
+  .mini-bar span{display:block;height:100%}
+  .topics{display:none;border-top:1px solid var(--line)}
+  .subject.open .topics{display:block}
+  .topic-row{display:flex;align-items:center;gap:12px;padding:12px 18px;border-top:1px solid var(--line)}
+  .topic-row:first-child{border-top:none}
+  .topic-main{flex:1;min-width:0}
+  .topic-name{font-weight:600;font-size:.9rem}
+  .topic-note{font-size:.76rem;color:var(--muted);margin-top:2px}
+  .rate{display:flex;gap:4px;flex-shrink:0}
+  .rate button{border:1.5px solid var(--line);background:#fff;border-radius:8px;padding:6px 10px;
+    font-size:.74rem;font-weight:700;cursor:pointer;color:var(--muted)}
+  .rate button[data-r=weak].active{background:#fee2e2;border-color:var(--red);color:var(--red)}
+  .rate button[data-r=medium].active{background:#fef3c7;border-color:var(--amber);color:var(--amber)}
+  .rate button[data-r=strong].active{background:#dcfce7;border-color:var(--green);color:var(--green)}
+  .suggested{font-size:.68rem;background:#fee2e2;color:var(--red);padding:2px 7px;border-radius:999px;margin-left:6px}
+  .save-note{text-align:center;font-size:.76rem;color:var(--muted);margin-top:10px}
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div>
+    <h1>Focus Survey</h1>
+    <p>Full AP-SI Mains syllabus — rate how confident you feel on each topic</p>
+  </div>
+  <a href="welcome.html">← Home</a>
+</header>
+
+<div class="wrap">
+  <div class="summary" id="summary"></div>
+  <div id="subjects"></div>
+  <p class="save-note" id="saveNote">Ratings save automatically in this browser, and sync if you're signed in.</p>
+</div>
+
+<script src="syllabus-focus-data.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js"></script>
+<script src="supa-config.js"></script>
+<script src="supa.js"></script>
+<script src="focus.js"></script>
+</body>
+</html>

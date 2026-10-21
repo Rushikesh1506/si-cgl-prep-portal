@@ -1,0 +1,6 @@
+# Local tooling, not site content
+.claude/
+
+# Large reference source material (PDFs used to author content, not served by the site)
+si-resources/
+ssc-previous-papers/

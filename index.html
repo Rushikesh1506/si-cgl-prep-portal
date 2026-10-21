@@ -19,9 +19,11 @@
     </div>
   </div>
   <div class="badges">
+    <a class="badge badge-link" href="welcome.html" style="background:#e6e9f0;color:#16295c">🏠 Home</a>
     <span class="badge badge-si">SI GS</span>
     <a class="badge badge-cgl badge-link" href="english/index.html" title="Open standalone English coach">SSC CGL English</a>
     <span class="badge badge-mock">Mock Exams</span>
+    <a class="badge badge-link" id="sessionBadge" href="login.html" style="background:#e6e9f0;color:#16295c">Sign in</a>
   </div>
 </header>
 
@@ -172,6 +174,17 @@
 <script src="lessons-b.js?v=20260921"></script>
 <script src="passages.js?v=20260921"></script>
 <script src="pyq.js?v=20260921"></script>
+<script src="si-syllabus.js?v=skeleton1"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js"></script>
+<script src="supa-config.js"></script>
+<script src="supa.js"></script>
 <script src="script.js?v=fr120"></script>
+<script>
+(function () {
+  const s = window.Supa && Supa.session();
+  const b = document.getElementById("sessionBadge");
+  if (s) { b.textContent = "✓ " + s.name; b.href = "focus.html"; b.title = "Signed in — click for your focus survey"; }
+})();
+</script>
 </body>
 </html>

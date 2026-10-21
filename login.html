@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sign in — AP SI Prep Portal</title>
+<style>
+  :root{ --bg:#f6f7fb; --card:#ffffff; --ink:#1a2332; --muted:#667085;
+    --line:#e6e9f0; --navy:#16295c; --navy2:#1e3a8a; --saffron:#f59e0b;
+    --green:#16a34a; --red:#dc2626; --radius:14px; --shadow:0 6px 24px rgba(22,41,92,.08); }
+  *{box-sizing:border-box}
+  body{margin:0;min-height:100vh;display:grid;place-items:center;background:var(--bg);
+    font-family:"Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-serif;color:var(--ink);padding:20px}
+  .card{background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);
+    padding:32px 28px;width:100%;max-width:380px}
+  .brand{display:flex;align-items:center;gap:12px;margin-bottom:22px}
+  .brand-mark{font-size:26px;background:linear-gradient(135deg,var(--navy),var(--navy2));
+    color:#fff;border-radius:12px;width:44px;height:44px;display:grid;place-items:center}
+  h1{font-size:1.15rem;margin:0}
+  p.sub{margin:4px 0 0;font-size:.82rem;color:var(--muted)}
+  .profiles{display:flex;flex-direction:column;gap:10px;margin:18px 0}
+  .profile-btn{padding:14px 16px;border:2px solid var(--line);border-radius:12px;text-align:left;
+    background:#fff;cursor:pointer;font-weight:700;font-size:.95rem;color:var(--ink);transition:.15s}
+  .profile-btn small{display:block;font-weight:500;font-size:.74rem;color:var(--muted);margin-top:2px}
+  .profile-btn:hover{border-color:var(--navy2)}
+  .profile-btn.active{border-color:var(--navy2);background:#eef2ff;color:var(--navy)}
+  label{display:block;font-size:.82rem;color:var(--muted);margin:14px 0 6px}
+  input[type=password],input[type=text]{width:100%;padding:12px 14px;border:1.5px solid var(--line);
+    border-radius:10px;font-size:1.3rem;letter-spacing:6px;text-align:center}
+  .btn{width:100%;margin-top:18px;padding:12px;border:none;border-radius:10px;
+    background:var(--navy2);color:#fff;font-weight:700;font-size:.95rem;cursor:pointer}
+  .btn:disabled{opacity:.5;cursor:not-allowed}
+  .msg{margin-top:12px;font-size:.82rem;min-height:18px}
+  .msg.err{color:var(--red)}
+  .msg.ok{color:var(--green)}
+  .hint{margin-top:18px;font-size:.74rem;color:var(--muted);line-height:1.5}
+  .skip{display:block;text-align:center;margin-top:14px;font-size:.8rem;color:var(--muted)}
+</style>
+</head>
+<body>
+
+<div class="card">
+  <div class="brand">
+    <div class="brand-mark">🎯</div>
+    <div>
+      <h1>AP SI Prep Portal</h1>
+      <p class="sub">Sign in to sync your progress</p>
+    </div>
+  </div>
+
+  <div class="profiles" id="profiles">
+    <button class="profile-btn" data-name="KrishnaChetan" data-role="student">KrishnaChetan<small>Student</small></button>
+    <button class="profile-btn" data-name="Rushikesh" data-role="developer">Rushikesh<small>Developer</small></button>
+  </div>
+
+  <label for="pin">4-digit PIN</label>
+  <input id="pin" type="password" inputmode="numeric" maxlength="4" placeholder="••••" autocomplete="off" />
+
+  <button class="btn" id="goBtn" disabled>Sign in</button>
+  <p class="msg" id="msg"></p>
+
+  <p class="hint">First time signing in sets that PIN — remember it, there's no reset flow in
+    the UI yet (ask whoever set up the backend to clear it in Supabase if you forget). This
+    sign-in only enables cross-device progress sync; the portal still works fully offline
+    without it.</p>
+
+  <a class="skip" href="welcome.html">Skip for now — use this browser only →</a>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js"></script>
+<script src="supa-config.js"></script>
+<script src="supa.js"></script>
+<script>
+"use strict";
+let chosen = null, chosenRole = null;
+const profilesEl = document.getElementById("profiles");
+const pinEl = document.getElementById("pin");
+const goBtn = document.getElementById("goBtn");
+const msgEl = document.getElementById("msg");
+
+profilesEl.addEventListener("click", (e) => {
+  const b = e.target.closest(".profile-btn");
+  if (!b) return;
+  chosen = b.dataset.name;
+  chosenRole = b.dataset.role;
+  [...profilesEl.children].forEach((c) => c.classList.toggle("active", c === b));
+  refreshBtn();
+});
+pinEl.addEventListener("input", () => {
+  pinEl.value = pinEl.value.replace(/\D/g, "").slice(0, 4);
+  refreshBtn();
+});
+function refreshBtn() { goBtn.disabled = !(chosen && pinEl.value.length === 4); }
+
+function setMsg(text, cls) { msgEl.textContent = text; msgEl.className = "msg" + (cls ? " " + cls : ""); }
+
+goBtn.addEventListener("click", async () => {
+  if (!chosen || pinEl.value.length !== 4) return;
+  goBtn.disabled = true;
+  setMsg("Signing in…");
+  try {
+    const sess = await Supa.login(chosen, pinEl.value, chosenRole);
+    setMsg("Signed in as " + sess.name + " — redirecting…", "ok");
+    setTimeout(() => {
+      window.location.href = sess.role === "developer" ? "mentor.html" : "welcome.html";
+    }, 400);
+  } catch (e) {
+    setMsg(e.message || "Sign-in failed", "err");
+    goBtn.disabled = false;
+  }
+});
+pinEl.addEventListener("keydown", (e) => { if (e.key === "Enter" && !goBtn.disabled) goBtn.click(); });
+</script>
+</body>
+</html>

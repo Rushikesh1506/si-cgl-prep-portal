@@ -54,24 +54,34 @@ const NAV_TREE = [
         { label: "Emergency & Local Bodies", topicId: "polity_emerg" },
         { label: "Important Amendments", topicId: "polity_amend" },
       ]},
-      { label: "Indian History", icon: "📜", soon: true, children: [
+      { label: "Indian History", icon: "📜", children: [
         { label: "Ancient India", topicId: "hist_ancient" },
         { label: "Medieval India", topicId: "hist_medieval" },
-        { label: "Modern India", topicId: "hist_modern" },
+        { label: "Modern India & INM", topicId: "hist_modern" },
       ]},
-      { label: "General Science", icon: "🔬", soon: true, children: [
+      { label: "General Science", icon: "🔬", children: [
         { label: "Physics", topicId: "sci_phy" },
         { label: "Chemistry", topicId: "sci_chem" },
         { label: "Biology", topicId: "sci_bio" },
       ]},
-      { label: "Geography & Economy", icon: "🌍", soon: true, children: [
+      { label: "Geography & Economy", icon: "🌍", children: [
         { label: "Indian Geography", topicId: "geo_india" },
-        { label: "Economy Basics", topicId: "econ_basic" },
+        { label: "Economy Basics & Rural Dev", topicId: "econ_basic" },
       ]},
-      { label: "Current Affairs & Mocks", icon: "📰", soon: true, children: [
+      { label: "Current Affairs & Mocks", icon: "📰", children: [
         { label: "Current Affairs", topicId: "ca_monthly" },
         { label: "Full Mocks (bank in Mock tab)", topicId: "mock_full" },
       ]},
+      { label: "Andhra Pradesh Studies", icon: "🪷", children: [
+        { label: "AP Polity", topicId: "ap_polity" },
+        { label: "AP Geography", topicId: "ap_geography" },
+        { label: "AP History", topicId: "ap_history" },
+        { label: "AP Economy", topicId: "ap_economy" },
+      ]},
+    ]},
+    { label: "Mains Papers", icon: "📝", children: [
+      { label: "English — Descriptive Paper", topicId: "eng_desc" },
+      { label: "Telugu — Descriptive Paper", topicId: "tel_desc" },
     ]},
   ]},
   /* SSC CGL English lives standalone at english/index.html (header badge links there),
@@ -94,6 +104,14 @@ const topicById = (id) => (typeof studyData !== "undefined" ? studyData.find(t =
 // english.js wins on id collision (replaces old stubs).
 if (typeof englishData !== "undefined" && typeof studyData !== "undefined") {
   englishData.forEach(t => {
+    const i = studyData.findIndex(x => x.id === t.id);
+    if (i >= 0) studyData[i] = t; else studyData.push(t);
+  });
+}
+// AP SI syllabus skeleton ships in si-syllabus.js; merge so nav + notes see it.
+// si-syllabus.js wins on id collision (replaces old locked stubs).
+if (typeof siSyllabusData !== "undefined" && typeof studyData !== "undefined") {
+  siSyllabusData.forEach(t => {
     const i = studyData.findIndex(x => x.id === t.id);
     if (i >= 0) studyData[i] = t; else studyData.push(t);
   });
@@ -823,10 +841,12 @@ $("#crumb").addEventListener("click", e => {
 });
 $("#markDone").onclick = () => {
   const d = new Set(store.done);
-  if (d.has(currentId)) d.delete(currentId); else d.add(currentId);
+  const nowDone = !d.has(currentId);
+  if (nowDone) d.add(currentId); else d.delete(currentId);
   store.done = [...d];
   renderSidebar($("#searchBox").value || "");
   $("#markDone").textContent = store.done.includes(currentId) ? "✓ Completed — tap to undo" : "✓ Mark as complete";
+  if (window.Supa) Supa.saveProgress(currentId, nowDone);
 };
 $("#resetBtn").onclick = () => { if (confirm("Reset all progress?")) { store.done = []; renderSidebar(); } };
 $("#prevTopic").onclick = () => stepTopic(-1);

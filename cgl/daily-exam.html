@@ -259,6 +259,9 @@ td.n,th.n{text-align:right;font-variant-numeric:tabular-nums}
      in the SAME real-exam interface as the full diagnostic papers, instead of
      the Coach's lesson-browser shell. -->
 <script src="../english/daily-mocks.js?v=20261001"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js"></script>
+<script src="../supa-config.js"></script>
+<script src="../supa.js"></script>
 <script>
 "use strict";
 
@@ -555,6 +558,19 @@ function scoreAll() {
   return out;
 }
 
+function questionRows() {
+  const rows = []; let i = 0;
+  CFG.order.forEach(sid => (BANK[sid] || []).forEach(q => {
+    const r = S.ans[q.id] || {};
+    rows.push({
+      q_index: i++, topic: q.topic || null, trapcat: q.trapcat || null,
+      picked: r.chosen != null ? r.chosen : null, correct: q.ans,
+      is_correct: r.chosen != null && r.chosen === q.ans,
+    });
+  }));
+  return rows;
+}
+
 function groupBy(keyFn) {
   const m = {};
   CFG.order.forEach(sid => (BANK[sid] || []).forEach(q => {
@@ -583,6 +599,19 @@ function finish(reason) {
   $("#scResult").hidden = false;
   window.scrollTo(0, 0);
   renderResult(reason);
+  syncAttempt();
+}
+
+/* Best-effort, non-blocking mirror of this result to Supabase (see supa.js).
+   Never touches the UI above — if Supa isn't loaded or the network fails,
+   this silently no-ops and the localStorage result (already saved) stands. */
+function syncAttempt() {
+  if (!window.Supa || !Supa.session()) return;
+  const R = scoreAll();
+  const timeSec = Math.round((S.submittedAt - S.startedAt) / 1000);
+  Supa.saveAttempt(MOCK_ID, R.total.net, R.total.max, R.total.acc, timeSec).then(attemptId => {
+    if (attemptId) Supa.saveQuestionAttempts(MOCK_ID, attemptId, questionRows());
+  });
 }
 
 function pct(x) { return Math.round(x * 100) + "%"; }

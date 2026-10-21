@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>AP SI Notes — Subject-wise Study Notes</title>
+<meta name="description" content="Subject-wise AP SI study notes — History, Polity, Geography, Economy, Science, AP studies, Arithmetic, Reasoning, English and Telugu, organised as Subject › Unit › Lesson." />
+<meta name="color-scheme" content="light dark" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="notes.css?v=2" />
+</head>
+<body>
+
+<div id="readbar" class="readbar" aria-hidden="true"></div>
+
+<header class="topbar">
+  <button id="menuBtn" class="menu-btn" aria-label="Toggle notes navigation" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+  <a class="brand" href="notes.html">
+    <span class="brand-mark" aria-hidden="true">◆</span>
+    <span class="brand-text">
+      <strong>AP&nbsp;SI Notes</strong>
+      <small id="docMeta">Subject › Unit › Lesson</small>
+    </span>
+  </a>
+  <div class="top-actions">
+    <a class="top-link" href="welcome.html">Home</a>
+    <a class="top-link" href="index.html">Practice Portal</a>
+    <a class="top-link" href="focus.html">Focus Survey</a>
+    <a class="top-link accent" href="english/index.html">English</a>
+    <a class="top-link" id="sessionBadge" href="login.html">Sign in</a>
+    <button id="themeBtn" class="icon-btn" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">☾</button>
+  </div>
+</header>
+
+<div class="layout">
+  <!-- ============ SIDEBAR ============ -->
+  <aside id="sidebar" class="sidebar" aria-label="Notes navigation">
+    <div class="sidebar-head">
+      <div class="search-wrap">
+        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+        <input id="searchBox" type="search" placeholder="Search 484 lessons…" aria-label="Search lessons" autocomplete="off" />
+        <kbd class="kbd" aria-hidden="true">/</kbd>
+      </div>
+      <div class="side-stats">
+        <span><b id="statSubjects">22</b> subjects</span>
+        <span class="dotsep">•</span>
+        <span><b id="statLessons">484</b> lessons</span>
+      </div>
+    </div>
+    <nav id="nav" class="nav"><!-- rendered by notes.js from NOTES_TREE --></nav>
+    <div class="sidebar-foot">
+      <div class="progress-ring">
+        <svg viewBox="0 0 40 40" width="40" height="40" aria-hidden="true">
+          <circle class="pr-bg" cx="20" cy="20" r="16"></circle>
+          <circle id="prArc" class="pr-fg" cx="20" cy="20" r="16"></circle>
+        </svg>
+        <div class="pr-text"><b id="progressPct">0%</b><small>complete</small></div>
+        <button id="resetBtn" class="btn-reset" type="button" title="Reset progress">↺</button>
+      </div>
+    </div>
+  </aside>
+  <div id="scrim" class="scrim" hidden></div>
+
+  <!-- ============ MAIN ============ -->
+  <main class="content">
+    <nav id="crumbs" class="crumbs" aria-label="Breadcrumb"></nav>
+
+    <header class="hero">
+      <div class="hero-main">
+        <p id="heroKicker" class="kicker">AP SI • Notes</p>
+        <h1 id="heroTitle">Loading…</h1>
+        <p id="heroLead" class="lead"></p>
+      </div>
+      <div id="heroMeta" class="hero-meta"></div>
+    </header>
+
+    <div class="reading">
+      <article id="article" class="article"><!-- rendered by notes.js --></article>
+      <aside id="toc" class="toc-col" aria-label="On this page"></aside>
+    </div>
+
+    <nav class="pager" aria-label="Lesson navigation">
+      <button id="prevLesson" class="pager-btn prev" type="button">
+        <span class="pg-label">← Previous</span>
+        <span class="pg-title" id="prevTitle"></span>
+      </button>
+      <button id="markDone" class="mark-btn" type="button">✓ Mark complete</button>
+      <button id="nextLesson" class="pager-btn next" type="button">
+        <span class="pg-label">Next →</span>
+        <span class="pg-title" id="nextTitle"></span>
+      </button>
+    </nav>
+
+    <footer class="foot">
+      <p><strong>AP SI Notes</strong> · Subject › Unit › Lesson. Edit lessons in <code>notes-data.js</code>.</p>
+    </footer>
+  </main>
+</div>
+
+<script src="notes-data.js?v=2"></script>
+<script src="notes-content.js?v=1"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js"></script>
+<script src="supa-config.js"></script>
+<script src="supa.js"></script>
+<script src="notes.js?v=2"></script>
+<script>
+(function () {
+  const s = window.Supa && Supa.session();
+  const b = document.getElementById("sessionBadge");
+  if (s) { b.textContent = "✓ " + s.name; b.href = "focus.html"; }
+})();
+</script>
+</body>
+</html>
