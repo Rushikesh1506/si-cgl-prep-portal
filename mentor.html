@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<script src="auth-guard.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Developer View — AP SI Prep</title>
+<style>
+  :root{ --bg:#f6f7fb; --card:#ffffff; --ink:#1a2332; --muted:#667085;
+    --line:#e6e9f0; --navy:#16295c; --navy2:#1e3a8a; --saffron:#f59e0b;
+    --green:#16a34a; --amber:#d97706; --red:#dc2626; --radius:14px; --shadow:0 6px 24px rgba(22,41,92,.08); }
+  *{box-sizing:border-box}
+  body{margin:0;min-height:100vh;background:var(--bg);font-family:"Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-serif;color:var(--ink)}
+  header.topbar{display:flex;align-items:center;gap:14px;background:linear-gradient(90deg,var(--navy),var(--navy2));
+    color:#fff;padding:14px 20px}
+  header.topbar h1{font-size:1.1rem;margin:0}
+  header.topbar p{margin:2px 0 0;font-size:.78rem;opacity:.85}
+  header.topbar a{color:#fff;text-decoration:none;font-size:.82rem;background:rgba(255,255,255,.15);
+    padding:6px 12px;border-radius:999px;margin-left:auto}
+  .wrap{max-width:1040px;margin:0 auto;padding:22px 16px 60px}
+  .stat-row{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:20px}
+  .stat{flex:1;min-width:150px;background:#fff;border-radius:12px;padding:14px 16px;box-shadow:var(--shadow)}
+  .stat b{display:block;font-size:1.5rem}
+  .stat span{font-size:.74rem;color:var(--muted)}
+  .panel{background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);padding:20px;margin-bottom:18px}
+  .panel h2{margin:0 0 12px;font-size:1.02rem}
+  table{width:100%;border-collapse:collapse;font-size:.86rem}
+  th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line)}
+  th{color:var(--muted);font-weight:700;font-size:.74rem;text-transform:uppercase;letter-spacing:.03em}
+  .acc-bar{display:inline-block;width:70px;height:6px;border-radius:4px;background:var(--line);overflow:hidden;vertical-align:middle;margin-right:6px}
+  .acc-bar span{display:block;height:100%}
+  .pill{font-size:.7rem;font-weight:800;padding:2px 8px;border-radius:999px}
+  .pill.weak{background:#fee2e2;color:var(--red)}
+  .pill.medium{background:#fef3c7;color:var(--amber)}
+  .pill.strong{background:#dcfce7;color:var(--green)}
+  .pill.none{background:var(--line);color:var(--muted)}
+  .empty{color:var(--muted);font-size:.86rem;padding:10px 0}
+  .focus-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
+  .focus-list li{display:flex;justify-content:space-between;align-items:center;padding:10px 12px;background:var(--bg);border-radius:9px;font-size:.86rem}
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div>
+    <h1>Developer View</h1>
+    <p id="whoLabel">Loading…</p>
+  </div>
+  <a href="welcome.html">← Home</a>
+  <a href="#" id="signOutLink" style="margin-left:8px">Sign out</a>
+</header>
+
+<div class="wrap">
+  <div id="content">Loading analysis…</div>
+</div>
+
+<script src="notes-data.js?v=2"></script>
+<script src="syllabus-focus-data.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js"></script>
+<script src="supa-config.js"></script>
+<script src="supa.js"></script>
+<script>
+"use strict";
+(async function () {
+  const session = Supa.session();
+  if (!session || session.role !== "developer") {
+    window.location.replace("welcome.html");
+    return;
+  }
+  document.getElementById("whoLabel").textContent = "Signed in as " + session.name;
+  document.getElementById("signOutLink").addEventListener("click", (e) => {
+    e.preventDefault(); Supa.logout(); window.location.href = "login.html";
+  });
+
+  const STUDENT_NAME = "KrishnaChetan";
+  const content = document.getElementById("content");
+
+  const topicNameByKey = {};
+  (typeof SYLLABUS_FOCUS !== "undefined" ? SYLLABUS_FOCUS : []).forEach((s) =>
+    s.topics.forEach((t) => { topicNameByKey[t.key] = { name: t.name, subject: s.subject }; })
+  );
+  const totalLessons = (typeof NOTES_TREE !== "undefined" ? NOTES_TREE : [])
+    .reduce((n, s) => n + (s.units || []).reduce((m, u) => m + (u.lessons || []).length, 0), 0);
+  const totalTopics = (typeof SYLLABUS_FOCUS !== "undefined" ? SYLLABUS_FOCUS : [])
+    .reduce((n, s) => n + s.topics.length, 0);
+
+  function pct(x) { return Math.round(x * 100) + "%"; }
+  function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c])); }
+
+  try {
+    const student = await Supa.studentByName(STUDENT_NAME);
+    if (!student) {
+      content.innerHTML = `<div class="panel"><p class="empty">${esc(STUDENT_NAME)} hasn't signed in yet — nothing to show until they do.</p></div>`;
+      return;
+    }
+    const data = await Supa.mentorData(student.id);
+
+    const lessonsDone = data.progress.filter((p) => p.done).length;
+    const attempts = data.attempts.sort((a, b) => new Date(b.submitted_at) - new Date(a.submitted_at));
+    const latest = attempts[0];
+    const ratedCount = data.focus.length;
+
+    let html = "";
+    html += `<div class="stat-row">`;
+    html += `<div class="stat"><b>${lessonsDone}/${totalLessons}</b><span>Lessons marked done</span></div>`;
+    html += `<div class="stat"><b>${ratedCount}/${totalTopics}</b><span>Topics self-rated</span></div>`;
+    html += `<div class="stat"><b>${latest ? latest.net + "/" + latest.max : "—"}</b><span>Latest exam score${latest ? " (" + pct(latest.pct) + ")" : ""}</span></div>`;
+    html += `<div class="stat"><b>${attempts.length}</b><span>Exam attempts recorded</span></div>`;
+    html += `</div>`;
+
+    /* ---- Topic-wise accuracy from question_attempts, grouped by trapcat/topic ---- */
+    const byTopic = {};
+    data.qAttempts.forEach((q) => {
+      const key = q.trapcat || q.topic || "Unlabelled";
+      const g = byTopic[key] || (byTopic[key] = { key, n: 0, cor: 0 });
+      g.n++; if (q.is_correct) g.cor++;
+    });
+    const topicRows = Object.values(byTopic).sort((a, b) => (a.cor / a.n) - (b.cor / b.n));
+
+    html += `<div class="panel"><h2>Diagnostic accuracy by subject</h2>`;
+    if (!topicRows.length) {
+      html += `<p class="empty">No exam attempts recorded yet — once ${esc(STUDENT_NAME)} takes the diagnostic, this fills in automatically.</p>`;
+    } else {
+      html += `<table><tr><th>Subject</th><th>Accuracy</th><th>Questions</th></tr>`;
+      topicRows.forEach((g) => {
+        const a = g.cor / g.n;
+        const color = a < 0.5 ? "var(--red)" : a < 0.75 ? "var(--amber)" : "var(--green)";
+        html += `<tr><td>${esc(g.key)}</td><td><span class="acc-bar"><span style="width:${Math.round(a * 100)}%;background:${color}"></span></span>${pct(a)}</td><td>${g.cor}/${g.n}</td></tr>`;
+      });
+      html += `</table>`;
+    }
+    html += `</div>`;
+
+    /* ---- Self-ratings, grouped, weak ones first ---- */
+    const ratingOrder = { weak: 0, medium: 1, strong: 2 };
+    const ratedTopics = data.focus.slice().sort((a, b) => (ratingOrder[a.rating] ?? 3) - (ratingOrder[b.rating] ?? 3));
+    html += `<div class="panel"><h2>Self-rated topics</h2>`;
+    if (!ratedTopics.length) {
+      html += `<p class="empty">${esc(STUDENT_NAME)} hasn't rated any topics yet on the Focus Survey.</p>`;
+    } else {
+      html += `<table><tr><th>Topic</th><th>Subject</th><th>Self-rating</th></tr>`;
+      ratedTopics.forEach((r) => {
+        const info = topicNameByKey[r.topic_key] || { name: r.topic_key, subject: "" };
+        html += `<tr><td>${esc(info.name)}</td><td>${esc(info.subject)}</td><td><span class="pill ${r.rating}">${r.rating}</span></td></tr>`;
+      });
+      html += `</table>`;
+    }
+    html += `</div>`;
+
+    /* ---- Recommended focus: weak self-rating OR <50% diagnostic accuracy ---- */
+    const weakSelf = data.focus.filter((f) => f.rating === "weak").map((f) => topicNameByKey[f.topic_key]?.name || f.topic_key);
+    const weakDiag = topicRows.filter((g) => g.n > 0 && g.cor / g.n < 0.5).map((g) => g.key);
+    const recommend = [...new Set([...weakDiag, ...weakSelf])];
+    html += `<div class="panel"><h2>Recommended focus for ${esc(STUDENT_NAME)}</h2>`;
+    if (!recommend.length) {
+      html += `<p class="empty">Nothing flagged yet — needs either a diagnostic attempt or some self-ratings to generate recommendations.</p>`;
+    } else {
+      html += `<ul class="focus-list">` + recommend.map((r) => `<li><span>${esc(r)}</span><span class="pill weak">Prioritise</span></li>`).join("") + `</ul>`;
+    }
+    html += `</div>`;
+
+    content.innerHTML = html;
+  } catch (e) {
+    content.innerHTML = `<div class="panel"><p class="empty">Could not load data from Supabase: ${esc(e.message || e)}. ` +
+      `If you haven't run supabase_schema.sql in the SQL Editor yet, that's why.</p></div>`;
+  }
+})();
+</script>
+</body>
+</html>

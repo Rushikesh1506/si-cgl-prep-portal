@@ -24,6 +24,11 @@
   .profile-btn small{display:block;font-weight:500;font-size:.74rem;color:var(--muted);margin-top:2px}
   .profile-btn:hover{border-color:var(--navy2)}
   .profile-btn.active{border-color:var(--navy2);background:#eef2ff;color:var(--navy)}
+  .step2{display:none;margin-top:4px}
+  .step2.show{display:block}
+  .back-link{background:none;border:none;color:var(--muted);font-size:.8rem;cursor:pointer;padding:0;margin-bottom:10px}
+  .back-link:hover{color:var(--ink)}
+  .who{font-size:.95rem;font-weight:700;margin-bottom:2px}
   label{display:block;font-size:.82rem;color:var(--muted);margin:14px 0 6px}
   input[type=password],input[type=text]{width:100%;padding:12px 14px;border:1.5px solid var(--line);
     border-radius:10px;font-size:1.3rem;letter-spacing:6px;text-align:center}
@@ -34,7 +39,6 @@
   .msg.err{color:var(--red)}
   .msg.ok{color:var(--green)}
   .hint{margin-top:18px;font-size:.74rem;color:var(--muted);line-height:1.5}
-  .skip{display:block;text-align:center;margin-top:14px;font-size:.8rem;color:var(--muted)}
 </style>
 </head>
 <body>
@@ -53,18 +57,18 @@
     <button class="profile-btn" data-name="Rushikesh" data-role="developer">Rushikesh<small>Developer</small></button>
   </div>
 
-  <label for="pin">4-digit PIN</label>
-  <input id="pin" type="password" inputmode="numeric" maxlength="4" placeholder="••••" autocomplete="off" />
+  <div class="step2" id="step2">
+    <button type="button" class="back-link" id="backBtn">← Choose a different profile</button>
+    <p class="who" id="whoLabel"></p>
+    <label for="pin">4-digit PIN</label>
+    <input id="pin" type="password" inputmode="numeric" maxlength="4" placeholder="••••" autocomplete="off" />
+    <button class="btn" id="goBtn" disabled>Verify &amp; sign in</button>
+    <p class="msg" id="msg"></p>
+  </div>
 
-  <button class="btn" id="goBtn" disabled>Sign in</button>
-  <p class="msg" id="msg"></p>
-
-  <p class="hint">First time signing in sets that PIN — remember it, there's no reset flow in
-    the UI yet (ask whoever set up the backend to clear it in Supabase if you forget). This
-    sign-in only enables cross-device progress sync; the portal still works fully offline
-    without it.</p>
-
-  <a class="skip" href="welcome.html">Skip for now — use this browser only →</a>
+  <p class="hint">This portal requires sign-in — your PIN is checked against Supabase before you
+    can reach any page. First time signing in as a profile sets that PIN; there's no reset flow
+    in the UI yet, so remember it.</p>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js"></script>
@@ -72,11 +76,14 @@
 <script src="supa.js"></script>
 <script>
 "use strict";
-let chosen = null, chosenRole = null;
+let chosen = null, chosenRole = null, submitting = false;
 const profilesEl = document.getElementById("profiles");
+const step2El = document.getElementById("step2");
+const whoEl = document.getElementById("whoLabel");
 const pinEl = document.getElementById("pin");
 const goBtn = document.getElementById("goBtn");
 const msgEl = document.getElementById("msg");
+const backBtn = document.getElementById("backBtn");
 
 profilesEl.addEventListener("click", (e) => {
   const b = e.target.closest(".profile-btn");
@@ -84,32 +91,51 @@ profilesEl.addEventListener("click", (e) => {
   chosen = b.dataset.name;
   chosenRole = b.dataset.role;
   [...profilesEl.children].forEach((c) => c.classList.toggle("active", c === b));
+  whoEl.textContent = "Enter the PIN for " + chosen;
+  step2El.classList.add("show");
+  pinEl.value = "";
+  setMsg("");
   refreshBtn();
+  pinEl.focus();
 });
+
+backBtn.addEventListener("click", () => {
+  chosen = null; chosenRole = null;
+  step2El.classList.remove("show");
+  [...profilesEl.children].forEach((c) => c.classList.remove("active"));
+  setMsg("");
+});
+
 pinEl.addEventListener("input", () => {
   pinEl.value = pinEl.value.replace(/\D/g, "").slice(0, 4);
   refreshBtn();
+  if (pinEl.value.length === 4 && !submitting) doLogin();
 });
 function refreshBtn() { goBtn.disabled = !(chosen && pinEl.value.length === 4); }
 
 function setMsg(text, cls) { msgEl.textContent = text; msgEl.className = "msg" + (cls ? " " + cls : ""); }
 
-goBtn.addEventListener("click", async () => {
-  if (!chosen || pinEl.value.length !== 4) return;
+async function doLogin() {
+  if (!chosen || pinEl.value.length !== 4 || submitting) return;
+  submitting = true;
   goBtn.disabled = true;
-  setMsg("Signing in…");
+  setMsg("Checking with Supabase…");
   try {
     const sess = await Supa.login(chosen, pinEl.value, chosenRole);
     setMsg("Signed in as " + sess.name + " — redirecting…", "ok");
     setTimeout(() => {
       window.location.href = sess.role === "developer" ? "mentor.html" : "welcome.html";
-    }, 400);
+    }, 350);
   } catch (e) {
     setMsg(e.message || "Sign-in failed", "err");
-    goBtn.disabled = false;
+    pinEl.value = "";
+    submitting = false;
+    refreshBtn();
+    pinEl.focus();
   }
-});
-pinEl.addEventListener("keydown", (e) => { if (e.key === "Enter" && !goBtn.disabled) goBtn.click(); });
+}
+goBtn.addEventListener("click", doLogin);
+pinEl.addEventListener("keydown", (e) => { if (e.key === "Enter" && !goBtn.disabled) doLogin(); });
 </script>
 </body>
 </html>

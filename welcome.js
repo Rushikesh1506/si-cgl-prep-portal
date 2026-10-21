@@ -41,6 +41,11 @@
   });
   applyTheme(localStorage.getItem(THEME_KEY) || "light");
 
+  $("#signOutBtn").addEventListener("click", () => {
+    if (window.Supa) Supa.logout();
+    window.location.href = "login.html";
+  });
+
   /* ---------- Notes lesson coverage (per NOTES_TREE subject slug) ---------- */
   const notesBySubjectSlug = {};
   (typeof NOTES_TREE !== "undefined" ? NOTES_TREE : []).forEach((s) => {
