@@ -29,20 +29,18 @@
   /* ================= RIGHT: form pane - lively animated backdrop ================= */
   .form-pane{position:relative;overflow:hidden;display:grid;place-items:center;padding:28px 20px;
     background:var(--base2)}
-  .blob{position:absolute;border-radius:50%;filter:blur(55px);will-change:transform;opacity:.5}
-  .blob1{width:60vmin;height:60vmin;left:-18vmin;top:-14vmin;background:radial-gradient(circle,var(--emerald),transparent 70%);
-    animation:blobA 16s ease-in-out infinite}
-  .blob2{width:46vmin;height:46vmin;right:-14vmin;bottom:-12vmin;background:radial-gradient(circle,var(--gold),transparent 72%);
-    opacity:.35;animation:blobB 20s ease-in-out infinite}
-  .blob3{width:36vmin;height:36vmin;right:10vmin;top:8vmin;background:radial-gradient(circle,#0ea5e9,transparent 72%);
-    opacity:.22;animation:blobC 24s ease-in-out infinite}
-  @keyframes blobA{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(6vmin,8vmin) scale(1.15)}}
-  @keyframes blobB{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(-7vmin,-6vmin) scale(1.1)}}
-  @keyframes blobC{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(-5vmin,7vmin) scale(1.2)}}
-  .sparks{position:absolute;inset:0;pointer-events:none;overflow:hidden}
-  .spark{position:absolute;width:3px;height:3px;border-radius:50%;background:var(--gold);
-    box-shadow:0 0 6px 1px rgba(243,194,60,.8);opacity:0;animation:rise linear infinite}
-  @keyframes rise{0%{opacity:0;transform:translateY(0)}12%{opacity:.9}88%{opacity:.3}100%{opacity:0;transform:translateY(-70vh)}}
+  /* "Big Waves"-style flowing diagonal bands - three seamlessly-tiling SVG
+     wave textures, each scrolling horizontally at a different speed, inside
+     a rotated wrapper so the bands read as diagonal like the reference. */
+  .wave-wrap{position:absolute;inset:-35% -20%;transform:rotate(-10deg);pointer-events:none}
+  .wave-layer{position:absolute;left:0;right:0;height:34%;background-repeat:repeat-x;background-position:0 0}
+  .wave1{top:12%;background-image:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300"><path d="M0,150 C100,70 300,230 400,150 C500,70 700,230 800,150 L800,300 L0,300 Z" fill="%23123d2e" opacity="0.65"/></svg>');
+    background-size:800px 100%;animation:waveScroll 26s linear infinite}
+  .wave2{top:38%;background-image:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300"><path d="M0,160 C150,80 350,240 500,160 C650,80 850,240 1000,160 L1000,300 L0,300 Z" fill="%23f3c23c" opacity="0.28"/></svg>');
+    background-size:1000px 100%;animation:waveScroll 34s linear infinite reverse}
+  .wave3{top:60%;background-image:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 300"><path d="M0,140 C90,210 260,70 350,140 C440,210 610,70 700,140 L700,300 L0,300 Z" fill="%231fdf8e" opacity="0.4"/></svg>');
+    background-size:700px 100%;animation:waveScroll 19s linear infinite}
+  @keyframes waveScroll{from{background-position-x:0}to{background-position-x:-1000px}}
 
   .onboard{width:100%;max-width:380px;margin-bottom:14px;padding:14px 16px;border-radius:14px;
     background:rgba(243,194,60,.1);border:1px solid rgba(243,194,60,.3);
@@ -95,7 +93,7 @@
 
   @media (prefers-reduced-motion: reduce){
     .stage{transform:none !important}
-    .photo,.blob1,.blob2,.blob3,.spark{animation:none !important}
+    .photo,.wave1,.wave2,.wave3{animation:none !important}
   }
 </style>
 </head>
@@ -109,10 +107,11 @@
   </div>
 
   <div class="form-pane">
-    <div class="blob blob1"></div>
-    <div class="blob blob2"></div>
-    <div class="blob blob3"></div>
-    <div class="sparks" id="sparks"></div>
+    <div class="wave-wrap" aria-hidden="true">
+      <div class="wave-layer wave1"></div>
+      <div class="wave-layer wave2"></div>
+      <div class="wave-layer wave3"></div>
+    </div>
     <div class="onboard" id="onboard">
       <span class="ic">📊</span>
       <p><b>First time here?</b> Sign in, then take the <b>Diagnostic Mock</b> from the
@@ -165,23 +164,12 @@
   });
 })();
 
-/* Decorative only: rising gold sparks behind the card + mouse-tracked 3D
-   card tilt. No effect on the login logic below, disabled under
-   prefers-reduced-motion. */
+/* Decorative only: mouse-tracked 3D card tilt (the flowing wave background
+   is pure CSS, see .wave-layer above). No effect on the login logic below,
+   disabled under prefers-reduced-motion. */
 (function () {
   "use strict";
   if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
-  const sparks = document.getElementById("sparks");
-  for (let i = 0; i < 22; i++) {
-    const s = document.createElement("div");
-    s.className = "spark";
-    s.style.left = Math.random() * 100 + "%";
-    s.style.top = 40 + Math.random() * 60 + "%";
-    s.style.animationDuration = 5 + Math.random() * 9 + "s";
-    s.style.animationDelay = Math.random() * 9 + "s";
-    sparks.appendChild(s);
-  }
-
   const stage = document.getElementById("stage");
   let raf = null;
   window.addEventListener("mousemove", (e) => {
