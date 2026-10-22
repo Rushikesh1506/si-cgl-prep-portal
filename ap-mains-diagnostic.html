@@ -605,6 +605,22 @@ function finish(reason) {
   syncAttempt();
   writeWeakSubjectHint();
   writeLastResultSummary();
+  startHomeCountdown();
+}
+
+/* After finishing (not when just reviewing a resumed attempt), count down
+   to an automatic return to welcome.html - the explicit "Continue to Home"
+   link above lets anyone skip the wait. */
+function startHomeCountdown() {
+  let secsLeft = 45;
+  const el = $("#homeCountdown");
+  if (!el) return;
+  const tick2 = setInterval(() => {
+    secsLeft--;
+    if (!document.getElementById("homeCountdown")) { clearInterval(tick2); return; }
+    if (secsLeft <= 0) { clearInterval(tick2); window.location.href = "welcome.html"; return; }
+    document.getElementById("homeCountdown").textContent = "— returning home in " + secsLeft + "s";
+  }, 1000);
 }
 
 /* Purpose-built summary for welcome.html's hero stat strip - avoids having
@@ -663,6 +679,9 @@ function renderResult() {
      + ' &nbsp;&nbsp; <span class="muted">Attempted ' + R.total.att + '/' + R.total.q + ' · Correct ' + R.total.cor
      + ' · Wrong ' + R.total.wrong + ' · Skipped ' + R.total.skip + ' · Accuracy ' + pct(R.total.acc) + '</span></p>';
 
+  h += '<p><a class="btn btn-p" style="padding:10px 20px;text-decoration:none;display:inline-block" href="welcome.html">'
+     + '← Continue to Home</a> <span class="muted" id="homeCountdown"></span></p>';
+
   /* ---- section table ---- */
   h += '<h2>Section-wise</h2><table><tr><th>Section</th><th class="n">Att</th><th class="n">Cor</th>'
      + '<th class="n">Wrong</th><th class="n">Skip</th><th class="n">Net /Max</th><th class="n">Accuracy</th>'
@@ -678,13 +697,18 @@ function renderResult() {
      + '<th class="n">' + R.total.net + '</th><th class="n">' + pct(R.total.acc) + '</th>'
      + '<th class="n">' + mmss(R.total.time) + '</th></tr></table>';
 
-  /* ---- negative marking cost ---- */
-  const lost = +(R.total.wrong * CFG.negative).toFixed(2);
-  h += '<h2>What the wrong answers cost</h2>';
-  h += '<p>' + R.total.wrong + ' wrong × 0.50 = <b class="neg">−' + lost + ' marks</b>. '
-     + 'Those questions also consumed time. A skipped question costs <b>0</b>.</p>';
-  h += '<p class="muted">Rule of thumb: attempt only if you can eliminate 2 of 4 options. '
-     + 'Blind guess expected value = −0.125. Two eliminated = +1.00.</p>';
+  /* ---- negative marking cost (this paper may have none - check CFG, don't hardcode) ---- */
+  if (CFG.negative > 0) {
+    const lost = +(R.total.wrong * CFG.negative).toFixed(2);
+    h += '<h2>What the wrong answers cost</h2>';
+    h += '<p>' + R.total.wrong + ' wrong × ' + CFG.negative.toFixed(2) + ' = <b class="neg">−' + lost + ' marks</b>. '
+       + 'Those questions also consumed time. A skipped question costs <b>0</b>.</p>';
+    h += '<p class="muted">Rule of thumb: attempt only if you can eliminate 2 of 4 options.</p>';
+  } else {
+    h += '<h2>No negative marking on this paper</h2>';
+    h += '<p>' + R.total.wrong + ' wrong answers cost 0 marks here, but they still consumed time that could '
+       + 'have gone to an easier question later in the paper.</p>';
+  }
 
   /* ---- topic breakdown ---- */
   h += '<h2>Topic-wise — where the marks went</h2>';

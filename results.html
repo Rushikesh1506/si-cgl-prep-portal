@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<script src="auth-guard.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>My Exams — AP SI Prep Portal</title>
+<style>
+  :root{ --bg:#f6f7fb; --card:#ffffff; --ink:#1a2332; --muted:#667085;
+    --line:#e6e9f0; --navy:#16295c; --navy2:#1e3a8a;
+    --green:#16a34a; --amber:#d97706; --red:#dc2626; --radius:14px; --shadow:0 6px 24px rgba(22,41,92,.08); }
+  *{box-sizing:border-box}
+  body{margin:0;min-height:100vh;background:var(--bg);font-family:"Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-serif;color:var(--ink)}
+  header.topbar{display:flex;align-items:center;gap:14px;background:linear-gradient(90deg,var(--navy),var(--navy2));
+    color:#fff;padding:14px 20px}
+  header.topbar h1{font-size:1.1rem;margin:0}
+  header.topbar p{margin:2px 0 0;font-size:.78rem;opacity:.85}
+  header.topbar a{color:#fff;text-decoration:none;font-size:.82rem;background:rgba(255,255,255,.15);
+    padding:6px 12px;border-radius:999px;margin-left:auto}
+  .wrap{max-width:980px;margin:0 auto;padding:22px 16px 60px}
+  .attempt{background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);margin-bottom:14px;overflow:hidden}
+  .attempt-head{display:flex;align-items:center;gap:14px;padding:16px 18px;cursor:pointer}
+  .attempt-head h3{margin:0;font-size:.98rem}
+  .attempt-head .when{font-size:.76rem;color:var(--muted)}
+  .attempt-head .score{margin-left:auto;text-align:right}
+  .attempt-head .score b{font-size:1.2rem}
+  .attempt-head .score span{display:block;font-size:.72rem;color:var(--muted)}
+  .attempt-head .caret{transition:.15s;color:var(--muted)}
+  .attempt.open .caret{transform:rotate(90deg)}
+  .paper{display:none;border-top:1px solid var(--line);padding:16px 18px}
+  .attempt.open .paper{display:block}
+  .q-card{border:1px solid var(--line);border-radius:10px;padding:14px;margin-bottom:10px}
+  .q-card .stem{font-weight:600;margin-bottom:8px;font-size:.9rem}
+  .q-card .opt{padding:7px 10px;border-radius:8px;margin-bottom:5px;font-size:.84rem;border:1px solid var(--line)}
+  .q-card .opt.correct{background:#dcfce7;border-color:var(--green);color:#166534;font-weight:700}
+  .q-card .opt.picked-wrong{background:#fee2e2;border-color:var(--red);color:#991b1b;font-weight:700}
+  .q-card .tag{font-size:.7rem;color:var(--muted);margin-left:8px}
+  .empty{color:var(--muted);font-size:.9rem;padding:20px;text-align:center}
+  .loading{color:var(--muted);font-size:.86rem;padding:14px 18px}
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div>
+    <h1>My Exams</h1>
+    <p id="whoLabel">Loading…</p>
+  </div>
+  <a href="welcome.html">← Home</a>
+</header>
+
+<div class="wrap">
+  <div id="content"><p class="loading">Loading your exam history from Supabase…</p></div>
+</div>
+
+<script>
+/* exam_key -> where to find the actual question paper for review (stem +
+   options), so "review" can reconstruct the full paper rather than just
+   showing the score. Unregistered exam_keys still show the score, just
+   without a question-by-question review. */
+const EXAM_REGISTRY = {
+  "mains2023_gs": {
+    label: "AP SI Mains 2023 — General Studies (Paper-IV)",
+    bankScript: "data/ap_mains2023_gs.js",
+    bankGlobal: "AP_MAINS_MOCKS",
+    mockId: "mains2023_gs",
+  },
+};
+const loadedScripts = {};
+function loadScript(src) {
+  if (loadedScripts[src]) return loadedScripts[src];
+  loadedScripts[src] = new Promise((resolve, reject) => {
+    const s = document.createElement("script");
+    s.src = src;
+    s.onload = resolve;
+    s.onerror = reject;
+    document.head.appendChild(s);
+  });
+  return loadedScripts[src];
+}
+</script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js"></script>
+<script src="supa-config.js"></script>
+<script src="supa.js"></script>
+<script>
+"use strict";
+(async function () {
+  const session = Supa.session();
+  const content = document.getElementById("content");
+
+  function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c])); }
+  function fmtDate(iso) { return new Date(iso).toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" }); }
+
+  /* A developer has no exams of their own - show KrishnaChetan's papers
+     instead, same student mentor.html analyses. */
+  const STUDENT_NAME = "KrishnaChetan";
+  let targetId = session.id, targetName = session.name;
+  if (session.role === "developer") {
+    const student = await Supa.studentByName(STUDENT_NAME);
+    if (student) { targetId = student.id; targetName = student.name; }
+  }
+  document.getElementById("whoLabel").textContent = session.role === "developer"
+    ? "Viewing " + targetName + "'s exams (signed in as " + session.name + ")"
+    : "Signed in as " + session.name;
+
+  let data;
+  try {
+    data = await Supa.mentorData(targetId);
+  } catch (e) {
+    content.innerHTML = `<p class="empty">Could not reach Supabase: ${esc(e.message || e)}</p>`;
+    return;
+  }
+
+  const attempts = (data.attempts || []).sort((a, b) => new Date(b.submitted_at) - new Date(a.submitted_at));
+  if (!attempts.length) {
+    content.innerHTML = `<p class="empty">No exams recorded yet. Once you take one, it'll show up here with the full
+      question paper so you can review it any time.</p>`;
+    return;
+  }
+
+  const qByAttempt = {};
+  (data.qAttempts || []).forEach((q) => {
+    (qByAttempt[q.attempt_id] = qByAttempt[q.attempt_id] || []).push(q);
+  });
+
+  content.innerHTML = attempts.map((a, i) => {
+    const reg = EXAM_REGISTRY[a.exam_key];
+    const label = reg ? reg.label : a.exam_key;
+    const pct = Math.round((a.pct || 0) * 100);
+    return (
+      `<div class="attempt" data-idx="${i}">` +
+      `<div class="attempt-head">` +
+      `<span class="caret">▶</span>` +
+      `<div><h3>${esc(label)}</h3><div class="when">${fmtDate(a.submitted_at)}</div></div>` +
+      `<div class="score"><b>${a.score}/${a.total}</b><span>${pct}% accuracy</span></div>` +
+      `</div>` +
+      `<div class="paper" data-attempt-id="${a.id}" data-exam-key="${esc(a.exam_key)}"></div>` +
+      `</div>`
+    );
+  }).join("");
+
+  document.querySelectorAll(".attempt-head").forEach((head) => {
+    head.addEventListener("click", async () => {
+      const wrap = head.parentElement;
+      const wasOpen = wrap.classList.contains("open");
+      wrap.classList.toggle("open", !wasOpen);
+      if (wasOpen) return;
+      const paperEl = wrap.querySelector(".paper");
+      if (paperEl.dataset.loaded) return;
+      paperEl.dataset.loaded = "1";
+      await renderPaper(paperEl, Number(wrap.querySelector(".paper").dataset.attemptId), wrap.querySelector(".paper").dataset.examKey);
+    });
+  });
+
+  async function renderPaper(el, attemptId, examKey) {
+    const rows = (qByAttempt[attemptId] || []).sort((a, b) => a.q_index - b.q_index);
+    const reg = EXAM_REGISTRY[examKey];
+    if (!reg) {
+      el.innerHTML = `<p class="empty">Question paper isn't available for review for this exam yet — only the score was recorded.</p>`;
+      return;
+    }
+    el.innerHTML = `<p class="loading">Loading the question paper…</p>`;
+    try {
+      await loadScript(reg.bankScript);
+      /* The bank script declares its data as `const AP_MAINS_MOCKS = [...]`
+         at top level - that does NOT attach to window (only `var` does), so
+         it must be read back as a bare identifier via Function, not window[]. */
+      const bank = new Function("return typeof " + reg.bankGlobal + " !== 'undefined' ? " + reg.bankGlobal + " : null;")();
+      const mock = bank && bank.find((m) => m.id === reg.mockId);
+      if (!mock) throw new Error("mock not found in bank");
+      el.innerHTML = rows.map((r) => {
+        const q = mock.questions[r.q_index];
+        if (!q) return "";
+        const opts = q.options.map((o, idx) => {
+          let cls = "opt";
+          if (idx === q.answer) cls += " correct";
+          else if (idx === r.picked) cls += " picked-wrong";
+          const marker = idx === q.answer ? " ✓" : (idx === r.picked ? " ✗ (your answer)" : "");
+          return `<div class="${cls}">${String.fromCharCode(65 + idx)}. ${esc(o)}${marker}</div>`;
+        }).join("");
+        return `<div class="q-card"><div class="stem">Q${r.q_index + 1}. ${esc(q.q)}<span class="tag">${esc(r.trapcat || "")}</span></div>${opts}</div>`;
+      }).join("") || `<p class="empty">No question data matched for this attempt.</p>`;
+    } catch (e) {
+      el.innerHTML = `<p class="empty">Couldn't load the question bank to rebuild this paper: ${esc(e.message || e)}</p>`;
+    }
+  }
+})();
+</script>
+</body>
+</html>
