@@ -284,6 +284,49 @@ svg { fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; 
 .callout.warn { background: var(--amber-soft); border-color: color-mix(in srgb, var(--saffron) 40%, transparent); }
 .callout.warn .t { color: #9a6206; }
 
+/* ---------- Polity Content Engine components (see POLITY_CONTENT_RULES.md) ---------- */
+.hook { background: var(--amber-soft); border-left: 4px solid var(--saffron); border-radius: var(--radius-sm);
+  padding: 14px 18px; margin: 0 0 18px; font-size: .98rem; }
+.hook b.q { display: block; font-weight: 800; color: #9a6206; margin-bottom: 4px; font-size: .74rem;
+  text-transform: uppercase; letter-spacing: .05em; }
+html[data-theme="dark"] .hook b.q { color: #f3c969; }
+
+.mnemonic { background: var(--green-soft); border: 1px dashed var(--green); border-radius: var(--radius-sm);
+  padding: 12px 16px; margin: 14px 0; font-size: .92rem; }
+.mnemonic .word { font-weight: 800; color: #0c7a3c; font-size: 1.05rem; letter-spacing: .02em; }
+html[data-theme="dark"] .mnemonic .word { color: #6ee7a0; }
+
+.flow { background: var(--surface-2); border: 1px solid var(--line); border-radius: var(--radius-sm);
+  padding: 16px; margin: 14px 0; }
+.flow .step { display: flex; align-items: center; gap: 10px; padding: 6px 0; }
+.flow .step .n { flex-shrink: 0; width: 26px; height: 26px; border-radius: 50%; background: var(--brand);
+  color: #fff; display: grid; place-items: center; font-size: .78rem; font-weight: 800; }
+.flow .arrow { text-align: center; color: var(--muted); font-size: 1.05rem; padding: 0 0 0 13px; line-height: 1; }
+
+.testyourself { margin: 18px 0; }
+.testyourself details { background: var(--surface-2); border: 1px solid var(--line); border-radius: var(--radius-sm);
+  padding: 10px 14px; margin-bottom: 8px; }
+.testyourself summary { cursor: pointer; font-weight: 600; }
+.testyourself summary::marker { color: var(--brand); }
+.testyourself .reveal { margin-top: 8px; padding-top: 8px; border-top: 1px dashed var(--line); font-size: .92rem; }
+
+.revision-30s { background: linear-gradient(135deg, var(--brand-soft), transparent); border: 1px solid var(--line);
+  border-left: 4px solid var(--brand); border-radius: var(--radius-sm); padding: 16px 18px; margin: 0 0 22px; }
+.revision-30s h4 { margin: 0 0 8px; font-size: .78rem; text-transform: uppercase; letter-spacing: .05em;
+  color: var(--brand-ink); }
+
+.tag-must, .tag-trap, .tag-apply, .tag-extra { display: inline-block; font-size: .66rem; font-weight: 800;
+  letter-spacing: .04em; text-transform: uppercase; padding: 2px 8px; border-radius: 999px; margin-right: 6px;
+  vertical-align: middle; }
+.tag-must { background: #dbeafe; color: #1e40af; }
+.tag-trap { background: #fee2e2; color: #991b1b; }
+.tag-apply { background: #dcfce7; color: #166534; }
+.tag-extra { background: #ede9fe; color: #5b21b6; }
+html[data-theme="dark"] .tag-must { background: #1e3a6e; color: #bfdbfe; }
+html[data-theme="dark"] .tag-trap { background: #5b1f1f; color: #fecaca; }
+html[data-theme="dark"] .tag-apply { background: #14532d; color: #bbf7d0; }
+html[data-theme="dark"] .tag-extra { background: #3b2170; color: #ddd6fe; }
+
 /* Ported-content helpers (articles.js-style notes use these two directly;
    boxes/takeaways/cases/examples there were remapped onto .callout above). */
 .art { background: var(--brand-soft); border: 1px solid color-mix(in srgb, var(--brand) 30%, transparent);
